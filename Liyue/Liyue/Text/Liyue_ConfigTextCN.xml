@@ -45,11 +45,11 @@
 			<Text>替代古罗马剧场。提供额外的大作家点数 [ICON_GreatWriter] ，并为此建筑中的巨作 [ICON_GreatWork_Writing] 提供翻倍的文化值 [ICON_Culture] 和旅游业绩 [ICON_Tourism] 。</Text>
 		</Row>
 		
-		<Row Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DUMMY_NAME" Language="zh_Hans_CN">
 			<Text>七天神像</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DUMMY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>照抄Kevin Liu佬的七天神像（最后做）</Text>
 		</Row>
 		
