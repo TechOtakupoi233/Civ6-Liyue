@@ -3,7 +3,7 @@
 	<Types>
 		<Row Type="CIVILIZATION_LIYUE" Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" Kind="KIND_TRAIT" />
-		<Row Type="TRAIT_CIVILIZATION_UNIT_MILLELITH" Kind="KIND_UNIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_MILLELITH" Kind="KIND_TRAIT" />
 	</Types>
 	
 	<Civilizations>
@@ -38,6 +38,7 @@
 
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_LIYUE" TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" />
+		<Row CivilizationType="CIVILIZATION_LIYUE" TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" />
 	</CivilizationTraits>
 
 	<Traits>

@@ -35,7 +35,7 @@
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<Maintenance>3</Maintenance>
-			<TraitType>TRAIT_LEADER_UNIT_MILLELITH</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_UNIT_MILLELITH</TraitType>
 			<PromotionClass>PROMOTION_CLASS_SUPPORT</PromotionClass>
 			<PrereqTech>TECH_MILITARY_TACTICS</PrereqTech>
 			<MandatoryObsoleteTech>TECH_COMPOSITES</MandatoryObsoleteTech>
