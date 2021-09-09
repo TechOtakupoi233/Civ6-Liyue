@@ -20,7 +20,7 @@
 		<Row Name="ICON_ATLAS_LIYUE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_22.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
-		<Row Name="ICON_BUILDING_LITTER_BOX" Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+		<Row Name="ICON_BUILDING_TEAHOUSE" Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
 		<Row Name="ICON_CIVILIZATION_LIYUE" Atlas="ICON_ATLAS_LIYUE" Index="0"/>
 		<Row Name="ICON_LEADER_KEQING" Atlas="ICON_ATLAS_KEQING" Index="0"/>
 	</IconDefinitions>

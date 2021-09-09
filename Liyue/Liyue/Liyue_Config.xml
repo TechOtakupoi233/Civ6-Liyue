@@ -58,10 +58,14 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>BUILDING_LITTER_BOX</Type>
-			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
-			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_LITTER_BOX</Icon>
+			<Type>BUILDING_TEAHOUSE</Type>
+			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
+			<Description>LOC_BUILDING_TEAHOUSE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_TEAHOUSE</Icon>
+			<Type>UNIT_MILLELITH</Type>
+			<Name>LOC_UNIT_MILLELITH_NAME</Name>
+			<Description>LOC_UNIT_MILLELITH_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MILLELITH</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 		<!-- Expansion 1 Support -->
@@ -69,10 +73,14 @@
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>BUILDING_LITTER_BOX</Type>
-			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
-			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_LITTER_BOX</Icon>
+			<Type>BUILDING_TEAHOUSE</Type>
+			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
+			<Description>LOC_BUILDING_TEAHOUSE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_TEAHOUSE</Icon>
+			<Type>UNIT_MILLELITH</Type>
+			<Name>LOC_UNIT_MILLELITH_NAME</Name>
+			<Description>LOC_UNIT_MILLELITH_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MILLELITH</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 		<!-- Expansion 2 Support -->
@@ -80,10 +88,14 @@
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>BUILDING_LITTER_BOX</Type>
-			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
-			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_LITTER_BOX</Icon>
+			<Type>BUILDING_TEAHOUSE</Type>
+			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
+			<Description>LOC_BUILDING_TEAHOUSE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_TEAHOUSE</Icon>
+			<Type>UNIT_MILLELITH</Type>
+			<Name>LOC_UNIT_MILLELITH_NAME</Name>
+			<Description>LOC_UNIT_MILLELITH_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MILLELITH</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 	</PlayerItems>

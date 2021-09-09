@@ -27,6 +27,9 @@
     <Content Include="Liyue_Config.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Liyue_Millelith.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_KEQING.dds">
       <SubType>Content</SubType>
     </Content>
@@ -64,7 +67,7 @@
     <Content Include="Liyue_Civilization.xml" />
     <Content Include="Liyue_Icons.xml" />
     <Content Include="Liyue_Keqing.xml" />
-    <Content Include="Liyue_LitterBox.xml" />
+    <Content Include="Liyue_Teahouse.xml" />
     <None Include="ArtDefs\FallbackLeaders.artdef" />
     <None Include="XLPs\LeaderFallbacks.xlp" />
     <None Include="Liyue.Art.xml" />

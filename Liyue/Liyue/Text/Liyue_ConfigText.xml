@@ -31,11 +31,11 @@
 			<Text>So sharp!</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="en_US">
+		<Row Tag="LOC_BUILDING_TEAHOUSE_NAME" Language="en_US">
 			<Text>Litter Box</Text>
 		</Row>
 		
-		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_BUILDING_TEAHOUSE_DESCRIPTION" Language="en_US">
 			<Text>The litter box is a unique building that only LIYUEs get.</Text>
 		</Row>
 		
