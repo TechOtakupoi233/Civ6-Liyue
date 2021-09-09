@@ -1,0 +1,13 @@
+Starting AssetCooker...
+Argument '--shaders' has been deprecated and is no longer used.
+XLP cook starting...
+E:\CLHotsuki\OneDrive\Firaxis ModBuddy\Civilization VI\Liyue\Liyue\XLPs\LiyueUI.xlp
+Opened output file: D:\Documents\My Games\Sid Meier's Civilization VI\Mods\Liyue\Platforms\MacOS\BLPs/LiyueUI.blp    For XLP: 'E:\CLHotsuki\OneDrive\Firaxis ModBuddy\Civilization VI\Liyue\Liyue\XLPs\LiyueUI.xlp'
+Could not load digest key: ''.  Using mod key to sign BLP.
+Starting 'LiyueUI'
+Load finished for: 'LiyueUI' in 0.012 seconds
+Cook finished for: 'LiyueUI' in 0.098 seconds
+Disk write finished for: 'LiyueUI' in 0.051 seconds
+Cleanup finished for: 'LiyueUI' in 0.001 seconds
+XLP cook completed with success.
+Cook completed in 0.170 seconds

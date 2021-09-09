@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_LIYUE_NAME" Language="en_US">
+			<Text>The LIYUEs</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVILIZATION_LIYUE_DESCRIPTION" Language="en_US">
+			<Text>The Majestic LIYUEs</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LIYUE_ADJECTIVE" Language="en_US">
+			<Text>LIYUE</Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_KEQING_NAME" Language="en_US">
+			<Text>Jasper Kitty</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_NAME" Language="en_US">
+			<Text>Cat like reflexes</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_DESCRIPTION" Language="en_US">
+			<Text>So fast!</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_LEADER_KEQING_NAME" Language="en_US">
+			<Text>Kitty Claws</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="en_US">
+			<Text>So sharp!</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="en_US">
+			<Text>Litter Box</Text>
+		</Row>
+		
+		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="en_US">
+			<Text>The litter box is a unique building that only LIYUEs get.</Text>
+		</Row>
+		<Row Language="zh=CN"
+			 Tag="LOC_CIVILIZATION_LIYUE_NAME">
+			<Text>璃月</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

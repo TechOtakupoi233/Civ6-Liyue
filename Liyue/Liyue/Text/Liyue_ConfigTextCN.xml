@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Liyue_ConfigTextCN -->
+<!-- Author: Shiro -->
+<!-- DateCreated: 9/9/2021 1:35:33 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_LIYUE_NAME" Language="zh_Hans_CN">
+			<Text>璃月</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LIYUE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>千岩之国</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LIYUE_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>璃月</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_KEQING_NAME" Language="zh_Hans_CN">
+			<Text>刻晴</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_NAME" Language="zh_Hans_CN">
+			<Text>Cat like reflexes</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>So fast!</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_KEQING_NAME" Language="zh_Hans_CN">
+			<Text>璃月七星 ——「玉衡星」</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>还没有设计好。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="zh_Hans_CN">
+			<Text>Litter Box</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>The litter box is a unique building that only LIYUEs get.</Text>
+		</Row>
+		
+	</LocalizedText>
+</GameData>

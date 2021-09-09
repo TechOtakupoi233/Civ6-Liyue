@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_KEQING" Kind="KIND_LEADER" />
+	</Types>
+	
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_KEQING</LeaderType>
+			<Name>LOC_LEADER_KEQING_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_KEQING" Quote="LOC_LEADER_KEQING_QUOTE"/>
+	</LeaderQuotes>
+	
+</GameData>
