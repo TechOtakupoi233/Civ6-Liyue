@@ -38,9 +38,7 @@
 		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="en_US">
 			<Text>The litter box is a unique building that only LIYUEs get.</Text>
 		</Row>
-		<Row Language="zh=CN"
-			 Tag="LOC_CIVILIZATION_LIYUE_NAME">
-			<Text>璃月</Text>
-		</Row>
+		
+		
 	</LocalizedText>
 </GameData>

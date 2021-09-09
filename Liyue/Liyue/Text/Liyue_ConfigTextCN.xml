@@ -9,11 +9,11 @@
 		</Row>
 
 		<Row Tag="LOC_CIVILIZATION_LIYUE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>千岩之国</Text>
+			<Text>璃月</Text>
 		</Row>
 
 		<Row Tag="LOC_CIVILIZATION_LIYUE_ADJECTIVE" Language="zh_Hans_CN">
-			<Text>璃月</Text>
+			<Text>璃月的</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_KEQING_NAME" Language="zh_Hans_CN">
@@ -21,25 +21,29 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_NAME" Language="zh_Hans_CN">
-			<Text>Cat like reflexes</Text>
+			<Text>岩与契约的海港</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>So fast!</Text>
+			<Text>游戏开始时总是位于海岸单元格旁。修建港口和商业中心和其中的建筑时+50%生产力 [ICON_Productivity] 。
+			[NEWLINE]市场和灯塔可重复提供贸易容量 [ICON_Traderoute] 。为所有贸易路线提供+2金币 [ICON_Gold] 。
+			[NEWLINE]对违反承诺的文明不满+100%。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_NAME" Language="zh_Hans_CN">
 			<Text>璃月七星 ——「玉衡星」</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>还没有设计好。</Text>
+			<Text>刻晴的建造者移动力+2，进入森林、雨林、丘陵地形时不消耗额外移动力 [ICON_Movement] ，且可用次数+2。
+			[NEWLINE]改良设施提供的生产力 [ICON_Productivity] 加成翻倍。
+			[NEWLINE]提供一个额外的通配符政策槽位。</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="zh_Hans_CN">
-			<Text>Litter Box</Text>
+			<Text>七天神像</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>The litter box is a unique building that only LIYUEs get.</Text>
+			<Text>照抄Kevin Liu佬的七天神像（最后做）</Text>
 		</Row>
 		
 	</LocalizedText>
