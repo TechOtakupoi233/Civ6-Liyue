@@ -20,10 +20,10 @@
 			<Text>刻晴</Text>
 		</Row>
 
-		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_NAME" Language="zh_Hans_CN">
+		<Row Tag="TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Language="zh_Hans_CN">
 			<Text>岩与契约的海港</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_LIYUE_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>游戏开始时总是位于海岸单元格旁。修建港口、商业中心及其中的建筑时+50%生产力 [ICON_Production] 。
 			[NEWLINE]市场和灯塔可重复提供贸易容量 [ICON_Traderoute] 。为所有贸易路线提供+2金币 [ICON_Gold] 。
 			[NEWLINE]对违反承诺的文明不满+100%。</Text>

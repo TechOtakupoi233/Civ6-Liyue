@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="CIVILIZATION_LIYUE" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_GEO_HARBOR" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_UNIT_MILLELITH" Kind="KIND_TRAIT" />
 	</Types>
@@ -17,7 +18,7 @@
 	</Civilizations>
 
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_LIYUE" LeaderType="LEADER_KEQING" CapitalName="LOC_CIVLIZATION_LIYUE" />
+		<Row CivilizationType="CIVILIZATION_LIYUE" LeaderType="LEADER_KEQING" CapitalName="LOC_CIVLIZATION_LIYUE_CITY_1" />
 	</CivilizationLeaders>
 
 	<CivilizationCitizenNames>
@@ -33,16 +34,19 @@
 	</CivilizationCitizenNames>
 
 	<CivilizationInfo>
-		<Row CivilizationType="CIVILIZATION_LIYUE" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
+		<!--<Row CivilizationType="CIVILIZATION_LIYUE" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />-->
 	</CivilizationInfo>
 
 	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_LIYUE" TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" />
 		<Row CivilizationType="CIVILIZATION_LIYUE" TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" />
 		<Row CivilizationType="CIVILIZATION_LIYUE" TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" />
 	</CivilizationTraits>
 
 	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER" />
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" Name="TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Description="TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" Name="LOC_BUILDING_TEAHOUSE_NAME" Description="LOC_BUILDING_TEAHOUSE_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" Name="LOC_UNIT_MILLELITH_NAME" Description="LOC_UNIT_MILLELITH_DESCRIPTION" />
 	</Traits>
 
 	<CityNames>

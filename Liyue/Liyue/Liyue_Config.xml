@@ -8,8 +8,8 @@
 			<CivilizationIcon>ICON_CIVILIZATION_LIYUE</CivilizationIcon>
 			<LeaderName>LOC_LEADER_KEQING_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_KEQING</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LIYUE_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LIYUE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityName>TRAIT_CIVILIZATION_GEO_HARBOR_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_KEQING_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KEQING_DESCRIPTION</LeaderAbilityDescription>
@@ -26,8 +26,8 @@
 			<CivilizationIcon>ICON_CIVILIZATION_LIYUE</CivilizationIcon>
 			<LeaderName>LOC_LEADER_KEQING_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_KEQING</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LIYUE_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LIYUE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityName>TRAIT_CIVILIZATION_GEO_HARBOR_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_KEQING_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KEQING_DESCRIPTION</LeaderAbilityDescription>
@@ -44,8 +44,8 @@
 			<CivilizationIcon>ICON_CIVILIZATION_LIYUE</CivilizationIcon>
 			<LeaderName>LOC_LEADER_KEQING_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_KEQING</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LIYUE_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LIYUE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityName>TRAIT_CIVILIZATION_GEO_HARBOR_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_KEQING_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KEQING_DESCRIPTION</LeaderAbilityDescription>
