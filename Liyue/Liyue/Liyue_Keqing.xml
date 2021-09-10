@@ -25,8 +25,8 @@
 	<TraitModifiers>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_BUILDER_CHARGE"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_MOVEMENT"/>
-		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_IGNORE_TERRAIN_COST"/>
-		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_IGNORE_CROSSING_RIVERS_COST"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_IGNORE_TERRAIN_COST"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_CROSSING_RIVERS_COST"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_TILE_IMPROVEMENT_PRODUCTION"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ALL_DISTRICTS_CULTURE_BOMB"/>
 		<!--<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ANY_POLICY_SLOT"/>-->
@@ -42,14 +42,14 @@
 			<SubjectRequirementSetId>UNIT_IS_CIVILIAN</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>MOD_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
-			<SubjectRequirementSetId>UNIT_IS_CIVILIAN</SubjectRequirementSetId>
+			<SubjectRequirementSetId>UNIT_IS_CIVILIAN_ITC</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>MOD_IGNORE_CROSSING_RIVERS_COST</ModifierId>
+			<ModifierId>TRAIT_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS</ModifierType>
-			<SubjectRequirementSetId>UNIT_IS_CIVILIAN</SubjectRequirementSetId>
+			<SubjectRequirementSetId>UNIT_IS_CIVILIAN_IR</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
@@ -73,17 +73,17 @@
 			<Value>2</Value>
 		</Row>
 		<Row>
-			<ModifierId>MOD_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
 			<Name>Ignore</Name>
 			<Value>true</Value>
 		</Row>
 		<Row>
-			<ModifierId>MOD_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
 			<Name>Type</Name>
 			<Value>ALL</Value>
 		</Row>
 		<Row>
-			<ModifierId>MOD_IGNORE_CROSSING_RIVERS_COST</ModifierId>
+			<ModifierId>TRAIT_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
 			<Name>Ignore</Name>
 			<Value>true</Value>
 		</Row>		
@@ -105,6 +105,14 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
+			<RequirementSetId>UNIT_IS_CIVILIAN_ITC</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_CIVILIAN_IR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
 			<RequirementSetId>HAS_IMPROVEMENT</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
@@ -115,6 +123,16 @@
 		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_ARCHAEOLOGIST" />
 		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_NATURALIST" />
 		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_MILITARY_ENGINEER" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN_ITC" RequirementId="UNIT_IS_BUILDER_ITC" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN_ITC" RequirementId="UNIT_IS_SETTLER_ITC" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN_ITC" RequirementId="UNIT_IS_ARCHAEOLOGIST_ITC" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN_ITC" RequirementId="UNIT_IS_NATURALIST_ITC" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN_ITC" RequirementId="UNIT_IS_MILITARY_ENGINEER_ITC" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN_IR" RequirementId="UNIT_IS_BUILDER" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN_IR" RequirementId="UNIT_IS_SETTLER" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN_IR" RequirementId="UNIT_IS_ARCHAEOLOGIST" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN_IR" RequirementId="UNIT_IS_NATURALIST" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN_IR" RequirementId="UNIT_IS_MILITARY_ENGINEER" />
 		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_MINE" />
 		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_QUARRY" />
 		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" />
@@ -126,6 +144,16 @@
 		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
 		<Row RequirementId="UNIT_IS_NATURALIST" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
 		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_BUILDER_ITC" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_SETTLER_ITC" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST_ITC" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_NATURALIST_ITC" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER_ITC" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_BUILDER_IR" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_SETTLER_IR" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST_IR" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_NATURALIST_IR" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER_IR" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
 		<Row RequirementId="HAS_IMPROVEMENT_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
 		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
 		<Row RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
@@ -136,6 +164,16 @@
 		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST" Name="UnitType" Value="UNIT_ARCHAEOLOGIST" />
 		<Row RequirementId="UNIT_IS_NATURALIST" Name="UnitType" Value="UNIT_NATURALIST" />
 		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER" Name="UnitType" Value="UNIT_MILITARY_ENGINEER" />
+		<Row RequirementId="UNIT_IS_BUILDER_ITC" Name="UnitType" Value="UNIT_BUILDER" />
+		<Row RequirementId="UNIT_IS_SETTLER_ITC" Name="UnitType" Value="UNIT_SETTLER" />
+		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST_ITC" Name="UnitType" Value="UNIT_ARCHAEOLOGIST" />
+		<Row RequirementId="UNIT_IS_NATURALIST_ITC" Name="UnitType" Value="UNIT_NATURALIST" />
+		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER_ITC" Name="UnitType" Value="UNIT_MILITARY_ENGINEER" />
+		<Row RequirementId="UNIT_IS_BUILDER_IR" Name="UnitType" Value="UNIT_BUILDER" />
+		<Row RequirementId="UNIT_IS_SETTLER_IR" Name="UnitType" Value="UNIT_SETTLER" />
+		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST_IR" Name="UnitType" Value="UNIT_ARCHAEOLOGIST" />
+		<Row RequirementId="UNIT_IS_NATURALIST_IR" Name="UnitType" Value="UNIT_NATURALIST" />
+		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER_IR" Name="UnitType" Value="UNIT_MILITARY_ENGINEER" />
 		<Row RequirementId="HAS_IMPROVEMENT_MINE" Name="ImprovementType" Value="IMPROVEMENT_MINE" />
 		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" Name="ImprovementType" Value="IMPROVEMENT_QUARRY" />
 		<Row RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" Name="ImprovementType" Value="IMPROVEMENT_LUMBER_MILL" />
