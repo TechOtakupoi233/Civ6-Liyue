@@ -22,4 +22,49 @@
 	<Building_GreatWorks>
 		<Row BuildingType="BUILDING_TEAHOUSE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="3"/>
 	</Building_GreatWorks>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_TEAHOUSE" ModifierId="MOD_GREATWORK_YIELD_CULTURE" />
+		<Row BuildingType="BUILDING_TEAHOUSE" ModifierId="MOD_GREATWORK_YIELD_TOURISM" />
+	</BuildingModifiers>
+	<Modifiers>
+		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_GREATWORK_YIELD" SubjectRequirementSetId="HAS_BUILDING" />
+		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_GREATWORK_YIELD" SubjectRequirementSetId="HAS_BUILDING" />
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="GreatWorkObjectType"  Value="GREATWORKOBJECT_WRITING" />
+		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="ScalingFactor"  Value="200" />
+		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="YieldType"  Value="YIELD_CULTURE" />
+		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="YieldChange"  Value="0" />
+		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" Name="GreatWorkObjectType"  Value="GREATWORKOBJECT_WRITING" />
+		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" Name="ScalingFactor"  Value="100" />
+		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" Name="YieldType"  Value="YIELD_TOURISM" />
+		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" Name="YieldChange"  Value="2" />
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>HAS_BUILDING</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>HAS_BUILDING</RequirementSetId>
+			<RequirementId>HAS_TEAHOUSE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>HAS_TEAHOUSE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>HAS_TEAHOUSE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TEAHOUSE</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>

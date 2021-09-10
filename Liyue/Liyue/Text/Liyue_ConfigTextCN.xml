@@ -33,7 +33,7 @@
 			<Text>璃月七星 ——「玉衡星」</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>刻晴的建造者、开拓者、军事工程师、考古学家和自然学家和移动力+2，无视地形额外移动力 [ICON_Movement] 消耗，且建造者可用次数+2。
+			<Text>刻晴的建造者、开拓者、军事工程师、考古学家和自然学家和移动力 [ICON_Movement] +2，无视地形额外移动力消耗，且建造者可用次数+2。
 				[NEWLINE]矿山、采石场和伐木场提供+2生产力 [ICON_Production] 。
 				[NEWLINE]建成任何特色区域时向相邻单元格施放文化炸弹。
 				[NEWLINE]提供一个额外的通配符政策槽位。</Text>

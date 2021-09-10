@@ -49,7 +49,7 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" Name="LOC_UNIT_MILLELITH_NAME" Description="LOC_UNIT_MILLELITH_DESCRIPTION" />
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_YIELD_GOLD" />
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DUPLICATE_TRADE_ROUTE" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_HARBOR_PRODUCTION" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_HARBOR_BUILDINGS_PRODUCTION" />
@@ -74,7 +74,7 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>MODIFIER_YIELD_GOLD</ModifierId>
+			<ModifierId>MODIFIER_TRADE_ROUTE_YIELD_GOLD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
 		</Row>
 		<Row>
@@ -125,12 +125,12 @@
 			<Value>50</Value>
 		</Row>
 		<Row>
-			<ModifierId>MODIFIER_YIELD_GOLD</ModifierId>
+			<ModifierId>MODIFIER_TRADE_ROUTE_YIELD_GOLD</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
 		<Row>
-			<ModifierId>MODIFIER_YIELD_GOLD</ModifierId>
+			<ModifierId>MODIFIER_TRADE_ROUTE_YIELD_GOLD</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_GOLD</Value>
 		</Row>
@@ -180,7 +180,9 @@
 			<Value>BUILDING_LIGHTHOUSE</Value>
 		</Row>
 	</RequirementArguments>
-	
+	<ModifierStrings>
+		<Row ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD" Context="Preview" Text="LOC_MODIFIER_TRADE_ROUTE_YIELD_GOLD"/>
+	</ModifierStrings>
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_2" />
