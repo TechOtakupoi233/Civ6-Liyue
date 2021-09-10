@@ -71,6 +71,7 @@
 		<Row>
 			<ModifierId>TRAIT_BUILDER_CHARGE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_CIVILIAN</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_CIVILIAN_MOVEMENT</ModifierId>

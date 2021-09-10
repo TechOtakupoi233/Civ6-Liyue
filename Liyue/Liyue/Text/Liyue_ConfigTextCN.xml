@@ -30,7 +30,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_NAME" Language="zh_Hans_CN">
-			<Text>璃月七星 ——「玉衡星」</Text>
+			<Text>引领变革的「玉衡星」</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>刻晴的建造者、开拓者、军事工程师、考古学家和自然学家和移动力 [ICON_Movement] +2，无视地形额外移动力消耗，且建造者可用次数+2。
@@ -43,7 +43,7 @@
 			<Text>茶馆</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_TEAHOUSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>替代古罗马剧场。提供额外的大作家点数 [ICON_GreatWriter] ，并为此建筑中的巨作 [ICON_GreatWork_Writing] 提供翻倍的文化值 [ICON_Culture] 和旅游业绩 [ICON_Tourism] 。</Text>
+			<Text>替代古罗马剧场。提供额外的大作家点数 [ICON_GreatWriter] ，并为此城市中的文学巨作 [ICON_GreatWork_Writing] 提供翻倍的文化值 [ICON_Culture] 。</Text>
 		</Row>
 		
 		<Row Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DUMMY_NAME" Language="zh_Hans_CN">

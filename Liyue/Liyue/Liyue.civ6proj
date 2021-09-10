@@ -6,8 +6,8 @@
     <Guid>4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4</Guid>
     <ProjectGuid>b63f779e-2035-440c-8ad0-2703e305f45e</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
-    <Description>This example mod demonstrates how to add a new leader and civilization to the game.</Description>
+    <Teaser>此Mod包含一个新文明和一个新领袖。</Teaser>
+    <Description>此Mod将来自《原神》的文明璃月和领袖刻晴添加进游戏。</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>

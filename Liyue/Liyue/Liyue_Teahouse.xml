@@ -28,17 +28,17 @@
 	</BuildingModifiers>
 	<Modifiers>
 		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_GREATWORK_YIELD" SubjectRequirementSetId="HAS_BUILDING" />
-		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_GREATWORK_YIELD" SubjectRequirementSetId="HAS_BUILDING" />
+		<!--<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_GREATWORK_YIELD" SubjectRequirementSetId="HAS_BUILDING" />-->
 	</Modifiers>
 	<ModifierArguments>
 		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="GreatWorkObjectType"  Value="GREATWORKOBJECT_WRITING" />
 		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="ScalingFactor"  Value="200" />
 		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="YieldType"  Value="YIELD_CULTURE" />
 		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="YieldChange"  Value="0" />
-		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" Name="GreatWorkObjectType"  Value="GREATWORKOBJECT_WRITING" />
+		<!--<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" Name="GreatWorkObjectType"  Value="GREATWORKOBJECT_WRITING" />
 		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" Name="ScalingFactor"  Value="100" />
 		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" Name="YieldType"  Value="YIELD_TOURISM" />
-		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" Name="YieldChange"  Value="2" />
+		<Row ModifierId="MOD_GREATWORK_YIELD_TOURISM" Name="YieldChange"  Value="2" />-->
 	</ModifierArguments>
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
