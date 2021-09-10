@@ -34,7 +34,7 @@
 	</CivilizationCitizenNames>
 
 	<CivilizationInfo>
-		<!--<Row CivilizationType="CIVILIZATION_LIYUE" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />-->
+		<Row CivilizationType="CIVILIZATION_LIYUE" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
 	</CivilizationInfo>
 
 	<CivilizationTraits>
@@ -48,7 +48,85 @@
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" Name="LOC_BUILDING_TEAHOUSE_NAME" Description="LOC_BUILDING_TEAHOUSE_DESCRIPTION" />
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" Name="LOC_UNIT_MILLELITH_NAME" Description="LOC_UNIT_MILLELITH_DESCRIPTION" />
 	</Traits>
-
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GEO_HARBOR</TraitType>
+			<ModifierId>MODIFIER_YIELD_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GEO_HARBOR</TraitType>
+			<ModifierId>MODIFIER_DUPLICATE_TRADE_ROUTE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_YIELD_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_DUPLICATE_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_YIELD_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_YIELD_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_DUPLICATE_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
+			<RequirementId>CITY_HAS_MARKET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
+			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>CITY_HAS_MARKET</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>CITY_HAS_MARKET</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MARKET</Value>
+		</Row>
+		<Row>
+			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIGHTHOUSE</Value>
+		</Row>
+	</RequirementArguments>
+	
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_2" />

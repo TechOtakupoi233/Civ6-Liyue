@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="LEADER_KEQING" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_YUHENG" Kind="KIND_TRAIT" />
 	</Types>
 	
 	<Leaders>
@@ -15,5 +16,129 @@
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_KEQING" Quote="LOC_LEADER_KEQING_QUOTE"/>
 	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_KEQING" TraitType="TRAIT_YUHENG"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_YUHENG" Name="LOC_TRAIT_LEADER_KEQING_NAME" Description="LOC_TRAIT_LEADER_KEQING_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_BUILDER_CHARGE"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_MOVEMENT"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_IGNORE_TERRAIN_COST"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_IGNORE_CROSSING_RIVERS_COST"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_TILE_IMPROVEMENT_PRODUCTION"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ALL_DISTRICTS_CULTURE_BOMB"/>
+		<!--<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ANY_POLICY_SLOT"/>-->
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_BUILDER_CHARGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIAN_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_CIVILIAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MOD_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_CIVILIAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MOD_IGNORE_CROSSING_RIVERS_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_CIVILIAN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>HAS_IMPROVEMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ALL_DISTRICTS_CULTURE_BOMB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_ALL_DISTRICTS_CULTURE_BOMB</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_BUILDER_CHARGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIAN_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOD_IGNORE_TERRAIN_COST</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOD_IGNORE_TERRAIN_COST</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOD_IGNORE_CROSSING_RIVERS_COST</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>		
+		<Row>
+			<ModifierId>TRAIT_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>UNIT_IS_CIVILIAN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HAS_IMPROVEMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_BUILDER" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_SETTLER" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_ARCHAEOLOGIST" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_NATURALIST" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_MILITARY_ENGINEER" />
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_MINE" />
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_QUARRY" />
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" />
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row RequirementId="UNIT_IS_BUILDER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_SETTLER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_NATURALIST" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="HAS_IMPROVEMENT_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
+		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
+		<Row RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="UNIT_IS_BUILDER" Name="UnitType" Value="UNIT_BUILDER" />
+		<Row RequirementId="UNIT_IS_SETTLER" Name="UnitType" Value="UNIT_SETTLER" />
+		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST" Name="UnitType" Value="UNIT_ARCHAEOLOGIST" />
+		<Row RequirementId="UNIT_IS_NATURALIST" Name="UnitType" Value="UNIT_NATURALIST" />
+		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER" Name="UnitType" Value="UNIT_MILITARY_ENGINEER" />
+		<Row RequirementId="HAS_IMPROVEMENT_MINE" Name="ImprovementType" Value="IMPROVEMENT_MINE" />
+		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" Name="ImprovementType" Value="IMPROVEMENT_QUARRY" />
+		<Row RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" Name="ImprovementType" Value="IMPROVEMENT_LUMBER_MILL" />
+	</RequirementArguments>
 	
 </GameData>

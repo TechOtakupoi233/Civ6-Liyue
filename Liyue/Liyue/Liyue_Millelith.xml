@@ -41,21 +41,38 @@
 		</Row>
 	</Units>
 	<UnitUpgrades>
-		<Row Unit="UNIT_SPEARMAN" UpgradeUnit="UNIT_MILLELITH"/>
-		<Row Unit="UNIT_MILLELITH" UpgradeUnit="UNIT_AT_CREW"/>
+		<Row Unit="UNIT_MILLELITH" UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
 	</UnitUpgrades>
-	<UnitAbilityModifiers>
+	<TraitModifiers>
 		<Row>
+			<TraitType>TRAIT_CIVILIZATION_UNIT_MILLELITH</TraitType>
+			<ModifierId>MILLELITH_FLANKING_BONUS</ModifierId>
 		</Row>
-	</UnitAbilityModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_UNIT_MILLELITH</TraitType>
+			<ModifierId>MILLELITH_SUPPORT_BONUS</ModifierId>
+		</Row>
+	</TraitModifiers>
 	<Modifiers>
 		<Row>
+			<ModifierId>MILLELITH_FLANKING_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MILLELITH_SUPPORT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SUPPORT_BONUS_MODIFIER</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
+			<ModifierId>MILLELITH_FLANKING_BONUS</ModifierId>
+			<Name>Percent</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILLELITH_SUPPORT_BONUS</ModifierId>
+			<Name>Percent</Name>
+			<Value>100</Value>
 		</Row>
 	</ModifierArguments>
-	<ModifierStrings>
-	</ModifierStrings>
 </GameData>
