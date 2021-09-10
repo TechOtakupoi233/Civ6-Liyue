@@ -5,9 +5,9 @@ D:\Documents\GitHub\Civ6-Liyue\Liyue\Liyue\XLPs\LiyueUI.xlp
 Opened output file: D:\Documents\My Games\Sid Meier's Civilization VI\Mods\Liyue\Platforms\MacOS\BLPs/LiyueUI.blp    For XLP: 'D:\Documents\GitHub\Civ6-Liyue\Liyue\Liyue\XLPs\LiyueUI.xlp'
 Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'LiyueUI'
-Load finished for: 'LiyueUI' in 0.050 seconds
-Cook finished for: 'LiyueUI' in 0.091 seconds
-Disk write finished for: 'LiyueUI' in 0.043 seconds
+Load finished for: 'LiyueUI' in 0.052 seconds
+Cook finished for: 'LiyueUI' in 0.096 seconds
+Disk write finished for: 'LiyueUI' in 0.049 seconds
 Cleanup finished for: 'LiyueUI' in 0.001 seconds
 XLP cook completed with success.
-Cook completed in 0.194 seconds
+Cook completed in 0.207 seconds
