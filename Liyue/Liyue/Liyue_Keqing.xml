@@ -3,8 +3,21 @@
 	<Types>
 		<Row Type="LEADER_KEQING" Kind="KIND_LEADER" />
 		<Row Type="TRAIT_YUHENG" Kind="KIND_TRAIT" />
+		<Row Type="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CIVILIAN_IGNORE_RIVERS" Kind="KIND_ABILITY"/>
 	</Types>
-	
+	<Tags>
+		<Row Tag="CLASS_LIYUE_CIVILIAN" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_SETTLER" Tag="CLASS_LIYUE_CIVILIAN"/>
+		<Row Type="UNIT_BUILDER" Tag="CLASS_LIYUE_CIVILIAN"/>
+		<Row Type="UNIT_ARCHAEOLOGIST" Tag="CLASS_LIYUE_CIVILIAN"/>
+		<Row Type="UNIT_NATURALIST" Tag="CLASS_LIYUE_CIVILIAN"/>
+		<Row Type="UNIT_MILITARY_ENGINEER" Tag="CLASS_LIYUE_CIVILIAN"/>
+		<Row Type="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Tag="CLASS_LIYUE_CIVILIAN"/>
+		<Row Type="ABILITY_CIVILIAN_IGNORE_RIVERS" Tag="CLASS_LIYUE_CIVILIAN"/>
+	</TypeTags>
 	<Leaders>
 		<Row>
 			<LeaderType>LEADER_KEQING</LeaderType>
@@ -29,9 +42,32 @@
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_CROSSING_RIVERS_COST"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_TILE_IMPROVEMENT_PRODUCTION"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ALL_DISTRICTS_CULTURE_BOMB"/>
-		<!--<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ANY_POLICY_SLOT"/>-->
+		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ADJUST_GOVERNMENT_SLOTS"/>
 	</TraitModifiers>
+	
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Name="LOC_ABILITY_CIVILIAN_IGNORE_TERRAIN_COST_NAME" Description="LOC_ABILITY_CIVILIAN_IGNORE_TERRAIN_COST_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_CIVILIAN_IGNORE_RIVERS" Name="LOC_ABILITY_CIVILIAN_IGNORE_RIVERS_NAME" Description="LOC_ABILITY_CIVILIAN_IGNORE_RIVERS_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_CIVILIAN_IGNORE_TERRAIN_COST</UnitAbilityType>
+			<ModifierId>MOD_ABILITY_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CIVILIAN_IGNORE_RIVERS</UnitAbilityType>
+			<ModifierId>MOD_ABILITY_CIVILIAN_IGNORE_RIVERS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
 	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_BUILDER_CHARGE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
@@ -42,14 +78,12 @@
 			<SubjectRequirementSetId>UNIT_IS_CIVILIAN</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierId>MOD_ABILITY_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
-			<SubjectRequirementSetId>UNIT_IS_CIVILIAN_ITC</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
+			<ModifierId>MOD_ABILITY_CIVILIAN_IGNORE_RIVERS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS</ModifierType>
-			<SubjectRequirementSetId>UNIT_IS_CIVILIAN_IR</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
@@ -60,8 +94,32 @@
 			<ModifierId>TRAIT_ALL_DISTRICTS_CULTURE_BOMB</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_ALL_DISTRICTS_CULTURE_BOMB</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_GOVERNMENT_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_CIVILIAN_IGNORE_TERRAIN_COST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MOD_ABILITY_CIVILIAN_IGNORE_TERRAIN_COST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_CIVILIAN_IGNORE_RIVERS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MOD_ABILITY_CIVILIAN_IGNORE_RIVERS</Value>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_BUILDER_CHARGE</ModifierId>
 			<Name>Amount</Name>
@@ -73,20 +131,20 @@
 			<Value>2</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierId>MOD_ABILITY_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
 			<Name>Ignore</Name>
 			<Value>true</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierId>MOD_ABILITY_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
 			<Name>Type</Name>
 			<Value>ALL</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
+			<ModifierId>MOD_ABILITY_CIVILIAN_IGNORE_RIVERS</ModifierId>
 			<Name>Ignore</Name>
 			<Value>true</Value>
-		</Row>		
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
@@ -97,6 +155,11 @@
 			<Name>YieldType</Name>
 			<Value>YIELD_PRODUCTION</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_GOVERNMENT_SLOTS</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
 	</ModifierArguments>
 	
 	<!-- =============== RequirementSets =============== -->
@@ -106,80 +169,42 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>UNIT_IS_CIVILIAN_ITC</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>UNIT_IS_CIVILIAN_IR</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
-		</Row>
-		<Row>
 			<RequirementSetId>HAS_IMPROVEMENT</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
-		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_BUILDER" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_LIYUE_CIVILIAN" />
+		<!--<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_BUILDER" />
 		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_SETTLER" />
 		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_ARCHAEOLOGIST" />
 		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_NATURALIST" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_MILITARY_ENGINEER" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN_ITC" RequirementId="UNIT_IS_BUILDER_ITC" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN_ITC" RequirementId="UNIT_IS_SETTLER_ITC" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN_ITC" RequirementId="UNIT_IS_ARCHAEOLOGIST_ITC" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN_ITC" RequirementId="UNIT_IS_NATURALIST_ITC" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN_ITC" RequirementId="UNIT_IS_MILITARY_ENGINEER_ITC" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN_IR" RequirementId="UNIT_IS_BUILDER" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN_IR" RequirementId="UNIT_IS_SETTLER" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN_IR" RequirementId="UNIT_IS_ARCHAEOLOGIST" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN_IR" RequirementId="UNIT_IS_NATURALIST" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN_IR" RequirementId="UNIT_IS_MILITARY_ENGINEER" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_MILITARY_ENGINEER" />-->
 		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_MINE" />
 		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_QUARRY" />
 		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" />
 	</RequirementSetRequirements>
 	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
 	<Requirements>
-		<Row RequirementId="UNIT_IS_BUILDER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_LIYUE_CIVILIAN" RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+		<!--<Row RequirementId="UNIT_IS_BUILDER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
 		<Row RequirementId="UNIT_IS_SETTLER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
 		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
 		<Row RequirementId="UNIT_IS_NATURALIST" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_BUILDER_ITC" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_SETTLER_ITC" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST_ITC" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_NATURALIST_ITC" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER_ITC" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_BUILDER_IR" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_SETTLER_IR" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST_IR" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_NATURALIST_IR" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER_IR" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
+		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />-->
 		<Row RequirementId="HAS_IMPROVEMENT_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
 		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
 		<Row RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
 	</Requirements>
 	<RequirementArguments>
-		<Row RequirementId="UNIT_IS_BUILDER" Name="UnitType" Value="UNIT_BUILDER" />
+		<Row RequirementId="UNIT_IS_LIYUE_CIVILIAN" Name="Tag" Value="CLASS_LIYUE_CIVILIAN" />
+		<!--<Row RequirementId="UNIT_IS_BUILDER" Name="UnitType" Value="UNIT_BUILDER" />
 		<Row RequirementId="UNIT_IS_SETTLER" Name="UnitType" Value="UNIT_SETTLER" />
 		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST" Name="UnitType" Value="UNIT_ARCHAEOLOGIST" />
 		<Row RequirementId="UNIT_IS_NATURALIST" Name="UnitType" Value="UNIT_NATURALIST" />
-		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER" Name="UnitType" Value="UNIT_MILITARY_ENGINEER" />
-		<Row RequirementId="UNIT_IS_BUILDER_ITC" Name="UnitType" Value="UNIT_BUILDER" />
-		<Row RequirementId="UNIT_IS_SETTLER_ITC" Name="UnitType" Value="UNIT_SETTLER" />
-		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST_ITC" Name="UnitType" Value="UNIT_ARCHAEOLOGIST" />
-		<Row RequirementId="UNIT_IS_NATURALIST_ITC" Name="UnitType" Value="UNIT_NATURALIST" />
-		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER_ITC" Name="UnitType" Value="UNIT_MILITARY_ENGINEER" />
-		<Row RequirementId="UNIT_IS_BUILDER_IR" Name="UnitType" Value="UNIT_BUILDER" />
-		<Row RequirementId="UNIT_IS_SETTLER_IR" Name="UnitType" Value="UNIT_SETTLER" />
-		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST_IR" Name="UnitType" Value="UNIT_ARCHAEOLOGIST" />
-		<Row RequirementId="UNIT_IS_NATURALIST_IR" Name="UnitType" Value="UNIT_NATURALIST" />
-		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER_IR" Name="UnitType" Value="UNIT_MILITARY_ENGINEER" />
+		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER" Name="UnitType" Value="UNIT_MILITARY_ENGINEER" />-->
 		<Row RequirementId="HAS_IMPROVEMENT_MINE" Name="ImprovementType" Value="IMPROVEMENT_MINE" />
 		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" Name="ImprovementType" Value="IMPROVEMENT_QUARRY" />
 		<Row RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" Name="ImprovementType" Value="IMPROVEMENT_LUMBER_MILL" />
 	</RequirementArguments>
-	<ModifierStrings>
-		<Row ModifierId="TRAIT_CIVILIAN_IGNORE_TERRAIN_COST" Context="Preview" Text="LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION"/>
-	</ModifierStrings>
 </GameData>
