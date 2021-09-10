@@ -55,7 +55,7 @@
 
 		<!-- Civilization City Names-->
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_1" Language="en_US">
-			<Text>Pawtimore</Text>
+			<Text>Liyue</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_2" Language="en_US">
 			<Text>City</Text>
