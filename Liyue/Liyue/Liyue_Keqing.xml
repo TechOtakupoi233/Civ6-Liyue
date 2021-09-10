@@ -98,6 +98,7 @@
 			<Value>YIELD_PRODUCTION</Value>
 		</Row>
 	</ModifierArguments>
+	
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
 		<Row>
@@ -178,5 +179,7 @@
 		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" Name="ImprovementType" Value="IMPROVEMENT_QUARRY" />
 		<Row RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" Name="ImprovementType" Value="IMPROVEMENT_LUMBER_MILL" />
 	</RequirementArguments>
-	
+	<ModifierStrings>
+		<Row ModifierId="TRAIT_CIVILIAN_IGNORE_TERRAIN_COST" Context="Preview" Text="LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
 </GameData>

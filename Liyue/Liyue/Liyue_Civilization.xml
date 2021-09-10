@@ -145,4 +145,7 @@
 			<ForegroundImage>LEADER_KEQING_LOADING.dds</ForegroundImage>
 		</Row>
 	</Loadinginfo>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_LIYUE" TerrainType="TERRAIN_COAST" Tier="3"/>
+	</StartBiasTerrains>
 </GameData>
