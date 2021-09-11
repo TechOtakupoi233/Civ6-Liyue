@@ -27,11 +27,22 @@
 		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_2" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_3" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_5" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_6" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_7" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_8" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_9" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_10" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_1" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_2" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_3" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_5" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_6" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_7" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_8" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_9" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_10" Female="1"/>
 	</CivilizationCitizenNames>
 
 	<CivilizationInfo>

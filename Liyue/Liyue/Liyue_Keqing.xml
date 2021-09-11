@@ -210,7 +210,7 @@
 		<Row>
 			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
 			<Name>HiddenAgenda</Name>
-			<Value>true</Value>
+			<Value>false</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_EXPLOITATION</ModifierId>

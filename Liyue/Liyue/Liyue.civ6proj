@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Liyue-Keqing</Name>
+    <Name>LOC_LIYUE_MOD_TITLE_CL</Name>
     <Guid>4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4</Guid>
     <ProjectGuid>b63f779e-2035-440c-8ad0-2703e305f45e</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>此Mod包含一个新文明和一个新领袖。</Teaser>
-    <Description>此Mod将来自《原神》的文明璃月和领袖刻晴添加进游戏。</Description>
+    <Teaser>LOC_LIYUE_MOD_TEASER_CL</Teaser>
+    <Description>LOC_LIYUE_MOD_DESCRIPTION_CL</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -19,6 +19,7 @@
     <AssemblyName>Liyue</AssemblyName>
     <RootNamespace>Liyue</RootNamespace>
     <Authors>CLHotuski</Authors>
+    <SpecialThanks>Dwughjsd, KevinLiu, hemmelfort</SpecialThanks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
