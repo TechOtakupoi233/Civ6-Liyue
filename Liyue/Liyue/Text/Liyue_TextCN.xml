@@ -179,37 +179,37 @@
     <!-- Leader Dialog -->
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--同意声明友谊-->
-			<Text>哦哦，很好。实际上我正打算找一个自然点的提法说这件事呢。</Text>
+			<Text>不用和我太客气，「玉衡」说到底只是虚名，我不希望你因为我的身份，而把想说的话藏在心里。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--拒绝声明友谊-->
-			<Text>你在说什么呢，这是什么古典的笑话吗？</Text>
+			<Text>虽然我喜欢加快工作进程，但是在这件事上对我们来说还是为时尚早了。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--请求声明友谊-->
-			<Text>都说人们之间应该相互照应，要是您坐视我们孤立无援地进行危险的探索，会发生什么呢？</Text>
+			<Text>我想和你一起向世界宣布我们是朋友，你会支持我吗？</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--请求声明友谊被接受-->
-			<Text>不正式的唐突请求居然被细致地考虑了，您真是个好人啊。</Text>
+			<Text>等到新时代的璃月港落成之时，来看看吧，我来领路。只有让你亲眼见证这里的脱胎换骨，才不会辜负你对我的陪伴和支持。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--请求声明友谊被拒绝-->
-			<Text>我并不是强迫你的魔鬼，你按自己的想法决定吧。</Text>
+			<Text>唉，看来想法还是太超前了。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--被宣战-->
-			<Text>游戏到此为止。现在是学习的时候了。</Text>
+			<Text>是吗。没有帝君的保护，璃月港也挺过了曾经的危机，这次也会是一样的。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--主动宣战-->
-			<Text>长点儿教训吧，你这蠢货！</Text>
+			<Text>璃月的人民无法宽恕你的行为，接招吧。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
@@ -239,7 +239,7 @@
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--初次见面-->
-			<Text>我是优妮。我可能显得有些发育缓慢，但也许比你还年长。怀着敬意和友爱地叫我前辈吧，年轻人。</Text>
+			<Text>我是刻晴，璃月七星中的「玉衡」。变革的时机已经到来，维持了千年的秩序即将被改写。这历史性的时刻，你愿意和我一起见证吗？</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_ANY" Language="zh_Hans_CN">
@@ -264,17 +264,17 @@
 
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--领袖对玩家有好感-->
-			<Text>比起功利更重视情感，我们称这样的选择为浪漫。认可您为名誉文学学者吧。</Text>
+			<Text>和你一起冒险，已经很长时间了。我越来越觉得，你就是我理想中的那个人。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--领袖敌视玩家-->
-			<Text>我和那些学术界的死脑筋经常起冲突，真希望我们不会发展成那种情况。</Text>
+			<Text>也许你的想法是对的，但我无法认同你的做法。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--请求结盟-->
-			<Text>您想结为盟友吗，同志？</Text>
+			<Text>和璃月共同发展吧，让世界知道人类不需要神明也能做的很好。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KEQING_ANY" Language="zh_Hans_CN">
@@ -309,22 +309,22 @@
 
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--要求移开边境军队-->
-			<Text>说起来，年轻人。你是否愿意做出一些缓和我们之间的边境摩擦的关键行动呢？举例说的话，就是移开军队之类的。</Text>
+			<Text>有市民对你在璃月边境的部队感到不安。虽然这不是我的管辖范围，但我还是希望你可以帮我这个忙。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--领取便当-->
-			<Text>怎么样，我有为这世界带来过什么吗？作为前往来世的伴手礼，让我记下你的名字吧……</Text>
+			<Text>「想要在帝君的土地上，留下属于人类的印记。」这果然很不容易啊。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--同意交易-->
-			<Text>您真是善良可亲。</Text>
+			<Text>谢谢你，这对我们都有好处。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--拒绝交易-->
-			<Text>选择权在你的手上。</Text>
+			<Text>无论是冒险还是做生意，机会都稍纵即逝。</Text>
 		</Row>
 
 		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_NAME" Language="zh_Hans_CN">
@@ -346,16 +346,6 @@
 		</Row>
 		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE" Language="zh_Hans_CN">
 			<Text>优妮对您缺乏文化非常失望</Text>
-		</Row>
-
-		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME" Language="zh_Hans_CN">
-			<Text>王宫骑士团炮</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_BONUS_VS_UNITS_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+10 与陆地和海洋单位战斗</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>与陆地和海洋单位战斗时+10 [ICON_Bombard] 炮击攻击力。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
