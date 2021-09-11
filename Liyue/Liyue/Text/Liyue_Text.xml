@@ -86,10 +86,10 @@
 		</Row>
 
 		<!--Civilization Factoids -->
-		<Row Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="en_US">
+		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION" Language="en_US">
 			<Text>Binomial Name</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_FELIS_CATUS" Language="en_US">
+		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION_DESCRIPTION" Language="en_US">
 			<Text>Felis catus</Text>
 		</Row>
 

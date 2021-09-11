@@ -34,7 +34,7 @@
 	</CivilizationCitizenNames>
 
 	<CivilizationInfo>
-		<Row CivilizationType="CIVILIZATION_LIYUE" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
+		<Row CivilizationType="CIVILIZATION_LIYUE" Header="LOC_CIVINFO_LIYUE_LOCATION" Caption="LOC_CIVINFO_LIYUE_LOCATION_DESCRIPTION" />
 	</CivilizationInfo>
 
 	<CivilizationTraits>
@@ -202,6 +202,6 @@
 		</Row>
 	</Loadinginfo>
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_LIYUE" TerrainType="TERRAIN_COAST" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE" TerrainType="TERRAIN_COAST" Tier="1"/>
 	</StartBiasTerrains>
 </GameData>

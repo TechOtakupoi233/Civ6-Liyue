@@ -1,27 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<IconTextureAtlases>
-		<Row Name="ICON_ATLAS_KEQING" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_256.dds"/>
-		<Row Name="ICON_ATLAS_KEQING" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_80.dds"/>
-		<Row Name="ICON_ATLAS_KEQING" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_64.dds"/>
-		<Row Name="ICON_ATLAS_KEQING" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_55.dds"/>
-		<Row Name="ICON_ATLAS_KEQING" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_50.dds"/>
-		<Row Name="ICON_ATLAS_KEQING" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_45.dds"/>
-		<Row Name="ICON_ATLAS_KEQING" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_32.dds"/>
-		<Row Name="ICON_ATLAS_LIYUE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_256.dds"/>
-		<Row Name="ICON_ATLAS_LIYUE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_80.dds"/>
-		<Row Name="ICON_ATLAS_LIYUE" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_64.dds"/>
-		<Row Name="ICON_ATLAS_LIYUE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_50.dds"/>
-		<Row Name="ICON_ATLAS_LIYUE" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_48.dds"/>
-		<Row Name="ICON_ATLAS_LIYUE" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_45.dds"/>
-		<Row Name="ICON_ATLAS_LIYUE" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_44.dds"/>
-		<Row Name="ICON_ATLAS_LIYUE" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_36.dds"/>
-		<Row Name="ICON_ATLAS_LIYUE" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_30.dds"/>
-		<Row Name="ICON_ATLAS_LIYUE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_22.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_256.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_80.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_64.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_55.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_50.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_45.dds"/>
+		<Row Name="ATLAS_KEQING" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="CHARACTER_KEQING_ICON_32.dds"/>
+		<Row Name="ATLAS_LIYUE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_256.dds"/>
+		<Row Name="ATLAS_LIYUE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_80.dds"/>
+		<Row Name="ATLAS_LIYUE" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_64.dds"/>
+		<Row Name="ATLAS_LIYUE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_50.dds"/>
+		<Row Name="ATLAS_LIYUE" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_48.dds"/>
+		<Row Name="ATLAS_LIYUE" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_45.dds"/>
+		<Row Name="ATLAS_LIYUE" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_44.dds"/>
+		<Row Name="ATLAS_LIYUE" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_36.dds"/>
+		<Row Name="ATLAS_LIYUE" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_30.dds"/>
+		<Row Name="ATLAS_LIYUE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="EMBLEM_LIYUE_22.dds"/>
+		<Row Name="ATLAS_MILLELITH_ICON" IconSize="22" Filename="MILLELITH_ICON_22"/>
+		<Row Name="ATLAS_MILLELITH_ICON" IconSize="32" Filename="MILLELITH_ICON_32"/>
+		<Row Name="ATLAS_MILLELITH_ICON" IconSize="38" Filename="MILLELITH_ICON_38"/>
+		<Row Name="ATLAS_MILLELITH_ICON" IconSize="50" Filename="MILLELITH_ICON_50"/>
+		<Row Name="ATLAS_MILLELITH_ICON" IconSize="80" Filename="MILLELITH_ICON_80"/>
+		<Row Name="ATLAS_MILLELITH_ICON" IconSize="256" Filename="MILLELITH_ICON_256"/>
+		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="32" Filename="TEAHOUSE_ICON_32"/>
+		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="38" Filename="TEAHOUSE_ICON_38"/>
+		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="50" Filename="TEAHOUSE_ICON_50"/>
+		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="80" Filename="TEAHOUSE_ICON_80"/>
+		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="128" Filename="TEAHOUSE_ICON_128"/>
+		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="256" Filename="TEAHOUSE_ICON_256"/>
 	</IconTextureAtlases>
-	<IconDefinitions>
-		<Row Name="ICON_BUILDING_TEAHOUSE" Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
-		<Row Name="ICON_CIVILIZATION_LIYUE" Atlas="ICON_ATLAS_LIYUE" Index="0"/>
-		<Row Name="ICON_LEADER_KEQING" Atlas="ICON_ATLAS_KEQING" Index="0"/>
+	<IconDefinitions>		
+		<Row Name="ICON_CIVILIZATION_LIYUE" Atlas="ATLAS_LIYUE" Index="0"/>
+		<Row Name="ICON_LEADER_KEQING" Atlas="ATLAS_KEQING" Index="0"/>
+		<Row Name="ICON_UNIT_MILLELITH" Atlas="ATLAS_MILLELITH_ICON" Index="0"/>
+		<Row Name="ICON_BUILDING_TEAHOUSE" Atlas="ATLAS_TEAHOUSE_ICON" Index="0"/>
 	</IconDefinitions>
 </GameData>
