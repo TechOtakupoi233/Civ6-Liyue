@@ -44,7 +44,7 @@
 			<Text>茶馆</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_TEAHOUSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>替代古罗马剧场。提供额外的大作家点数 [ICON_GreatWriter] ，并为此城市中的文学巨作 [ICON_GreatWork_Writing] 提供翻倍的文化值 [ICON_Culture] 。</Text>
+			<Text>替代古罗马剧场。提供额外的大作家点数 [ICON_GreatWriter] ，并为此城市中的文学巨作 [ICON_GreatWork_Writing] 提供翻倍的文化值 [ICON_Culture] 和旅游业绩 [ICON_Tourism]。</Text>
 		</Row>
 		
 		<Row Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DUMMY_NAME" Language="zh_Hans_CN">
