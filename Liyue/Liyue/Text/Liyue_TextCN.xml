@@ -327,7 +327,7 @@
 			<Text>无论是冒险还是做生意，机会都稍纵即逝。</Text>
 		</Row>
 
-		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_NAME" Language="zh_Hans_CN">
+		<!--<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_NAME" Language="zh_Hans_CN">
 			<Text>文科学者的浪漫</Text>
 		</Row>
 		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_DESCRIPTION" Language="zh_Hans_CN">
@@ -346,6 +346,6 @@
 		</Row>
 		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE" Language="zh_Hans_CN">
 			<Text>优妮对您缺乏文化非常失望</Text>
-		</Row>
+		</Row>-->
 	</LocalizedText>
 </GameData>

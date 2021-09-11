@@ -5,7 +5,7 @@
 		<Row Type="TRAIT_YUHENG" Kind="KIND_TRAIT"/>
 		<Row Type="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_CIVILIAN_IGNORE_RIVERS" Kind="KIND_ABILITY"/>
-		<Row Type="TRAIT_AGENDA_PREFER_EXPLOITATION" Kind="KIND_TRAIT"/>
+		<!--<Row Type="TRAIT_AGENDA_PREFER_EXPLOITATION" Kind="KIND_TRAIT"/>-->
 	</Types>
 	<Tags>
 		<Row Tag="CLASS_LIYUE_CIVILIAN" Vocabulary="ABILITY_CLASS"/>
@@ -19,7 +19,7 @@
 		<Row Type="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Tag="CLASS_LIYUE_CIVILIAN"/>
 		<Row Type="ABILITY_CIVILIAN_IGNORE_RIVERS" Tag="CLASS_LIYUE_CIVILIAN"/>
 	</TypeTags>
-	<AiListTypes>
+	<!--<AiListTypes>
 		<Row ListType="ExploitationLoverExploitationPreference"/>
 	</AiListTypes>
 	<AiLists>
@@ -27,7 +27,7 @@
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="ExploitationLoverExploitationPreference" Item="PSEUDOYIELD_IMPROVEMENT" Value="5"/>
-	</AiFavoredItems>
+	</AiFavoredItems>-->
 	<Leaders>
 		<Row>
 			<LeaderType>LEADER_KEQING</LeaderType>
@@ -50,7 +50,7 @@
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="TRAIT_YUHENG" Name="LOC_TRAIT_LEADER_KEQING_NAME" Description="LOC_TRAIT_LEADER_KEQING_DESCRIPTION"/>
-		<Row TraitType="TRAIT_AGENDA_PREFER_EXPLOITATION"/>
+		<!--<Row TraitType="TRAIT_AGENDA_PREFER_EXPLOITATION"/>-->
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_BUILDER_CHARGE"/>
@@ -60,11 +60,14 @@
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_TILE_IMPROVEMENT_PRODUCTION"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ALL_DISTRICTS_CULTURE_BOMB"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ADJUST_GOVERNMENT_SLOTS"/>
-		<Row TraitType="TRAIT_AGENDA_PREFER_EXPLOITATION" ModifierId="AGENDA_EXPLOITATION"/>
+		<!--<Row TraitType="TRAIT_AGENDA_PREFER_EXPLOITATION" ModifierId="AGENDA_EXPLOITATION"/>-->
 	</TraitModifiers>
-	<AgendaTraits>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_KEQING" AgendaType="AGENDA_EXPLOITATIVE"/>
+	</HistoricalAgendas>
+	<!--<AgendaTraits>
 		<Row AgendaType="AGENDA_EXPLOITATIVE" TraitType="TRAIT_AGENDA_PREFER_EXPLOITATION"/>
-	</AgendaTraits>
+	</AgendaTraits>-->
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Name="LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_NAME" Description="LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION" Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_CIVILIAN_IGNORE_RIVERS" Name="LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_NAME" Description="LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION" Inactive="true"/>
@@ -119,12 +122,12 @@
 			<ModifierId>TRAIT_ADJUST_GOVERNMENT_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_EXPLOITATIVE</ModifierType>
 			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
 			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_30_TURNS</SubjectRequirementSetId>
-		</Row>
+		</Row>-->
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -187,7 +190,7 @@
 			<Name>GovernmentSlotType</Name>
 			<Value>SLOT_WILDCARD</Value>
 		</Row>
-		<Row>
+		<!--<Row>
 			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
 			<Name>InitialValue</Name>
 			<Value>0</Value>
@@ -251,11 +254,11 @@
 			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
 			<Name>LowScoreThreshold</Name>
 			<Value>-15</Value>
-		</Row>
+		</Row>-->
 	</ModifierArguments>
-	<ModifierStrings>
+	<!--<ModifierStrings>
 		<Row ModifierId="AGENDA_EXPLOITATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-	</ModifierStrings>
+	</ModifierStrings>-->
 	
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>

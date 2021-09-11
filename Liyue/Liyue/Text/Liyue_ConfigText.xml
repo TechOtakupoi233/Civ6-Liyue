@@ -17,7 +17,7 @@
 			<Text>Jasper Kitty</Text>
 		</Row>
 
-		<Row Tag="TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Language="en_US">
 			<Text>Cat like reflexes</Text>
 		</Row>
 		<Row Tag="TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="en_US">
