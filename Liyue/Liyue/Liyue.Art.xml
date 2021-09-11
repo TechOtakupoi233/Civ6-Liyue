@@ -569,6 +569,7 @@
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
 				<Element text="LiyueUI"/>
+				<Element text="UI/PrideMoments"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

@@ -54,7 +54,6 @@
 		<Row CivilizationType="CIVILIZATION_LIYUE" TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" />
 		<Row CivilizationType="CIVILIZATION_LIYUE" TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" />
 	</CivilizationTraits>
-
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" Name="TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Description="TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" />
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" Name="LOC_BUILDING_TEAHOUSE_NAME" Description="LOC_BUILDING_TEAHOUSE_DESCRIPTION" />
@@ -216,4 +215,9 @@
 	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_LIYUE" TerrainType="TERRAIN_COAST" Tier="1"/>
 	</StartBiasTerrains>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_TEAHOUSE" Texture="MOMENT_BUILDING_TEAHOUSE"/>
+		<!--<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_YUNICOPTER" Texture="Moment_UniqueUnit_Landsol_Yunicopter"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Texture="Moment_LiberateCity.dds"/>-->
+	</MomentIllustrations>
 </GameData>

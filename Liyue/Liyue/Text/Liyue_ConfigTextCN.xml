@@ -11,7 +11,7 @@
 			<Text>新文明和领袖——璃月的刻晴</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL" Language="zh_Hans_CN">
-			<Text>包含1个新文明和2个领袖。</Text>
+			<Text>包含1个新文明和领袖。</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_LIYUE_NAME" Language="zh_Hans_CN">
 			<Text>璃月</Text>
