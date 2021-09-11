@@ -20,10 +20,10 @@
 			<Text>刻晴</Text>
 		</Row>
 
-		<Row Tag="TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Language="zh_Hans_CN">
 			<Text>岩与契约的海港</Text>
 		</Row>
-		<Row Tag="TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>游戏开始时通常位于海岸单元格旁。
 			[NEWLINE]修建港口、商业中心及其中的建筑时+50%生产力 [ICON_Production] ,
 			市场和灯塔可重复提供贸易容量 [ICON_Traderoute] 。为所有贸易路线提供+2金币 [ICON_Gold] 。</Text>
@@ -38,6 +38,9 @@
 				[NEWLINE]矿山、采石场和伐木场提供+2生产力 [ICON_Production] 。
 				[NEWLINE]建成任何特色区域时向相邻单元格施放文化炸弹。
 				[NEWLINE]提供一个额外的通配符政策槽位。</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="zh_Hans_CN">
+			<Text>「玉衡星」刻晴，您总是站在变革的风口浪尖，带领着璃月人民追随时代的步伐。时间已经证明璃月不再需要岩王帝君的护佑，人类已经超越了神明和仙人的步伐。现在，您将正式承担变革者的责任，让璃月以前所未有的脚步向前迈进吧。</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_TEAHOUSE_NAME" Language="zh_Hans_CN">

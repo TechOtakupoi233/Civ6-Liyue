@@ -14,6 +14,7 @@
 			<Description>LOC_CIVILIZATION_LIYUE_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_LIYUE_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
 		</Row>
 	</Civilizations>
 
