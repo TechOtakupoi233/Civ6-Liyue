@@ -217,7 +217,7 @@
 	</StartBiasTerrains>
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_TEAHOUSE" Texture="MOMENT_BUILDING_TEAHOUSE"/>
-		<!--<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_YUNICOPTER" Texture="Moment_UniqueUnit_Landsol_Yunicopter"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Texture="Moment_LiberateCity.dds"/>-->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MILLELITH" Texture="MOMENT_UNIT_MILLELITH"/>
+		<!--<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Texture="Moment_LiberateCity.dds"/>-->
 	</MomentIllustrations>
 </GameData>

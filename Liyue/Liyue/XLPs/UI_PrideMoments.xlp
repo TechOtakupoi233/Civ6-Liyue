@@ -13,6 +13,10 @@
 			<m_EntryID text="MOMENT_BUILDING_TEAHOUSE"/>
 			<m_ObjectName text="MOMENT_BUILDING_TEAHOUSE"/>
 		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_UNIT_MILLELITH"/>
+			<m_ObjectName text="MOMENT_UNIT_MILLELITH"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

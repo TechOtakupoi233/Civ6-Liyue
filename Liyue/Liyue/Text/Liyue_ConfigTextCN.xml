@@ -4,15 +4,6 @@
 <!-- DateCreated: 9/9/2021 1:35:33 AM -->
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_LIYUE_MOD_TITLE_CL" Language="zh_Hans_CN">
-			<Text>璃月文明包</Text>
-		</Row>
-		<Row Tag="LOC_LIYUE_MOD_TEASER_CL" Language="zh_Hans_CN">
-			<Text>新文明和领袖——璃月的刻晴</Text>
-		</Row>
-		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL" Language="zh_Hans_CN">
-			<Text>包含1个新文明和领袖。</Text>
-		</Row>
 		<Row Tag="LOC_CIVILIZATION_LIYUE_NAME" Language="zh_Hans_CN">
 			<Text>璃月</Text>
 		</Row>
@@ -43,20 +34,20 @@
 			<Text>引领变革的「玉衡星」</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>刻晴的建造者、开拓者、军事工程师、考古学家和自然学家和移动力 [ICON_Movement] +2，无视地形额外移动力消耗，且建造者和军事工程师可用次数+2。
+			<Text>刻晴的开拓者、建造者、军事工程师的移动力 [ICON_Movement] +2，无视地形额外移动力消耗，且建造者和军事工程师可用次数+2,新城市自动获赠建造者。
 				[NEWLINE]矿山、采石场和伐木场提供+2生产力 [ICON_Production] 。
-				[NEWLINE]建成任何特色区域时向相邻单元格施放文化炸弹。
+				<!--[NEWLINE]建成任何特色区域时向相邻单元格施放文化炸弹。-->
 				[NEWLINE]提供一个额外的通配符政策槽位。</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="zh_Hans_CN">
-			<Text>「玉衡星」刻晴，您总是站在变革的风口浪尖，带领着璃月人民追随时代的步伐。时间已经证明璃月不再需要岩王帝君的护佑，人类已经超越了神明和仙人的步伐。现在，您将正式承担变革者的责任，让璃月以前所未有的脚步向前迈进吧。</Text>
+			<Text>「玉衡星」刻晴，您总是站在变革的风口浪尖，带领着璃月人民追随时代的步伐。时间已经证明璃月不再需要岩王帝君与众仙的护佑，人类已经超越了神明和仙人的步伐。现在，您将正式承担变革者的责任，让璃月以前所未有的脚步向前迈进吧。</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_TEAHOUSE_NAME" Language="zh_Hans_CN">
 			<Text>茶馆</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_TEAHOUSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>替代古罗马剧场。提供额外的大作家点数 [ICON_GreatWriter] ，并为此城市中的文学巨作 [ICON_GreatWork_Writing] 提供翻倍的文化值 [ICON_Culture] 和旅游业绩 [ICON_Tourism]。</Text>
+			<Text>替代古罗马剧场。提供舒适度 [ICON_Amenities] ，并为此城市中的文学巨作 [ICON_GreatWork_Writing] 提供翻倍的文化值 [ICON_Culture] 和旅游业绩 [ICON_Tourism]。</Text>
 		</Row>
 		
 		<Row Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DUMMY_NAME" Language="zh_Hans_CN">
