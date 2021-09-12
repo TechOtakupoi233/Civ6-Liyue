@@ -58,7 +58,6 @@
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_IGNORE_TERRAIN_COST"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_CROSSING_RIVERS_COST"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="GOV_SETTLER_GRANT_BUILDER"/>
-		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_TILE_IMPROVEMENT_PRODUCTION"/>
 		<!--<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ALL_DISTRICTS_CULTURE_BOMB"/>-->
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ADJUST_GOVERNMENT_SLOTS"/>
 		<!--<Row TraitType="TRAIT_AGENDA_PREFER_EXPLOITATION" ModifierId="AGENDA_EXPLOITATION"/>-->
@@ -109,11 +108,6 @@
 		<Row>
 			<ModifierId>MOD_ABILITY_CIVILIAN_IGNORE_RIVERS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>HAS_IMPROVEMENT</SubjectRequirementSetId>
 		</Row>
 		<!--<Row>
 			<ModifierId>TRAIT_ALL_DISTRICTS_CULTURE_BOMB</ModifierId>
@@ -175,16 +169,6 @@
 			<ModifierId>MOD_ABILITY_CIVILIAN_IGNORE_RIVERS</ModifierId>
 			<Name>Ignore</Name>
 			<Value>true</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_ADJUST_GOVERNMENT_SLOTS</ModifierId>
@@ -266,44 +250,16 @@
 		<Row>
 			<RequirementSetId>UNIT_IS_CIVILIAN</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>HAS_IMPROVEMENT</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
-		</Row>
+		</Row>		
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_LIYUE_CIVILIAN" />
-		<!--<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_BUILDER" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_SETTLER" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_ARCHAEOLOGIST" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_NATURALIST" />
-		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_MILITARY_ENGINEER" />-->
-		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_MINE" />
-		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_QUARRY" />
-		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" />
 	</RequirementSetRequirements>
 	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
 	<Requirements>
 		<Row RequirementId="UNIT_IS_LIYUE_CIVILIAN" RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
-		<!--<Row RequirementId="UNIT_IS_BUILDER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_SETTLER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_NATURALIST" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />
-		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES" />-->
-		<Row RequirementId="HAS_IMPROVEMENT_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
-		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
-		<Row RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" />
 	</Requirements>
 	<RequirementArguments>
 		<Row RequirementId="UNIT_IS_LIYUE_CIVILIAN" Name="Tag" Value="CLASS_LIYUE_CIVILIAN" />
-		<!--<Row RequirementId="UNIT_IS_BUILDER" Name="UnitType" Value="UNIT_BUILDER" />
-		<Row RequirementId="UNIT_IS_SETTLER" Name="UnitType" Value="UNIT_SETTLER" />
-		<Row RequirementId="UNIT_IS_ARCHAEOLOGIST" Name="UnitType" Value="UNIT_ARCHAEOLOGIST" />
-		<Row RequirementId="UNIT_IS_NATURALIST" Name="UnitType" Value="UNIT_NATURALIST" />
-		<Row RequirementId="UNIT_IS_MILITARY_ENGINEER" Name="UnitType" Value="UNIT_MILITARY_ENGINEER" />-->
-		<Row RequirementId="HAS_IMPROVEMENT_MINE" Name="ImprovementType" Value="IMPROVEMENT_MINE" />
-		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" Name="ImprovementType" Value="IMPROVEMENT_QUARRY" />
-		<Row RequirementId="HAS_IMPROVEMENT_LUMBER_MILL" Name="ImprovementType" Value="IMPROVEMENT_LUMBER_MILL" />
 	</RequirementArguments>
 </GameData>

@@ -24,10 +24,10 @@
 			<UnitType>UNIT_MILLELITH</UnitType>
 			<Name>LOC_UNIT_MILLELITH_NAME</Name>
 			<Description>LOC_UNIT_MILLELITH_DESCRIPTION</Description>
-			<BaseSightRange>3</BaseSightRange>
+			<BaseSightRange>2</BaseSightRange>
 			<BaseMoves>3</BaseMoves>
 			<Domain>DOMAIN_LAND</Domain>
-			<Combat>50</Combat>
+			<Combat>45</Combat>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<PromotionClass>PROMOTION_CLASS_ANTI_CAVALRY</PromotionClass>
 			<Cost>200</Cost>

@@ -24,7 +24,7 @@
 			<Text>岩与契约的海港</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>游戏开始时通常位于海岸单元格旁。	[NEWLINE]修建港口、商业中心及其中的建筑时+50% [ICON_Production] 生产力, 市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。</Text>
+			<Text>游戏开始时通常位于海岸单元格旁。	[NEWLINE]修建港口、商业中心及其中的建筑时+50% [ICON_Production] 生产力, 市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。[NEWLINE]研发“占星术”后矿山、采石场提供+2 [ICON_Culture] 文化值和 [ICON_Faith] 信仰值。</Text>
 			<!--[NEWLINE]对违反承诺的文明不满+100%。-->
 		</Row>
 
@@ -32,7 +32,7 @@
 			<Text>引领变革的「玉衡星」</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>刻晴的开拓者、建造者、军事工程师的 [ICON_Movement] 移动力+2，无视地形额外移动力消耗，且建造者和军事工程师可用次数+2,新城市自动获赠建造者。	[NEWLINE]矿山、采石场和伐木场提供+2 [ICON_Production] 生产力。[NEWLINE]提供一个额外的通配符政策槽位。
+			<Text>刻晴的开拓者、建造者、军事工程师的 [ICON_Movement] 移动力+2，无视地形额外移动力消耗，且建造者和军事工程师可用次数+2,新城市自动获赠建造者。[NEWLINE]提供一个额外的通配符政策槽位。
 			</Text>
 			<!--[NEWLINE]建成任何特色区域时向相邻单元格施放文化炸弹。-->
 		</Row>
@@ -59,8 +59,16 @@
 			<Text>千岩军</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>替代长矛兵。拥有更强的 [ICON_Strength] 战斗力，更高的 [ICON_Movement] 移动力和视野，获得的夹击和支援加成翻倍。</Text>
+			<Text>替代长矛兵。拥有更高的 [ICON_Movement] 移动力，获得的夹击和支援加成翻倍。</Text>
 		</Row>
-		
+		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_BP" Language="zh_Hans_CN">
+		    <Text>璃月文明包-平衡分支补丁</Text>
+		</Row>
+		<Row Tag="LOC_LIYUE_MOD_TEASER_CL_BP" Language="zh_Hans_CN">
+		    <Text>璃月文明包的平衡分支补丁。</Text>
+		</Row>
+		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL_BP" Language="zh_Hans_CN">
+		    <Text>对璃月文明和领袖针对原版游戏进行平衡性调整。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

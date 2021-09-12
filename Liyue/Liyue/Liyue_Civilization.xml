@@ -66,6 +66,8 @@
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_HARBOR_BUILDINGS_PRODUCTION" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DISTRICT_COMMERCIAL_HUB_PRODUCTION" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DISTRICT_COMMERCIAL_HUB_BUILDINGS_PRODUCTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_CULTURE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_FAITH"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
@@ -92,6 +94,16 @@
 			<ModifierId>MODIFIER_DUPLICATE_TRADE_ROUTE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>HAS_IMPROVEMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>HAS_IMPROVEMENT</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -150,12 +162,35 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row><Row>
+			<RequirementSetId>HAS_IMPROVEMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
@@ -167,6 +202,9 @@
 			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
 			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
 		</Row>
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_MINE"/>
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_QUARRY"/>
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_ASTROLOGY"/>
 	</RequirementSetRequirements>
 	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
 	<Requirements>
@@ -178,6 +216,9 @@
 			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
 		</Row>
+		<Row RequirementId="HAS_IMPROVEMENT_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
+		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
+		<Row RequirementId="HAS_ASTROLOGY" RequirementType="REQUIREMENT_PLAYER_HAS_TECHNOLOGY"/>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
@@ -190,6 +231,9 @@
 			<Name>BuildingType</Name>
 			<Value>BUILDING_LIGHTHOUSE</Value>
 		</Row>
+		<Row RequirementId="HAS_IMPROVEMENT_MINE" Name="ImprovementType" Value="IMPROVEMENT_MINE"/>
+		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" Name="ImprovementType" Value="IMPROVEMENT_QUARRY"/>
+		<Row RequirementId="HAS_ASTROLOGY" Name="TechnologyType" Value="TECH_ASTROLOGY"/>
 	</RequirementArguments>
 	<ModifierStrings>
 		<Row ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD" Context="Preview" Text="LOC_MODIFIER_TRADE_ROUTE_YIELD_GOLD"/>
@@ -218,6 +262,5 @@
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_TEAHOUSE" Texture="MOMENT_BUILDING_TEAHOUSE"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MILLELITH" Texture="MOMENT_UNIT_MILLELITH"/>
-		<!--<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Texture="Moment_LiberateCity.dds"/>-->
 	</MomentIllustrations>
 </GameData>

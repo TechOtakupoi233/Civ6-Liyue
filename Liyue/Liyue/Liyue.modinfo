@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4" version="1">
+  <Properties>
+    <Name>LOC_LIYUE_MOD_TITLE_CL</Name>
+    <Description>LOC_LIYUE_MOD_DESCRIPTION_CL</Description>
+    <CustomProperties></CustomProperties>
+    <Created>1631460778</Created>
+    <Teaser>LOC_LIYUE_MOD_TEASER_CL</Teaser>
+    <Authors>CLHotuski</Authors>
+    <SpecialThanks>Dwughjsd, KevinLiu, hemmelfort</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <LocalizedText>
+    <Text id="LOC_LIYUE_MOD_TITLE_CL">
+      <en_US>Liyue Civilization Pack</en_US>
+			<zh_Hans_CN>璃月文明包</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_LIYUE_MOD_TEASER_CL">
+      <en_US>New Civilization and Leader - Keqing of Liyue</en_US>
+			<zh_Hans_CN>新文明和领袖——璃月的刻晴</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_LIYUE_MOD_DESCRIPTION_CL">
+      <en_US>Contains a new civilization and leader.</en_US>
+			<zh_Hans_CN>包含1个新文明和领袖。</zh_Hans_CN>
+		</Text>
+  </LocalizedText>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Liyue_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Text/Liyue_ConfigTextCN.xml</File>
+      <File>Text/Liyue_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Liyue_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Liyue-Keqing.dep</File>
+    </UpdateArt>
+    <UpdateColors id="CinfigColor">
+      <File>Liyue_Colors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File priority="1">Liyue_Keqing.xml</File>
+      <File>Liyue_Civilization.xml</File>
+      <File>Liyue_Teahouse.xml</File>
+      <File>Liyue_Millelith.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>Text/Liyue_ConfigTextCN.xml</File>
+      <File>Text/Liyue_ConfigText.xml</File>
+      <File>Text/Liyue_Text.xml</File>
+      <File>Text/Liyue_TextCN.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Liyue_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Liyue-Keqing.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>Liyue_Colors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Liyue-Keqing.dep</File>
+    <File>Liyue.Art.xml</File>
+    <File>Liyue_Civilization.xml</File>
+    <File>Liyue_Colors.xml</File>
+    <File>Liyue_Config.xml</File>
+    <File>Liyue_Icons.xml</File>
+    <File>Liyue_Keqing.xml</File>
+    <File>Liyue_Millelith.xml</File>
+    <File>Liyue_Teahouse.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/LiyueUI.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/PrideMoments.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/LiyueUI.blp</File>
+    <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
+    <File>Textures/FALLBACK_NEUTRAL_KEQING.dds</File>
+    <File>Textures/FALLBACK_NEUTRAL_KEQING.tex</File>
+    <File>Textures/LEADER_KEQING_LOADING.dds</File>
+    <File>Textures/LEADER_KEQING_LOADING.tex</File>
+    <File>Textures/LEADER_KEQING_NEUTRAL.dds</File>
+    <File>Textures/LEADER_KEQING_NEUTRAL.tex</File>
+    <File>Text/Liyue_ConfigText.xml</File>
+    <File>Text/Liyue_ConfigTextCN.xml</File>
+    <File>Text/Liyue_Text.xml</File>
+    <File>Text/Liyue_TextCN.xml</File>
+    <File>XLPs/LiyueUI.xlp</File>
+  </Files>
+</Mod>

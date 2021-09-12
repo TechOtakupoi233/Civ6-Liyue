@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
+<!--<GameData>
 	<LocalizedText>
 		<!-- Pedia text (historical context) about the new building. -->
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TEAHOUSE_CHAPTER_HISTORY_PARA_1" Language="en_US">
@@ -110,5 +110,5 @@
     <Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KEQING_ANY" Language="en_US">
       <Text>Let me rub my face on all of your stuff so that it will be mine.</Text>
     </Row>
-	</LocalizedText>
-</GameData>
+<!--</LocalizedText>-->
+<!--</GameData>-->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <TraitModifiers>
+		    <Delete TraitType="TRAIT_YUHENG" ModifierId="TRAIT_BUILDER_CHARGE"/>
+	        <Delete TraitType="TRAIT_YUHENG" ModifierId="GOV_SETTLER_GRANT_BUILDER"/>
+        	<Delete TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_IGNORE_TERRAIN_COST"/>
+        	<Delete TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_CROSSING_RIVERS_COST"/>
+    </TraitModifiers>
+	<ModifierArguments>
+	    <Update>
+		    <Where ModifierId="TRAIT_ADJUST_GOVERNMENT_SLOTS" Name="GovernmentSlotType"/>
+			<Set>
+				<Value>SLOT_ECONOMIC</Value>
+			</Set>
+		</Update>
+	</ModifierArguments>
+</GameData>
