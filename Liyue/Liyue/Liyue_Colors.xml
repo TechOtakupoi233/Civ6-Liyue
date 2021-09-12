@@ -4,14 +4,18 @@
 		<Row>
 			<Type>LEADER_KEQING</Type>
 			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_STANDARD_ORANGE_LT</PrimaryColor>
+			<PrimaryColor>COLOR_KEQING_PURPLE</PrimaryColor>
 			<SecondaryColor>COLOR_STANDARD_WHITE_LT</SecondaryColor>
-			<Alt1PrimaryColor>COLOR_STANDARD_YELLOW_MD</Alt1PrimaryColor>
+			<Alt1PrimaryColor>COLOR_KEQING_PURPLE_DK</Alt1PrimaryColor>
 			<Alt1SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt1SecondaryColor>
-			<Alt2PrimaryColor>COLOR_STANDARD_YELLOW_DK</Alt2PrimaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_YELLOW_MD</Alt2PrimaryColor>
 			<Alt2SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt2SecondaryColor>
 			<Alt3PrimaryColor>COLOR_STANDARD_ORANGE_MD</Alt3PrimaryColor>
-			<Alt3SecondaryColor>COLOR_STANDARD_WHITE_LT</Alt3SecondaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_WHITE_DK</Alt3SecondaryColor>
 		</Row>
 	</PlayerColors>
+	<Colors>
+		<Row Type="COLOR_KEQING_PURPLE" COLOR="140,116,162,255"/>
+		<Row Type="COLOR_KEQING_PURPLE_DK" COLOR="107,84,135,255"/>
+	</Colors>
 </GameData>

@@ -32,7 +32,7 @@
 		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="256" Filename="TEAHOUSE_ICON_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>		
-		<Row Name="ICON_CIVILIZATION_LIYUE" Atlas="ATLAS_LIYUE" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_LIYUE_CL" Atlas="ATLAS_LIYUE" Index="0"/>
 		<Row Name="ICON_LEADER_KEQING" Atlas="ATLAS_KEQING" Index="0"/>
 		<Row Name="ICON_UNIT_MILLELITH" Atlas="ATLAS_MILLELITH_ICON" Index="0"/>
 		<Row Name="ICON_BUILDING_TEAHOUSE" Atlas="ATLAS_TEAHOUSE_ICON" Index="0"/>

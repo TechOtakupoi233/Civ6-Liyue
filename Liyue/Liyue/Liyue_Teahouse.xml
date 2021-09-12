@@ -13,6 +13,9 @@
 		<Row Building="BUILDING_MUSEUM_ART" PrereqBuilding="BUILDING_MUSEUM_ART"/>
 		<Row Building="BUILDING_MUSEUM_ARTIFACT" PrereqBuilding="BUILDING_MUSEUM_ART"/>
 	</BuildingPrereqs>
+	<Building_TourismBombs_XP2>
+		<Row BuildingType="BUILDING_TEAHOUSE" TourismBombValue="250"/>
+	</Building_TourismBombs_XP2>
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_TEAHOUSE" YieldType="YIELD_CULTURE" YieldChange="2" />
 	</Building_YieldChanges>

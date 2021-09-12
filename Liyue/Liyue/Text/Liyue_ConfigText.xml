@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--<GameData>
 	<LocalizedText>
-		<Row Tag="LOC_CIVILIZATION_LIYUE_NAME" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_NAME" Language="en_US">
 			<Text>The LIYUEs</Text>
 		</Row>
 		
-		<Row Tag="LOC_CIVILIZATION_LIYUE_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_DESCRIPTION" Language="en_US">
 			<Text>The Majestic LIYUEs</Text>
 		</Row>
 
-		<Row Tag="LOC_CIVILIZATION_LIYUE_ADJECTIVE" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE" Language="en_US">
 			<Text>LIYUE</Text>
 		</Row>
 		

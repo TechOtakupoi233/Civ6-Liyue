@@ -2,15 +2,15 @@
 <GameData>
 	<Players>
 		<!--<Row>
-			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
+			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_LIYUE_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_LIYUE</CivilizationIcon>
+			<CivilizationName>LOC_CIVILIZATION_LIYUE_CL_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LIYUE_CL</CivilizationIcon>
 			<LeaderName>LOC_LEADER_KEQING_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_KEQING</LeaderIcon>
 			<CivilizationAbilityName>TRAIT_CIVILIZATION_GEO_HARBOR_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE</CivilizationAbilityIcon>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE_CL</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_KEQING_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KEQING_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_KEQING</LeaderAbilityIcon>
@@ -20,15 +20,15 @@
 		<!-- Expansion 1 Support -->
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
+			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_LIYUE_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_LIYUE</CivilizationIcon>
+			<CivilizationName>LOC_CIVILIZATION_LIYUE_CL_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LIYUE_CL</CivilizationIcon>
 			<LeaderName>LOC_LEADER_KEQING_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_KEQING</LeaderIcon>
 			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE</CivilizationAbilityIcon>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE_CL</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_KEQING_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KEQING_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_KEQING</LeaderAbilityIcon>
@@ -38,15 +38,15 @@
 		<!-- Expansion 2 Support -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
+			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_LIYUE_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_LIYUE</CivilizationIcon>
+			<CivilizationName>LOC_CIVILIZATION_LIYUE_CL_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LIYUE_CL</CivilizationIcon>
 			<LeaderName>LOC_LEADER_KEQING_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_KEQING</LeaderIcon>
 			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE</CivilizationAbilityIcon>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE_CL</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_KEQING_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KEQING_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_KEQING</LeaderAbilityIcon>
@@ -56,7 +56,7 @@
 	</Players>
 	<PlayerItems>
 		<!--<Row>
-			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
+			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
 			<Type>BUILDING_TEAHOUSE</Type>
 			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
@@ -65,7 +65,7 @@
 			<SortIndex>10</SortIndex>
 		</Row>
 		<Row>
-			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
+			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
 			<Type>UNIT_MILLELITH</Type>
 			<Name>LOC_UNIT_MILLELITH_NAME</Name>
@@ -76,7 +76,7 @@
 		<!-- Expansion 1 Support -->
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
+			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
 			<Type>BUILDING_TEAHOUSE</Type>
 			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
@@ -86,7 +86,7 @@
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
+			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
 			<Type>UNIT_MILLELITH</Type>
 			<Name>LOC_UNIT_MILLELITH_NAME</Name>
@@ -97,7 +97,7 @@
 		<!-- Expansion 2 Support -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
+			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
 			<Type>BUILDING_TEAHOUSE</Type>
 			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
@@ -107,7 +107,7 @@
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
+			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
 			<Type>UNIT_MILLELITH</Type>
 			<Name>LOC_UNIT_MILLELITH_NAME</Name>

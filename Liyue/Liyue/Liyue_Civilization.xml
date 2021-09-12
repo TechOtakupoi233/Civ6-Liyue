@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="CIVILIZATION_LIYUE" Kind="KIND_CIVILIZATION" />
+		<Row Type="CIVILIZATION_LIYUE_CL" Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_GEO_HARBOR" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_UNIT_MILLELITH" Kind="KIND_TRAIT" />
@@ -9,50 +9,50 @@
 	
 	<Civilizations>
 		<Row>
-			<CivilizationType>CIVILIZATION_LIYUE</CivilizationType>
-			<Name>LOC_CIVILIZATION_LIYUE_NAME</Name>
-			<Description>LOC_CIVILIZATION_LIYUE_DESCRIPTION</Description>
-			<Adjective>LOC_CIVILIZATION_LIYUE_ADJECTIVE</Adjective>
+			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
+			<Name>LOC_CIVILIZATION_LIYUE_CL_NAME</Name>
+			<Description>LOC_CIVILIZATION_LIYUE_CL_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
 			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
 		</Row>
 	</Civilizations>
 
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_LIYUE" LeaderType="LEADER_KEQING" CapitalName="LOC_CIVLIZATION_LIYUE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_KEQING" CapitalName="LOC_CIVLIZATION_LIYUE_CITY_1" />
 	</CivilizationLeaders>
 
 	<CivilizationCitizenNames>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_1" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_2" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_3" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_4" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_5" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_6" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_7" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_8" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_9" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_MALE_10" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_1" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_2" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_3" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_4" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_5" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_6" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_7" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_8" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_9" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_10" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_5" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_6" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_7" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_8" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_9" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_MALE_10" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_5" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_6" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_7" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_8" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_9" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CitizenName="LOC_CITIZEN_LIYUE_FEMALE_10" Female="1"/>
 	</CivilizationCitizenNames>
 
 	<CivilizationInfo>
-		<Row CivilizationType="CIVILIZATION_LIYUE" Header="LOC_CIVINFO_LIYUE_LOCATION" Caption="LOC_CIVINFO_LIYUE_LOCATION_DESCRIPTION" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" Header="LOC_CIVINFO_LIYUE_LOCATION" Caption="LOC_CIVINFO_LIYUE_LOCATION_DESCRIPTION" />
 	</CivilizationInfo>
 
 	<CivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_LIYUE" TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" />
 	</CivilizationTraits>
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" Name="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Description="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" />
@@ -195,16 +195,16 @@
 		<Row ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD" Context="Preview" Text="LOC_MODIFIER_TRADE_ROUTE_YIELD_GOLD"/>
 	</ModifierStrings>
 	<CityNames>
-		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_1" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_2" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_3" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_4" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_5" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_6" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_7" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_8" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_9" />
-		<Row CivilizationType="CIVILIZATION_LIYUE" CityName="LOC_CIVLIZATION_LIYUE_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_10" />
 	</CityNames>
 	<Loadinginfo>
 		<Row>
@@ -213,7 +213,7 @@
 		</Row>
 	</Loadinginfo>
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_LIYUE" TerrainType="TERRAIN_COAST" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TerrainType="TERRAIN_COAST" Tier="1"/>
 	</StartBiasTerrains>
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_TEAHOUSE" Texture="MOMENT_BUILDING_TEAHOUSE"/>
