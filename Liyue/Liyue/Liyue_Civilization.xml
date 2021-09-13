@@ -68,6 +68,8 @@
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DISTRICT_COMMERCIAL_HUB_BUILDINGS_PRODUCTION" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_CULTURE"/>
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_FAITH"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_QIMPROVEMENT_CULTURE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_QIMPROVEMENT_FAITH"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
@@ -98,12 +100,22 @@
 		<Row>
 			<ModifierId>MODIFIER_TILE_IMPROVEMENT_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>HAS_IMPROVEMENT</SubjectRequirementSetId>
+			<SubjectRequirementSetId>REQ_PLOT_HAS_MINE_LUXURY</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>MODIFIER_TILE_IMPROVEMENT_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>HAS_IMPROVEMENT</SubjectRequirementSetId>
+			<SubjectRequirementSetId>REQ_PLOT_HAS_MINE_LUXURY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQ_PLOT_HAS_QUARRY_LUXURY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQ_PLOT_HAS_QUARRY_LUXURY</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -182,15 +194,40 @@
 			<Name>YieldType</Name>
 			<Value>YIELD_FAITH</Value>
 		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row><Row>
-			<RequirementSetId>HAS_IMPROVEMENT</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>REQ_PLOT_HAS_MINE_LUXURY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>REQ_PLOT_HAS_QUARRY_LUXURY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
@@ -202,9 +239,10 @@
 			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
 			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
 		</Row>
-		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_MINE"/>
-		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_QUARRY"/>
-		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_ASTROLOGY"/>
+		<Row RequirementSetId="REQ_PLOT_HAS_MINE_LUXURY" RequirementId="HAS_IMPROVEMENT_MINE"/>		
+		<Row RequirementSetId="REQ_PLOT_HAS_MINE_LUXURY" RequirementId="HAS_ORE_LUXURY"/>
+		<Row RequirementSetId="REQ_PLOT_HAS_QUARRY_LUXURY" RequirementId="HAS_IMPROVEMENT_QUARRY"/>
+		<Row RequirementSetId="REQ_PLOT_HAS_QUARRY_LUXURY" RequirementId="HAS_ORE_LUXURY"/>
 	</RequirementSetRequirements>
 	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
 	<Requirements>
@@ -218,7 +256,7 @@
 		</Row>
 		<Row RequirementId="HAS_IMPROVEMENT_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
 		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
-		<Row RequirementId="HAS_ASTROLOGY" RequirementType="REQUIREMENT_PLAYER_HAS_TECHNOLOGY"/>
+		<Row RequirementId="HAS_ORE_LUXURY" RequirementType="REQUIREMENT_PLOT_RESOURCE_CLASS_TYPE_MATCHES"/>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
@@ -233,7 +271,7 @@
 		</Row>
 		<Row RequirementId="HAS_IMPROVEMENT_MINE" Name="ImprovementType" Value="IMPROVEMENT_MINE"/>
 		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" Name="ImprovementType" Value="IMPROVEMENT_QUARRY"/>
-		<Row RequirementId="HAS_ASTROLOGY" Name="TechnologyType" Value="TECH_ASTROLOGY"/>
+		<Row RequirementId="HAS_ORE_LUXURY" Name="ResourceClassType" Value="RESOURCECLASS_LUXURY"/>
 	</RequirementArguments>
 	<ModifierStrings>
 		<Row ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD" Context="Preview" Text="LOC_MODIFIER_TRADE_ROUTE_YIELD_GOLD"/>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Traits>
-		<Where TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" Name="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME"/>
-		<Set>
-			<Description>LOC_TRAIT_CIVILIZATION_GEO_HARBOR_BP_DESCRIPTION</Description>
-		</Set>
-		<Where TraitType="TRAIT_YUHENG" Name="LOC_TRAIT_LEADER_KEQING_NAME"/>
-		<Set>
-			<Description>LOC_TRAIT_LEADER_KEQING_BP_DESCRIPTION</Description>
-		</Set>
+		<Update>
+			<Where TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" Name="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME"/>
+			<Set>
+				<Description>LOC_TRAIT_CIVILIZATION_GEO_HARBOR_BP_DESCRIPTION</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where TraitType="TRAIT_YUHENG" Name="LOC_TRAIT_LEADER_KEQING_NAME"/>
+			<Set>
+				<Description>LOC_TRAIT_LEADER_KEQING_BP_DESCRIPTION</Description>
+			</Set>
+		</Update>
 	</Traits>
     <TraitModifiers>
 		<Delete TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DISTRICT_COMMERCIAL_HUB_PRODUCTION" />
 		<Delete TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DISTRICT_COMMERCIAL_HUB_BUILDINGS_PRODUCTION" />
 		<Delete TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_CULTURE"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_FAITH"/>
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_PRODUCTION"/>
 	</TraitModifiers>
 	<Modifiers>
@@ -35,4 +40,14 @@
 			<Value>YIELD_PRODUCTION</Value>
 		</Row>
 	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>HAS_IMPROVEMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_MINE"/>
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="HAS_IMPROVEMENT_QUARRY"/>
+	</RequirementSetRequirements>
 </GameData>

@@ -24,7 +24,7 @@
 			<Text>岩与契约的海港</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>游戏开始时通常位于海岸单元格旁。	[NEWLINE]修建港口、商业中心及其中的建筑时+50% [ICON_Production] 生产力, 市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。[NEWLINE]研发“占星术”后矿山、采石场提供+2 [ICON_Culture] 文化值和 [ICON_Faith] 信仰值。</Text>
+			<Text>游戏开始时通常位于海岸单元格旁。	[NEWLINE]修建港口、商业中心及其中的建筑时+50% [ICON_Production] 生产力, 市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。[NEWLINE]通过矿山、采石场改良的奢侈品资源提供+2 [ICON_Culture] 文化值和 [ICON_Faith] 信仰值。</Text>
 			<!--[NEWLINE]对违反承诺的文明不满+100%。-->
 		</Row>
 
