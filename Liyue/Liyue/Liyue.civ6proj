@@ -13,7 +13,7 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File priority="1">Liyue_Keqing.xml</File><File>Liyue_Civilization.xml</File><File>Liyue_Teahouse.xml</File><File>Liyue_Millelith.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/Liyue_ConfigTextCN.xml</File><File>Text/Liyue_TextCN.xml</File></UpdateText><UpdateIcons id="Icons"><File>Liyue_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="Color"><File>Liyue_Colors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File priority="1">Liyue_Keqing.xml</File><File>Liyue_Civilization.xml</File><File>Liyue_Teahouse.xml</File><File>Liyue_Millelith.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/Liyue_ConfigTextCN.xml</File><File>Text/Liyue_TextCN.xml</File></UpdateText><UpdateIcons id="Icons"><File>Liyue_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="Color"><File>Liyue_Colors.xml</File></UpdateColors><UpdateAudio id="Music"><File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File></UpdateAudio></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Liyue_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/Liyue_ConfigTextCN.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Liyue_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="CinfigColor"><File>Liyue_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>Liyue</AssemblyName>
@@ -22,7 +22,6 @@
     <SpecialThanks>Dwughjsd, KevinLiu, hemmelfort</SpecialThanks>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
-  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
 </Associations>]]></AssociationData>
     <ModProperties>
       <CustomProperties xmlns="" />
@@ -45,6 +44,90 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Liyue.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Liyue_Ningguang.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\102125831.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\114035794.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\133144101.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\221443217.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\297132843.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\345367100.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\360754117.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\374477175.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\419122388.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\487219299.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\562692387.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\569388661.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\612026340.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\640209677.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\659103386.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\665474616.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\713172160.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\723223289.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\778529700.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\865902600.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\887152990.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\904713138.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueBGM.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueBGM.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueBGM.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueSoundBanks.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\PluginInfo.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_KEQING.dds">
@@ -81,6 +164,9 @@
       <SubType>Content</SubType>
     </Content>
     <Folder Include="Artdefs\" />
+    <Folder Include="Platforms\" />
+    <Folder Include="Platforms\Windows\" />
+    <Folder Include="Platforms\Windows\Audio\" />
     <Folder Include="Text" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />

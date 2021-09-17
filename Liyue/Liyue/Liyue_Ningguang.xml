@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Liyue_Ningguang -->
+<!-- Author: Shiro -->
+<!-- DateCreated: 9/14/2021 4:22:47 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_NINGGUANG" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_TIANQUAN" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_NINGGUANG</LeaderType>
+			<Name>LOC_LEADER_NINGGUANG_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+		<Update>
+			<Where LeaderType="LEADER_NINGGUANG"/>
+			<Set>
+				<Sex>Female</Sex>
+			</Set>
+		</Update>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_NINGGUANG" Quote="LOC_LEADER_KEQING_QUOTE"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_NINGGUANG" TraitType="TRAIT_TIANQUAN"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_TIANQUAN" Name="LOC_TRAIT_LEADER_NINGGUANG_NAME" Description="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="UNIQUE_LEADER_ADD_VISIBILITY"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_SPY_PROMOTION_SURVEILLANCE"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_SPY_PROMOTION_POLYGRAPH"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="AFFLUENCE_COPY_LUXURIES_FOR_IMPORT"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES"/>
+	</TraitModifiers>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_NINGGUANG" AgendaType="AGENDA_MONEY_GRUBBER"/>
+	</HistoricalAgendas>
+	<Modifiers>
+		<Row>
+			<ModifierId>MOD_TIANQUAN_SPY_PROMOTION_SURVEILLANCE</ModifierId>
+		    <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MOD_TIANQUAN_SPY_PROMOTION_POLYGRAPH</ModifierId>
+	    	<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_FOREIGN_TRADE_ROUTES_PASSING_THROUGH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MOD_TIANQUAN_SPY_PROMOTION_SURVEILLANCE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_SPY_SURVEILLANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOD_TIANQUAN_SPY_PROMOTION_POLYGRAPH</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_SPY_POLYGRAPH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

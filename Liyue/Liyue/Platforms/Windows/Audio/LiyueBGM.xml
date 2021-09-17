@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\WwiseProjects\Civ6_Liyue_BGM\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\WwiseProjects\Civ6_Liyue_BGM\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\WwiseProjects\Civ6_Liyue_BGM\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\WwiseProjects\Civ6_Liyue_BGM\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="102125831" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - A Serendipitous Encounter 偶遇归人.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - A Serendipitous Encounter 偶遇归人_EE79F7FB.wem</Path>
+		</File>
+		<File Id="114035794" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Liyue 璃月.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Liyue 璃月_EE79F7FB.wem</Path>
+		</File>
+		<File Id="133144101" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Faint Tracks 追寻仙迹.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Faint Tracks 追寻仙迹_EE79F7FB.wem</Path>
+		</File>
+		<File Id="221443217" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - The Fading Stories (Qingce Night) 不再年轻的村庄 (轻策夜间).wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - The Fading Stories (Qingce Night) 不再年轻的村庄 (轻策夜间)_EE79F7FB.wem</Path>
+		</File>
+		<File Id="297132843" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Adeptus' Solace 仙家独酌.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Adeptus' Solace 仙家独酌_EE79F7FB.wem</Path>
+		</File>
+		<File Id="345367100" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Maiden's Longing 环佩凭栏望千帆.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Maiden's Longing 环佩凭栏望千帆_EE79F7FB.wem</Path>
+		</File>
+		<File Id="360754117" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月_EE79F7FB.wem</Path>
+		</File>
+		<File Id="374477175" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Clear Sky Over Liyue 璃月的晴空.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Clear Sky Over Liyue 璃月的晴空_EE79F7FB.wem</Path>
+		</File>
+		<File Id="419122388" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Melodious Flute 古道笛声.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Melodious Flute 古道笛声_EE79F7FB.wem</Path>
+		</File>
+		<File Id="487219299" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇_EE79F7FB.wem</Path>
+		</File>
+		<File Id="562692387" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Call It a Day in Liyue 璃月的一日将尽.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Call It a Day in Liyue 璃月的一日将尽_EE79F7FB.wem</Path>
+		</File>
+		<File Id="569388661" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Adeptus' Retirement 偷闲浮生.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Adeptus' Retirement 偷闲浮生_EE79F7FB.wem</Path>
+		</File>
+		<File Id="612026340" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - A Casual Visit 亭台闲坐.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - A Casual Visit 亭台闲坐_EE79F7FB.wem</Path>
+		</File>
+		<File Id="640209677" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Good Night, Liyue 晚安，璃月.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Good Night, Liyue 晚安，璃月_EE79F7FB.wem</Path>
+		</File>
+		<File Id="659103386" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Rays of Sunlight 天霁日出.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Rays of Sunlight 天霁日出_EE79F7FB.wem</Path>
+		</File>
+		<File Id="665474616" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Another Hopeful Tomorrow 希望的明日.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Another Hopeful Tomorrow 希望的明日_EE79F7FB.wem</Path>
+		</File>
+		<File Id="713172160" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Cozy Leisure Time (Wangshu Daytime) 品茗尝清心 (望舒昼间).wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Cozy Leisure Time (Wangshu Daytime) 品茗尝清心 (望舒昼间)_EE79F7FB.wem</Path>
+		</File>
+		<File Id="723223289" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Above the Sea of Clouds 云海之上.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Above the Sea of Clouds 云海之上_EE79F7FB.wem</Path>
+		</File>
+		<File Id="778529700" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Peaceful Hike (Qingce Daytime) 山风拂萝衣 (轻策昼间).wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Peaceful Hike (Qingce Daytime) 山风拂萝衣 (轻策昼间)_EE79F7FB.wem</Path>
+		</File>
+		<File Id="865902600" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Emerging Clouds 风静云起.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Emerging Clouds 风静云起_EE79F7FB.wem</Path>
+		</File>
+		<File Id="887152990" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Sun Rises in Liyue 璃月的日出.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Sun Rises in Liyue 璃月的日出_EE79F7FB.wem</Path>
+		</File>
+		<File Id="904713138" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Sojourner's Sweet Dream (Wangshu Night) 美梦抚归人 (望舒夜间).wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Sojourner's Sweet Dream (Wangshu Night) 美梦抚归人 (望舒夜间)_EE79F7FB.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="401483830" Language="SFX">
+			<ShortName>LiyueSoundBank</ShortName>
+			<Path>LiyueSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2716593602" Name="Pause_Music_LIYUE_CL"/>
+				<Event Id="3801824326" Name="Play_Leader_Music_LIYUE_CL"/>
+				<Event Id="1438858432" Name="Play_Music_LIYUE_CL"/>
+				<Event Id="1242380829" Name="Resume_Music_LIYUE_CL"/>
+				<Event Id="3731939416" Name="Start_Music_LIYUE_CL"/>
+				<Event Id="1743248852" Name="Stop_Leader_Music_LIYUE_CL"/>
+				<Event Id="1614299482" Name="Stop_Music_LIYUE_CL"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="102125831"/>
+				<File Id="114035794"/>
+				<File Id="133144101"/>
+				<File Id="221443217"/>
+				<File Id="297132843"/>
+				<File Id="345367100"/>
+				<File Id="360754117"/>
+				<File Id="374477175"/>
+				<File Id="419122388"/>
+				<File Id="487219299"/>
+				<File Id="562692387"/>
+				<File Id="569388661"/>
+				<File Id="612026340"/>
+				<File Id="640209677"/>
+				<File Id="659103386"/>
+				<File Id="665474616"/>
+				<File Id="713172160"/>
+				<File Id="723223289"/>
+				<File Id="778529700"/>
+				<File Id="865902600"/>
+				<File Id="887152990"/>
+				<File Id="904713138"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>		
+	</SoundBanks>
+</SoundBanksInfo>

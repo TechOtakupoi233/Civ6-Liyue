@@ -32,12 +32,19 @@
 			<Text>引领变革的「玉衡星」</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>刻晴的开拓者、建造者、军事工程师的 [ICON_Movement] 移动力+2，无视地形额外移动力消耗，且建造者和军事工程师可用次数+2,新城市自动获赠建造者。[NEWLINE]提供一个额外的通配符政策槽位。
-			</Text>
-			<!--[NEWLINE]建成任何特色区域时向相邻单元格施放文化炸弹。-->
+			<Text>刻晴的开拓者、建造者、军事工程师的 [ICON_Movement] 移动力+2，无视地形额外移动力消耗，且建造者和军事工程师可用次数+2,新城市自动获赠建造者。[NEWLINE]提供一个额外的通配符政策槽位。</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="zh_Hans_CN">
 			<Text>「玉衡星」刻晴，您总是站在变革的风口浪尖，带领着璃月人民追随时代的步伐。时间已经证明璃月不再需要岩王帝君与众仙的护佑，人类已经超越了神明和仙人的步伐。现在，您将正式承担变革者的责任，让璃月以前所未有的脚步向前迈进吧。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_NAME" Language="zh_Hans_CN">
+			<Text>无所不知的「天权星」</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>外交能见度提升一级，凝光的间谍初始就拥有“监视”和“测谎仪”升级。[NEWLINE]作为城邦的宗主国时，可获得城邦的奢侈品资源，从经济型城邦处获得的外交支持翻倍。[NEWLINE]经过璃月城市的国际贸易路线+2金币。有执行反间谍任务的间谍所在的璃月城市金币+10%。</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="zh_Hans_CN">
+			<Text>「天权星」凝光，您在商战中无人能敌。</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_TEAHOUSE_NAME" Language="zh_Hans_CN">

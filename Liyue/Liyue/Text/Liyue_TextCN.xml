@@ -138,6 +138,36 @@
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_10" Language="zh_Hans_CN">
 			<Text>往生堂第六支部</Text>
 		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_11" Language="zh_Hans_CN">
+			<Text>往生堂第七支部</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_12" Language="zh_Hans_CN">
+			<Text>往生堂第八支部</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_13" Language="zh_Hans_CN">
+			<Text>往生堂第九支部</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_14" Language="zh_Hans_CN">
+			<Text>往生堂第十支部</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_15" Language="zh_Hans_CN">
+			<Text>往生堂第十一支部</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_16" Language="zh_Hans_CN">
+			<Text>往生堂第十二支部</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_17" Language="zh_Hans_CN">
+			<Text>往生堂第十三支部</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_18" Language="zh_Hans_CN">
+			<Text>往生堂第十四支部</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_19" Language="zh_Hans_CN">
+			<Text>往生堂第十五支部</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_20" Language="zh_Hans_CN">
+			<Text>往生堂第十六支部</Text>
+		</Row>
 
 		<!--Civilization Factoids -->
 		<!-- 地理环境与社会数据 -->
