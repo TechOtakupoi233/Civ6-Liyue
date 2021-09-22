@@ -41,10 +41,16 @@
 			</Set>
 		</Update>
 	</Leaders>
-
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_KEQING" Quote="LOC_LEADER_KEQING_QUOTE"/>
 	</LeaderQuotes>
+	<Loadinginfo>
+		<Row>
+			<LeaderType>LEADER_KEQING</LeaderType>
+			<ForegroundImage>LEADER_KEQING_LOADING.dds</ForegroundImage>
+		</Row>
+	</Loadinginfo>
+	
 	<LeaderTraits>
 		<Row LeaderType="LEADER_KEQING" TraitType="TRAIT_YUHENG"/>
 	</LeaderTraits>

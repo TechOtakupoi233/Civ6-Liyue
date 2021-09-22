@@ -20,10 +20,16 @@
 			</Set>
 		</Update>
 	</Leaders>
-
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_NINGGUANG" Quote="LOC_LEADER_KEQING_QUOTE"/>
 	</LeaderQuotes>
+	<Loadinginfo>
+		<Row>
+			<LeaderType>LEADER_NINGGUANG</LeaderType>
+			<ForegroundImage>LEADER_NINGGUANG_LOADING.dds</ForegroundImage>
+		</Row>
+	</Loadinginfo>
+	
 	<LeaderTraits>
 		<Row LeaderType="LEADER_NINGGUANG" TraitType="TRAIT_TIANQUAN"/>
 	</LeaderTraits>

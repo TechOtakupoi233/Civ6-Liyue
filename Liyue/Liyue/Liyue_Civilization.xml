@@ -329,12 +329,6 @@
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_19" />
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_20" />
 	</CityNames>
-	<Loadinginfo>
-		<Row>
-			<LeaderType>LEADER_KEQING</LeaderType>
-			<ForegroundImage>LEADER_KEQING_LOADING.dds</ForegroundImage>
-		</Row>
-	</Loadinginfo>
 	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TerrainType="TERRAIN_COAST" Tier="1"/>
 	</StartBiasTerrains>

@@ -7,26 +7,22 @@
 		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_NAME" Language="zh_Hans_CN">
 			<Text>璃月</Text>
 		</Row>
-
 		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>璃月</Text>
+			<Text>岩与契约的海港</Text>
 		</Row>
-
 		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE" Language="zh_Hans_CN">
 			<Text>璃月的</Text>
 		</Row>
-
-		<Row Tag="LOC_LEADER_KEQING_NAME" Language="zh_Hans_CN">
-			<Text>刻晴</Text>
-		</Row>
-
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Language="zh_Hans_CN">
 			<Text>岩与契约的海港</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>游戏开始时通常位于海岸单元格旁。	[NEWLINE]修建港口、商业中心及其中的建筑时+50% [ICON_Production] 生产力, 市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。[NEWLINE]通过矿山、采石场改良的奢侈品资源提供+2 [ICON_Culture] 文化值和 [ICON_Faith] 信仰值。[NEWLINE]对违反承诺的文明产生额外不满。</Text>
 		</Row>
-
+		
+		<Row Tag="LOC_LEADER_KEQING_NAME" Language="zh_Hans_CN">
+			<Text>刻晴</Text>
+		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_NAME" Language="zh_Hans_CN">
 			<Text>引领变革的「玉衡星」</Text>
 		</Row>
@@ -35,6 +31,9 @@
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="zh_Hans_CN">
 			<Text>「玉衡星」刻晴，您总是站在变革的风口浪尖，带领着璃月人民追随时代的步伐。时间已经证明璃月不再需要岩王帝君与众仙的护佑，人类已经超越了神明和仙人的步伐。现在，您将正式承担变革者的责任，让璃月以前所未有的脚步向前迈进吧。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_NINGGUANG_NAME" Language="zh_Hans_CN">
+			<Text>凝光</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_NAME" Language="zh_Hans_CN">
 			<Text>无所不知的「天权星」</Text>
