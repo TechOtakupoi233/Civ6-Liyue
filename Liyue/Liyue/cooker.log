@@ -7,7 +7,7 @@ Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'UI/PrideMoments'
 Load finished for: 'UI/PrideMoments' in 0.002 seconds
 Cook finished for: 'UI/PrideMoments' in 0.019 seconds
-Disk write finished for: 'UI/PrideMoments' in 0.053 seconds
+Disk write finished for: 'UI/PrideMoments' in 0.050 seconds
 Cleanup finished for: 'UI/PrideMoments' in 0.000 seconds
 XLP cook completed with success.
-Cook completed in 0.084 seconds
+Cook completed in 0.080 seconds

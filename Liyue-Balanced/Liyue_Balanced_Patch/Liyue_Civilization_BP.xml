@@ -32,7 +32,7 @@
 		<Row>
 			<ModifierId>MODIFIER_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>MODIFIER_TILE_IMPROVEMENT_PRODUCTION</ModifierId>

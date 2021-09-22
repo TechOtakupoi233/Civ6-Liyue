@@ -35,7 +35,8 @@
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_SPY_PROMOTION_SURVEILLANCE"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_SPY_PROMOTION_POLYGRAPH"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="AFFLUENCE_COPY_LUXURIES_FOR_IMPORT"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MODIFIER_TIANQUAN_SUZERAIN_FAVOR"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES"/>		
 	</TraitModifiers>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_NINGGUANG" AgendaType="AGENDA_MONEY_GRUBBER"/>
@@ -48,6 +49,10 @@
 		<Row>
 			<ModifierId>MOD_TIANQUAN_SPY_PROMOTION_POLYGRAPH</ModifierId>
 	    	<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TIANQUAN_SUZERAIN_FAVOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SUZERAIN_FAVOR_MULTIPLIER</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>
@@ -64,6 +69,11 @@
 			<ModifierId>MOD_TIANQUAN_SPY_PROMOTION_POLYGRAPH</ModifierId>
 			<Name>PromotionType</Name>
 			<Value>PROMOTION_SPY_POLYGRAPH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TIANQUAN_SUZERAIN_FAVOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>150</Value>
 		</Row>
 		<Row>
 			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>

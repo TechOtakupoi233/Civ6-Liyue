@@ -133,6 +133,46 @@
 			<m_EntryID text="MILLELITH_ICON_80"/>
 			<m_ObjectName text="MILLELITH_ICON_80"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_LOADING"/>
+			<m_ObjectName text="LEADER_NINGGUANG_LOADING"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_NEUTRAL"/>
+			<m_ObjectName text="LEADER_NINGGUANG_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_ICON_256"/>
+			<m_ObjectName text="LEADER_NINGGUANG_ICON_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_ICON_32"/>
+			<m_ObjectName text="LEADER_NINGGUANG_ICON_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_ICON_45"/>
+			<m_ObjectName text="LEADER_NINGGUANG_ICON_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_ICON_48"/>
+			<m_ObjectName text="LEADER_NINGGUANG_ICON_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_ICON_50"/>
+			<m_ObjectName text="LEADER_NINGGUANG_ICON_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_ICON_55"/>
+			<m_ObjectName text="LEADER_NINGGUANG_ICON_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_ICON_64"/>
+			<m_ObjectName text="LEADER_NINGGUANG_ICON_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_ICON_80"/>
+			<m_ObjectName text="LEADER_NINGGUANG_ICON_80"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

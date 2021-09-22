@@ -24,8 +24,7 @@
 			<Text>岩与契约的海港</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>游戏开始时通常位于海岸单元格旁。	[NEWLINE]修建港口、商业中心及其中的建筑时+50% [ICON_Production] 生产力, 市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。[NEWLINE]通过矿山、采石场改良的奢侈品资源提供+2 [ICON_Culture] 文化值和 [ICON_Faith] 信仰值。</Text>
-			<!--[NEWLINE]对违反承诺的文明不满+100%。-->
+			<Text>游戏开始时通常位于海岸单元格旁。	[NEWLINE]修建港口、商业中心及其中的建筑时+50% [ICON_Production] 生产力, 市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。[NEWLINE]通过矿山、采石场改良的奢侈品资源提供+2 [ICON_Culture] 文化值和 [ICON_Faith] 信仰值。[NEWLINE]对违反承诺的文明产生额外不满。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_NAME" Language="zh_Hans_CN">
@@ -41,7 +40,7 @@
 			<Text>无所不知的「天权星」</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>外交能见度提升一级，凝光的间谍初始就拥有“监视”和“测谎仪”升级。[NEWLINE]作为城邦的宗主国时，可获得城邦的奢侈品资源，从经济型城邦处获得的外交支持翻倍。[NEWLINE]经过璃月城市的国际贸易路线+2金币。有执行反间谍任务的间谍所在的璃月城市金币+10%。</Text>
+			<Text>外交能见度提升一级，凝光的间谍初始就拥有“监视”和“测谎仪”升级。[NEWLINE]作为城邦的宗主国时，可获得城邦的奢侈品资源，从城邦处获得的外交支持+50%。[NEWLINE]经过璃月城市的国际贸易路线+2金币。</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="zh_Hans_CN">
 			<Text>「天权星」凝光，您在商战中无人能敌。</Text>
@@ -54,20 +53,13 @@
 			<Text>替代古罗马剧场。提供 [ICON_Amenities] 宜居度，并为此城市中的 [ICON_GreatWork_Writing] 文学巨作提供翻倍的 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。</Text>
 		</Row>
 		
-		<Row Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DUMMY_NAME" Language="zh_Hans_CN">
-			<Text>七天神像</Text>
-		</Row>
-
-		<Row Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DUMMY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>照抄Kevin Liu佬的七天神像（最后做）</Text>
-		</Row>
-		
 		<Row Tag="LOC_UNIT_MILLELITH_NAME" Language="zh_Hans_CN">
 			<Text>千岩军</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>替代长矛兵。拥有更高的 [ICON_Movement] 移动力，获得的夹击和支援加成翻倍。</Text>
 		</Row>
+
 		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_BP" Language="zh_Hans_CN">
 		    <Text>璃月文明包-平衡分支补丁</Text>
 		</Row>
@@ -76,6 +68,15 @@
 		</Row>
 		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL_BP" Language="zh_Hans_CN">
 		    <Text>对璃月文明和领袖针对原版游戏进行平衡性调整。</Text>
+		</Row>
+		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_SOT7" Language="zh_Hans_CN">
+		    <Text>璃月文明包-七天神像补丁</Text>
+		</Row>
+		<Row Tag="LOC_LIYUE_MOD_TEASER_CL_SOT7" Language="zh_Hans_CN">
+		    <Text>璃月文明包的七天神像补丁。</Text>
+		</Row>
+		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL_SOT7" Language="zh_Hans_CN">
+		    <Text>为璃月文明引入Kevin Liu佬的七天神像。依赖于Kevin Liu佬的“原神·蒙德Mod”。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

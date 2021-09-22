@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="865CF48E-7EF0-2774-196A-E15C39349555" version="1">
+  <Properties>
+    <Name>LOC_LIYUE_MOD_TITLE_CL_SOT7</Name>
+    <Description>LOC_LIYUE_MOD_DESCRIPTION_CL_SOT7</Description>
+    <Created>1631536764</Created>
+    <Teaser>LOC_LIYUE_MOD_TEASER_CL_SOT7</Teaser>
+    <Authors>CLHotsuki</Authors>
+    <SpecialThanks>Kevin Liu</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4" title="LOC_LIYUE_MOD_TITLE_CL" />
+    <Mod id="440d0a84-d27e-40db-90b6-797d0e820aaa" title="MOD_GENSHIN_IMPACT_MONDSTADT"/>
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="UpdateConfig">
+      <File>Liyue_Config_SOT7.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="UpdateData">
+      <File>Liyue_SOT7.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Liyue_SOT7.xml</File>
+  </Files>
+</Mod>

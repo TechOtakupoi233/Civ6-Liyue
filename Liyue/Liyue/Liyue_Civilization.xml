@@ -60,6 +60,7 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" Name="LOC_UNIT_MILLELITH_NAME" Description="LOC_UNIT_MILLELITH_DESCRIPTION" />
 	</Traits>
 	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_BROKEN_PLEDGE" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DUPLICATE_TRADE_ROUTE" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_HARBOR_PRODUCTION" />
@@ -72,6 +73,11 @@
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_QIMPROVEMENT_FAITH"/>
 	</TraitModifiers>
 	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_BROKEN_PLEDGE</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+		</Row>
 		<Row>
 			<ModifierId>MODIFIER_HARBOR_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
@@ -119,6 +125,31 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<Name>IncrementValue</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<Name>ModifierPerTransgression</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_BROKEN_PLEDGE</Value>
+		</Row>
 		<Row>
 			<ModifierId>MODIFIER_HARBOR_PRODUCTION</ModifierId>
 			<Name>DistrictType</Name>
