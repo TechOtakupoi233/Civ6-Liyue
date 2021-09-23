@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\WwiseProjects\Civ6_Liyue_BGM\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\WwiseProjects\Civ6_Liyue_BGM\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\WwiseProjects\Civ6_Liyue_BGM\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\WwiseProjects\Civ6_Liyue_BGM\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+		<SoundBank Id="445540828" Language="SFX">
+			<ShortName>LiyueLeaderSpeechBank</ShortName>
+			<Path>LiyueLeaderSpeechBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4213824797" Name="KEQING_FIRST_MEET_A"/>
+				<Event Id="3955482736" Name="KEQING_MISC_PEP_TALK_A"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="269918089" Language="SFX">
+					<ShortName>KEQING_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\KEQING_MISC_PEP_TALK_A_E843A46D.wem</Path>
+				</File>
+				<File Id="307530309" Language="SFX">
+					<ShortName>KEQING_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\KEQING_FIRST_MEET_A_E843A46D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -3,7 +3,7 @@
 	<LocalizedText>
 		<!-- Pedia text (historical context) about the new building. -->
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TEAHOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>一张屏风和几套桌椅，一个说书人和一壶好茶。茶室是包括岩王帝君在内的璃月人都喜欢光顾的地方。</Text>
+			<Text>一张屏风和几套桌椅，一个说书人和一壶好茶。茶室是包括岩王帝君在内的璃月人都喜欢光顾的地方。除了评书之外，要是遇上了云堇上戏台的日子，闻名而来的看客能把小小的茶馆里三层外三层围得水泄不通。</Text>
 		</Row>
 
 		<!-- Leader specific pedia text. -->
@@ -13,9 +13,7 @@
 		</Row>
 		<!-- 领袖玩法介绍 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
-			<Text>
-				刻晴领导的璃月能够快速扩张且改良大量的单元格，能够高效率地开发地图资源，强力的开拓者能快人一步抢夺重要的战略位置。[NEWLINE]璃月还拥有世界领先的贸易能力和经济能力，且特色建筑和来自岩石的历史底蕴能确保璃月的文化领先。
-			</Text>
+			<Text>刻晴领导的璃月能够快速扩张且改良大量的单元格，能够高效率地开发地图资源，强力的开拓者能快人一步抢夺重要的战略位置。[NEWLINE]璃月还拥有世界领先的贸易能力和经济能力，且特色建筑和来自岩石的历史底蕴能确保璃月的文化领先。</Text>
 		</Row>
 		
 		<!-- Leader specific historical text. -->
@@ -33,6 +31,30 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
 			<Text>起初,刻晴兴奋无比。她早已做好准备，期待着大展拳脚的一天。却没想到几个月过去,她仍困于单一的工作中,为土地基建忙昏了头。[NEWLINE]不论如何奋斗,堆积的事务仍如泥潭一般紧裹着她。即便有所建树,也不过是从前的帝君亦能轻松做到的事。[NEWLINE]「为什么只能做到这种程度,为什么…做不到更好?」[NEWLINE]原因她当然明白…事实上,她早已认识到真相。[NEWLINE]即使自己的「不敬」,甚至能够受到神灵的认可…那也不意味着目前的自己,就有能力「取而代之」。[NEWLINE]不过,她毕竟是坚定又顽强的刻晴。自那日起,她闭门不出,埋头于各色典籍,再次学习一切所需知识。她将自己放到最低，以全然接受的姿态面对所有未知。[NEWLINE]于此期间,她沉敛心神，逐渐摒弃心中、长久以来与岩王帝君的「对抗」意识。帝君与刻晴,都只是为这千年璃月而奔走——爱着同一件事物的人,断然没有两立的道理。[NEWLINE]过去那场请仙典仪上,帝君神秘的笑脸，似乎有了解释。刻晴想,那也许是一种认可与期待的笑容。[NEWLINE]现今的她并未失去雷厉风行的风格,不过迷茫时,她也会停下脚步想一想:「若是帝君,这时会怎么做呢?」</Text>
+		</Row>
+		<!-- Leader specific pedia text. -->
+		<!-- 领袖特性概要 -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>「璃月七星」手眼通天，凝光的眼线遍布璃月，在璃月境内没有什么能逃得过凝光的耳目。</Text>
+		</Row>
+		<!-- 领袖玩法介绍 -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>凝光具有强大的情报能力和反间谍能力，这能确保没有人可以在以「契约」闻名的璃月暗中搞破坏。同时，作为一个大商人，她能从璃月境内的国际商会中获取额外利益。[NEWLINE]璃月还拥有世界领先的贸易能力和经济能力，且特色建筑和来自岩石的历史底蕴能确保璃月的文化领先。</Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<!-- 领袖历史背景 -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>「掌握了璃月港所有秘密的凝光是璃月港最大的秘密。」——璃月七星·开阳星如此评价她。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>凝光是掌管重权的「璃月七星」之一，居天权星之位，识人心，擅话术。即使在人人经商的璃月港，她也是首屈一指的大商人。[NEWLINE]每个见过凝光的人都会被她惊人的洞察力与过人的头脑折服。不仅如此，凝光的作风也极为独特。[NEWLINE]她斥巨资搜集来大量浮空石制成基盘，又在其上建造出一座空前华美的宫殿。浮空石托起空中幻城，使之终年悬浮在璃月港上空。[NEWLINE]这座宫阁正如凝光本人一般，高不可测，远离众生，却轻易吸引了所有目光。[NEWLINE]震动商界的女富商、孩子们最喜欢的温柔姐姐、玉京台宴会上的名媛、甜食界的鉴赏名家……她是千面佳人，也是一个永远无法读懂的美丽谜题。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>「凝光大人什么都知道。」外来人常常会被璃月人如此告诫。[NEWLINE]想要钻漏子的商会、某位正在囤积货物的奸商、归港船队携带的违禁私货…对于这些或明或暗的信息，「天权」无一不知。[NEWLINE]某位须弥炼金术士到璃月游学，无意中查阅到黑岩厂十年前一笔夜泊石交易的账目。当夜，凝光的近侍便敲响了他的窗户，请他去「群玉阁」一叙。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>生活在璃月，人人都需按规则出牌。规则会保护他们的利益不受侵犯，相应地，违规之人也将受到惩罚。[NEWLINE]这些规则源自璃月守护神「摩拉克斯」制订的古老律法，绝对可靠。璃月数千年历史中，历任「天权」对每条律法逐一修订，使其符合璃月不同阶段的社会需求。这些古老律法被整合成册，附带一本两百七十九页的注释，发放到所有璃月人手中。[NEWLINE]凝光喜欢这样的璃月港。井然的秩序能让商业更具活力，而她又比任何人都更理解秩序的细节。	</Text>
 		</Row>
 		<!-- Civilization specific historical text. -->
 		<!-- 文明历史背景 -->
@@ -247,7 +269,7 @@
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_ANY" Language="zh_Hans_CN">
 			<!--初次见面-->
-			<Text>我是刻晴，璃月七星中的「玉衡」。变革的时机已经到来，维持了千年的秩序即将被改写。这历史性的时刻，你愿意和我一起见证吗？</Text>
+			<Text>我是刻晴，璃月七星之一的「玉衡星」。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_ANY" Language="zh_Hans_CN">
@@ -355,5 +377,161 @@
 		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE" Language="zh_Hans_CN">
 			<Text>优妮对您缺乏文化非常失望</Text>
 		</Row>-->
+		<!-- Leader Quotes -->
+		<!-- 领袖名言 -->
+		<Row Tag="LOC_LEADER_NINGGUANG_QUOTE" Language="zh_Hans_CN">
+			<Text>赌徒永远会把希望寄托在下一颗骰子上。但最后赚钱的，当然是从来不碰骰子的庄家。</Text>
+		</Row>
+
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>既然是你，就不用恪守那些繁文缛节了，可以随意一些。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>这笔投资值不值，我还得再考虑考虑。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>关于我的传言，最近听了不少吧。我究竟是怎样的人？用你自己的双眼分辨吧…当然，你的看法，也会成为传言的一部分。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>真是一笔不错的投资。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>至于用摩拉也解决不了的事情…至今我只遇到过一件。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>哼，劝你放弃。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>向我臣服吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>感谢您的礼物。希望贵国的使团在璃月玩的开心。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>抱歉，璃月还没有做好接待贵国使团的准备。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>我们的使团为你们准备了璃月的特产，希望能让你满意。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>「道不同不相为谋」，说的就是这个道理。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>或许你没有遇到过这种糟糕的交流体验，将好话坏话说尽了，对方却依然自行其是。（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>我是七星之「天权」，凝光。要做个交易吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>我们附近有一座城市。想来拜访吗？璃月的文化底蕴不会让你失望的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>嗯，那太好了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>我在努力收集您的国家附近地区的情况、风土人情和民间传说。直白地换句话说，您能给我介绍你们的首都吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
+			<Text>有什么事？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>我并不轻易肯定别人，但现在看来，我这赞扬是留不住了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>也许你的想法是对的，但我无法认同你的做法。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>和璃月共同发展吧，让世界知道人类不需要神明也能做的很好。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text>大家友爱地和平共处一直是优妮们的理念。我们同意。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text>我们还没打算放弃。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过-->
+			<Text>我已摸清了你的实力，就让这场战争结束，成为历史年表上的小小污点吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>啊，您的到访让我感到诚惶诚恐，坐立不安。我们愿意开放边境并为您的军队提供帮助。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text>我不允许。这么不知变通，你这家伙也是认死理的老古董吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过-->
+			<Text>我们的研究不应该停留在自己的边境附近，很有必要从更宏观的角度进行。您能让我们穿过您的领土吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>有市民对你在璃月边境的部队感到不安。虽然这不是我的管辖范围，但我还是希望你可以帮我这个忙。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--领取便当-->
+			<Text>胜负已分···真是无可奈何。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>谢谢你，这对我们都有好处。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>找笔新的投资吧。无论如何，摩拉都不会嫌多。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3955482736	KEQING_MISC_PEP_TALK_A			\Default Work Unit\Speech\KEQING_MISC_PEP_TALK_A	
+	4213824797	KEQING_FIRST_MEET_A			\Default Work Unit\Speech\KEQING_FIRST_MEET_A	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	269918089	KEQING_MISC_PEP_TALK_A	D:\Documents\WwiseProjects\Civ6_Liyue_BGM\.cache\Windows\SFX\KEQING_MISC_PEP_TALK_A_E843A46D.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Keqing\id88602518\id854467727\id424381547\KeqingSpeech\KEQING_MISC_PEP_TALK_A		82865
+	307530309	KEQING_FIRST_MEET_A	D:\Documents\WwiseProjects\Civ6_Liyue_BGM\.cache\Windows\SFX\KEQING_FIRST_MEET_A_E843A46D.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Keqing\id88602518\id854467727\id424381547\KeqingSpeech\KEQING_FIRST_MEET_A		28034
+
