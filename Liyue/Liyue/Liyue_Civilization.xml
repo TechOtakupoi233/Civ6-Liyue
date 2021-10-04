@@ -20,6 +20,7 @@
 
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_KEQING" CapitalName="LOC_CIVLIZATION_LIYUE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_NINGGUANG" CapitalName="LOC_CIVLIZATION_LIYUE_CITY_1" />
 	</CivilizationLeaders>
 
 	<CivilizationCitizenNames>
@@ -63,14 +64,11 @@
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_BROKEN_PLEDGE" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD" />
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DUPLICATE_TRADE_ROUTE" />
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_HARBOR_PRODUCTION" />
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_HARBOR_BUILDINGS_PRODUCTION" />
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DISTRICT_COMMERCIAL_HUB_PRODUCTION" />
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_DISTRICT_COMMERCIAL_HUB_BUILDINGS_PRODUCTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS" />
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_HARBOR_ADJACENCY_BONUS" />
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_PRODUCTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_CULTURE"/>
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_FAITH"/>
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_QIMPROVEMENT_CULTURE"/>
-		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_QIMPROVEMENT_FAITH"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_TILE_IMPROVEMENT_GOLD"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
@@ -95,6 +93,14 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
 		<Row>
+			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_HARBOR_ADJACENCY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
 			<ModifierId>MODIFIER_TRADE_ROUTE_YIELD_GOLD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
 		</Row>
@@ -104,24 +110,19 @@
 			<SubjectRequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</SubjectRequirementSetId>
 		</Row>
 		<Row>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>HAS_RESOURCE</SubjectRequirementSetId>
+		</Row>
+		<Row>
 			<ModifierId>MODIFIER_TILE_IMPROVEMENT_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>REQ_PLOT_HAS_MINE_LUXURY</SubjectRequirementSetId>
+			<SubjectRequirementSetId>HAS_LUXURY</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_FAITH</ModifierId>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_GOLD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>REQ_PLOT_HAS_MINE_LUXURY</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>REQ_PLOT_HAS_QUARRY_LUXURY</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_FAITH</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>REQ_PLOT_HAS_QUARRY_LUXURY</SubjectRequirementSetId>
+			<SubjectRequirementSetId>HAS_LUXURY</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -191,6 +192,46 @@
 			<Value>50</Value>
 		</Row>
 		<Row>
+			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_HARBOR_ADJACENCY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_HARBOR_ADJACENCY_BONUS</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_MODIFIER_HARBOR_ADJACENCY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_HARBOR_ADJACENCY_BONUS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_HARBOR_ADJACENCY_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
 			<ModifierId>MODIFIER_TRADE_ROUTE_YIELD_GOLD</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
@@ -206,9 +247,19 @@
 			<Value>1</Value>
 		</Row>
 		<Row>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
 			<ModifierId>MODIFIER_TILE_IMPROVEMENT_CULTURE</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>MODIFIER_TILE_IMPROVEMENT_CULTURE</ModifierId>
@@ -216,34 +267,14 @@
 			<Value>YIELD_CULTURE</Value>
 		</Row>
 		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_FAITH</ModifierId>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_GOLD</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
 		<Row>
-			<ModifierId>MODIFIER_TILE_IMPROVEMENT_FAITH</ModifierId>
+			<ModifierId>MODIFIER_TILE_IMPROVEMENT_GOLD</ModifierId>
 			<Name>YieldType</Name>
-			<Value>YIELD_FAITH</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_CULTURE</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_CULTURE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_FAITH</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TILE_QIMPROVEMENT_FAITH</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FAITH</Value>
+			<Value>YIELD_GOLD</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- =============== RequirementSets =============== -->
@@ -252,14 +283,11 @@
 			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
-		<Row>
-			<RequirementSetId>REQ_PLOT_HAS_MINE_LUXURY</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>REQ_PLOT_HAS_QUARRY_LUXURY</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
+		<Row RequirementSetId="IS_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="IS_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_RESOURCE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_LUXURY" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -270,10 +298,14 @@
 			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
 			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
 		</Row>
-		<Row RequirementSetId="REQ_PLOT_HAS_MINE_LUXURY" RequirementId="HAS_IMPROVEMENT_MINE"/>		
-		<Row RequirementSetId="REQ_PLOT_HAS_MINE_LUXURY" RequirementId="HAS_ORE_LUXURY"/>
-		<Row RequirementSetId="REQ_PLOT_HAS_QUARRY_LUXURY" RequirementId="HAS_IMPROVEMENT_QUARRY"/>
-		<Row RequirementSetId="REQ_PLOT_HAS_QUARRY_LUXURY" RequirementId="HAS_ORE_LUXURY"/>
+		<Row RequirementSetId="IS_COMMERCIAL_HUB" RequirementId="REQ_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="IS_HARBOR" RequirementId="REQ_HARBOR"/>
+		<Row RequirementSetId="HAS_RESOURCE" RequirementId="REQ_HAS_RESOURCE"/>
+		<Row RequirementSetId="HAS_RESOURCE" RequirementId="REQ_HAS_IMPROVEMENT"/>
+		<Row RequirementSetId="HAS_LUXURY" RequirementId="REQ_HAS_LUXURY"/>
+		<Row RequirementSetId="HAS_LUXURY" RequirementId="REQ_HAS_IMPROVEMENT"/>
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="REQ_HAS_IMPROVEMENT_MINE"/>
+		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementId="REQ_HAS_IMPROVEMENT_QUARRY"/>
 	</RequirementSetRequirements>
 	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
 	<Requirements>
@@ -285,9 +317,13 @@
 			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
 		</Row>
-		<Row RequirementId="HAS_IMPROVEMENT_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
-		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
-		<Row RequirementId="HAS_ORE_LUXURY" RequirementType="REQUIREMENT_PLOT_RESOURCE_CLASS_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_HARBOR" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_HAS_RESOURCE" RequirementType="REQUIREMENT_PLOT_HAS_ANY_RESOURCE"/>
+		<Row RequirementId="REQ_HAS_LUXURY" RequirementType="REQUIREMENT_PLOT_RESOURCE_CLASS_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_HAS_IMPROVEMENT" RequirementType="REQUIREMENT_REQUIREMENTSET_IS_MET"/>
+		<Row RequirementId="REQ_HAS_IMPROVEMENT_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_HAS_IMPROVEMENT_QUARRY" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES"/>		
 	</Requirements>
 	<RequirementArguments>
 		<Row>
@@ -300,12 +336,15 @@
 			<Name>BuildingType</Name>
 			<Value>BUILDING_LIGHTHOUSE</Value>
 		</Row>
-		<Row RequirementId="HAS_IMPROVEMENT_MINE" Name="ImprovementType" Value="IMPROVEMENT_MINE"/>
-		<Row RequirementId="HAS_IMPROVEMENT_QUARRY" Name="ImprovementType" Value="IMPROVEMENT_QUARRY"/>
-		<Row RequirementId="HAS_ORE_LUXURY" Name="ResourceClassType" Value="RESOURCECLASS_LUXURY"/>
+		<Row RequirementId="REQ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row RequirementId="REQ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row RequirementId="REQ_HAS_LUXURY" Name="ResourceClassType" Value="RESOURCECLASS_LUXURY"/>
+		<Row RequirementId="REQ_HAS_IMPROVEMENT" Name="OnlyOwnersCity" Value="True"/>
+		<Row RequirementId="REQ_HAS_IMPROVEMENT" Name="RequirementSetId" Value="HAS_IMPROVEMENT"/>
+		<Row RequirementId="REQ_HAS_IMPROVEMENT_MINE" Name="ImprovementType" Value="IMPROVEMENT_MINE"/>
+		<Row RequirementId="REQ_HAS_IMPROVEMENT_QUARRY" Name="ImprovementType" Value="IMPROVEMENT_QUARRY"/>
 	</RequirementArguments>
 	<ModifierStrings>
-		<Row ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD" Context="Preview" Text="LOC_MODIFIER_TRADE_ROUTE_YIELD_GOLD"/>
 	</ModifierStrings>
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" CityName="LOC_CIVLIZATION_LIYUE_CITY_1" />

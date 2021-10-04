@@ -14,6 +14,7 @@
 			<IncludedEvents>
 				<Event Id="4213824797" Name="KEQING_FIRST_MEET_A"/>
 				<Event Id="3955482736" Name="KEQING_MISC_PEP_TALK_A"/>
+				<Event Id="117573975" Name="NINGGUANG_MISC_PEP_TALK_A"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="269918089" Language="SFX">
@@ -23,6 +24,10 @@
 				<File Id="307530309" Language="SFX">
 					<ShortName>KEQING_FIRST_MEET_A.wav</ShortName>
 					<Path>SFX\KEQING_FIRST_MEET_A_E843A46D.wem</Path>
+				</File>
+				<File Id="520949982" Language="SFX">
+					<ShortName>NINGGUANG_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\NINGGUANG_MISC_PEP_TALK_A_E843A46D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

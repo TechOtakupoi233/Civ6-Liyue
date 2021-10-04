@@ -2,7 +2,7 @@
 <GameData>
     <LocalizedText>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_BP_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>游戏开始时通常位于海岸单元格旁。	[NEWLINE]修建港口及其中的建筑时+50% [ICON_Production] 生产力, 市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。[NEWLINE]矿山、采石场提供+1 [ICON_Production] 生产力。[NEWLINE]对违反承诺的文明产生额外不满。</Text>
+			<Text>游戏开始时通常位于海岸单元格旁。	[NEWLINE]修建商业中心和港口及其中的建筑时+50% [ICON_Production] 生产力, 市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。[NEWLINE]通过矿山、采石场开发的任意资源+1 [ICON_Production] 生产力，奢侈品资源+2 [ICON_Gold] 金币。[NEWLINE]对违反承诺的文明产生额外不满。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KEQING_BP_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>刻晴的开拓者、建造者、军事工程师的 [ICON_Movement] 移动力+2。[NEWLINE]提供一个额外的经济政策槽位。</Text>

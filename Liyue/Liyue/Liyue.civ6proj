@@ -64,6 +64,9 @@
     <Content Include="Platforms\Windows\Audio\297132843.wem">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Platforms\Windows\Audio\307530309.wem">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Platforms\Windows\Audio\345367100.wem">
       <SubType>Content</SubType>
     </Content>
@@ -122,6 +125,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Platforms\Windows\Audio\LiyueBGM.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueLeaderSpeechBank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueLeaderSpeechBank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\LiyueLeaderSpeechBank.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Platforms\Windows\Audio\LiyueSoundBanks.ini">

@@ -21,7 +21,7 @@
 		</Update>
 	</Leaders>
 	<LeaderQuotes>
-		<Row LeaderType="LEADER_NINGGUANG" Quote="LOC_LEADER_KEQING_QUOTE"/>
+		<Row LeaderType="LEADER_NINGGUANG" Quote="LOC_LEADER_NINGGUANG_QUOTE" QuoteAudio="NINGGUANG_MISC_PEP_TALK_A"/>
 	</LeaderQuotes>
 	<Loadinginfo>
 		<Row>
@@ -40,9 +40,22 @@
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="UNIQUE_LEADER_ADD_VISIBILITY"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_SPY_PROMOTION_SURVEILLANCE"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_SPY_PROMOTION_POLYGRAPH"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="AFFLUENCE_COPY_LUXURIES_FOR_IMPORT"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="DIPLOMATICLEAGUE_DUPLICATEFIRSTINFLUENCETOKEN"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MODIFIER_TIANQUAN_SUZERAIN_FAVOR"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES"/>		
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_GREAT_MERCHANT_POINTS"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_2ADJ_COMMERCIAL_HUB"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_4ADJ_COMMERCIAL_HUB"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_6ADJ_COMMERCIAL_HUB"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_8ADJ_COMMERCIAL_HUB"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_10ADJ_COMMERCIAL_HUB"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_2ADJ_HARBOR"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_4ADJ_HARBOR"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_6ADJ_HARBOR"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_8ADJ_HARBOR"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_10ADJ_HARBOR"/>
 	</TraitModifiers>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_NINGGUANG" AgendaType="AGENDA_MONEY_GRUBBER"/>
@@ -64,6 +77,23 @@
 			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_FOREIGN_TRADE_ROUTES_PASSING_THROUGH</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>MOD_TIANQUAN_GREAT_MERCHANT_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>IS_COMMERCIAL_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"/>
+		<Row ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_ALL_BUILDINGS_PURCHASE_COST"/>
+		<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="2ADJ_COMMERCIAL_HUB"/>
+		<Row ModifierId="MOD_4ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="4ADJ_COMMERCIAL_HUB"/>
+		<Row ModifierId="MOD_6ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="6ADJ_COMMERCIAL_HUB"/>
+		<Row ModifierId="MOD_8ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="8ADJ_COMMERCIAL_HUB"/>
+		<Row ModifierId="MOD_10ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="10ADJ_COMMERCIAL_HUB"/>
+		<Row ModifierId="MOD_2ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="2ADJ_HARBOR"/>
+		<Row ModifierId="MOD_4ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="4ADJ_HARBOR"/>
+		<Row ModifierId="MOD_6ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="6ADJ_HARBOR"/>
+		<Row ModifierId="MOD_8ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="8ADJ_HARBOR"/>
+		<Row ModifierId="MOD_10ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="10ADJ_HARBOR"/>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -79,17 +109,136 @@
 		<Row>
 			<ModifierId>MODIFIER_TIANQUAN_SUZERAIN_FAVOR</ModifierId>
 			<Name>Amount</Name>
-			<Value>150</Value>
+			<Value>100</Value>
 		</Row>
 		<Row>
 			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>5</Value>
 		</Row>
 		<Row>
 			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_GOLD</Value>
 		</Row>
+		<Row>
+			<ModifierId>MOD_TIANQUAN_GREAT_MERCHANT_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOD_TIANQUAN_GREAT_MERCHANT_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" Name="Amount" Value="100"/>
+		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" Name="UnitType" Value="UNIT_TRADER"/>
+		<Row ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_4ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ModifierId="MOD_4ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_4ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_6ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ModifierId="MOD_6ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_6ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_8ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ModifierId="MOD_8ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_8ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_10ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ModifierId="MOD_10ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_10ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_2ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row ModifierId="MOD_2ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_2ADJ_HARBOR" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_4ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row ModifierId="MOD_4ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_4ADJ_HARBOR" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_6ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row ModifierId="MOD_6ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_6ADJ_HARBOR" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_8ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row ModifierId="MOD_8ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_8ADJ_HARBOR" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_10ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row ModifierId="MOD_10ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_10ADJ_HARBOR" Name="Amount" Value="20"/>
 	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>IS_COMMERCIAL_DISTRICT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row RequirementSetId="2ADJ_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="4ADJ_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="6ADJ_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="8ADJ_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="10ADJ_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="2ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="4ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="6ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="8ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="10ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="IS_COMMERCIAL_DISTRICT" RequirementId="REQ_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="IS_COMMERCIAL_DISTRICT" RequirementId="REQ_HARBOR"/>
+		<Row RequirementSetId="2ADJ_COMMERCIAL_HUB" RequirementId="REQ_2ADJ_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="4ADJ_COMMERCIAL_HUB" RequirementId="REQ_4ADJ_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="6ADJ_COMMERCIAL_HUB" RequirementId="REQ_6ADJ_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="8ADJ_COMMERCIAL_HUB" RequirementId="REQ_8ADJ_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="10ADJ_COMMERCIAL_HUB" RequirementId="REQ_10ADJ_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="2ADJ_HARBOR" RequirementId="REQ_2ADJ_HARBOR"/>
+		<Row RequirementSetId="4ADJ_HARBOR" RequirementId="REQ_4ADJ_HARBOR"/>
+		<Row RequirementSetId="6ADJ_HARBOR" RequirementId="REQ_6ADJ_HARBOR"/>
+		<Row RequirementSetId="8ADJ_HARBOR" RequirementId="REQ_8ADJ_HARBOR"/>
+		<Row RequirementSetId="10ADJ_HARBOR" RequirementId="REQ_10ADJ_HARBOR"/>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row RequirementId="REQ_2ADJ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+		<Row RequirementId="REQ_4ADJ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+		<Row RequirementId="REQ_6ADJ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+		<Row RequirementId="REQ_8ADJ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+		<Row RequirementId="REQ_10ADJ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+		<Row RequirementId="REQ_2ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+		<Row RequirementId="REQ_4ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+		<Row RequirementId="REQ_6ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+		<Row RequirementId="REQ_8ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+		<Row RequirementId="REQ_10ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_2ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row RequirementId="REQ_2ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_2ADJ_COMMERCIAL_HUB" Name="Amount" Value="2"/>
+		<Row RequirementId="REQ_4ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row RequirementId="REQ_4ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_4ADJ_COMMERCIAL_HUB" Name="Amount" Value="4"/>
+		<Row RequirementId="REQ_6ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row RequirementId="REQ_6ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_6ADJ_COMMERCIAL_HUB" Name="Amount" Value="6"/>
+		<Row RequirementId="REQ_8ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row RequirementId="REQ_8ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_8ADJ_COMMERCIAL_HUB" Name="Amount" Value="8"/>
+		<Row RequirementId="REQ_10ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row RequirementId="REQ_10ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_10ADJ_COMMERCIAL_HUB" Name="Amount" Value="10"/>
+		<Row RequirementId="REQ_2ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row RequirementId="REQ_2ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_2ADJ_HARBOR" Name="Amount" Value="2"/>
+		<Row RequirementId="REQ_4ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row RequirementId="REQ_4ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_4ADJ_HARBOR" Name="Amount" Value="4"/>
+		<Row RequirementId="REQ_6ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row RequirementId="REQ_6ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_6ADJ_HARBOR" Name="Amount" Value="6"/>
+		<Row RequirementId="REQ_8ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row RequirementId="REQ_8ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_8ADJ_HARBOR" Name="Amount" Value="8"/>
+		<Row RequirementId="REQ_10ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row RequirementId="REQ_10ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_10ADJ_HARBOR" Name="Amount" Value="10"/>
+	</RequirementArguments>
 </GameData>

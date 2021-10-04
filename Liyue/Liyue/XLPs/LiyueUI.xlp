@@ -173,6 +173,14 @@
 			<m_EntryID text="LEADER_NINGGUANG_ICON_80"/>
 			<m_ObjectName text="LEADER_NINGGUANG_ICON_80"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KEQING_BACKGROUND"/>
+			<m_ObjectName text="LEADER_KEQING_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NINGGUANG_BACKGROUND"/>
+			<m_ObjectName text="LEADER_NINGGUANG_BACKGROUND"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
