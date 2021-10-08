@@ -1,44 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--<GameData>
+<GameData>
 	<LocalizedText>
 		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_NAME" Language="en_US">
-			<Text>The LIYUEs</Text>
+			<Text>Liyue</Text>
 		</Row>
-		
 		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_DESCRIPTION" Language="en_US">
-			<Text>The Majestic LIYUEs</Text>
+			<Text>Liyue</Text>
 		</Row>
-
 		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE" Language="en_US">
-			<Text>LIYUE</Text>
+			<Text>Liyue's</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Language="en_US">
+			<Text>The Harbor of Stone and Contracts</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="en_US">
+			<Text>Starts the game from coast.[NEWLINE]Commercial Hub and Harbor get a standard adjacent bonus from each district. Market and Light House provides [ICON_Traderoute] Trade Route Capacity despite limitations. +2 [ICON_Gold] Gold for all Trade Routes.[NEWLINE]+1 [ICON_Production] Production for any resource with a Mine or a Quarry, +1 [ICON_Culture] Culture and +2 [ICON_Gold] Gold for Luxuries with these improvements.[NEWLINE]Get Double Grievances to someone who broke his promise to you.</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS" Language="en_US">
+			<Text>+1 [ICON_Gold] from each district。</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_HARBOR_ADJACENCY_BONUS" Language="en_US">
+			<Text>+1 [ICON_Gold] from each district。</Text>
 		</Row>
 		
 		<Row Tag="LOC_LEADER_KEQING_NAME" Language="en_US">
-			<Text>Jasper Kitty</Text>
+			<Text>Keqing</Text>
 		</Row>
-
-		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Language="en_US">
-			<Text>Cat like reflexes</Text>
-		</Row>
-		<Row Tag="TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="en_US">
-			<Text>So fast!</Text>
-		</Row>
-		
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_NAME" Language="en_US">
-			<Text>Kitty Claws</Text>
+			<Text>Yu Heng Keqing -- Leader of revolution</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="en_US">
-			<Text>So sharp!</Text>
+			<Text>All settlers, builders, military engineers [ICON_Movement] Movement, and ignores the extra movement cost of any terrain, feature, or river. Builders and engineers get 2 extra charges. Gets a free builder when settling a new city.[NEWLINE]Gets an extra economic policy slot.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="en_US">
+			<Text>"Yu Heng" Keqing, you are always leading the revolution of Liyue. Time has proved Liyue doesn't need the protection from Archons any more, human has already caught up with the time. Now, You will take the responsibility of the leader, let Liyue advance in the fastest speed ever.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_NINGGUANG_NAME" Language="en_US">
+			<Text>Ningguang</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_NAME" Language="en_US">
+			<Text>Tian Quan Ningguang -- Businessman who knows everything</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION" Language="en_US">
+			<Text>Ningguang has 1 level diplomatic visibility to anyone else. Her spy gets "SURVEILLANCE" and "POLYGRAPH" promotions initially. [NEWLINE]Gets double [ICON_Favor] Favor as the suzerain of a city state, doubles the first [ICON_Envoy] envoy sent to a city state. [NEWLINE]Ninnguang can buy Traders for free, and has 20% off when buying a building with [ICON_Gold]Gold. +5 [ICON_Gold] Gold from Trade routes passing Liyue cities.[NEWLINE]Extra [ICON_GreatMerchant] Great Merchant Point from Commercial Hub and Harbor, each 2 adjacent bonus these districts have will get 20% [ICON_Gold]Gold bonus, Max bonus is 10.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="en_US">
+			<Text>"Tian Quan" Ningguang, you have no opponent in commercial battles, you know everything happending in the Liyue Harbor. You have built the Jade Chamber for years, and whish to cover all the 7 nations with its shadow. Now there is a much larger stage, make it great.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_TEAHOUSE_NAME" Language="en_US">
-			<Text>Litter Box</Text>
+			<Text>Teahouse</Text>
 		</Row>
-		
 		<Row Tag="LOC_BUILDING_TEAHOUSE_DESCRIPTION" Language="en_US">
-			<Text>The litter box is a unique building that only LIYUEs get.</Text>
+			<Text>Replaces AMPHITHEATER. +1 [ICON_Amenities] Amenity, doubles [ICON_Culture] Culture and [ICON_Tourism] Tourism from [ICON_GreatWork_Writing] Writing Great work in this city.</Text>
 		</Row>
 		
-		
+		<Row Tag="LOC_UNIT_MILLELITH_NAME" Language="en_US">
+			<Text>Millelith</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MILLELITH_DESCRIPTION" Language="en_US">
+			<Text>Replaces PIKEMAN. +1 [ICON_Movement] Movement, get double Flanking and Support bonus.</Text>
+		</Row>
+
+		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_BP" Language="en_US">
+		    <Text>Liyue Civilization Pack - Balanced Patch</Text>
+		</Row>
+		<Row Tag="LOC_LIYUE_MOD_TEASER_CL_BP" Language="en_US">
+		    <Text>Balance patch for Liyue Civilization.</Text>
+		</Row>
+		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL_BP" Language="en_US">
+		    <Text>Adjust the traits of Liyue Civiliazatio for better balanced game.</Text>
+		</Row>
+		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_SOT7" Language="en_US">
+		    <Text>Liyue Civilization Pack - Statue Of The Seven Patch</Text>
+		</Row>
+		<Row Tag="LOC_LIYUE_MOD_TEASER_CL_SOT7" Language="en_US">
+		    <Text>Statue Of The Seven patch for Liyue Civilization.</Text>
+		</Row>
+		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL_SOT7" Language="en_US">
+		    <Text>Introduces the statue from Kevin Liu's Genshin·Mondstant Mod. Requires The Original Mod.</Text>
+		</Row>
 	</LocalizedText>
-</GameData>-->
+</GameData>

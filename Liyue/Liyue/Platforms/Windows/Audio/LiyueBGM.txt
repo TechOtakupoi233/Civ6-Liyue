@@ -1,14 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1242380829	Resume_Music_LIYUE_CL			\Music\Resume_Music_LIYUE_CL	
-	1438858432	Play_Music_LIYUE_CL			\Music\Play_Music_LIYUE_CL	
-	1614299482	Stop_Music_LIYUE_CL			\Music\Stop_Music_LIYUE_CL	
-	1743248852	Stop_Leader_Music_LIYUE_CL			\Music\Stop_Leader_Music_LIYUE_CL	
-	2716593602	Pause_Music_LIYUE_CL			\Music\Pause_Music_LIYUE_CL	
-	3731939416	Start_Music_LIYUE_CL			\Music\Start_Music_LIYUE_CL	
-	3801824326	Play_Leader_Music_LIYUE_CL			\Music\Play_Leader_Music_LIYUE_CL	
+	1242380829	Resume_Music_LIYUE_CL			\Default Work Unit\Music\Resume_Music_LIYUE_CL	
+	1438858432	Play_Music_LIYUE_CL			\Default Work Unit\Music\Play_Music_LIYUE_CL	
+	1614299482	Stop_Music_LIYUE_CL			\Default Work Unit\Music\Stop_Music_LIYUE_CL	
+	1743248852	Stop_Leader_Music_LIYUE_CL			\Default Work Unit\Music\Stop_Leader_Music_LIYUE_CL	
+	2716593602	Pause_Music_LIYUE_CL			\Default Work Unit\Music\Pause_Music_LIYUE_CL	
+	3731939416	Start_Music_LIYUE_CL			\Default Work Unit\Music\Start_Music_LIYUE_CL	
+	3801824326	Play_Leader_Music_LIYUE_CL			\Default Work Unit\Music\Play_Leader_Music_LIYUE_CL	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	373350295	Game_Location			\Default Work Unit\Game_Location	
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	102125831		114035794		133144101		221443217		297132843		345367100		360754117		374477175		419122388		487219299		562692387		569388661		612026340		640209677		659103386		665474616		713172160		723223289		778529700		865902600		887152990		904713138	
+	18300585		19721606		55857402		73328597		84251604		91062406		158279736		167037324		178322394		188830929		341379077		422383566		429053686		430139044		464496937		831323415		837128982		876651436		884135446		894940137		901895987		1004924057	

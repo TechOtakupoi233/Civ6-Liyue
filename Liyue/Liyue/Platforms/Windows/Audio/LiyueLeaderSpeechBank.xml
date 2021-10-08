@@ -8,6 +8,8 @@
 		<ExternalSourcesOutputRoot>D:\Documents\WwiseProjects\Civ6_Liyue_BGM\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
 		<SoundBank Id="445540828" Language="SFX">
 			<ShortName>LiyueLeaderSpeechBank</ShortName>
 			<Path>LiyueLeaderSpeechBank.bnk</Path>

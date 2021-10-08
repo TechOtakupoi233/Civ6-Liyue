@@ -4,7 +4,7 @@
     <Name>LOC_LIYUE_MOD_TITLE_CL</Name>
     <Description>LOC_LIYUE_MOD_DESCRIPTION_CL</Description>
     <CustomProperties></CustomProperties>
-    <Created>1631460778</Created>
+    <Created>1633665842</Created>
     <Teaser>LOC_LIYUE_MOD_TEASER_CL</Teaser>
     <Authors>CLHotuski</Authors>
     <SpecialThanks>Dwughjsd, KevinLiu, hemmelfort</SpecialThanks>
@@ -12,7 +12,6 @@
   </Properties>
   <Dependencies>
     <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
-    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
   </Dependencies>
   <LocalizedText>
     <Text id="LOC_LIYUE_MOD_TITLE_CL">
@@ -52,12 +51,12 @@
       <File>Liyue_Civilization.xml</File>
       <File>Liyue_Teahouse.xml</File>
       <File>Liyue_Millelith.xml</File>
+      <File>Liyue_Ningguang.xml</File>
     </UpdateDatabase>
     <UpdateText id="Text">
       <File>Text/Liyue_ConfigTextCN.xml</File>
-      <File>Text/Liyue_ConfigText.xml</File>
-      <File>Text/Liyue_Text.xml</File>
       <File>Text/Liyue_TextCN.xml</File>
+      <File>Text/Liyue_ConfigText.xml</File>
     </UpdateText>
     <UpdateIcons id="Icons">
       <File>Liyue_Icons.xml</File>
@@ -68,6 +67,9 @@
     <UpdateColors id="Color">
       <File>Liyue_Colors.xml</File>
     </UpdateColors>
+    <UpdateAudio id="Music">
+      <File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File>
+    </UpdateAudio>
   </InGameActions>
   <Files>
     <File>ArtDefs/FallbackLeaders.artdef</File>
@@ -80,22 +82,57 @@
     <File>Liyue_Icons.xml</File>
     <File>Liyue_Keqing.xml</File>
     <File>Liyue_Millelith.xml</File>
+    <File>Liyue_Ningguang.xml</File>
     <File>Liyue_Teahouse.xml</File>
     <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
     <File>Platforms/MacOS/BLPs/LiyueUI.blp</File>
     <File>Platforms/MacOS/BLPs/UI/PrideMoments.blp</File>
+    <File>Platforms/Windows/Audio/1004924057.wem</File>
+    <File>Platforms/Windows/Audio/158279736.wem</File>
+    <File>Platforms/Windows/Audio/167037324.wem</File>
+    <File>Platforms/Windows/Audio/178322394.wem</File>
+    <File>Platforms/Windows/Audio/18300585.wem</File>
+    <File>Platforms/Windows/Audio/188830929.wem</File>
+    <File>Platforms/Windows/Audio/19721606.wem</File>
+    <File>Platforms/Windows/Audio/341379077.wem</File>
+    <File>Platforms/Windows/Audio/422383566.wem</File>
+    <File>Platforms/Windows/Audio/429053686.wem</File>
+    <File>Platforms/Windows/Audio/430139044.wem</File>
+    <File>Platforms/Windows/Audio/464496937.wem</File>
+    <File>Platforms/Windows/Audio/55857402.wem</File>
+    <File>Platforms/Windows/Audio/73328597.wem</File>
+    <File>Platforms/Windows/Audio/831323415.wem</File>
+    <File>Platforms/Windows/Audio/837128982.wem</File>
+    <File>Platforms/Windows/Audio/84251604.wem</File>
+    <File>Platforms/Windows/Audio/876651436.wem</File>
+    <File>Platforms/Windows/Audio/884135446.wem</File>
+    <File>Platforms/Windows/Audio/894940137.wem</File>
+    <File>Platforms/Windows/Audio/901895987.wem</File>
+    <File>Platforms/Windows/Audio/91062406.wem</File>
+    <File>Platforms/Windows/Audio/LiyueBGM.bnk</File>
+    <File>Platforms/Windows/Audio/LiyueBGM.txt</File>
+    <File>Platforms/Windows/Audio/LiyueBGM.xml</File>
+    <File>Platforms/Windows/Audio/LiyueLeaderSpeechBank.bnk</File>
+    <File>Platforms/Windows/Audio/LiyueLeaderSpeechBank.txt</File>
+    <File>Platforms/Windows/Audio/LiyueLeaderSpeechBank.xml</File>
+    <File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
     <File>Platforms/Windows/BLPs/LiyueUI.blp</File>
     <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
     <File>Textures/FALLBACK_NEUTRAL_KEQING.dds</File>
     <File>Textures/FALLBACK_NEUTRAL_KEQING.tex</File>
+    <File>Textures/FALLBACK_NEUTRAL_NINGGUANG.dds</File>
+    <File>Textures/FALLBACK_NEUTRAL_NINGGUANG.tex</File>
     <File>Textures/LEADER_KEQING_LOADING.dds</File>
     <File>Textures/LEADER_KEQING_LOADING.tex</File>
     <File>Textures/LEADER_KEQING_NEUTRAL.dds</File>
     <File>Textures/LEADER_KEQING_NEUTRAL.tex</File>
+    <File>Textures/LEADER_NINGGUANG_LOADING.dds</File>
+    <File>Textures/LEADER_NINGGUANG_LOADING.tex</File>
+    <File>Textures/LEADER_NINGGUANG_NEUTRAL.dds</File>
+    <File>Textures/LEADER_NINGGUANG_NEUTRAL.tex</File>
     <File>Text/Liyue_ConfigText.xml</File>
     <File>Text/Liyue_ConfigTextCN.xml</File>
-    <File>Text/Liyue_Text.xml</File>
     <File>Text/Liyue_TextCN.xml</File>
     <File>XLPs/LiyueUI.xlp</File>
   </Files>
