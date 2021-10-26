@@ -65,6 +65,52 @@
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
 			<Text>魔神战争爆发时，这个文明经过了激烈战争后被摧毁，也导致了归终的死亡；本来肥沃的荻花州变成了一片沼泽。摩拉克斯带他的人民向南，在天衡山南边建立璃月港，直到今日。为了保护这新的城市，摩拉克斯与仙人签订了契约，自己就去与其他恶神作战。在镇压了数个魔神，如“漩涡之魔神”，以及其他魔神的死去（如“盐之魔神”赫乌莉亚) 后，摩拉克斯成为璃月战场中的胜者，成为尘世的岩神。一年一度，摩拉克斯在“七星请仙典仪”正式下凡，为璃月人民赐下神谕，指引下一年璃月经营的方向。日常凡务就由璃月七星、商会、和千岩军处理。</Text>
 		</Row>
+		<Row Tag="LOC_GOVERNOR_GANYU_NAME" Language="zh_Hans_CN">
+			<Text>甘雨</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_GANYU_TITLE" Language="zh_Hans_CN">
+			<Text>七星秘书</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_GANYU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>甘雨是璃月行政效率的奠基人。她关注民生，能为璃月带来多方面的加成。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ALWAYS_STANDBY_NAME" Language="zh_Hans_CN">
+			<Text>随时待命</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ALWAYS_STANDBY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>友方单位在城市领土范围内+5[ICON_Strength]战斗力，并额外回复生命值。可在最短时间内回到工作岗位。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_NAME" Language="zh_Hans_CN">
+			<Text>辅佐决策</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>根据领袖提供能力：[NEWLINE]为刻晴提供道路等级+1。[NEWLINE]为凝光提供每[ICON_Citizen]人口+1[ICON_Gold]金币。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_NAME" Language="zh_Hans_CN">
+			<Text>霜华矢</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市+10[ICON_Ranged]远程攻击力，且获得额外一次[ICON_Ranged]远程攻击能力。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_NAME" Language="zh_Hans_CN">
+			<Text>资源调配</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中能为区域提供效果的建筑范围提高6。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_NAME" Language="zh_Hans_CN">
+			<Text>盛世太平</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市可修建一个额外的特色区域。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_NAME" Language="zh_Hans_CN">
+			<Text>融入人间</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每5[ICON_Citizen]人口+1[ICON_Amenities]宜居度，所有改良设施+0.5[ICON_Housing]住房。</Text>
+		</Row>
+		
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_1" Language="zh_Hans_CN">
 			<Text>琳琅</Text>

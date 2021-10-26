@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Liyue_Ganyu -->
+<!-- Author: Shiro -->
+<!-- DateCreated: 10/26/2021 4:14:13 PM -->
+<GameData>
+	<Types>
+		<!--Governors-->
+		<Row Type="GOVERNOR_GANYU" Kind="KIND_GOVERNOR"/>
+		<!--Governor Promotions-->
+		<Row Type="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_ALWAYS_STANDBY" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_RESOURCE_STACKING" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_FADE_IN_HUMAN" Kind="KIND_GOVERNOR_PROMOTION"/>
+	</Types>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_GOVERNOR" MomentDataType="MOMENT_DATA_GOVERNOR" GameDataType="GOVERNOR_GANYU" Texture="Moment_PromoteGovernor_LiveStreamer"/>
+	</MomentIllustrations>
+	<Governors>
+		<Row GovernorType="GOVERNOR_GANYU" Image="GOVERNOR_GANYU" Name="LOC_GOVERNOR_GANYU_NAME" Title="LOC_GOVERNOR_GANYU_TITLE" ShortTitle="LOC_GOVERNOR_GANYU_SHORT_TITLE" Description="LOC_GOVERNOR_GANYU_DESCRIPTION" IdentityPressure="8" TransitionStrength="600" PortraitImage="GovernorNormal_Ganyu" PortraitImageSelected="GovernorSelected_Ganyu" TraitType="TRAIT_CIVILIZATION_GEO_HARBOR"/>
+	</Governors>
+	<GovernorPromotionSets>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_ALWAYS_STANDBY"/>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING"/>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW"/>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_RESOURCE_STACKING"/>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_PROSPEROUS_PEACE"/>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_FADE_IN_HUMAN"/>
+	</GovernorPromotionSets>
+	<GovernorPromotions>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_ALWAYS_STANDBY" Name="LOC_GOVERNOR_PROMOTION_ALWAYS_STANDBY_NAME" Description="LOC_GOVERNOR_PROMOTION_ALWAYS_STANDBY_DESCRIPTION" Level="0" Column="1" BaseAbility="true"/>		
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" Name="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_NAME" Description="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_DESCRIPTION" Level="1" Column="0"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" Name="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_NAME" Description="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_DESCRIPTION" Level="1" Column="2"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_STACKING" Name="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_NAME" Description="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_DESCRIPTION" Level="2" Column="1"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" Name="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_NAME" Description="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_DESCRIPTION" Level="3" Column="0"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FADE_IN_HUMAN" Name="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_NAME" Description="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_DESCRIPTION" Level="3" Column="2"/>
+	</GovernorPromotions>
+	<GovernorPromotionPrereqs>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" PrereqGovernorPromotion="GOVERNOR_PROMOTION_ALWAYS_STANDBY"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" PrereqGovernorPromotion="GOVERNOR_PROMOTION_ALWAYS_STANDBY"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_STACKING" PrereqGovernorPromotion="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_STACKING" PrereqGovernorPromotion="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" PrereqGovernorPromotion="GOVERNOR_PROMOTION_RESOURCE_STACKING"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FADE_IN_HUMAN" PrereqGovernorPromotion="GOVERNOR_PROMOTION_RESOURCE_STACKING"/>
+	</GovernorPromotionPrereqs>
+	<GovernorPromotionModifiers>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_ALWAYS_STANDBY" ModifierId="MOD_GANYU_LOCAL_COMBAT_BONUS"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_ALWAYS_STANDBY" ModifierId="MOD_GANYU_LOCAL_HEAL"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" ModifierId="MOD_GANYU_FROSTFLAKE_ARROW_STR"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" ModifierId="MOD_GANYU_FROSTFLAKE_ARROW_RANGE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" ModifierId="CITY_DEFENDER_ADJUST_ATTACKS_PER_TURN"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" ModifierId="MOD_GANYU_ROUTE_LEVEL"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" ModifierId="MOD_GANYU_TAX"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_STACKING" ModifierId="MOD_GANYU_REGIONAL_RANGE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" ModifierId="MOD_GANYU_EXTRA_DISTRICT"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FADE_IN_HUMAN" ModifierId="MOD_GANYU_AMENITY"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FADE_IN_HUMAN" ModifierId="MOD_GANYU_HOUSING"/>
+	</GovernorPromotionModifiers>
+	<Modifiers>
+		<Row ModifierId="MOD_GANYU_LOCAL_COMBAT_BONUS" ModifierType="MODIFIER_CITY_ADJUST_CITY_FRIENDLY_COMBAT_BONUS"/>>
+		<Row ModifierId="MOD_GANYU_LOCAL_HEAL" ModifierType="MODIFIER_GOVERNOR_ADJUST_HEAL" SubjectRequirementSetId="PLOT_10_TILES_AWAY_MAX_REQUIREMENTS"/>
+		<Row ModifierId="MOD_GANYU_FROSTFLAKE_ARROW_STR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_RANGED_STRIKE"/>
+		<Row ModifierId="MOD_GANYU_FROSTFLAKE_ARROW_RANGE" ModifierType="MODIFIER_DISTRICT_ADJUST_CITY_ATTACK_RANGE"/>
+		<Row ModifierId="MOD_GANYU_ROUTE_LEVEL" ModifierType="MODIFIER_PLAYER_ADJUST_IMPROVED_ROUTE_LEVEL" SubjectRequirementSetId="LDIS_KEQING"/>
+		<Row ModifierId="MOD_GANYU_TAX" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION" SubjectRequirementSetId="LDIS_NINGGUANG"/>
+		<Row ModifierId="MOD_GANYU_REGIONAL_RANGE" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_REGIONAL_RANGE"/>
+		<Row ModifierId="MOD_GANYU_EXTRA_DISTRICT" ModifierType="MODIFIER_SINGLE_CITY_EXTRA_DISTRICT"/>
+		<Row ModifierId="MOD_GANYU_HOUSING" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_HOUSING"/>
+		<Row ModifierId="MOD_GANYU_AMENITY" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_ENTERTAINMENT"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="MOD_GANYU_LOCAL_COMBAT_BONUS" Name="Amount" Value="5"/>
+		<Row ModifierId="MOD_GANYU_LOCAL_HEAL" Name="Amount" Value="10"/>
+		<Row ModifierId="MOD_GANYU_FROSTFLAKE_ARROW_STR" Name="Amount" Value="10"/>
+		<Row ModifierId="MOD_GANYU_ROUTE_LEVEL" Name="ImprovedRouteLevel" Value="1"/>
+		<Row ModifierId="MOD_GANYU_TAX" Name="Amount" Value="1"/>
+		<Row ModifierId="MOD_GANYU_TAX" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_GANYU_REGIONAL_RANGE" Name="Amount" Value="6"/>
+		<Row ModifierId="MOD_GANYU_EXTRA_DISTRICT" Name="Amount" Value="1"/>
+		<Row ModifierId="MOD_GANYU_HOUSING" Name="Amount" Value="1"/>
+		<Row ModifierId="MOD_GANYU_AMENITY" Name="Amount" Value="1"/>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row RequirementSetId="OPIS_BARBARIAN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="LDIS_KEQING" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="LDIS_NINGGUANG" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="OPIS_BARBARIAN" RequirementId="REQ_BARBARIAN"/>
+		<Row RequirementSetId="LDIS_KEQING" RequirementId="REQ_KEQING"/>
+		<Row RequirementSetId="LDIS_NINGGUANG" RequirementId="REQ_NINGGUANG"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_BARBARIAN" RequirementType="REQUIREMENT_OPPONENT_IS_BARBARIAN"/>
+		<Row RequirementId="REQ_KEQING" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_NINGGUANG" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_KEQING" Name="LeaderType" Value="LEADER_KEQING"/>
+		<Row RequirementId="REQ_NINGGUANG" Name="LeaderType" Value="LEADER_NINGGUANG"/>
+	</RequirementArguments>
+</GameData>

@@ -5,19 +5,23 @@
 		<Row Type="TRAIT_YUHENG" Kind="KIND_TRAIT"/>
 		<Row Type="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_CIVILIAN_IGNORE_RIVERS" Kind="KIND_ABILITY"/>
-		<!--<Row Type="TRAIT_AGENDA_PREFER_EXPLOITATION" Kind="KIND_TRAIT"/>-->
 	</Types>
 	<Tags>
 		<Row Tag="CLASS_LIYUE_CIVILIAN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_LIYUE_WORKER" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<TypeTags>
 		<Row Type="UNIT_SETTLER" Tag="CLASS_LIYUE_CIVILIAN"/>
+		<Row Type="UNIT_ARCHAEOLOGIST" Tag="CLASS_LIYUE_CIVILIAN"/>
+		<Row Type="UNIT_NATURALIST" Tag="CLASS_LIYUE_CIVILIAN"/>
 		<Row Type="UNIT_BUILDER" Tag="CLASS_LIYUE_CIVILIAN"/>
-		<!--<Row Type="UNIT_ARCHAEOLOGIST" Tag="CLASS_LIYUE_CIVILIAN"/>
-		<Row Type="UNIT_NATURALIST" Tag="CLASS_LIYUE_CIVILIAN"/>-->
 		<Row Type="UNIT_MILITARY_ENGINEER" Tag="CLASS_LIYUE_CIVILIAN"/>
+		<Row Type="UNIT_BUILDER" Tag="CLASS_LIYUE_WORKER"/>
+		<Row Type="UNIT_MILITARY_ENGINEER" Tag="CLASS_LIYUE_WORKER"/>
 		<Row Type="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Tag="CLASS_LIYUE_CIVILIAN"/>
 		<Row Type="ABILITY_CIVILIAN_IGNORE_RIVERS" Tag="CLASS_LIYUE_CIVILIAN"/>
+		<Row Type="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Tag="CLASS_LIYUE_WORKER"/>
+		<Row Type="ABILITY_CIVILIAN_IGNORE_RIVERS" Tag="CLASS_LIYUE_WORKER"/>
 	</TypeTags>
 	<!--<AiListTypes>
 		<Row ListType="ExploitationLoverExploitationPreference"/>
@@ -56,24 +60,20 @@
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="TRAIT_YUHENG" Name="LOC_TRAIT_LEADER_KEQING_NAME" Description="LOC_TRAIT_LEADER_KEQING_DESCRIPTION"/>
-		<!--<Row TraitType="TRAIT_AGENDA_PREFER_EXPLOITATION"/>-->
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_BUILDER_CHARGE"/>
-		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_MOVEMENT"/>
-		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_IGNORE_TERRAIN_COST"/>
-		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_CIVILIAN_CROSSING_RIVERS_COST"/>
-		<Row TraitType="TRAIT_YUHENG" ModifierId="GOV_SETTLER_GRANT_BUILDER"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_BUILDER_CHARGE"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_CIVILIAN_MOVEMENT"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_CIVILIAN_IGNORE_TERRAIN_COST"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_CIVILIAN_CROSSING_RIVERS_COST"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_COPY_BUILDER"/>
 		<!--<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ALL_DISTRICTS_CULTURE_BOMB"/>-->
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ADJUST_GOVERNMENT_SLOTS"/>
-		<!--<Row TraitType="TRAIT_AGENDA_PREFER_EXPLOITATION" ModifierId="AGENDA_EXPLOITATION"/>-->
 	</TraitModifiers>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_KEQING" AgendaType="AGENDA_EXPLOITATIVE"/>
 	</HistoricalAgendas>
-	<!--<AgendaTraits>
-		<Row AgendaType="AGENDA_EXPLOITATIVE" TraitType="TRAIT_AGENDA_PREFER_EXPLOITATION"/>
-	</AgendaTraits>-->
+
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Name="LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_NAME" Description="LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION" Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_CIVILIAN_IGNORE_RIVERS" Name="LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_NAME" Description="LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION" Inactive="true"/>
@@ -90,20 +90,20 @@
 	</UnitAbilityModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierId>MOD_YUHENG_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
+			<ModifierId>MOD_YUHENG_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_BUILDER_CHARGE</ModifierId>
+			<ModifierId>MOD_YUHENG_BUILDER_CHARGE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
-			<SubjectRequirementSetId>UNIT_IS_CIVILIAN</SubjectRequirementSetId>
+			<SubjectRequirementSetId>UNIT_IS_WORKER</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_MOVEMENT</ModifierId>
+			<ModifierId>MOD_YUHENG_CIVILIAN_MOVEMENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
 			<SubjectRequirementSetId>UNIT_IS_CIVILIAN</SubjectRequirementSetId>
 		</Row>
@@ -115,7 +115,8 @@
 			<ModifierId>MOD_ABILITY_CIVILIAN_IGNORE_RIVERS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS</ModifierType>
 		</Row>
-		<!--<Row>
+		<Row ModifierId="MOD_YUHENG_COPY_BUILDER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG"/>
+	    <!--<Row>
 			<ModifierId>TRAIT_ALL_DISTRICTS_CULTURE_BOMB</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_ALL_DISTRICTS_CULTURE_BOMB</ModifierType>
 		</Row>-->
@@ -123,41 +124,35 @@
 			<ModifierId>TRAIT_ADJUST_GOVERNMENT_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
 		</Row>
-		<!--<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_EXPLOITATIVE</ModifierType>
-			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
-			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_30_TURNS</SubjectRequirementSetId>
-		</Row>-->
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierId>MOD_YUHENG_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_CIVILIAN_IGNORE_TERRAIN_COST</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
+			<ModifierId>MOD_YUHENG_CIVILIAN_IGNORE_TERRAIN_COST</ModifierId>
 			<Name>ModifierId</Name>
 			<Value>MOD_ABILITY_CIVILIAN_IGNORE_TERRAIN_COST</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
+			<ModifierId>MOD_YUHENG_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_CIVILIAN_IGNORE_RIVERS</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
+			<ModifierId>MOD_YUHENG_CIVILIAN_CROSSING_RIVERS_COST</ModifierId>
 			<Name>ModifierId</Name>
 			<Value>MOD_ABILITY_CIVILIAN_IGNORE_RIVERS</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_BUILDER_CHARGE</ModifierId>
+			<ModifierId>MOD_YUHENG_BUILDER_CHARGE</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>-1</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIAN_MOVEMENT</ModifierId>
+			<ModifierId>MOD_YUHENG_CIVILIAN_MOVEMENT</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
@@ -176,96 +171,33 @@
 			<Name>Ignore</Name>
 			<Value>true</Value>
 		</Row>
+		<Row ModifierId="MOD_YUHENG_COPY_BUILDER" Name="Tag" Value="CLASS_LIYUE_WORKER"/>
+		<Row ModifierId="MOD_YUHENG_COPY_BUILDER" Name="Amount" Value="1"/>
 		<Row>
 			<ModifierId>TRAIT_ADJUST_GOVERNMENT_SLOTS</ModifierId>
 			<Name>GovernmentSlotType</Name>
 			<Value>SLOT_WILDCARD</Value>
 		</Row>
-		<!--<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>InitialValue</Name>
-			<Value>0</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>IncrementValue</Name>
-			<Value>0</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>StatementKey</Name>
-			<Value>LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_EXPLOITATION</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_EXPLOITATION</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>HiddenAgenda</Name>
-			<Value>false</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>TileImprovementHighThreshold</Name>
-			<Value>75</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>TileImprovementLowThreshold</Name>
-			<Value>35</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>PlotFeatureRemovalValue</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>NationalParkConstructionValue</Name>
-			<Value>10</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>TileImprovementPreferenceValue</Name>
-			<Value>9</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>MaxDiploModifierMagnitude</Name>
-			<Value>10</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>HighScoreThreshold</Name>
-			<Value>15</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_EXPLOITATION</ModifierId>
-			<Name>LowScoreThreshold</Name>
-			<Value>-15</Value>
-		</Row>-->
 	</ModifierArguments>
 	<!--<ModifierStrings>
-		<Row ModifierId="AGENDA_EXPLOITATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 	</ModifierStrings>-->
 	
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
-		<Row>
-			<RequirementSetId>UNIT_IS_CIVILIAN</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
-		</Row>		
+		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="UNIT_IS_WORKER" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
-		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="UNIT_IS_LIYUE_CIVILIAN" />
+		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="REQ_LIYUE_CIVILIAN"/>
+		<Row RequirementSetId="UNIT_IS_WORKER" RequirementId="REQ_WORKER"/>
 	</RequirementSetRequirements>
 	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
 	<Requirements>
-		<Row RequirementId="UNIT_IS_LIYUE_CIVILIAN" RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+		<Row RequirementId="REQ_LIYUE_CIVILIAN" RequirementType="REQUIREMENT_UNIT_TAG_MATCHES"/>
+		<Row RequirementId="REQ_WORKER" RequirementType="REQUIREMENT_UNIT_TAG_MATCHES"/>
 	</Requirements>
 	<RequirementArguments>
-		<Row RequirementId="UNIT_IS_LIYUE_CIVILIAN" Name="Tag" Value="CLASS_LIYUE_CIVILIAN" />
+		<Row RequirementId="REQ_LIYUE_CIVILIAN" Name="Tag" Value="CLASS_LIYUE_CIVILIAN" />
+		<Row RequirementId="REQ_WORKER" Name="Tag" Value="CLASS_LIYUE_WORKER" />
 	</RequirementArguments>
 </GameData>
