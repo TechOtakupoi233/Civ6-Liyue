@@ -71,46 +71,89 @@
 		<Row Tag="LOC_GOVERNOR_GANYU_TITLE" Language="zh_Hans_CN">
 			<Text>七星秘书</Text>
 		</Row>
+		<Row Tag="LOC_GOVERNOR_GANYU_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>七星秘书</Text>
+		</Row>
 		<Row Tag="LOC_GOVERNOR_GANYU_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>甘雨是璃月行政效率的奠基人。她关注民生，能为璃月带来多方面的加成。</Text>
+			<Text>甘雨是璃月行政效率的筑基人。她关注民生，能为璃月带来多方面的加成。[NEWLINE]</Text>
 		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_ALWAYS_STANDBY_NAME" Language="zh_Hans_CN">
-			<Text>随时待命</Text>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>饮必甘露，食必嘉禾。循循如仪，不罹罗网。</Text>
 		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_ALWAYS_STANDBY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>友方单位在城市领土范围内+5[ICON_Strength]战斗力，并额外回复生命值。可在最短时间内回到工作岗位。</Text>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>对于高居「玉京台」的七枚明星来说，甘雨绝非服侍他们「伴星」，而是璃月港错综情报数据之网的统筹者，璃月港行政效率的筑基人。
+				繁杂的会议纪要、冗乱的报表数据……每日成堆的文书恍如流水，皆由她一手整编成晓畅明晰的文字，用以辅助七星的每一个决策与每一次协商，指示各部机构的流转。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>千百年的时光里，历任七星不停更迭，唯有甘雨始终见证着璃月港的繁华烟火。[NEWLINE]血脉中「人」的一面令她留连绚烂的灯市，「仙」的本性亦使她怀念仙山与洞府的幽闲。[NEWLINE]在半人半仙的甘雨眼中，熙攘的人海与幽鸣的群峰，究竟何者才更堪称归宿？</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MIND_IN_CIVIL_NAME" Language="zh_Hans_CN">
+			<Text>心系民间</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MIND_IN_CIVIL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可在最短时间内回到工作岗位。+2[ICON_Amenities]宜居度。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MIND_IN_CIVIL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>甘雨，「月海亭」的秘书，承担了诸多世人看不见的工作。纵然世人得知甘雨的地位，恐怕他们也很难将「月海亭」的秘书与破晓时分站在码头上、安静享用早点的少女联系起来。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MIND_IN_CIVIL_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>但在旭日东升之前，她一定会重新回到高踞玉京台之上的月海亭，继续完成她的「契约」。[NEWLINE]那是远在三千年前，她与「岩王帝君」签订的契约。
+			</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_NAME" Language="zh_Hans_CN">
 			<Text>辅佐决策</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>根据领袖提供能力：[NEWLINE]为刻晴提供道路等级+1。[NEWLINE]为凝光提供每[ICON_Citizen]人口+1[ICON_Gold]金币。</Text>
+			<Text>根据领袖贡献独特能力。（详见文明百科页面）</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>"辅佐决策"根据领袖贡献以下加成之一：[NEWLINE]为刻晴提供道路等级+1，每建造一个建造者和军事工程师就会获得另一个。[NEWLINE]为凝光提供使用此城市中[ICON_Gold]金币购买区域、建筑、单位时20%的折扣。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>人们知道「璃月七星」是人中翘楚，掌握着城市的命脉。但他们很难了解，每个决议背后的数据支撑，是如何建立起来的。[NEWLINE]人们知道每一年新颁布的条例都会给市场带来全新的变数，却不知道它们是怎样从繁杂的会议纪要中被摘录出来，逐渐整编成为晓畅的文字的。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_NAME" Language="zh_Hans_CN">
 			<Text>霜华矢</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市+10[ICON_Ranged]远程攻击力，且获得额外一次[ICON_Ranged]远程攻击能力。</Text>
+			<Text>城市+10[ICON_Ranged]远程攻击力，且获得额外一次[ICON_Ranged]远程攻击能力。[NEWLINE]此城市训练的远程单位获得额外晋升。</Text>
 		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_NAME" Language="zh_Hans_CN">
-			<Text>资源调配</Text>
-		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市中能为区域提供效果的建筑范围提高6。</Text>
-		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_NAME" Language="zh_Hans_CN">
-			<Text>盛世太平</Text>
-		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市可修建一个额外的特色区域。</Text>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>甘雨曾跟随帝君征战四方，她的战斗能力不容小觑。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_NAME" Language="zh_Hans_CN">
 			<Text>融入人间</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每5[ICON_Citizen]人口+1[ICON_Amenities]宜居度，所有改良设施+0.5[ICON_Housing]住房。</Text>
+			<Text>为所在城市提供淡水资源，城市内已改良的农作物资源+3[ICON_Food]食物。</Text>
 		</Row>
-		
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FADE_IN_HUMAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>千年有多长？[NEWLINE]长到开满荻花洲的琉璃百合，在洪水后绝迹；长到归离原人声鼎沸的集镇，在战后化为断壁残垣。[NEWLINE]千年有多短？[NEWLINE]对甘雨来说，正如白驹过隙间。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FADE_IN_HUMAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在这凡人难以想象的漫长时光里，甘雨一直端坐玉京台，处理各种事务。[NEWLINE]亲手记录每一座楼阁的落成，亲眼见证每一个产业的繁荣。[NEWLINE]甘雨对于时间流逝的客观感受，来自于白纸上不断庞大的数字，来自于总是需要更多颜色才能区分内容的表格。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FADE_IN_HUMAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>时间几乎没能改变甘雨的心智，她的内心始终在「人」和「仙兽」之间摇摆。[NEWLINE]一方面，身为麒麟的她，难以理解人类世界的诸多纷争。[NEWLINE]而另一方面，人类的血脉却总是提醒她，要对融入社会抱有希望。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_NAME" Language="zh_Hans_CN">
+			<Text>盛世太平</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市可修建一个额外的特色区域，且可用[ICON_Gold]金币购买区域。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_PROSPEROUS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>甘雨的特色料理。[NEWLINE]麒麟憩于花丛的画面，光是观赏就能让心情平静下来。甘雨怀揣着对世间的美好祈愿烹制菜肴，再将自己最喜欢的清心花瓣，默不作声地留给了珍视的你。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_NAME" Language="zh_Hans_CN">
+			<Text>资源调配</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中能为区域提供效果的建筑范围提高6，可用建造者来推动区域建设进程。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“双倍工人锤上天”</Text>
+		</Row>
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_1" Language="zh_Hans_CN">
 			<Text>琳琅</Text>

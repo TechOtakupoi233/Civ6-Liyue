@@ -38,6 +38,14 @@
 		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="80" Filename="TEAHOUSE_ICON_80"/>
 		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="128" Filename="TEAHOUSE_ICON_128"/>
 		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="256" Filename="TEAHOUSE_ICON_256"/>
+		<Row Name="ICON_ATLAS_GANYU_GOVERNORS" IconSize="32" IconsPerRow="8" IconsPerColumn="1" Filename="Ganyu_Governors32"/>
+		<Row Name="ICON_ATLAS_GANYU_GOVERNORS" IconSize="64" IconsPerRow="8" IconsPerColumn="1" Filename="Ganyu_Governors64"/>
+		<Row Name="ICON_ATLAS_GANYU_GOVERNOR_PROMOTIONS" IconSize="24" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorPromotions24"/>
+		<!-- Atlasses bellow are used in CityBanner governor meters -->
+		<Row Name="ICON_ATLAS_GANYU_GOVERNORS_FILL" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorsCityBannerFill32"/>
+		<Row Name="ICON_ATLAS_GANYU_GOVERNORS_FILL" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorsCityBannerFill22"/>
+		<Row Name="ICON_ATLAS_GANYU_GOVERNORS_SLOT" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorsCityBannerSlot32"/>
+		<Row Name="ICON_ATLAS_GANYU_GOVERNORS_SLOT" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorsCityBannerSlot22"/>
 	</IconTextureAtlases>
 	<IconDefinitions>		
 		<Row Name="ICON_CIVILIZATION_LIYUE_CL" Atlas="ATLAS_LIYUE" Index="0"/>
@@ -45,5 +53,9 @@
 		<Row Name="ICON_LEADER_NINGGUANG" Atlas="ATLAS_NINGGUANG" Index="0"/>
 		<Row Name="ICON_UNIT_MILLELITH" Atlas="ATLAS_MILLELITH_ICON" Index="0"/>
 		<Row Name="ICON_BUILDING_TEAHOUSE" Atlas="ATLAS_TEAHOUSE_ICON" Index="0"/>
+		<Row Name="ICON_GOVERNOR_GANYU" Atlas="ICON_ATLAS_GANYU_GOVERNORS" Index="0"/>
+		<Row Name="ICON_GOVERNOR_GANYU_FILL" Atlas="ICON_ATLAS_GANYU_GOVERNORS_FILL" Index="0"/>
+		<Row Name="ICON_GOVERNOR_GANYU_SLOT" Atlas="ICON_ATLAS_GANYU_GOVERNORS_SLOT" Index="0"/>
+		<Row Name="ICON_GOVERNOR_GANYU_PROMOTION" Atlas="ICON_ATLAS_GANYU_GOVERNOR_PROMOTIONS" Index="0"/>
 	</IconDefinitions>
 </GameData>

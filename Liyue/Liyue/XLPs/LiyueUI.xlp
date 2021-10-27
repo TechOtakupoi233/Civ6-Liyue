@@ -189,6 +189,38 @@
 			<m_EntryID text="GovernorSelected_Ganyu"/>
 			<m_ObjectName text="GovernorSelected_Ganyu"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Moment_PromoteGovernor_Ganyu"/>
+			<m_ObjectName text="Moment_PromoteGovernor_Ganyu"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ganyu_Governors32"/>
+			<m_ObjectName text="Ganyu_Governors32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ganyu_Governors64"/>
+			<m_ObjectName text="Ganyu_Governors64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ganyu_GovernorsCityBannerFill22"/>
+			<m_ObjectName text="Ganyu_GovernorsCityBannerFill22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ganyu_GovernorsCityBannerFill32"/>
+			<m_ObjectName text="Ganyu_GovernorsCityBannerFill32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ganyu_GovernorPromotions24"/>
+			<m_ObjectName text="Ganyu_GovernorsPromotions24"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ganyu_GovernorsCityBannerSlot22"/>
+			<m_ObjectName text="Ganyu_GovernorsCityBannerSlot22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ganyu_GovernorsCityBannerSlot32"/>
+			<m_ObjectName text="Ganyu_GovernorsCityBannerSlot32"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

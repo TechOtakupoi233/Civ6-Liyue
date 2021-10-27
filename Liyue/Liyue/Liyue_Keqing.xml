@@ -149,7 +149,7 @@
 		<Row>
 			<ModifierId>MOD_YUHENG_BUILDER_CHARGE</ModifierId>
 			<Name>Amount</Name>
-			<Value>-1</Value>
+			<Value>-2</Value>
 		</Row>
 		<Row>
 			<ModifierId>MOD_YUHENG_CIVILIAN_MOVEMENT</ModifierId>

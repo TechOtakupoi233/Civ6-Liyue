@@ -17,7 +17,7 @@
 			<Text>岩与契约的海港</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有一位特色总督甘雨。[NEWLINE]游戏开始时通常位于海岸单元格旁。[NEWLINE]港口和商业中心从每个区域获得标准邻接加成。市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。[NEWLINE]通过矿山、采石场改良的任意资源提供+1 [ICON_Production] 生产力，奢侈品资源提供+1 [ICON_Culture] 文化值和+2 [ICON_Gold] 金币。[NEWLINE]对违反承诺的文明产生额外不满。</Text>
+			<Text>拥有一位特色总督甘雨。游戏开始时通常位于海岸单元格旁。[NEWLINE]港口和商业中心从每个区域获得标准邻接加成。市场和灯塔可重复提供 [ICON_Traderoute] 贸易容量。为所有贸易路线提供+2 [ICON_Gold] 金币。[NEWLINE]通过矿山、采石场改良的任意资源提供+1 [ICON_Production] 生产力，奢侈品资源提供+1 [ICON_Culture] 文化值和+2 [ICON_Gold] 金币。[NEWLINE]对违反承诺的文明产生额外不满。</Text>
 		</Row>
 		<Row Tag="LOC_MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS" Language="zh_Hans_CN">
 			<Text>+1 [ICON_Gold] 金币来自每个相邻区域。</Text>
@@ -33,7 +33,7 @@
 			<Text>引领变革的「玉衡星」</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>刻晴的非宗教平民单位[ICON_Movement]移动力+2，无视地形额外移动力消耗。[NEWLINE]建造者与军事工程师-1[ICON_Charges]劳动力，但每建造一个就会获得另一个。[NEWLINE]提供一个额外的通配符政策槽位。</Text>
+			<Text>刻晴的非宗教平民单位[ICON_Movement]移动力+2，无视地形额外移动力消耗，但建造者与军事工程师只有1点[ICON_Charges]劳动力。[NEWLINE]提供一个额外的通配符政策槽位。</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="zh_Hans_CN">
 			<Text>「玉衡星」刻晴，您总是站在变革的风口浪尖，带领着璃月人民追随时代的步伐。时间已经证明璃月不再需要岩王帝君与众仙的护佑，人类已经超越了神明和仙人的步伐。现在，您将正式承担变革者的责任，让璃月以前所未有的脚步向前迈进吧。</Text>
@@ -45,7 +45,7 @@
 			<Text>无所不知的「天权星」</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>外交能见度提升一级，凝光的间谍初始就拥有“监视”和“测谎仪”升级。[NEWLINE]派往城邦的首个[ICON_Envoy]使者视为两个[ICON_Envoy]使者。作为城邦的宗主国时，每回合从城邦处获得的[ICON_Favor]外交支持翻倍。[NEWLINE]凝光可免费购买商人，且使用金币购买建筑时花费-20%。经过璃月城市的国际贸易路线+5[ICON_Gold]金币。[NEWLINE]商业中心和港口提供[ICON_GreatMerchant]大商人点数，且每有2点邻接加成便为此区域中的建筑+20%[ICON_Gold]金币，至多生效10点邻接加成。</Text>
+			<Text>外交能见度提升一级，凝光的间谍初始就拥有“监视”和“测谎仪”升级。[NEWLINE]派往城邦的首个[ICON_Envoy]使者视为两个[ICON_Envoy]使者。作为城邦的宗主国时，每回合从城邦处获得的[ICON_Favor]外交支持翻倍。[NEWLINE]凝光可免费购买商人，经过璃月城市的国际贸易路线+5[ICON_Gold]金币。[NEWLINE]商业中心和港口提供[ICON_GreatMerchant]大商人点数，且每有2点邻接加成便为此区域中的建筑+20%[ICON_Gold]金币，至多生效10点邻接加成。</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="zh_Hans_CN">
 			<Text>「天权星」凝光，在商战中您无人能敌，璃月港的大小动静您无所不知，您还曾立志让群玉阁的阴影笼罩提瓦特的七国。现在，在这片全新的土地上开始您伟大的征程吧，让群玉阁发展到前所未有的规模，向世界宣告您的到来。</Text>
