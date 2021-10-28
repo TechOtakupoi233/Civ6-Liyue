@@ -97,7 +97,7 @@
 		<Row ModifierId="MOD_GANYU_REGIONAL_RANGE" Name="Amount" Value="6"/>
 		<Row ModifierId="MOD_GANYU_BUILDER_DISTRICT" Name="Amount" Value="20"/>
 		<Row ModifierId="MOD_GANYU_HOUSING" Name="HasBonus" Value="true"/>
-		<Row ModifierId="MOD_GANYU_FOOD" Name="Amount" Value="2"/>
+		<Row ModifierId="MOD_GANYU_FOOD" Name="Amount" Value="3"/>
 		<Row ModifierId="MOD_GANYU_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
 		<Row ModifierId="MOD_GANYU_AMENITY" Name="Amount" Value="2"/>
 	</ModifierArguments>

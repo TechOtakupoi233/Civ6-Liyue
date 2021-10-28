@@ -30,11 +30,11 @@
 			<Combat>45</Combat>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<PromotionClass>PROMOTION_CLASS_ANTI_CAVALRY</PromotionClass>
-			<Cost>200</Cost>
+			<Cost>100</Cost>
 			<ZoneOfControl>true</ZoneOfControl>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
-			<Maintenance>3</Maintenance>
+			<Maintenance>1</Maintenance>
 			<TraitType>TRAIT_CIVILIZATION_UNIT_MILLELITH</TraitType>
 			<PrereqTech>TECH_MILITARY_TACTICS</PrereqTech>
 			<MandatoryObsoleteTech>TECH_COMPOSITES</MandatoryObsoleteTech>
@@ -44,27 +44,27 @@
 		<Row Unit="UNIT_MILLELITH" UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
 	</UnitUpgrades>
 	<TraitModifiers>
-		<Row>
+		<!--<Row>
 			<TraitType>TRAIT_CIVILIZATION_UNIT_MILLELITH</TraitType>
 			<ModifierId>MILLELITH_FLANKING_BONUS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_UNIT_MILLELITH</TraitType>
 			<ModifierId>MILLELITH_SUPPORT_BONUS</ModifierId>
-		</Row>
+		</Row>-->
 	</TraitModifiers>
 	<Modifiers>
-		<Row>
+		<!--<Row>
 			<ModifierId>MILLELITH_FLANKING_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>MILLELITH_SUPPORT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SUPPORT_BONUS_MODIFIER</ModifierType>
-		</Row>
+		</Row>-->
 	</Modifiers>
 	<ModifierArguments>
-		<Row>
+		<!--<Row>
 			<ModifierId>MILLELITH_FLANKING_BONUS</ModifierId>
 			<Name>Percent</Name>
 			<Value>100</Value>
@@ -73,6 +73,6 @@
 			<ModifierId>MILLELITH_SUPPORT_BONUS</ModifierId>
 			<Name>Percent</Name>
 			<Value>100</Value>
-		</Row>
+		</Row>-->
 	</ModifierArguments>
 </GameData>

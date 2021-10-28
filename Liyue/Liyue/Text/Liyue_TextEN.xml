@@ -9,40 +9,40 @@
 		<!-- Leader specific pedia text. -->
 		<!-- 领袖特性概要 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_CAPSULE_BODY" Language="en_US">
-			<Text>刻晴和她领导下的工人具有强大且高效行动力，他们将全数开发脚下的每一寸土地。</Text>
+			<Text>Keqing and the workers she is leading are impressively productive. They will make use of every inch of land under their foot.</Text>
 		</Row>
 		<!-- 领袖玩法介绍 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>刻晴领导的璃月能够快速扩张且改良大量的单元格，能够高效率地开发地图资源，强力的开拓者能快人一步抢夺重要的战略位置。[NEWLINE]璃月还拥有世界领先的贸易能力和经济能力，且特色建筑和来自岩石的历史底蕴能确保璃月的文化领先。</Text>
+			<Text>Liyue with Keqing's lead can expand and develop massive amount of tiles effectivly, and settlers with quick movement can reach important stategic location ahead of any one else.[NEWLINE]With the support of Ganyu, Liyue has world leading ability of trading and economic.</Text>
 		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- 领袖历史背景 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>璃月七星之一，玉衡星，刻晴。她对「帝君一言而决的璃月」颇有微词——但实际上，神挺欣赏她这样的人。[NEWLINE]身为「璃月七星」，刻晴是个不折不扣的行动派。如果一件事在她看来是有价值、有必要的，那她一定会亲力亲为。比如，她曾亲自踏遍璃月全境，将地势地貌牢记于心，以便日后能够最大限度地利用每一寸土地。</Text>
+			<Text>The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.[NEWLINE]One of the Liyue Qixing, Keqing has an uncompromising belief in actions over words. If she sees something that needs doing, she'll do it herself. For example, she traveled around Liyue and carefully memorized each detail of the land so that she may one day be able to maximize the utility of every last inch of Liyue.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>刻晴随时关注着璃月境内的大小事情，岩王帝君每年却只降临一次。[NEWLINE]数千年繁华的历史，已经证明追随帝君的脚步是正确之举，但刻晴对此则始终抱有顾虑——眼下璃月港的繁荣，就像沙滩上的宏伟沙堡。决定大海是否涨潮的，却不是人类自己。[NEWLINE]「帝君已经守护了璃月千年，但下一个千年，十个千年，一百个千年，也会是如此吗？」[NEWLINE]正是这个得不到回答的问题，让刻晴不断努力，丝毫不敢放松。[NEWLINE]在旁人看来，这是多余的担忧，但刻晴无法对这一潜在的隐患坐视不理。[NEWLINE]这是璃月人未曾设想过的未来…可总有人要走在时代最前沿，亲手开创新的道路。[NEWLINE]玉衡星刻晴，自然当仁不让。</Text>
+			<Text>Keqing deals with the day-to-day affairs of Liyue, whether great or small, while Rex Lapis only descends once a year.[NEWLINE]To many, the millennia of prosperity that Liyue has enjoyed serve to legitimize Rex Lapis' guidance of the city. But Keqing has her reservations about all this, viewing Liyue's present prosperity as akin to a magnificent sandcastle on the beach — humanity does not have the luxury of deciding when the tide will come in.[NEWLINE]"Rex Lapis has watched over Liyue for a millennium. But what about the next millennium? What about the next ten, or the next hundred millennia? How long are we expecting this status quo to last?"[NEWLINE]It is this unanswered question that drives Keqing to work relentlessly and remain diligent.[NEWLINE]From most people's perspective, there is no point in working oneself up like this. But Keqing cannot sit by idly and ignore this hidden danger.[NEWLINE]The people of Liyue have never considered navigating the future on their own terms. But someone must walk on the front line of the epoch and forge a new path with their own hands.[NEWLINE]From most people's perspective, there is no point in working oneself up like this. But Keqing cannot sit by idly and ignore this hidden danger.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text>岩王帝君的离去使璃月港陷入了一段相当艰难的时期。原本由帝君全权监管的事务,尽数分配到七星八门手中。[NEWLINE]神治已成为旧时残影,遗留的的老规矩自然不能全盘照搬。可要为历史长达数千年的璃月重新制定规则,难度不可估量。</Text>
+			<Text>Rex Lapis' departure has put Liyue Harbor through a great deal of hardship. All the duties Rex once fulfilled have been taken up by the Qixing and the Eight Trades.[NEWLINE]Now that divine rule is a thing of the past, the old strictures left behind can't simply be continued wholesale. But to establish new laws for Liyue, whose history spans several thousand years, is no mean feat.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_4" Language="en_US">
-			<Text>起初,刻晴兴奋无比。她早已做好准备，期待着大展拳脚的一天。却没想到几个月过去,她仍困于单一的工作中,为土地基建忙昏了头。[NEWLINE]不论如何奋斗,堆积的事务仍如泥潭一般紧裹着她。即便有所建树,也不过是从前的帝君亦能轻松做到的事。[NEWLINE]「为什么只能做到这种程度,为什么…做不到更好?」[NEWLINE]原因她当然明白…事实上,她早已认识到真相。[NEWLINE]即使自己的「不敬」,甚至能够受到神灵的认可…那也不意味着目前的自己,就有能力「取而代之」。[NEWLINE]不过,她毕竟是坚定又顽强的刻晴。自那日起,她闭门不出,埋头于各色典籍,再次学习一切所需知识。她将自己放到最低，以全然接受的姿态面对所有未知。[NEWLINE]于此期间,她沉敛心神，逐渐摒弃心中、长久以来与岩王帝君的「对抗」意识。帝君与刻晴,都只是为这千年璃月而奔走——爱着同一件事物的人,断然没有两立的道理。[NEWLINE]过去那场请仙典仪上,帝君神秘的笑脸，似乎有了解释。刻晴想,那也许是一种认可与期待的笑容。[NEWLINE]现今的她并未失去雷厉风行的风格,不过迷茫时,她也会停下脚步想一想:「若是帝君,这时会怎么做呢?」</Text>
+			<Text>At first, Keqing was incredibly enthusiastic about this task, having long prepared for this day when she might finally show her mettle. But several months in, and she was still stuck on a single task, land infrastructure — and it was driving her up the wall.[NEWLINE]No matter how hard she struggled, the mountain of tasks was like a quagmire. She was making a difference, yes, but not nearly with as much ease as Rex Lapis.[NEWLINE]"Why can I only do this much? Why... can't I do it better?"[NEWLINE]Of course, she had long understood the wherefores here.[NEWLINE]Her lack of respect for the gods had somehow received their recognition all the same, yes, but that didn't mean that she was ready to simply replace them.[NEWLINE]But she was still Keqing, resolute and tenacious. From that day on, she shut herself in, studying classics of various kinds to learn all that she needed. Placing herself lowest, she accepted all that she had hitherto not known with open arms.[NEWLINE]During this period, she gained a certain calm, slowly discarding the "opprobrium" she had long held against Rex Lapis. They were both working for the good of Liyue, after all — and two people who love the same thing need not be on opposing sides.[NEWLINE]She also seemingly came to an understanding concerning the smile Rex Lapis had given her during the Rite of Descension. It was, Keqing now believes, an expression of acknowledgement and expectation.[NEWLINE]She hasn't lost any of her forceful and decisive manner, no. But sometimes, when she feels lost, she will stop and think: "What would Rex Lapis do at a moment such as this?"</Text>
 		</Row>
 		<!-- Leader specific pedia text. -->
 		<!-- 领袖特性概要 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_CAPSULE_BODY" Language="en_US">
-			<Text>「璃月七星」手眼通天，凝光的眼线遍布璃月，在璃月境内没有什么能逃得过凝光的耳目。</Text>
+			<Text>Ningguang knows everything happening in Liyue harbor, her wealth is unsurpassed in all of Teyvat.</Text>
 		</Row>
 		<!-- 领袖玩法介绍 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>凝光具有强大的情报能力和反间谍能力，这能确保没有人可以在以「契约」闻名的璃月暗中搞破坏。同时，作为一个大商人，她能从璃月境内的国际商会中获取额外利益。[NEWLINE]璃月还拥有世界领先的贸易能力和经济能力，且特色建筑和来自岩石的历史底蕴能确保璃月的文化领先。</Text>
+			<Text>Ningguang has powerful intelligence and anti-spy abilities, this make sure no one can damage Liyue in dark. As a professional businesswoman, she can earn extra profit from international businesses.</Text>
 		</Row>
 
 		<!-- Leader specific historical text. -->
 		<!-- 领袖历史背景 -->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<!--<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>「掌握了璃月港所有秘密的凝光是璃月港最大的秘密。」——璃月七星·开阳星如此评价她。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_2" Language="en_US">
@@ -53,10 +53,10 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text>生活在璃月，人人都需按规则出牌。规则会保护他们的利益不受侵犯，相应地，违规之人也将受到惩罚。[NEWLINE]这些规则源自璃月守护神「摩拉克斯」制订的古老律法，绝对可靠。璃月数千年历史中，历任「天权」对每条律法逐一修订，使其符合璃月不同阶段的社会需求。这些古老律法被整合成册，附带一本两百七十九页的注释，发放到所有璃月人手中。[NEWLINE]凝光喜欢这样的璃月港。井然的秩序能让商业更具活力，而她又比任何人都更理解秩序的细节。	</Text>
-		</Row>
+		</Row>-->
 		<!-- Civilization specific historical text. -->
 		<!-- 文明历史背景 -->
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<!--<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>璃月是提瓦特历史最悠久的国家。3700年前，摩拉克斯和仙人签订了契约以保护璃月港，这就是璃月国的成立。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_2" Language="en_US">
@@ -64,6 +64,93 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text>魔神战争爆发时，这个文明经过了激烈战争后被摧毁，也导致了归终的死亡；本来肥沃的荻花州变成了一片沼泽。摩拉克斯带他的人民向南，在天衡山南边建立璃月港，直到今日。为了保护这新的城市，摩拉克斯与仙人签订了契约，自己就去与其他恶神作战。在镇压了数个魔神，如“漩涡之魔神”，以及其他魔神的死去（如“盐之魔神”赫乌莉亚) 后，摩拉克斯成为璃月战场中的胜者，成为尘世的岩神。一年一度，摩拉克斯在“七星请仙典仪”正式下凡，为璃月人民赐下神谕，指引下一年璃月经营的方向。日常凡务就由璃月七星、商会、和千岩军处理。</Text>
+		</Row>-->
+		<Row Tag="LOC_GOVERNOR_GANYU_NAME" Language="en_US">
+			<Text>Ganyu</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_GANYU_TITLE" Language="en_US">
+			<Text>The secretary of the Liyue Qixing</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_GANYU_SHORT_TITLE" Language="en_US">
+			<Text>The secretary of the Liyue Qixing</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_GANYU_DESCRIPTION" Language="en_US">
+			<Text>Ganyu is the architect of administrative efficiency.[NEWLINE]She cares of the civilians' livelihood, provides bonus in multiple areas.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Drink only spring water, eat only whole grain. Proceed with elegance, avoid certain peril.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>For the Liyue Qixing of the lofty Yujing Terrace, Ganyu is not merely a companion to serve them, but is instead coordinator of the web of information that moves across Liyue Harbor, and the architect of administrative efficiency.[NEWLINE]Complex meeting minutes, disorderly report data... Every day piles of documents flow by like water, each one personally compiled by her into clear and concise words in order to assist the Qixing's every decision and negotiation as they flow through various organizational departments.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>In the eons that have gone by, the Qixing have changed with each succession of their posts, while only Ganyu has lived to see the flourishing of Liyue Harbor from beginning to the modern day.[NEWLINE]The human blood that runs through her veins makes her reluctant to leave the splendor of the city lights, while her adeptus side leads her to yearn for the gentle serenity of her adeptal homeland.[NEWLINE]For the half-human, half-adeptus Ganyu, between the bustling sea of people and the ethereal clustered peaks, which is more fitting to call home?</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MIND_IN_CIVIL_NAME" Language="en_US">
+			<Text>Mind in civilians</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MIND_IN_CIVIL_DESCRIPTION" Language="en_US">
+			<Text>Returns to her work in no time. +2[ICON_Amenities]Amenities。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MIND_IN_CIVIL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>As the secretary of Yuehai Pavilion, Ganyu undertakes many tasks that ordinary folk do not see. The calculations and data behind the Qixing's every decision in Liyue, as well as every ordinance and regulation that is announced, are all the meticulous work of Ganyu.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MIND_IN_CIVIL_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Each daybreak she stands by the dock, enjoying her breakfast in silence. Even still, by the time the sun has fully risen, she will have returned to Yuehai Pavilion overlooking Yujing Terrace, to continue to fulfill her contract — one that she signed three thousand years ago with Rex Lapis.</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_NAME" Language="en_US">
+			<Text>Decision helper</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_DESCRIPTION" Language="en_US">
+			<Text>Provide unique ability according to Leader.(Look up in Civilopidia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>"Decision helper" provides one of the following bonuses according to Leader: [NEWLINE]For Keqing: +1 Road Level, and free duplicated unit for builder and military engineer.[NEWLINE]For Ningguang: 20% discount when purchasing districts, buildings, units in this city.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>They are aware that the Liyue Qixing are the cream of the crop who hold the fate of the city in their hands, but the calculations and data behind the Qixing's every decision are far harder to grasp.[NEWLINE]The people understand that the new policies announced each year will change the dynamics of the market, yet none can comprehend how policy is plucked from complex meeting minutes and compiled into something easier on the human eye.</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_NAME" Language="en_US">
+			<Text>Frost flake arrow</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_DESCRIPTION" Language="en_US">
+			<Text>City +10[ICON_Ranged]ranged attack strength，and one extra[ICON_Ranged]shot.[NEWLINE]Ranged units trained in this city gets free promotion.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_NAME" Language="en_US">
+			<Text>Fade in human</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_DESCRIPTION" Language="en_US">
+			<Text>Provide fresh water for the city. +3[ICON_Food]food for improved crop resource in the city.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FADE_IN_HUMAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>How long is a thousand years?[NEWLINE]Long enough for the Glaze Lilies that once teemed throughout Dihua Marsh to be wiped out by floodwaters, and long enough for the thriving settlement that sprung up upon Guili Plains to come to ruin in war.[NEWLINE]How short is a thousand years?[NEWLINE]To Ganyu, it has felt shorter than the blink of an eye.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FADE_IN_HUMAN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Throughout a passage of time unimaginable to mortals, Ganyu has been working on all manner of things at Yujing Terrace.[NEWLINE]She recorded the raising and demolishing of every building, and witnessed the rise to prosperity of every industry.[NEWLINE]Ganyu's sense of objectivity towards the passage of time comes from the endless reams of data she must trawl through, and from the ever-increasing number of colors she finds that she needs to categorize it all.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FADE_IN_HUMAN_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>All this time, her mindset has never changed — she constantly wavers between her human and adeptus halves.[NEWLINE]On one hand, Ganyu the qilin finds it difficult to comprehend mortal squabbles. But on the other hand, her human blood reminds her always to hold out hope that she might someday be able to fit in.</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_NAME" Language="en_US">
+			<Text>Prosperous peace</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_DESCRIPTION" Language="en_US">
+			<Text>Extra available district in city，and the availability to purchase using[ICON_Gold]Gold.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_PROSPEROUS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_NAME" Language="en_US">
+			<Text>Resource allocating</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_DESCRIPTION" Language="en_US">
+			<Text>Enable using builders to help constuct districts.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
 		</Row>
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_1" Language="en_US">
@@ -138,7 +225,7 @@
 			<Text>Mingyun Village</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_4" Language="en_US">
-			<Text>Guili Village</Text>
+			<Text>Guili Town</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_5" Language="en_US">
 			<Text>Stone Gate</Text>
@@ -146,14 +233,37 @@
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_6" Language="en_US">
 			<Text>Wangshu Inn</Text>
 		</Row>
-
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_7" Language="en_US">
+			<Text>Dihua</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_8" Language="en_US">
+			<Text>Nantianmen</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_9" Language="en_US">
+			<Text>Qingxu</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_10" Language="en_US">
+			<Text>Dunyu</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_11" Language="en_US">
+			<Text>Lingju</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_12" Language="en_US">
+			<Text>Tianqiu</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_13" Language="en_US">
+			<Text>Guyun</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_14" Language="en_US">
+			<Text>Sal Terrae</Text>
+		</Row>
 		<!--Civilization Factoids -->
 		<!-- 地理环境与社会数据 -->
 		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION" Language="en_US">
 			<Text>Location</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION_DESCRIPTION" Language="en_US">
-			<Text>Teywwatt</Text>
+			<Text>Teywat</Text>
 		</Row>
 
 		<!-- Leader Quotes -->

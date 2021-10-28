@@ -22,7 +22,7 @@
 			<Text>璃月七星之一，玉衡星，刻晴。她对「帝君一言而决的璃月」颇有微词——但实际上，神挺欣赏她这样的人。[NEWLINE]身为「璃月七星」，刻晴是个不折不扣的行动派。如果一件事在她看来是有价值、有必要的，那她一定会亲力亲为。比如，她曾亲自踏遍璃月全境，将地势地貌牢记于心，以便日后能够最大限度地利用每一寸土地。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>刻晴随时关注着璃月境内的大小事情，岩王帝君每年却只降临一次。[NEWLINE]数千年繁华的历史，已经证明追随帝君的脚步是正确之举，但刻晴对此则始终抱有顾虑——眼下璃月港的繁荣，就像沙滩上的宏伟沙堡。决定大海是否涨潮的，却不是人类自己。[NEWLINE]「帝君已经守护了璃月千年，但下一个千年，十个千年，一百个千年，也会是如此吗？」[NEWLINE]正是这个得不到回答的问题，让刻晴不断努力，丝毫不敢放松。[NEWLINE]在旁人看来，这是多余的担忧，但刻晴无法对这一潜在的隐患坐视不理。[NEWLINE]这是璃月人未曾设想过的未来…可总有人要走在时代最前沿，亲手开创新的道路。[NEWLINE]玉衡星刻晴，自然当仁不让。</Text>
+			<Text>刻晴随时关注着璃月境内的大小事情，岩王帝君每年却只降临一次。[NEWLINE]数千年繁华的历史，已经证明追随帝君的脚步是正确之举，但刻晴对此则始终抱有顾虑——眼下璃月港的繁荣，就像沙滩上的宏伟沙堡。决定大海是否涨潮的，却不是人类自己。[NEWLINE]「帝君已经守护了璃月千年，但下一个千年，十个千年，一百个千年，也会是如此吗？」[NEWLINE]正是这个得不到回答的问题，让刻晴不断努力，丝毫不敢放松。[NEWLINE]在旁人看来，这是多余的担忧，但刻晴无法对这一潜在的隐患坐视不理。[NEWLINE]这是璃月人未曾设想过的未来...可总有人要走在时代最前沿，亲手开创新的道路。[NEWLINE]玉衡星刻晴，自然当仁不让。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
 			<Text>岩王帝君的离去使璃月港陷入了一段相当艰难的时期。原本由帝君全权监管的事务,尽数分配到七星八门手中。[NEWLINE]神治已成为旧时残影,遗留的的老规矩自然不能全盘照搬。可要为历史长达数千年的璃月重新制定规则,难度不可估量。</Text>
@@ -142,7 +142,7 @@
 		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>城市可修建一个额外的特色区域，且可用[ICON_Gold]金币购买区域。</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_PROSPEROUS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>甘雨的特色料理。[NEWLINE]麒麟憩于花丛的画面，光是观赏就能让心情平静下来。甘雨怀揣着对世间的美好祈愿烹制菜肴，再将自己最喜欢的清心花瓣，默不作声地留给了珍视的你。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_NAME" Language="zh_Hans_CN">
@@ -151,8 +151,8 @@
 		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>城市中能为区域提供效果的建筑范围提高6，可用建造者来推动区域建设进程。</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>“双倍工人锤上天”</Text>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_STACKING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“双倍工人锤上天”———优妮酱</Text>
 		</Row>
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_1" Language="zh_Hans_CN">
@@ -233,31 +233,31 @@
 			<Text>石门</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_6" Language="zh_Hans_CN">
-			<Text>往生堂第二支部</Text>
+			<Text>荻花洲</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_7" Language="zh_Hans_CN">
-			<Text>往生堂第三支部</Text>
+			<Text>归离集</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_8" Language="zh_Hans_CN">
-			<Text>往生堂第四支部</Text>
+			<Text>南天门</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_9" Language="zh_Hans_CN">
-			<Text>往生堂第五支部</Text>
+			<Text>青墟浦</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_10" Language="zh_Hans_CN">
-			<Text>往生堂第六支部</Text>
+			<Text>遁玉陵</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_11" Language="zh_Hans_CN">
-			<Text>往生堂第七支部</Text>
+			<Text>灵矩关</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_12" Language="zh_Hans_CN">
-			<Text>往生堂第八支部</Text>
+			<Text>天遒谷</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_13" Language="zh_Hans_CN">
-			<Text>往生堂第九支部</Text>
+			<Text>孤云阁</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_14" Language="zh_Hans_CN">
-			<Text>往生堂第十支部</Text>
+			<Text>地中之盐</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_15" Language="zh_Hans_CN">
 			<Text>往生堂第十一支部</Text>
