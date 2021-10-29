@@ -91,7 +91,7 @@
 			<Text>心系民间</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_MIND_IN_CIVIL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可在最短时间内回到工作岗位。+2[ICON_Amenities]宜居度。</Text>
+			<Text>可在最短时间内回到工作岗位。+3[ICON_Amenities]宜居度。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MIND_IN_CIVIL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>甘雨，「月海亭」的秘书，承担了诸多世人看不见的工作。纵然世人得知甘雨的地位，恐怕他们也很难将「月海亭」的秘书与破晓时分站在码头上、安静享用早点的少女联系起来。</Text>
@@ -107,7 +107,7 @@
 			<Text>根据领袖贡献独特能力。（详见文明百科页面）</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>"辅佐决策"根据领袖贡献以下加成之一：[NEWLINE]为刻晴提供道路等级+1，每建造一个建造者和军事工程师就会获得另一个。[NEWLINE]为凝光提供使用此城市中[ICON_Gold]金币购买区域、建筑、单位时20%的折扣。</Text>
+			<Text>"辅佐决策"根据领袖贡献以下加成之一：[NEWLINE]为刻晴提供道路等级+1，建造者的[ICON_Production]生产力成本-30%，可用建造者来推动区域建设进程。[NEWLINE]为凝光提供使用此城市中[ICON_Gold]金币购买区域、建筑、单位时20%的折扣。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
 			<Text>人们知道「璃月七星」是人中翘楚，掌握着城市的命脉。但他们很难了解，每个决议背后的数据支撑，是如何建立起来的。[NEWLINE]人们知道每一年新颁布的条例都会给市场带来全新的变数，却不知道它们是怎样从繁杂的会议纪要中被摘录出来，逐渐整编成为晓畅的文字的。</Text>
@@ -149,10 +149,10 @@
 			<Text>资源调配</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市中能为区域提供效果的建筑范围提高6，可用建造者来推动区域建设进程。</Text>
+			<Text>所有能为区域提供效果的建筑范围提高6，且此城市可以重复接受来自区域的[ICON_Production]生产力加成。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_STACKING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>“双倍工人锤上天”———优妮酱</Text>
+			<Text></Text>
 		</Row>
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_1" Language="zh_Hans_CN">

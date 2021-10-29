@@ -51,7 +51,7 @@
 	<Loadinginfo>
 		<Row>
 			<LeaderType>LEADER_KEQING</LeaderType>
-			<ForegroundImage>LEADER_KEQING_LOADING.dds</ForegroundImage>
+			<ForegroundImage>LEADER_KEQING_LOADING</ForegroundImage>
 		</Row>
 	</Loadinginfo>
 	
@@ -172,7 +172,7 @@
 			<Value>true</Value>
 		</Row>
 		<Row ModifierId="MOD_YUHENG_COPY_BUILDER" Name="Tag" Value="CLASS_LIYUE_WORKER"/>
-		<Row ModifierId="MOD_YUHENG_COPY_BUILDER" Name="Amount" Value="1"/>
+		<Row ModifierId="MOD_YUHENG_COPY_BUILDER" Name="Amount" Value="3"/>
 		<Row>
 			<ModifierId>TRAIT_ADJUST_GOVERNMENT_SLOTS</ModifierId>
 			<Name>GovernmentSlotType</Name>

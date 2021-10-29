@@ -20,9 +20,7 @@
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
-		<Element>LINUX</Element>
-		<Element>MACOS</Element>
-		<Element>IOS</Element>
+		<Element>XBONE</Element>
 	</m_AllowedPlatforms>
 </AssetObjects..XLP>
 

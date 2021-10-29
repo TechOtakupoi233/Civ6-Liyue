@@ -14,7 +14,7 @@
 			<Text>The Harbor of Stone and Contracts</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="en_US">
-			<Text>Starts the game from coast.[NEWLINE]Commercial Hub and Harbor get a standard adjacent bonus from each district. Market and Light House provides [ICON_Traderoute] Trade Route Capacity despite limitations. +2 [ICON_Gold] Gold for all Trade Routes.[NEWLINE]+1 [ICON_Production] Production for any resource with a Mine or a Quarry, +1 [ICON_Culture] Culture and +2 [ICON_Gold] Gold for Luxuries with these improvements.[NEWLINE]Get Double Grievances to someone who broke his promise to you.</Text>
+			<Text>Starts the game from coast.[NEWLINE]Commercial Hub and Harbor get a standard adjacent bonus from each district. Market and Light House provides [ICON_Traderoute] Trade Route Capacity despite limitations.Gain +5 [ICON_Gold] Gold from international Trade Routes.[NEWLINE]+1 [ICON_Production] Production for any resource with a Mine or a Quarry, +1 [ICON_Culture] Culture and +2 [ICON_Gold] Gold for Luxuries with these improvements.[NEWLINE]Get Double Grievances to someone who broke his promise to you.</Text>
 		</Row>
 		<Row Tag="LOC_MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS" Language="en_US">
 			<Text>+1 [ICON_Gold] from each district。</Text>
@@ -30,7 +30,7 @@
 			<Text>Yu Heng Keqing -- Leader of revolution</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="en_US">
-			<Text>All settlers, builders, military engineers [ICON_Movement] Movement, and ignores the extra movement cost of any terrain, feature, or river. Builders and engineers get 2 extra charges. Gets a free builder when settling a new city.[NEWLINE]Gets an extra economic policy slot.</Text>
+			<Text>All non-religion civilian units+2[ICON_Movement]Movement, and ignore the extra movement cost of any terrain, feature, or river. Builders and engineers have only 1 charge, but will receive 3 duplicate units when produced.[NEWLINE]Gets an extra wildcard policy slot.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="en_US">
 			<Text>"Yu Heng" Keqing, you are always leading the revolution of Liyue. Time has proved Liyue doesn't need the protection from Archons any more, human has already caught up with the time. Now, You will take the responsibility of the leader, let Liyue advance in the fastest speed ever.</Text>

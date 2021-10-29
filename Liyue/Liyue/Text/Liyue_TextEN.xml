@@ -90,7 +90,7 @@
 			<Text>Mind in civilians</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_MIND_IN_CIVIL_DESCRIPTION" Language="en_US">
-			<Text>Returns to her work in no time. +2[ICON_Amenities]Amenities。</Text>
+			<Text>Returns to her work in no time. +3[ICON_Amenities]Amenities。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MIND_IN_CIVIL_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>As the secretary of Yuehai Pavilion, Ganyu undertakes many tasks that ordinary folk do not see. The calculations and data behind the Qixing's every decision in Liyue, as well as every ordinance and regulation that is announced, are all the meticulous work of Ganyu.</Text>
@@ -105,7 +105,7 @@
 			<Text>Provide unique ability according to Leader.(Look up in Civilopidia)</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>"Decision helper" provides one of the following bonuses according to Leader: [NEWLINE]For Keqing: +1 Road Level, and free duplicated unit for builder and military engineer.[NEWLINE]For Ningguang: 20% discount when purchasing districts, buildings, units in this city.</Text>
+			<Text>"Decision helper" provides one of the following bonuses according to Leader: [NEWLINE]For Keqing: +1 Road Level, get 30%[ICON_Production]Production discount when training builders, enable using builders to help constuct districts.[NEWLINE]For Ningguang: 20% discount when purchasing districts, buildings, units in this city.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text>They are aware that the Liyue Qixing are the cream of the crop who hold the fate of the city in their hands, but the calculations and data behind the Qixing's every decision are far harder to grasp.[NEWLINE]The people understand that the new policies announced each year will change the dynamics of the market, yet none can comprehend how policy is plucked from complex meeting minutes and compiled into something easier on the human eye.</Text>
@@ -147,7 +147,7 @@
 			<Text>Resource allocating</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_DESCRIPTION" Language="en_US">
-			<Text>Enable using builders to help constuct districts.</Text>
+			<Text>Regional effect from buildings can now spread 6 tiles further. Allow the city to receive[ICON_Production]production bonus from multiple industrial districts.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>

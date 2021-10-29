@@ -139,42 +139,6 @@
     <Content Include="Platforms\Windows\Audio\LiyueSoundBanks.ini">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_KEQING.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_KEQING.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_NINGGUANG.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_NINGGUANG.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_KEQING_LOADING.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_KEQING_LOADING.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_KEQING_NEUTRAL.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_KEQING_NEUTRAL.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_NINGGUANG_LOADING.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_NINGGUANG_LOADING.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_NINGGUANG_NEUTRAL.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_NINGGUANG_NEUTRAL.tex">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Text\Liyue_ConfigText.xml">
       <SubType>Content</SubType>
     </Content>
@@ -194,8 +158,7 @@
     <Folder Include="Platforms\" />
     <Folder Include="Platforms\Windows\" />
     <Folder Include="Platforms\Windows\Audio" />
-    <Folder Include="Text" />
-    <Folder Include="Textures\" />
+    <Folder Include="Text" />    
     <Folder Include="XLPs\" />
     <Content Include="Liyue_Civilization.xml" />
     <Content Include="Liyue_Icons.xml" />

@@ -26,7 +26,7 @@
 	<Loadinginfo>
 		<Row>
 			<LeaderType>LEADER_NINGGUANG</LeaderType>
-			<ForegroundImage>LEADER_NINGGUANG_LOADING.dds</ForegroundImage>
+			<ForegroundImage>LEADER_NINGGUANG_LOADING</ForegroundImage>
 		</Row>
 	</Loadinginfo>
 	

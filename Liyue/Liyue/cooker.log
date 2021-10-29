@@ -2,12 +2,7 @@ Starting AssetCooker...
 Argument '--shaders' has been deprecated and is no longer used.
 XLP cook starting...
 D:\Documents\GitHub\Civ6-Liyue\Liyue\Liyue\XLPs\UI_PrideMoments.xlp
-Opened output file: D:\Documents\My Games\Sid Meier's Civilization VI\Mods\Liyue\Platforms\MacOS\BLPs/UI/PrideMoments.blp    For XLP: 'D:\Documents\GitHub\Civ6-Liyue\Liyue\Liyue\XLPs\UI_PrideMoments.xlp'
+XLP 'D:\Documents\GitHub\Civ6-Liyue\Liyue\Liyue\XLPs\UI_PrideMoments.xlp' will not be cooked because it is not set to cook for platform: 'MacOS'
 Could not load digest key: ''.  Using mod key to sign BLP.
-Starting 'UI/PrideMoments'
-Load finished for: 'UI/PrideMoments' in 0.002 seconds
-Cook finished for: 'UI/PrideMoments' in 0.020 seconds
-Disk write finished for: 'UI/PrideMoments' in 0.056 seconds
-Cleanup finished for: 'UI/PrideMoments' in 0.000 seconds
 XLP cook completed with success.
-Cook completed in 0.091 seconds
+Cook completed in 0.008 seconds
