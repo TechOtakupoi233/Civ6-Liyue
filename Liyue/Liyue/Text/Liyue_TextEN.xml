@@ -102,10 +102,10 @@
 			<Text>Decision helper</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_DESCRIPTION" Language="en_US">
-			<Text>Provide unique ability according to Leader.(Look up in Civilopidia)</Text>
+			<Text>Provide unique ability according to Leader.(Details in Civilopidia)</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>"Decision helper" provides one of the following bonuses according to Leader: [NEWLINE]For Keqing: +1 Road Level, get 30%[ICON_Production]Production discount when training builders, enable using builders to help constuct districts.[NEWLINE]For Ningguang: 20% discount when purchasing districts, buildings, units in this city.</Text>
+			<Text>"Decision helper" provides one of the following bonuses according to Leader: [NEWLINE]For Keqing: +1 Road Level, enable using builders to help constuct districts.[NEWLINE]For Ningguang: 20% discount when purchasing districts, buildings, units in this city.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text>They are aware that the Liyue Qixing are the cream of the crop who hold the fate of the city in their hands, but the calculations and data behind the Qixing's every decision are far harder to grasp.[NEWLINE]The people understand that the new policies announced each year will change the dynamics of the market, yet none can comprehend how policy is plucked from complex meeting minutes and compiled into something easier on the human eye.</Text>
@@ -154,109 +154,218 @@
 		</Row>
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_1" Language="en_US">
-			<Text>Shitou</Text>
+			<Text>Jiayi</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_2" Language="en_US">
-			<Text>Bibo</Text>
+			<Text>Hongyi</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_3" Language="en_US">
-			<Text>Xiaoan</Text>
+			<Text>Suling</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_4" Language="en_US">
-			<Text>Dajiao</Text>
+			<Text>Yanxiao</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_5" Language="en_US">
-			<Text>Xu</Text>
+			<Text>Qiang</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_6" Language="en_US">
-			<Text>Guanhong</Text>
+			<Text>Zhonglin</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_7" Language="en_US">
-			<Text>Luofeng</Text>
+			<Text>Zhihua</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_8" Language="en_US">
-			<Text>Dongsheng</Text>
+			<Text>Zhuyu</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_9" Language="en_US">
-			<Text>Jianqiu</Text>
+			<Text>Bibo</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_MALE_10" Language="en_US">
-			<Text>Chef Mao</Text>
+			<Text>Shun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_MALE_11" Language="en_US">
+			<Text>Kuan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_MALE_12" Language="en_US">
+			<Text>Fengyan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_MALE_13" Language="en_US">
+			<Text>Hongru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_MALE_14" Language="en_US">
+			<Text>Gui</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_MALE_15" Language="en_US">
+			<Text>Zhenhai</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_MALE_16" Language="en_US">
+			<Text>Dongsheng</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_MALE_17" Language="en_US">
+			<Text>Shitou</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_MALE_18" Language="en_US">
+			<Text>Xu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_MALE_19" Language="en_US">
+			<Text>Degui</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_MALE_20" Language="en_US">
+			<Text>Bolai</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_1" Language="en_US">
-			<Text>Linlang</Text>
+			<Text>Qiming</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_2" Language="en_US">
-			<Text>Xiuhua</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_3" Language="en_US">
-			<Text>Licai</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_4" Language="en_US">
-			<Text>Yueshu</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_5" Language="en_US">
-			<Text>Shao</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_6" Language="en_US">
-			<Text>Xingxi</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_7" Language="en_US">
-			<Text>Yiming</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_8" Language="en_US">
 			<Text>Changshun</Text>
 		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_3" Language="en_US">
+			<Text>Ziwei</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_4" Language="en_US">
+			<Text>Xiling</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_5" Language="en_US">
+			<Text>Huixing</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_6" Language="en_US">
+			<Text>Wuyuan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_7" Language="en_US">
+			<Text>Xiuhua</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_8" Language="en_US">
+			<Text>Yinxing</Text>
+		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_9" Language="en_US">
-			<Text>Chuyi</Text>
+			<Text>Huangshan</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_10" Language="en_US">
-			<Text>Jiangzhou</Text>
+			<Text>Tiantian</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_11" Language="en_US">
+			<Text>Baixiao</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_12" Language="en_US">
+			<Text>Yu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_13" Language="en_US">
+			<Text>Jifang</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_14" Language="en_US">
+			<Text>Ruoxin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_15" Language="en_US">
+			<Text>Gongming</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_16" Language="en_US">
+			<Text>Linlang</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_17" Language="en_US">
+			<Text>Luoxia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_18" Language="en_US">
+			<Text>Huixin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_19" Language="en_US">
+			<Text>Xingxi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_20" Language="en_US">
+			<Text>Yueshu</Text>
 		</Row>
 
 		<!-- Civilization City Names-->
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_1" Language="en_US">
-			<Text>Liyue Harbor</Text>
+		<Row Tag="LOC_CITY_NAME_LIYUE" Language="en_US">
+			<Text>Liyue</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_2" Language="en_US">
-			<Text>Qingce Villige</Text>
+		<Row Tag="LOC_CITY_NAME_TIANHENG" Language="en_US">
+			<Text>Tian Heng</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_3" Language="en_US">
-			<Text>Mingyun Village</Text>
+		<Row Tag="LOC_CITY_NAME_DIHUA" Language="en_US">
+			<Text>Di Hua</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_4" Language="en_US">
-			<Text>Guili Town</Text>
+		<Row Tag="LOC_CITY_NAME_WANGSHU" Language="en_US">
+			<Text>Wang Shu</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_5" Language="en_US">
+		<Row Tag="LOC_CITY_NAME_QINGCE" Language="en_US">
+			<Text>Qing Ce</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JUEYUN" Language="en_US">
+			<Text>Jue Yun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BISHUI" Language="en_US">
+			<Text>Bi Shui</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STONE_GATE" Language="en_US">
 			<Text>Stone Gate</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_6" Language="en_US">
-			<Text>Wangshu Inn</Text>
+		<Row Tag="LOC_CITY_NAME_WUWANG" Language="en_US">
+			<Text>Wu Wang</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_7" Language="en_US">
-			<Text>Dihua</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_8" Language="en_US">
-			<Text>Nantianmen</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_9" Language="en_US">
-			<Text>Qingxu</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_10" Language="en_US">
-			<Text>Dunyu</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_11" Language="en_US">
-			<Text>Lingju</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_12" Language="en_US">
-			<Text>Tianqiu</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_13" Language="en_US">
-			<Text>Guyun</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_LIYUE_CITY_14" Language="en_US">
+		<Row Tag="LOC_CITY_NAME_SAL_TERRAE" Language="en_US">
 			<Text>Sal Terrae</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_MINLIN" Language="en_US">
+			<Text>Min Lin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CUIJUE" Language="en_US">
+			<Text>Cui Jue</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUAGUANG" Language="en_US">
+			<Text>Hua Guang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AOCANG" Language="en_US">
+			<Text>Ao Cang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HULAO" Language="en_US">
+			<Text>Hu Lao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NANTIANMEN" Language="en_US">
+			<Text>Nan Tian Men</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QINYUN" Language="en_US">
+			<Text>Qing Yun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TIANQIU" Language="en_US">
+			<Text>Tian Qiu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QIONGJI" Language="en_US">
+			<Text>Qing Ji</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GUILI" Language="en_US">
+			<Text>Gui Li</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MINGYUN" Language="en_US">
+			<Text>Ming Yun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YAOGUANG" Language="en_US">
+			<Text>Yao Guang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LUHUA" Language="en_US">
+			<Text>Lu Hua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LISHA" Language="en_US">
+			<Text>Li Sha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DUNYU" Language="en_US">
+			<Text>Du Yu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LINGJU" Language="en_US">
+			<Text>Ling Ju</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QINGXU" Language="en_US">
+			<Text>Qing Xu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YUNLAI" Language="en_US">
+			<Text>Yun Lai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GUYUN" Language="en_US">
+			<Text>Gu Yun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_CHASM" Language="en_US">
+			<Text>The Chasm</Text>
+		</Row>
+		
 		<!--Civilization Factoids -->
 		<!-- 地理环境与社会数据 -->
 		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION" Language="en_US">
@@ -355,7 +464,7 @@
 
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_KEQING_ANY" Language="en_US">
 			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
-			<Text>有什么事？</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_ANY" Language="en_US">
@@ -375,32 +484,32 @@
 
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KEQING_ANY" Language="en_US">
 			<!--理论上是同意求和，但从未被使用过-->
-			<Text>大家友爱地和平共处一直是优妮们的理念。我们同意。</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KEQING_ANY" Language="en_US">
 			<!--理论上是拒绝求和，但从未被使用过-->
-			<Text>我们还没打算放弃。</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
 			<!--理论上是求和，但从未被使用过-->
-			<Text>我已摸清了你的实力，就让这场战争结束，成为历史年表上的小小污点吧。</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
 			<!--理论上是同意开放边界，但从未被使用过-->
-			<Text>啊，您的到访让我感到诚惶诚恐，坐立不安。我们愿意开放边境并为您的军队提供帮助。</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
 			<!--理论上是拒绝开放边界，但从未被使用过-->
-			<Text>我不允许。这么不知变通，你这家伙也是认死理的老古董吧？</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
 			<!--理论上是请求开放边界，但从未被使用过-->
-			<Text>我们的研究不应该停留在自己的边境附近，很有必要从更宏观的角度进行。您能让我们穿过您的领土吗？</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KEQING_ANY" Language="en_US">
@@ -532,7 +641,7 @@
 
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_NINGGUANG_ANY" Language="en_US">
 			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
-			<Text>有什么事？</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NINGGUANG_ANY" Language="en_US">
@@ -552,12 +661,12 @@
 
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NINGGUANG_ANY" Language="en_US">
 			<!--理论上是同意求和，但从未被使用过-->
-			<Text>大家友爱地和平共处一直是优妮们的理念。我们同意。</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NINGGUANG_ANY" Language="en_US">
 			<!--理论上是拒绝求和，但从未被使用过-->
-			<Text>我们还没打算放弃。</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
@@ -567,17 +676,17 @@
 
 		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="en_US">
 			<!--理论上是同意开放边界，但从未被使用过-->
-			<Text>啊，您的到访让我感到诚惶诚恐，坐立不安。我们愿意开放边境并为您的军队提供帮助。</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="en_US">
 			<!--理论上是拒绝开放边界，但从未被使用过-->
-			<Text>我不允许。这么不知变通，你这家伙也是认死理的老古董吧？</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
 			<!--理论上是请求开放边界，但从未被使用过-->
-			<Text>我们的研究不应该停留在自己的边境附近，很有必要从更宏观的角度进行。您能让我们穿过您的领土吗？</Text>
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NINGGUANG_ANY" Language="en_US">

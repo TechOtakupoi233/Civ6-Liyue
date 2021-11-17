@@ -67,6 +67,8 @@
 		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_CIVILIAN_IGNORE_TERRAIN_COST"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_CIVILIAN_CROSSING_RIVERS_COST"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_COPY_BUILDER"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_BUILDER_DISCOUNT"/>
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_ENGINEER_DISCOUNT"/>
 		<!--<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ALL_DISTRICTS_CULTURE_BOMB"/>-->
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ADJUST_GOVERNMENT_SLOTS"/>
 	</TraitModifiers>
@@ -100,7 +102,7 @@
 		<Row>
 			<ModifierId>MOD_YUHENG_BUILDER_CHARGE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
-			<SubjectRequirementSetId>UNIT_IS_WORKER</SubjectRequirementSetId>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER_CL</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>MOD_YUHENG_CIVILIAN_MOVEMENT</ModifierId>
@@ -116,6 +118,8 @@
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS</ModifierType>
 		</Row>
 		<Row ModifierId="MOD_YUHENG_COPY_BUILDER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG"/>
+		<Row ModifierId="MOD_YUHENG_BUILDER_DISCOUNT" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"/>
+		<Row ModifierId="MOD_YUHENG_ENGINEER_DISCOUNT" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"/>
 	    <!--<Row>
 			<ModifierId>TRAIT_ALL_DISTRICTS_CULTURE_BOMB</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_ALL_DISTRICTS_CULTURE_BOMB</ModifierType>
@@ -173,6 +177,10 @@
 		</Row>
 		<Row ModifierId="MOD_YUHENG_COPY_BUILDER" Name="Tag" Value="CLASS_LIYUE_WORKER"/>
 		<Row ModifierId="MOD_YUHENG_COPY_BUILDER" Name="Amount" Value="3"/>
+		<Row ModifierId="MOD_YUHENG_BUILDER_DISCOUNT" Name="Amount" Value="60"/>
+		<Row ModifierId="MOD_YUHENG_BUILDER_DISCOUNT" Name="UnitType" Value="UNIT_BUILDER"/>
+		<Row ModifierId="MOD_YUHENG_ENGINEER_DISCOUNT" Name="Amount" Value="60"/>
+		<Row ModifierId="MOD_YUHENG_ENGINEER_DISCOUNT" Name="UnitType" Value="UNIT_ENGINEER"/>
 		<Row>
 			<ModifierId>TRAIT_ADJUST_GOVERNMENT_SLOTS</ModifierId>
 			<Name>GovernmentSlotType</Name>
@@ -186,18 +194,22 @@
 	<RequirementSets>
 		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="UNIT_IS_WORKER" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="UNIT_IS_BUILDER_CL" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="UNIT_IS_CIVILIAN" RequirementId="REQ_LIYUE_CIVILIAN"/>
 		<Row RequirementSetId="UNIT_IS_WORKER" RequirementId="REQ_WORKER"/>
+		<Row RequirementSetId="UNIT_IS_BUILDER_CL" RequirementId="REQ_WORKER"/>
 	</RequirementSetRequirements>
 	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
 	<Requirements>
 		<Row RequirementId="REQ_LIYUE_CIVILIAN" RequirementType="REQUIREMENT_UNIT_TAG_MATCHES"/>
 		<Row RequirementId="REQ_WORKER" RequirementType="REQUIREMENT_UNIT_TAG_MATCHES"/>
+		<Row RequirementId="REQ_BUILDER" RequirementType="REQUIREMENT_UNIT_TYPE_MATCHES"/>
 	</Requirements>
 	<RequirementArguments>
 		<Row RequirementId="REQ_LIYUE_CIVILIAN" Name="Tag" Value="CLASS_LIYUE_CIVILIAN" />
 		<Row RequirementId="REQ_WORKER" Name="Tag" Value="CLASS_LIYUE_WORKER" />
+		<Row RequirementId="REQ_BUILDER" Name="UnitType" Value="UNIT_BUILDER" />
 	</RequirementArguments>
 </GameData>

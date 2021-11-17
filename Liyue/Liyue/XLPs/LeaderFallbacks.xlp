@@ -10,12 +10,12 @@
 	<m_PackageName text="LeaderFallbacks"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_KEQING"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_KEQING"/>
-		</Element>
-		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_NINGGUANG"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_NINGGUANG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_KEQING"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_KEQING"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

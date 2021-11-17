@@ -30,7 +30,7 @@
 			<Text>Yu Heng Keqing -- Leader of revolution</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="en_US">
-			<Text>All non-religion civilian units+2[ICON_Movement]Movement, and ignore the extra movement cost of any terrain, feature, or river. Builders and engineers have only 1 charge, but will receive 3 duplicate units when produced.[NEWLINE]Gets an extra wildcard policy slot.</Text>
+			<Text>All non-religion civilian units+2[ICON_Movement]Movement, and ignore the extra movement cost of any terrain, feature, or river. Builders have only 1 charge, when producing builder and military engineer will receive 3 duplicate units when produced. 40%[ICON_Gold]Gold discount when purchasing builders and militart engineers, [NEWLINE]Gets an extra wildcard policy slot.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="en_US">
 			<Text>"Yu Heng" Keqing, you are always leading the revolution of Liyue. Time has proved Liyue doesn't need the protection from Archons any more, human has already caught up with the time. Now, You will take the responsibility of the leader, let Liyue advance in the fastest speed ever.</Text>
