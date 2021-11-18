@@ -265,8 +265,6 @@
 			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
-		<Row RequirementSetId="IS_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="IS_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="HAS_RESOURCE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="HAS_LUXURY" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="HAS_IMPROVEMENT" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
@@ -280,8 +278,6 @@
 			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
 			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
 		</Row>
-		<Row RequirementSetId="IS_COMMERCIAL_HUB" RequirementId="REQ_COMMERCIAL_HUB"/>
-		<Row RequirementSetId="IS_HARBOR" RequirementId="REQ_HARBOR"/>
 		<Row RequirementSetId="HAS_RESOURCE" RequirementId="REQ_HAS_RESOURCE"/>
 		<Row RequirementSetId="HAS_RESOURCE" RequirementId="REQ_HAS_IMPROVEMENT"/>
 		<Row RequirementSetId="HAS_LUXURY" RequirementId="REQ_HAS_LUXURY"/>
@@ -299,8 +295,6 @@
 			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
 		</Row>
-		<Row RequirementId="REQ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES"/>
-		<Row RequirementId="REQ_HARBOR" RequirementType="REQUIREMENT_DISTRICT_TYPE_MATCHES"/>
 		<Row RequirementId="REQ_HAS_RESOURCE" RequirementType="REQUIREMENT_PLOT_HAS_ANY_RESOURCE"/>
 		<Row RequirementId="REQ_HAS_LUXURY" RequirementType="REQUIREMENT_PLOT_RESOURCE_CLASS_TYPE_MATCHES"/>
 		<Row RequirementId="REQ_HAS_IMPROVEMENT" RequirementType="REQUIREMENT_REQUIREMENTSET_IS_MET"/>
@@ -318,8 +312,6 @@
 			<Name>BuildingType</Name>
 			<Value>BUILDING_LIGHTHOUSE</Value>
 		</Row>
-		<Row RequirementId="REQ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row RequirementId="REQ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
 		<Row RequirementId="REQ_HAS_LUXURY" Name="ResourceClassType" Value="RESOURCECLASS_LUXURY"/>
 		<Row RequirementId="REQ_HAS_IMPROVEMENT" Name="OnlyOwnersCity" Value="True"/>
 		<Row RequirementId="REQ_HAS_IMPROVEMENT" Name="RequirementSetId" Value="HAS_IMPROVEMENT"/>

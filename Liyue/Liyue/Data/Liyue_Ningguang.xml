@@ -46,7 +46,7 @@
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_GREAT_MERCHANT_POINTS"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST"/>
 		<!--<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST"/>-->
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_2ADJ_COMMERCIAL_HUB"/>
+		<!--<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_2ADJ_COMMERCIAL_HUB"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_4ADJ_COMMERCIAL_HUB"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_6ADJ_COMMERCIAL_HUB"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_8ADJ_COMMERCIAL_HUB"/>
@@ -55,7 +55,7 @@
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_4ADJ_HARBOR"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_6ADJ_HARBOR"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_8ADJ_HARBOR"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_10ADJ_HARBOR"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_10ADJ_HARBOR"/>-->
 	</TraitModifiers>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_NINGGUANG" AgendaType="AGENDA_MONEY_GRUBBER"/>
@@ -84,7 +84,7 @@
 		</Row>
 		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"/>
 		<Row ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_ALL_BUILDINGS_PURCHASE_COST"/>
-		<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="2ADJ_COMMERCIAL_HUB"/>
+		<!--<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="2ADJ_COMMERCIAL_HUB"/>
 		<Row ModifierId="MOD_4ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="4ADJ_COMMERCIAL_HUB"/>
 		<Row ModifierId="MOD_6ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="6ADJ_COMMERCIAL_HUB"/>
 		<Row ModifierId="MOD_8ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="8ADJ_COMMERCIAL_HUB"/>
@@ -93,7 +93,7 @@
 		<Row ModifierId="MOD_4ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="4ADJ_HARBOR"/>
 		<Row ModifierId="MOD_6ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="6ADJ_HARBOR"/>
 		<Row ModifierId="MOD_8ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="8ADJ_HARBOR"/>
-		<Row ModifierId="MOD_10ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="10ADJ_HARBOR"/>
+		<Row ModifierId="MOD_10ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="10ADJ_HARBOR"/>-->
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -134,7 +134,7 @@
 		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" Name="Amount" Value="100"/>
 		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" Name="UnitType" Value="UNIT_TRADER"/>
 		<Row ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<!--<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
 		<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
 		<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
 		<Row ModifierId="MOD_4ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
@@ -163,7 +163,7 @@
 		<Row ModifierId="MOD_8ADJ_HARBOR" Name="Amount" Value="20"/>
 		<Row ModifierId="MOD_10ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
 		<Row ModifierId="MOD_10ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_10ADJ_HARBOR" Name="Amount" Value="20"/>
+		<Row ModifierId="MOD_10ADJ_HARBOR" Name="Amount" Value="20"/>-->
 	</ModifierArguments>
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
@@ -181,6 +181,14 @@
 		<Row RequirementSetId="6ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="8ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="10ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="CITY_HAS_HOLY_SITE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="CITY_HAS_CAMPUS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="CITY_HAS_ENCAMPMENT" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="CITY_HAS_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="CITY_HAS_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="CITY_HAS_ENTERTAINMENT_COMPLEX" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="CITY_HAS_THEATER" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="CITY_HAS_INDUSTRIAL_ZONE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="IS_COMMERCIAL_DISTRICT" RequirementId="REQ_COMMERCIAL_HUB"/>
@@ -195,6 +203,14 @@
 		<Row RequirementSetId="6ADJ_HARBOR" RequirementId="REQ_6ADJ_HARBOR"/>
 		<Row RequirementSetId="8ADJ_HARBOR" RequirementId="REQ_8ADJ_HARBOR"/>
 		<Row RequirementSetId="10ADJ_HARBOR" RequirementId="REQ_10ADJ_HARBOR"/>
+		<Row RequirementSetId="CITY_HAS_HOLY_SITE" RequirementId="REQ_HOLY_SITE"/>
+		<Row RequirementSetId="CITY_HAS_CAMPUS" RequirementId="REQ_CAMPUS"/>
+		<Row RequirementSetId="CITY_HAS_ENCAMPMENT" RequirementId="REQ_ENCAMPMENT"/>
+		<Row RequirementSetId="CITY_HAS_HARBOR" RequirementId="REQ_HARBOR"/>
+		<Row RequirementSetId="CITY_HAS_COMMERCIAL_HUB" RequirementId="REQ_COMMERCIAL_HUB"/>
+		<Row RequirementSetId="CITY_HAS_ENTERTAINMENT_COMPLEX" RequirementId="REQ_ENTERTAINMENT_COMPLEX"/>
+		<Row RequirementSetId="CITY_HAS_THEATER" RequirementId="REQ_THEATER"/>
+		<Row RequirementSetId="CITY_HAS_INDUSTRIAL_ZONE" RequirementId="REQ_INDUSTRIAL_ZONE"/>
 	</RequirementSetRequirements>
 	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
 	<Requirements>
@@ -208,6 +224,14 @@
 		<Row RequirementId="REQ_6ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
 		<Row RequirementId="REQ_8ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
 		<Row RequirementId="REQ_10ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
+		<Row RequirementId="REQ_HOLY_SITE" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
+		<Row RequirementId="REQ_CAMPUS" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
+		<Row RequirementId="REQ_ENCAMPMENT" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
+		<Row RequirementId="REQ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
+		<Row RequirementId="REQ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
+		<Row RequirementId="REQ_ENTERTAINMENT_COMPLEX" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
+		<Row RequirementId="REQ_THEATER" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
+		<Row RequirementId="REQ_INDUSTRIAL_ZONE" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
 	</Requirements>
 	<RequirementArguments>
 		<Row RequirementId="REQ_2ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
@@ -240,5 +264,13 @@
 		<Row RequirementId="REQ_10ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
 		<Row RequirementId="REQ_10ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
 		<Row RequirementId="REQ_10ADJ_HARBOR" Name="Amount" Value="10"/>
+		<Row RequirementId="REQ_HOLY_SITE" Name="DistrictType" Value="DISTRICT_HOLY_SITE"/>
+		<Row RequirementId="REQ_CAMPUS" Name="DistrictType" Value="DISTRICT_CAMPUS"/>
+		<Row RequirementId="REQ_ENCAMPMENT" Name="DistrictType" Value="DISTRICT_ENCAMPMENT"/>
+		<Row RequirementId="REQ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
+		<Row RequirementId="REQ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row RequirementId="REQ_ENTERTAINMENT_COMPLEX" Name="DistrictType" Value="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row RequirementId="REQ_THEATER" Name="DistrictType" Value="DISTRICT_THEATER"/>
+		<Row RequirementId="REQ_INDUSTRIAL_ZONE" Name="DistrictType" Value="DISTRICT_INDUSTRIAL_ZONE"/>
 	</RequirementArguments>
 </GameData>
