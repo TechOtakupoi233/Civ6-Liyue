@@ -3494,13 +3494,8 @@
 	<m_GeometrySet>
 		<m_ModelInstances>
 			<Element>
-				<m_Name text="LEAD_CHIN_Qin_Camera"/>
-				<m_GeoName text="LEAD_CHIN_Qin_Camera"/>
-				<m_GroupStates/>
-			</Element>
-			<Element>
 				<m_Name text="Keqing_arm"/>
-				<m_GeoName text="Keqing_mesh"/>
+				<m_GeoName text="Keqing_arm"/>
 				<m_GroupStates>
 					<Element>
 						<m_Values>
@@ -3860,6 +3855,39 @@
 						</m_Values>
 						<m_GroupName text="Emoji"/>
 						<m_MeshName text="Keqing_mesh"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="LEAD_CHIN_Qin_Camera"/>
+				<m_GeoName text="LEAD_CHIN_Qin_Camera"/>
+				<m_GroupStates/>
+			</Element>
+			<Element>
+				<m_Name text="pCube1"/>
+				<m_GeoName text="LEAD_CHIN_Qin_ShadowBox"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values/>
+						</m_Values>
+						<m_GroupName text="lambert1"/>
+						<m_MeshName text="pCubeShape1"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="ShadowBox"/>
+				<m_GeoName text="ShadowBox"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values/>
+						</m_Values>
+						<m_GroupName text="BoxMat"/>
+						<m_MeshName text="ShadowBox"/>
 						<m_StateName text="Default"/>
 					</Element>
 				</m_GroupStates>
