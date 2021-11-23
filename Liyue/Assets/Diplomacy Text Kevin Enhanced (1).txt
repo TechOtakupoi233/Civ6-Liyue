@@ -1,0 +1,158 @@
+		<!-- Leader Quotes -->
+		<!-- 领袖名言 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_KEQING_QUOTE"
+			 Text="觉得自己是正确的，就要大声地说出来坚决地去行动——这是我一直以来都贯彻的人生理念。"
+/>
+		<!--first meet-->
+		<!--我认为既然她在我们的模组中作为一国领袖，就不只是掌管土地和建设。我推荐对见面台词稍作修改。同时，将引号改掉。这是个错误！-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_ANY"
+			Text="我是刻晴，璃月七星中的「玉衡」。我的本职工作，是管理璃月的土地与建设。"
+/>
+		<!--建议突出“附近城市”以免造成误解。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_ANY"
+			Text="璃月幅员辽阔，物产丰饶，在我们璃月人的努力下生生不息千年余载。来看看吧，我来领路。我想让你来亲眼见证这里。"
+/>
+		<!--相比于官方文本显著过长，推荐进行一些精简。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KEQING_ANY"
+			Text="时间紧迫，那就速速前往吧。耽误太多时间，事情可就做不完了。"
+/>
+		<!--推荐是展示“现状”。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KEQING_ANY"
+			Text="为了不辜负你的好意，我想和你定下一个约定——等到新时代的璃月港落成之时，来看看吧。相对的，也跟请我讲讲你们城市的管理和规划。"
+/>
+		<!--deligation-->
+		<!--稍显冗长。建议去掉后半句。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY"
+			Text="我很欣赏你，随时保持独立思考，执意去做心中认为正确的事。这种魄力，可不是谁都有的。"
+/>
+		<!--通常，使团带去的礼物也不会是哄小女孩子的。或许换个表达更好？-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY"
+			Text="不用和我太客气，我才不需要这种东西。不如说我还有点生气呢！我早就不是小女孩了！"
+/>
+		<!--无意见，跳过-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KEQING_ANY"
+			Text="我为你准备了一份特别的礼物——一道美味的金丝虾球。哪怕就吃一个，也能满足味蕾，扫清身上积累的所有压力。请一定要尝一尝！"
+/>
+		<!--friendship-->
+		<!--改为“你的友谊是不可或缺的”以体现游戏要素。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_ANY"
+			Text="和你一起冒险，已经很长时间了。我越来越觉得，你就是我理想中的那个人一一为了建成我理想中的璃月，你的确是不可或缺的。"
+/>
+		<!--改为“璃月人不需要你这样的友谊”以体现游戏要素。“已经”在此处也显得稍显怪异。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_ANY"
+			Text="璃月人已经不需要这样的守护了。就算遇上什么棘手的难题，我们也有自行解决的能力。"
+/>
+		<!--不建议提及“如果真的有一天，我抵达了理想中的终点”。语态宜置于当下而非将来。总不会等到人家胜利了吧！-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY"
+			Text="能和你一路结伴而行，我感觉受益匪浅。如果真的有一天，我抵达了理想中的终点……我的身边，还会有你陪伴吗？"
+/>
+		<!--不建议提及“不会让你失望”。玩家和领袖是竞争关系，说难听点我巴不得她引退。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY"
+			Text="哼，就算没有这份认可，我也可以把工作做得很好！等…等着看吧！我不会让你失望的！"
+/>
+		<!--同样的，玩家角色作为一国领袖也不会表现得傲娇。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY"
+			Text="我不希望你因为我的身份，而把想说的话藏在心里——因为有话直说，这才是我欣赏你的地方。"
+/>
+		<!--虽然在XP2中这句话几乎已经不再出现，我仍然认为它应该使用和宣友不同的台词。结盟和宣友是不同的外交关系，不宜使用相同的台词。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KEQING_ANY"
+			Text="{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY}"
+/>
+		<!--denounce-->
+		<!--可删去“……我不这么觉得。”-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KEQING_ANY"
+			Text="……我不这么觉得。高高在上却想要介入一切。哼，说句不好听的：像你这种做法，真的能让你的国家长久吗？"
+/>
+		<!--建议更多地往谴责领袖的道德方向走。她的工作成果本来就与竞争对手甚至世界战狂不会有什么关系。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KEQING_ANY"
+			Text="过去的我太天真了。我一直以来的工作成果，都是我自己的功劳，和你没有什么关系。[NEWLINE]（谴责你）"
+/>
+		<!--warfare-->
+		<!--可删去“走吧，”-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KEQING_ANY"
+			Text="唔……可恶！——走吧，时间紧迫，让我们速战速决！"
+/>
+		<!--现状秩序未必就维持了千年。推荐进行修改。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KEQING_ANY"
+			Text="维持了千年的秩序即将被改写——剑光如我，斩尽芜杂！"
+/>
+		<!--无意见，跳过-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KEQING_ANY"
+			Text="太不甘心了……我辜负了……期待……"
+/>
+		<!--这句语句是否有必要存在？它在何时会出现？-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_KEQING_ANY"
+			Text="{LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KEQING_ANY}"
+/>
+		<!--agenda-->
+		<!--同样，将语态置于当下而非未来。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_ANY"
+			Text="变革的时机已经到来，维持了千年的秩序即将被改写。这历史性的时刻，你愿意和我一起见证吗?"
+/>
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_LEADER_KEQING_REASON_ANY"
+			Text="（您在开发土地、建设城区上做出了不懈的努力）"
+/>
+		<!--无意见，跳过-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KEQING_ANY"
+			Text="无论是冒险还是做生意，机会都稍纵即逝。若是缺乏合理规划，只重视眼前利益，就没办法抵抗风险。"
+/>
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_LEADER_KEQING_REASON_ANY"
+			Text="（您产能落后、城区稀少）"
+/>
+		<!--make deals-->
+		<!--本句台词原本是出现在与刻晴建立了一定的友谊的情况下出现的，因此个人认为不宜出现在中立语态的外交台词中，反而更适合宣友场合。同时，对于一句过于经常出现的台词，不免有一种啰嗦感。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KEQING_ANY"
+			Text="很好，在需要随机应变的时候，又多了一种选择。"
+/>
+		<!--建议删去“我才不需要这种东西。”-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KEQING_ANY"
+			Text="我才不需要这种东西。如何平衡规则和利益，也是一门艺术。"
+/>
+		<!--troops-->
+		<!--凯文说参照了大量卯月写的台词，但实际上只抄了这一句。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KEQING_ANY"
+			Text="你的军队在我的边境……真耽误事。若是你想速战速决，早该开战了，何必等到今天。"
+/>
+		<!--以下内容为附加台词-->
+		<!--settling-->
+		<!--缺少一句同意承诺停止定居的台词。-->
+		<!--无意见，跳过-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_KEQING_ANY"
+			Text="我不在乎。我们需要这片土地，璃月的发展不容迟疑。"
+/>
+		<!--无意见，跳过-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_KEQING_ANY"
+			Text="不用不好意思，这才是正确的态度。毕竟，谁又能保证不会犯错呢？"
+/>
+		<!--无意见，跳过-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_KEQING_ANY"
+			Text="你总是漠视规则的性格令人头疼……"
+/>
+		<!--spying-->
+		<!--“间谍活动”恐怕不是“想法超前”而是“秘密败露”吧？-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_KEQING_ANY"
+			Text="欸？嗯，你说得对……唉，看来想法还是太超前了……"
+/>
+		<!--缺少一句拒绝承诺停止派遣间谍的台词-->
+		<!--无意见，跳过-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_KEQING_ANY"
+			Text="{LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_KEQING_ANY}"
+/>
+		<!--无意见，跳过-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_KEQING_ANY"
+			Text="{LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_KEQING_ANY}"
+/>
+		<!--conversion-->
+		<!--无意见，跳过-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_KEQING_ANY"
+			Text="璃月的土地上容不得你这样偏颇的信仰！面对神明，不笃信，不盲从，随时保持独立思考，才是璃月人信奉的观点。"
+/>
+		<!--无意见，跳过-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_KEQING_ANY"
+			Text="这没什么难的，相信我，你试试就知道了。如果试过以后还不行的话再说？"
+/>
+		<!--玩家未必“从未令我失望过”，通常而言玩家的游戏风格恐怕正相反。推荐更换语句。-->
+		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_KEQING_ANY"
+			Text="不，你从没让我失望过，所以我相信你不是那样的人！"
+/>
+		<!--缺少回应玩家对停止改变宗教信仰的反应的台词-->
