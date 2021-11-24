@@ -9,10 +9,6 @@
 						<m_AnimationName text="LEAD_CHIN_Qin_Neutral_Positive_B"/>
 					</Element>
 					<Element>
-						<m_SlotName text="NEUTRAL_IDLE_A"/>
-						<m_AnimationName text="LEAD_CHIN_Qin_Neutral_Idle"/>
-					</Element>
-					<Element>
 						<m_SlotName text="NEUTRAL_NEGATIVE_A"/>
 						<m_AnimationName text="LEAD_CHIN_Qin_Neutral_Negative_A"/>
 					</Element>
@@ -123,6 +119,10 @@
 					<Element>
 						<m_SlotName text="UNHAPPY_TO_NEUTRAL"/>
 						<m_AnimationName text="LEAD_CHIN_Qin_Unhappy_Trans_Neutral"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_IDLE_A"/>
+						<m_AnimationName text="LEAD_LIYUE_Keqing_Neutral_Idle"/>
 					</Element>
 				</m_Bindings>
 			</m_animationBindings>
@@ -288,7 +288,7 @@
 					<Element>
 						<m_Name text="NEUTRAL_IDLE_A"/>
 						<m_Description text=""/>
-						<m_AnimationName text="LEAD_CHIN_Qin_Neutral_Idle"/>
+						<m_AnimationName text="LEAD_LIYUE_Keqing_Neutral_Idle"/>
 						<m_fDuration>0.000000</m_fDuration>
 						<m_Triggers/>
 						<m_Tracks>
@@ -3494,8 +3494,18 @@
 	<m_GeometrySet>
 		<m_ModelInstances>
 			<Element>
-				<m_Name text="Keqing_arm"/>
-				<m_GeoName text="Keqing_arm"/>
+				<m_Name text="LEAD_CHIN_Qin_Camera"/>
+				<m_GeoName text="LEAD_CHIN_Qin_Camera"/>
+				<m_GroupStates/>
+			</Element>
+			<Element>
+				<m_Name text="ShadowBox"/>
+				<m_GeoName text="ShadowBox"/>
+				<m_GroupStates/>
+			</Element>
+			<Element>
+				<m_Name text="KeQing_arm"/>
+				<m_GeoName text="KeQing_cn6"/>
 				<m_GroupStates>
 					<Element>
 						<m_Values>
@@ -3512,7 +3522,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Face"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3530,7 +3540,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Face1"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3548,7 +3558,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="EyeWhite"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3566,7 +3576,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Eye"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3584,7 +3594,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Eyelash"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3602,7 +3612,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Eyelash2"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3620,7 +3630,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Eyebrow"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3637,8 +3647,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="MounthTounge"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_GroupName text="MouthTounge"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3656,7 +3666,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="EyeStar"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3674,7 +3684,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Hair"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3692,7 +3702,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Tail"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3709,8 +3719,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Cloth"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_GroupName text="Clothes"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3728,7 +3738,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="GEye1"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3746,7 +3756,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="GEye_AL"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3763,8 +3773,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Ribbon"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_GroupName text="TailRibbon"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3782,7 +3792,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Leg"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3799,8 +3809,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Cloth2"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_GroupName text="New"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3818,7 +3828,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Skin"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3836,7 +3846,7 @@
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Skirt"/>
-						<m_MeshName text="Keqing_mesh"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>
@@ -3853,41 +3863,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Emoji"/>
-						<m_MeshName text="Keqing_mesh"/>
-						<m_StateName text="Default"/>
-					</Element>
-				</m_GroupStates>
-			</Element>
-			<Element>
-				<m_Name text="LEAD_CHIN_Qin_Camera"/>
-				<m_GeoName text="LEAD_CHIN_Qin_Camera"/>
-				<m_GroupStates/>
-			</Element>
-			<Element>
-				<m_Name text="pCube1"/>
-				<m_GeoName text="LEAD_CHIN_Qin_ShadowBox"/>
-				<m_GroupStates>
-					<Element>
-						<m_Values>
-							<m_Values/>
-						</m_Values>
-						<m_GroupName text="lambert1"/>
-						<m_MeshName text="pCubeShape1"/>
-						<m_StateName text="Default"/>
-					</Element>
-				</m_GroupStates>
-			</Element>
-			<Element>
-				<m_Name text="ShadowBox"/>
-				<m_GeoName text="ShadowBox"/>
-				<m_GroupStates>
-					<Element>
-						<m_Values>
-							<m_Values/>
-						</m_Values>
-						<m_GroupName text="BoxMat"/>
-						<m_MeshName text="ShadowBox"/>
+						<m_GroupName text="Blush"/>
+						<m_MeshName text="KeQing_mesh"/>
 						<m_StateName text="Default"/>
 					</Element>
 				</m_GroupStates>
