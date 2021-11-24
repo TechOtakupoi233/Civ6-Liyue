@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="70">
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2434813908" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Attenuations\Default Work Unit.wwu" DateLow="2434921718" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Civ6-LiyueBGM.Shiro.wsettings" DateLow="3818155995" DateHigh="30922858"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Civ6-LiyueBGM.wproj" DateLow="2434309536" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Control Surface Sessions\Default Work Unit.wwu" DateLow="2434961706" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Conversion Settings\Default Work Unit.wwu" DateLow="3941383115" DateHigh="30922699"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Conversion Settings\Factory Conversion Settings.wwu" DateLow="4081423616" DateHigh="30538204"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2434853879" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Effects\Default Work Unit.wwu" DateLow="2434438096" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Effects\Factory Effects.wwu" DateLow="4081423616" DateHigh="30538204"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Events\Default Work Unit.wwu" DateLow="3154390737" DateHigh="30915479"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Game Parameters\Default Work Unit.wwu" DateLow="3624934336" DateHigh="30915490"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="4248756310" DateHigh="30922857"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3471548527" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Mixing Sessions\Default Work Unit.wwu" DateLow="2435053849" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Modulators\Default Work Unit.wwu" DateLow="2435083863" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Presets\Default Work Unit.wwu" DateLow="2434668079" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Queries\Default Work Unit.wwu" DateLow="2434738201" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Queries\Factory Queries.wwu" DateLow="4081423616" DateHigh="30538204"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\SoundBanks\Default Work Unit.wwu" DateLow="2879016146" DateHigh="30915478"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2434478093" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\States\Default Work Unit.wwu" DateLow="2434548095" DateHigh="30915466"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Switches\Default Work Unit.wwu" DateLow="1301423643" DateHigh="30922699"/>
+	<ValidationCacheItem File="D:\Documents\WwiseProjects\Civ6-LiyueBGM\Triggers\Default Work Unit.wwu" DateLow="2434891816" DateHigh="30915466"/>
+</ValidationCache>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D109728A-F573-4E2D-B2B5-AD2F4A2A8935}" SchemaVersion="70">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{D109728A-F573-4E2D-B2B5-AD2F4A2A8935}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Game_Location" ID="{B4D69A38-A8DA-4AB2-8A04-098DD71AF5A8}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Ancient_Era" ID="{FA30E7E1-4DF1-49BA-9269-F715D1BB8F8B}"/>
+						<Switch Name="Medieval_Era" ID="{2C6FC0A2-EE7B-402C-A45E-44E424459C05}"/>
+						<Switch Name="Industrial_Era" ID="{82BC4713-BCBE-4FCB-8CD2-BCDBBA63FC81}"/>
+						<Switch Name="Modern_Era" ID="{76E770F2-508B-4575-96E4-F4C182AB2405}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Game_Location" ID="{2EBD0B3D-39FE-4BDE-BFF2-265B542FB35C}"/>
+						<Curve Name="" ID="{05D435AF-23FC-40A1-B803-BB51D9AD5C93}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>25</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>75</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

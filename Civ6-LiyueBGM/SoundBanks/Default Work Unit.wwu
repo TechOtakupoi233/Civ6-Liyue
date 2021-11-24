@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E901BE98-6008-4A2E-877F-152FFF3D1DB7}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E901BE98-6008-4A2E-877F-152FFF3D1DB7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="LiyueBGM" ID="{AC32C5BC-4593-4C89-B6B7-3F067474B83B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="id658623902_DO_NOT_TOUCH" ID="{26984207-93E3-44FE-982A-510A9615FD4A}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Filter="2" Origin="Manual"/>
+						<ObjectRef Name="LiyueThemeMusic" ID="{AC57584B-33C1-4A27-BE03-2387C67DF16F}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LiyueCivilizationMusic" ID="{E6D60E65-91B8-4F1A-921A-2581D60420A2}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Leader_Music_LIYUE_CL" ID="{299EEB78-82DA-43FE-8AA5-518C40C03087}" WorkUnitID="{98E7ABEF-EBD8-49B0-9824-2E0916FF0707}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pause_Music_LIYUE_CL" ID="{E24AB4B8-61B4-42DA-B504-B3C02A824E7A}" WorkUnitID="{98E7ABEF-EBD8-49B0-9824-2E0916FF0707}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_LIYUE_CL" ID="{499BA5C0-40FE-4493-A276-11AD78897EA0}" WorkUnitID="{98E7ABEF-EBD8-49B0-9824-2E0916FF0707}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LiyueLeaderMusic" ID="{96BA05D1-75EC-4889-A028-9D82AEB4E5D1}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_LIYUE_CL" ID="{994BDCD2-2CC4-432E-83A6-79E9610ACD7C}" WorkUnitID="{98E7ABEF-EBD8-49B0-9824-2E0916FF0707}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Resume_Music_LIYUE_CL" ID="{452644DD-D67B-4797-A02E-81C0CCE70B8B}" WorkUnitID="{98E7ABEF-EBD8-49B0-9824-2E0916FF0707}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Start_Music_LIYUE_CL" ID="{5B0D4FE8-7435-4A2F-AEEC-1DABC159A36C}" WorkUnitID="{98E7ABEF-EBD8-49B0-9824-2E0916FF0707}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Leader_Music_LIYUE_CL" ID="{726FC1FA-BB67-4658-B5BC-DF9CEC36FE01}" WorkUnitID="{98E7ABEF-EBD8-49B0-9824-2E0916FF0707}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

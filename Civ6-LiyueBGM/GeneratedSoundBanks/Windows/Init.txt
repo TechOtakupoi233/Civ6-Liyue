@@ -1,0 +1,15 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	373350295	Game_Location			\Default Work Unit\Game_Location	
+
+Switch	ID	Name	Switch Group			Notes
+	712573564	Ancient_Era	Game_Location			
+	984117391	Modern_Era	Game_Location			
+	2183131863	Industrial_Era	Game_Location			
+	2654112219	Medieval_Era	Game_Location			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	48433064	Master Music Bus			\Default Work Unit\Master Audio Bus\Master Music Bus	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	3127962312	Music Bus			\Default Work Unit\Master Audio Bus\Master Music Bus\Music Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
