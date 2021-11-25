@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keqing_DiplomaticText -->
+<!-- Author: Shiro -->
+<!-- DateCreated: 11/25/2021 2:55:58 PM -->
+<GameData>
+	<EnglishText></EnglishText>
+	<LocalizedText>
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>很好，在需要随机应变的时候，又多了一种选择。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
+			<!--同意声明友谊-->
+			<Text>Great, having another trick up my sleeve gives me more flexibility.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>璃月人不需要这样的友谊。就算遇上什么棘手的难题，我们也有自行解决的能力。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KEQING_ANY">
+			<!--拒绝声明友谊-->
+			<Text>We don't need a friendship of this kind. We are capable of working through the challenges we face on our own strength.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>璃月即将迎来剧变，有利的国际环境不可多得。要是你愿意接受我们的友谊，许多麻烦就迎刃而解了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY">
+			<!--请求声明友谊-->
+			<Text>Given that Liyue is about to undergo a radical transformation, a favorable international environment is in great demand. With you accepting our friendship, I could spare myself a great deal of trouble.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>不用和我太客气，因为有话直说，这才是我欣赏你的地方。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY">
+			<!--请求声明友谊被接受-->
+			<Text>I have a lot of respect for you. Not everyone has the guts to do right things.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>唉，看来想法还是太超前了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KEQING_ANY">
+			<!--请求声明友谊被拒绝-->
+			<Text>I'm too forward-thinking, I suppose.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>是吗。没有帝君的保护，璃月港也挺过了曾经的危机，这次也会是一样的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>璃月的人民无法宽恕你的行为，接招吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>盛情难却，如此也好。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>礼物？……嗯，我还有十来件事要处理，做完才能接待。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY">
+			<!--拒绝使节派遣-->
+			<Text>Gifts? Uh... I still have a handful of things on my to-do list, and I'll receive your delegation once they are done.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>我的使团准备了可以点亮很长时间的灯，还有美味的金丝虾球——哪怕就吃一个，也能满足味蕾，扫清身上积累的所有压力。请一定要尝一尝！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KEQING_ANY">
+			<!--请求派遣使节-->
+			<Text>Our delegation have got gifts for you: a lantern stays alight for a long time, and golden shrimp balls. The taste of a single golden shrimp ball brings so much joy that all the stress of work just melts away.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>不认同我的做法？没有关系，即使是在璃月也有很多人抱怨跟不上我的脚步。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>你岂不是太没原则了？唔……还是说，这就是你的原则？（谴责你）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KEQING_ANY">
+			<!--谴责玩家-->
+			<Text>Don't you have any principle? Hmm, or maybe being untrustworthy is your principle? (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>我是刻晴，璃月七星之一的「玉衡星」。变革的时机已经到来，这历史性的时刻，你愿意和我一起见证吗?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_ANY">
+			<!--初次见面-->
+			<Text>I am Keqing, Yuheng of the Liyue Qixing. We live in an era of change. Join me. Let us bear witness to this historical moment together.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>璃月幅员辽阔，物产丰饶，在我们璃月人的努力下生生不息千年余载。来看看吧，我来领路。我想让你来亲眼见证我们附近的城市。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_ANY">
+			<!--初次见面，提供最近城市位置-->
+			<Text>Liyue is a vast place with abundant resources. Come and visit our city nearby. I will show you around, and you deserve to see its rebirth with your own eyes.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>时间紧迫，就速速前往吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KEQING_ANY">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>Let's go, time is against us.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>为了不辜负你的好意，我想带你来看看新时代下繁荣的的璃月港。相对的，也跟请我讲讲你们首都的管理和规划。</Text>
+		</Row>		
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感（配音）(议程：实干派建设者：积极建设城市和改良设施。喜欢开发土地、建设城区的文明，敌视产能落后、城区稀少的文明。)-->
+			<Text>嗯。我很欣赏你。心有所向，日复一日，必有精进。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_ANY">
+			<!--领袖对玩家有好感（配音）(议程：实干派建设者：积极建设城市和改良设施。喜欢开发土地、建设城区的文明，敌视产能落后、城区稀少的文明。)-->
+			<Text> I have huge respect for you! When your heart is set on something, you get closer to your goal with each passing day.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>今日事，今日毕。不是我性子急，而是事情本来就不能拖延。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KEQING_ANY">
+			<!--领袖敌视玩家（配音）-->
+			<!--该语句未能获得原作英文文本中的较好对应，建议进行改进。-->
+			<Text>You should never put off until tomorrow what you can do today...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>和璃月共同发展吧，让世界知道人类不需要神明也能做的很好。</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>有市民对你在璃月边境的部队感到不安。虽然这不是我的管辖范围，但我还是希望你可以帮我这个忙。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--领取便当-->
+			<Text>……我辜负了……期待……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN" Text="{LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KEQING_ANY}"/>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>如何平衡规则和利益，也是一门艺术。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>无论是冒险还是做生意，机会都稍纵即逝。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KEQING_ANY">
+			<!--拒绝交易-->
+			<Text>You always have to seize the opportunity while it's there.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过-->
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KEQING_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过-->
+			<Text></Text>
+		</Row>
+	</LocalizedText>
+</GameData>
