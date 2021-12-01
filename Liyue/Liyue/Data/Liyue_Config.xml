@@ -36,7 +36,7 @@
 			<PortraitBackground>LEADER_KEQING_BACKGROUND</PortraitBackground>
 		</Row>-->
 		<!-- Expansion 2 Support -->
-		<Row>
+		<!--Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
 			<LeaderType>LEADER_KEQING</LeaderType>
@@ -52,7 +52,7 @@
 			<LeaderAbilityIcon>ICON_LEADER_KEQING</LeaderAbilityIcon>
 			<Portrait>LEADER_KEQING_NEUTRAL</Portrait>
 			<PortraitBackground>LEADER_KEQING_BACKGROUND</PortraitBackground>
-		</Row>
+		</Row-->
 		<!-- Expansion 1 Support -->
 		<!--<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -91,66 +91,6 @@
 		</Row>
 	</Players>
 	<PlayerItems>
-		<!--<Row>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>BUILDING_TEAHOUSE</Type>
-			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
-			<Description>LOC_BUILDING_TEAHOUSE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_TEAHOUSE</Icon>
-			<SortIndex>10</SortIndex>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>UNIT_MILLELITH</Type>
-			<Name>LOC_UNIT_MILLELITH_NAME</Name>
-			<Description>LOC_UNIT_MILLELITH_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_MILLELITH</Icon>
-			<SortIndex>11</SortIndex>
-		</Row>-->
-		<!-- Expansion 1 Support -->
-		<!--<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>BUILDING_TEAHOUSE</Type>
-			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
-			<Description>LOC_BUILDING_TEAHOUSE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_TEAHOUSE</Icon>
-			<SortIndex>10</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>UNIT_MILLELITH</Type>
-			<Name>LOC_UNIT_MILLELITH_NAME</Name>
-			<Description>LOC_UNIT_MILLELITH_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_MILLELITH</Icon>
-			<SortIndex>11</SortIndex>
-		</Row>-->
-		<!-- Expansion 2 Support -->
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>BUILDING_TEAHOUSE</Type>
-			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
-			<Description>LOC_BUILDING_TEAHOUSE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_TEAHOUSE</Icon>
-			<SortIndex>10</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>UNIT_MILLELITH</Type>
-			<Name>LOC_UNIT_MILLELITH_NAME</Name>
-			<Description>LOC_UNIT_MILLELITH_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_MILLELITH</Icon>
-			<SortIndex>11</SortIndex>
-		</Row>
 		<!-- Expansion 1 Support -->
 		<!--<Row>
 			<Domain>Players:Expansion1_Players</Domain>

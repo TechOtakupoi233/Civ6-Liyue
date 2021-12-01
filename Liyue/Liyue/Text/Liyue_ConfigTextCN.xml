@@ -1,43 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Liyue_ConfigTextCN -->
-<!-- Author: Shiro -->
+<!-- Author: Shiro, Kevin Liu -->
 <!-- DateCreated: 9/9/2021 1:35:33 AM -->
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_NAME" Language="zh_Hans_CN">
-			<Text>璃月</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>璃月港</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE" Language="zh_Hans_CN">
-			<Text>璃月的</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Language="zh_Hans_CN">
-			<Text>岩与契约的海港</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有具有多种能力的专属特色总督。港口和商业中心从相邻区域获得标准 [ICON_Gold] 金币相邻加成。拥有市场和灯塔的城市提供+1 [ICON_Traderoute] 贸易路线容量。输入的国外 [ICON_TradeRoute] 贸易路线提供+5 [ICON_Gold] 金币。通过矿山和采石场改良的资源提供+1 [ICON_Production] 生产力。通过矿山和采石场改良的奢侈品资源额外提供+1 [ICON_Culture] 文化值和+2 [ICON_Gold] 金币。</Text>
-		</Row>
-		<Row Tag="LOC_MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Gold] 金币来自相邻{1_Num : plural 1?区域; other?区域;}。</Text>
-		</Row>
-		<Row Tag="LOC_MODIFIER_HARBOR_ADJACENCY_BONUS" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Gold] 金币来自相邻{1_Num : plural 1?区域; other?区域;}。</Text>
-		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LIYUE_CL_NAME"			Text="原神·璃月"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LIYUE_CL_DESCRIPTION"	Text="璃月"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE"	Text="璃月"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS_NAME" Text="岩与契约的海港"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS_DESCRIPTION"
+			Text="采石场和矿山 +1 [ICON_Production] 生产力。拥有璃月港的城市，采石场和矿山额外提供 +1 [ICON_Gold] 金币。从被改良的矿产资源中获得 +1 [ICON_Culture] 文化值。[NEWLINE]拥有璃月港的城市每回合 +5 忠诚度。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="璃月港"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_LIYUE_HARBOR_DESCRIPTION"
+			Text="璃月特色海军活动区域，替代港口，建造费用更低。建成后所在城市立即获得贸易站。[NEWLINE]与璃月港相邻的学院、和剧院广场和商业中心产出额外的 [ICON_GreatPerson] 伟人点数。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_MILLELITH_NAME"				Text="千岩军"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
+			Text="璃月远古时代特色抗骑兵单位，取代枪兵。免疫丘陵地形的 [ICON_Movement] 移动力损耗。驻扎、或在丘陵上防御时，分别 +5	[ICON_Strength] 战斗力。"/>
+
+
+		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_KEQING_NAME"					Text="刻晴"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_QIXING_YUHENG_NAME"	Text="引领变革的玉衡星"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_QIXING_YUHENG_DESCRIPTION"
+			Text="购买的单位在该回合就能行动。平民单位无视地貌和地形的 [ICON_Movement] 移动力惩罚。建造者和军事工程师建造后可立即恢复 [ICON_Movement] 移动力和 [ICON_Charges] 建造力。"/>
 		
-		<Row Tag="LOC_LEADER_KEQING_NAME" Language="zh_Hans_CN">
-			<Text>刻晴</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_KEQING_NAME" Language="zh_Hans_CN">
-			<Text>引领变革的玉衡星</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有平民单位+2 [ICON_Movement] 移动力。平民单位忽略地形、地貌和渡过河流的 [ICON_Movement] 移动力消耗。建造者获得的 [ICON_Charges] 建造次数-2。每训练一个建造者或军事工程师就会额外获得两个。每种政体可获得一个额外的通配符槽位。</Text>
-		</Row>
-		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="zh_Hans_CN">
-			<Text>刻晴，璃月七星的玉衡星，璃月的前景掌握在您的手中。您是人民的表率，决策如霆霓快雨般迅捷。在您的带领下，您的人民将改写维持千年的秩序，真正取代神明当家作主，经受住时间的考验。站在时代最前沿，亲手开创新的道路吧，将您的想法化为行动。</Text>
-		</Row>
 		<Row Tag="LOC_LEADER_NINGGUANG_NAME" Language="zh_Hans_CN">
 			<Text>凝光</Text>
 		</Row>
@@ -56,13 +44,6 @@
 		</Row>
 		<Row Tag="LOC_BUILDING_TEAHOUSE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>替代古罗马剧场。提供 [ICON_Amenities] 宜居度，并为此城市中的 [ICON_GreatWork_Writing] 文学巨作提供翻倍的 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。</Text>
-		</Row>
-		
-		<Row Tag="LOC_UNIT_MILLELITH_NAME" Language="zh_Hans_CN">
-			<Text>千岩军</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>替代长矛兵。拥有更高的 [ICON_Movement] 移动力，成本和维护费更低。</Text>
 		</Row>
 
 		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_BP" Language="zh_Hans_CN">
