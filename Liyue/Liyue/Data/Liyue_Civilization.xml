@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="CIVILIZATION_LIYUE_CL" Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_GEO_HARBOR" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" Kind="KIND_TRAIT" />
-		<Row Type="TRAIT_CIVILIZATION_UNIT_MILLELITH" Kind="KIND_TRAIT" />
 	</Types>
 	
 	<Civilizations>
@@ -15,11 +13,11 @@
 			<Adjective>LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
 			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_KEQING" CapitalName="LOC_CITY_NAME_LIYUE" />
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_NINGGUANG" CapitalName="LOC_CITY_NAME_LIYUE" />
 	</CivilizationLeaders>
 
@@ -27,15 +25,14 @@
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" Header="LOC_CIVINFO_LIYUE_LOCATION" Caption="LOC_CIVINFO_LIYUE_LOCATION_DESCRIPTION" />
 	</CivilizationInfo>
 
-	<CivilizationTraits>
+	<!--CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" />
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" />
 		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" />
-	</CivilizationTraits>
+	</CivilizationTraits-->
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" Name="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Description="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" />
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" Name="LOC_BUILDING_TEAHOUSE_NAME" Description="LOC_BUILDING_TEAHOUSE_DESCRIPTION" />
-		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MILLELITH" Name="LOC_UNIT_MILLELITH_NAME" Description="LOC_UNIT_MILLELITH_DESCRIPTION" />
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_CIVILIZATION_GEO_HARBOR" ModifierId="MODIFIER_BROKEN_PLEDGE" />
@@ -397,7 +394,7 @@
 	</CivilizationCitizenNames>
 
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TerrainType="TERRAIN_COAST" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TerrainType="TERRAIN_COAST" Tier="2"/>
 	</StartBiasTerrains>
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_TEAHOUSE" Texture="MOMENT_BUILDING_TEAHOUSE"/>

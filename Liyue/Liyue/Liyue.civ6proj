@@ -13,7 +13,7 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="GENSHIN_LIYUE_INGAME"><File>Data/Liyue_Civilization.xml</File><File>Data/Liyue_Keqing.xml</File><File>Data/Liyue_Ningguang.xml</File><File>Data/Liyue_Ganyu.xml</File><File>Data/Liyue_Millelith.xml</File><File>Data/Liyue_Teahouse.xml</File><File>Data/Modifiers_Ningguang.sql</File></UpdateDatabase><UpdateText id="GENSHIN_LIYUE_INGAME"><File>Text/Liyue_ConfigTextCN.xml</File><File>Text/Liyue_TextCN.xml</File><File>Text/Liyue_ConfigText.xml</File><File>Text/Liyue_TextEN.xml</File></UpdateText><UpdateIcons id="GENSHIN_LIYUE_INGAME"><File>Data/Liyue_Icons.xml</File></UpdateIcons><UpdateArt id="GENSHIN_LIYUE_INGAME"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="GENSHIN_LIYUE_INGAME"><File>Data/Liyue_Colors.xml</File></UpdateColors><UpdateAudio id="GENSHIN_LIYUE_INGAME"><File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File></UpdateAudio><AddGameplayScripts id="GENSHIN_LIYUE_INGAME"><File>Data/Liyue_Keqing_Ability.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="GENSHIN_LIYUE_INGAME"><File>Data/Liyue_Civilization.xml</File><File>Data/Liyue_Keqing.xml</File><File>Data/Liyue_Ningguang.xml</File><File>Data/Liyue_Ganyu.xml</File><File>Data/Liyue_Millelith.xml</File><File>Data/Liyue_Teahouse.xml</File><File>Data/Modifiers_Ningguang.sql</File><File>Data/Liyue_Civilization.sql</File></UpdateDatabase><UpdateText id="GENSHIN_LIYUE_INGAME"><File>Text/Liyue_ConfigTextCN.xml</File><File>Text/Liyue_TextCN.xml</File><File>Text/Liyue_ConfigText.xml</File><File>Text/Liyue_TextEN.xml</File></UpdateText><UpdateIcons id="GENSHIN_LIYUE_INGAME"><File>Data/Liyue_Icons.xml</File></UpdateIcons><UpdateArt id="GENSHIN_LIYUE_INGAME"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="GENSHIN_LIYUE_INGAME"><File>Data/Liyue_Colors.xml</File></UpdateColors><UpdateAudio id="GENSHIN_LIYUE_INGAME"><File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File></UpdateAudio><AddGameplayScripts id="GENSHIN_LIYUE_INGAME"><File>Data/Liyue_Keqing_Ability.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="GENSHIN_LIYUE_FRONTEND"><File>Data/Liyue_Config.xml</File><File>Data/Liyue_Config.sql</File></UpdateDatabase><UpdateText id="GENSHIN_LIYUE_FRONTEND"><File>Text/Liyue_ConfigTextCN.xml</File><File>Text/Liyue_ConfigText.xml</File></UpdateText><UpdateIcons id="GENSHIN_LIYUE_FRONTEND"><File>Data/Liyue_Icons.xml</File></UpdateIcons><UpdateArt id="GENSHIN_LIYUE_FRONTEND"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="GENSHIN_LIYUE_FRONTEND"><File>Data/Liyue_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>Liyue</AssemblyName>
@@ -32,6 +32,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Liyue_Civilization.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Liyue_Civilization.xml">
@@ -56,6 +59,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Liyue_Keqing_Ability.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Liyue_Leaders.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Liyue_Millelith.xml">

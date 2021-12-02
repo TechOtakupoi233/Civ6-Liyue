@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="UNIT_MILLELITH" Kind="KIND_UNIT" />
+		<Row Type="UNIT_MILLELITH" Kind="KIND_UNIT"/>
 	</Types>
 	<Tags>
 		<Row Tag="CLASS_MILLELITH" Vocabulary="ABILITY_CLASS"/>
@@ -14,7 +14,7 @@
 		<Row UnitType="UNIT_MILLELITH" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_MILLELITH" ReplacesUnitType="UNIT_PIKEMAN"/>
+		<Row CivUniqueUnitType="UNIT_MILLELITH" ReplacesUnitType="UNIT_SPEARMAN"/>
 	</UnitReplaces>
 	<TypeTags>
 		<Row Type="UNIT_MILLELITH" Tag="CLASS_ANTI_CAVALRY"/>
@@ -25,54 +25,22 @@
 			<Name>LOC_UNIT_MILLELITH_NAME</Name>
 			<Description>LOC_UNIT_MILLELITH_DESCRIPTION</Description>
 			<BaseSightRange>2</BaseSightRange>
-			<BaseMoves>3</BaseMoves>
+			<BaseMoves>2</BaseMoves>
 			<Domain>DOMAIN_LAND</Domain>
-			<Combat>45</Combat>
+			<Combat>30</Combat>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<PromotionClass>PROMOTION_CLASS_ANTI_CAVALRY</PromotionClass>
-			<Cost>100</Cost>
+			<Cost>65</Cost>
 			<ZoneOfControl>true</ZoneOfControl>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<Maintenance>1</Maintenance>
 			<TraitType>TRAIT_CIVILIZATION_UNIT_MILLELITH</TraitType>
-			<PrereqTech>TECH_MILITARY_TACTICS</PrereqTech>
-			<MandatoryObsoleteTech>TECH_COMPOSITES</MandatoryObsoleteTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<MandatoryObsoleteTech>TECH_METAL_CASTING</MandatoryObsoleteTech>
 		</Row>
 	</Units>
 	<UnitUpgrades>
-		<Row Unit="UNIT_MILLELITH" UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
+		<Row Unit="UNIT_MILLELITH" UpgradeUnit="UNIT_PIKEMAN"/>
 	</UnitUpgrades>
-	<TraitModifiers>
-		<!--<Row>
-			<TraitType>TRAIT_CIVILIZATION_UNIT_MILLELITH</TraitType>
-			<ModifierId>MILLELITH_FLANKING_BONUS</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_UNIT_MILLELITH</TraitType>
-			<ModifierId>MILLELITH_SUPPORT_BONUS</ModifierId>
-		</Row>-->
-	</TraitModifiers>
-	<Modifiers>
-		<!--<Row>
-			<ModifierId>MILLELITH_FLANKING_BONUS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>MILLELITH_SUPPORT_BONUS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SUPPORT_BONUS_MODIFIER</ModifierType>
-		</Row>-->
-	</Modifiers>
-	<ModifierArguments>
-		<!--<Row>
-			<ModifierId>MILLELITH_FLANKING_BONUS</ModifierId>
-			<Name>Percent</Name>
-			<Value>100</Value>
-		</Row>
-		<Row>
-			<ModifierId>MILLELITH_SUPPORT_BONUS</ModifierId>
-			<Name>Percent</Name>
-			<Value>100</Value>
-		</Row>-->
-	</ModifierArguments>
 </GameData>

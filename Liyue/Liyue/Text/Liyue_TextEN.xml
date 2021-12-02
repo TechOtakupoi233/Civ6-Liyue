@@ -377,24 +377,24 @@
 
 		<!-- Leader Quotes -->
 		<!-- 领袖名言 -->
-		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_KEQING_QUOTE"
+		<Row Language="en_US" Tag="LOC_LEADER_KEQING_QUOTE"
 			 Text="If you feel strongly about something, you should speak up and take action. That's the philosophy I live by."
 />
 		<!--first meet-->
-		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_ANY"
+		<Row Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_ANY"
 			Text="I am Keqing, Yuheng of the Liyue Qixing. My role is to manage real estate and construction in Liyue."
 />
-		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_ANY"
+		<Row Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_ANY"
 			Text="Liyue is a vast place with abundant resources. I will show you around. You deserve to see Liyue cities with your own eyes."
 />
-		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KEQING_ANY"
+		<Row Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KEQING_ANY"
 			Text="Let's go, time is against us."
 />
-		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KEQING_ANY"
+		<Row Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KEQING_ANY"
 			Text="Would you like some kindly exchange of capital information? In return, I will show you around when you come to see our capital Liyue one day."
 />
 		<!--deligation-->
-		<Row Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY"
+		<Row Language="en_US" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY"
 			Text="Accepted. I like you as you make up your own mind."
 />
 		
