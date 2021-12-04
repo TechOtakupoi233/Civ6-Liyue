@@ -77,6 +77,15 @@ VALUES (
 	/* Dscrptn */ 'LOC_BUILDING_STATUE_OF_THE_SEVEN_DESCRIPTION',
 	/* SortIdx */ 30
 ),(
+	/* Domain  */ 'Players:Expansion1_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_KEQING',
+	/* ItmType */ 'IMPROVEMENT_ADVENTURERS_GUILD',
+	/* ItmIcon */ 'ICON_IMPROVEMENT_ADVENTURERS_GUILD',
+	/* ItmName */ 'LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME',
+	/* Dscrptn */ 'LOC_IMPROVEMENT_ADVENTURERS_GUILD_DESCRIPTION',
+	/* SortIdx */ 40
+),(
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_KEQING',
@@ -103,4 +112,13 @@ VALUES (
 	/* ItmName */ 'LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_STATUE_OF_THE_SEVEN_DESCRIPTION',
 	/* SortIdx */ 30
+),(
+	/* Domain  */ 'Players:Expansion2_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_KEQING',
+	/* ItmType */ 'IMPROVEMENT_ADVENTURERS_GUILD',
+	/* ItmIcon */ 'ICON_IMPROVEMENT_ADVENTURERS_GUILD',
+	/* ItmName */ 'LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME',
+	/* Dscrptn */ 'LOC_IMPROVEMENT_ADVENTURERS_GUILD_DESCRIPTION',
+	/* SortIdx */ 40
 );

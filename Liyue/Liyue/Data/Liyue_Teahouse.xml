@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!--WARNING: DEPRECATED-->
 	<Types>
 		<Row Type="BUILDING_TEAHOUSE" Kind="KIND_BUILDING" />
 	</Types>

@@ -10,15 +10,15 @@
 
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS_NAME" Text="岩与契约的海港"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS_DESCRIPTION"
-			Text="从被改良的矿产资源中获得 +1 [ICON_Culture] 文化值。采石场和矿山 +1 [ICON_Production] 生产力。拥有璃月港的城市，采石场和矿山额外提供 +2 [ICON_Gold] 金币。[NEWLINE]拥有璃月港的城市每回合 +5 忠诚度。"/>
+			Text="从被改良的矿产资源中获得 +1 [ICON_Culture] 文化值。采石场和矿山 +1 [ICON_Production] 生产力。拥有璃月港的城市，采石场和矿山额外提供 +2 [ICON_Gold] 金币。"/>
 
 		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="璃月港"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_LIYUE_HARBOR_DESCRIPTION"
-			Text="璃月特色海军活动区域，替代港口，建造费用更低。建成后所在城市立即获得贸易站。[NEWLINE]与璃月港相邻的学院、和剧院广场和商业中心产出额外的 [ICON_GreatPerson] 伟人点数。"/>
+			Text="璃月特色海军活动区域，替代港口，建造费用更低。建成后所在城市立即获得贸易站。[NEWLINE]拥有璃月港的城市每回合 +5 忠诚度。"/>
 
 		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_MILLELITH_NAME"				Text="千岩军"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
-			Text="璃月远古时代特色抗骑兵单位，取代枪兵。免疫丘陵地形的 [ICON_Movement] 移动力损耗。驻扎、或在丘陵上防御时，分别 +5	[ICON_Strength] 战斗力。"/>
+			Text="璃月远古时代特色抗骑兵单位，取代枪兵。免疫丘陵地形的 [ICON_Movement] 移动力损耗。在丘陵上防御时 +5 [ICON_Strength] 战斗力。"/>
 
 
 		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_KEQING_NAME"					Text="刻晴"/>
