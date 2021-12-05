@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+	<Row Tag="LOC_TOOLTIP_STATUE_OF_THE_SEVEN" Language="en_US">
+		<Text>Statue of the Seven: </Text>
+	</Row>
+
+	<Row Tag="LOC_TOOLTIP_STATUE_OF_THE_SEVEN" Language="zh_Hans_CN">
+		<Text>七天神像：</Text>
+	</Row>
+	
+	
+</GameData>

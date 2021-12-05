@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		
 		<!-- Pedia text (historical context) about the new building. -->
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TEAHOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>一张屏风和几套桌椅，一个说书人和一壶好茶。茶室是包括岩王帝君在内的璃月人都喜欢光顾的地方。除了评书之外，要是遇上了云堇上戏台的日子，闻名而来的看客能把小小的茶馆里三层外三层围得水泄不通。</Text>
@@ -56,13 +57,13 @@
 		</Row>
 		<!-- Civilization specific historical text. -->
 		<!-- 文明历史背景 -->
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GENSHIN_LIYUE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>璃月是提瓦特历史最悠久的国家。3700年前，摩拉克斯和仙人签订了契约以保护璃月港，这就是璃月国的成立。</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GENSHIN_LIYUE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
 			<Text>在璃月港建立很久以前，提瓦特七大魔神还没任职而神灵还自由地在世上漫游的时间，这片将会成为璃月的土地上存有很多村庄。在这个时代，摩拉克斯和尘土之神归终共同管治现在名为“归离原”的地方。 这个文明在他们的共同统治和在仙人的保护下变得繁荣昌盛。</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_GENSHIN_LIYUE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
 			<Text>魔神战争爆发时，这个文明经过了激烈战争后被摧毁，也导致了归终的死亡；本来肥沃的荻花州变成了一片沼泽。摩拉克斯带他的人民向南，在天衡山南边建立璃月港，直到今日。为了保护这新的城市，摩拉克斯与仙人签订了契约，自己就去与其他恶神作战。在镇压了数个魔神，如“漩涡之魔神”，以及其他魔神的死去（如“盐之魔神”赫乌莉亚) 后，摩拉克斯成为璃月战场中的胜者，成为尘世的岩神。一年一度，摩拉克斯在“七星请仙典仪”正式下凡，为璃月人民赐下神谕，指引下一年璃月经营的方向。日常凡务就由璃月七星、商会、和千岩军处理。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_GANYU_NAME" Language="zh_Hans_CN">
@@ -155,124 +156,124 @@
 			<Text></Text>
 		</Row>
 		<!-- Civlization Citizen Names -->
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_1" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_1" Language="zh_Hans_CN">
 			<Text>嘉义</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_2" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_2" Language="zh_Hans_CN">
 			<Text>弘毅</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_3" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_3" Language="zh_Hans_CN">
 			<Text>夙凌</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_4" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_4" Language="zh_Hans_CN">
 			<Text>言笑</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_5" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_5" Language="zh_Hans_CN">
 			<Text>强</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_6" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_6" Language="zh_Hans_CN">
 			<Text>仲林</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_7" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_7" Language="zh_Hans_CN">
 			<Text>志华</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_8" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_8" Language="zh_Hans_CN">
 			<Text>茱萸</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_9" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_9" Language="zh_Hans_CN">
 			<Text>碧波</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_10" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_10" Language="zh_Hans_CN">
 			<Text>顺</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_11" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_11" Language="zh_Hans_CN">
 			<Text>宽</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_12" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_12" Language="zh_Hans_CN">
 			<Text>逢岩</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_13" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_13" Language="zh_Hans_CN">
 			<Text>鸿如</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_14" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_14" Language="zh_Hans_CN">
 			<Text>桂</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_15" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_15" Language="zh_Hans_CN">
 			<Text>镇海</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_16" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_16" Language="zh_Hans_CN">
 			<Text>东升</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_17" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_17" Language="zh_Hans_CN">
 			<Text>石头</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_18" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_18" Language="zh_Hans_CN">
 			<Text>旭</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_19" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_19" Language="zh_Hans_CN">
 			<Text>德贵</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_MALE_20" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_20" Language="zh_Hans_CN">
 			<Text>博来</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_1" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_1" Language="zh_Hans_CN">
 			<Text>绮命</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_2" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_2" Language="zh_Hans_CN">
 			<Text>长顺</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_3" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_3" Language="zh_Hans_CN">
 			<Text>紫微</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_4" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_4" Language="zh_Hans_CN">
 			<Text>汐零</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_5" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_5" Language="zh_Hans_CN">
 			<Text>绘星</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_6" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_6" Language="zh_Hans_CN">
 			<Text>无怨</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_7" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_7" Language="zh_Hans_CN">
 			<Text>秀华</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_8" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_8" Language="zh_Hans_CN">
 			<Text>银杏</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_9" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_9" Language="zh_Hans_CN">
 			<Text>黄衫</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_10" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_10" Language="zh_Hans_CN">
 			<Text>甜甜</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_11" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_11" Language="zh_Hans_CN">
 			<Text>百晓</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_12" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_12" Language="zh_Hans_CN">
 			<Text>雨</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_13" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_13" Language="zh_Hans_CN">
 			<Text>纪芳</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_14" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_14" Language="zh_Hans_CN">
 			<Text>若心</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_15" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_15" Language="zh_Hans_CN">
 			<Text>公明</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_16" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_16" Language="zh_Hans_CN">
 			<Text>琳琅</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_17" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_17" Language="zh_Hans_CN">
 			<Text>落霞</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_18" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_18" Language="zh_Hans_CN">
 			<Text>慧心</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_19" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_19" Language="zh_Hans_CN">
 			<Text>星稀</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_GENSHIN_LIYUE_FEMALE_20" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_20" Language="zh_Hans_CN">
 			<Text>月疏</Text>
 		</Row>
 
@@ -373,7 +374,7 @@
 		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION" Language="zh_Hans_CN">
 			<Text>位置</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_GENSHIN_LIYUE_LOCATION" Language="zh_Hans_CN">
+		<Row Tag="LOC_CIVINFO_LIYUE_CL_LOCATION" Language="zh_Hans_CN">
 			<Text>提瓦特</Text>
 		</Row>
 

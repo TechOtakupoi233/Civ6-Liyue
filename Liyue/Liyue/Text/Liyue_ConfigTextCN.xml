@@ -4,9 +4,9 @@
 <!-- DateCreated: 9/9/2021 1:35:33 AM -->
 <GameData>
 	<LocalizedText>
-		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_GENSHIN_LIYUE_NAME"		Text="原神·璃月"/>
-		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_GENSHIN_LIYUE_DESCRIPTION"	Text="璃月"/>
-		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_GENSHIN_LIYUE_ADJECTIVE"	Text="璃月"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LIYUE_CL_NAME"		Text="原神·璃月"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LIYUE_CL_DESCRIPTION"	Text="璃月"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE"	Text="璃月"/>
 
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS_NAME"	Text="岩与契约的海港"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS_DESCRIPTION"
