@@ -18,7 +18,7 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_GOVERNOR" MomentDataType="MOMENT_DATA_GOVERNOR" GameDataType="GOVERNOR_GANYU" Texture="Moment_PromoteGovernor_Ganyu"/>
 	</MomentIllustrations>
 	<Governors>
-		<Row GovernorType="GOVERNOR_GANYU" Image="GOVERNOR_GANYU" Name="LOC_GOVERNOR_GANYU_NAME" Title="LOC_GOVERNOR_GANYU_TITLE" ShortTitle="LOC_GOVERNOR_GANYU_SHORT_TITLE" Description="LOC_GOVERNOR_GANYU_DESCRIPTION" IdentityPressure="8" TransitionStrength="600" PortraitImage="GovernorNormal_Ganyu" PortraitImageSelected="GovernorSelected_Ganyu" TraitType="TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS"/>
+		<Row GovernorType="GOVERNOR_GANYU" Image="GOVERNOR_GANYU" Name="LOC_GOVERNOR_GANYU_NAME" Title="LOC_GOVERNOR_GANYU_TITLE" ShortTitle="LOC_GOVERNOR_GANYU_SHORT_TITLE" Description="LOC_GOVERNOR_GANYU_DESCRIPTION" IdentityPressure="8" TransitionStrength="600" PortraitImage="GovernorNormal_Ganyu" PortraitImageSelected="GovernorSelected_Ganyu" TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS"/>
 	</Governors>
 	<GovernorPromotionSets>
 		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_MIND_IN_CIVIL"/>

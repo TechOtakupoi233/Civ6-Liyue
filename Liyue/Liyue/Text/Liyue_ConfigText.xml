@@ -10,28 +10,29 @@
 		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE" Language="en_US">
 			<Text>Liyue</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME" Language="en_US">
-			<Text>The Harbor of Stone and Contracts</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION" Language="en_US">
-			<Text>Exclusive unique Governor with various abilities. Commercial Hub and Harbor gain standard [ICON_Gold] Gold adjacency bonus from adjacent districts. +1 [ICON_TradeRoute] Trade Route capacity in every city with a Market and a Lighthouse building. Trade Routes sent to your cities grant +5 [ICON_Gold] Gold. Resources improved by Mines and Quarries gain +1 [ICON_Production] Production each. Additional +1 [ICON_Culture] Culture and +2 [ICON_Gold] Gold for Luxuries improved by Mines and Quarries. </Text>
-		</Row>
-		<Row Tag="LOC_MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS" Language="en_US">
-			<Text>+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?district; other?districts;}.</Text>
-		</Row>
-		<Row Tag="LOC_MODIFIER_HARBOR_ADJACENCY_BONUS" Language="en_US">
-			<Text>+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?district; other?districts;}.</Text>
-		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME"	Text="Placeholder"/>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION"
+			Text="Placeholder"/>
+
+		<Row Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="Placeholder"/>
+		<Row Tag="LOC_DISTRICT_LIYUE_HARBOR_DESCRIPTION"
+			Text="Placeholder"/>
+
+		<Row Tag="LOC_UNIT_MILLELITH_NAME"				Text="Placeholder"/>
+		<Row Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
+			Text="Placeholder"/>
 		
 		<Row Tag="LOC_LEADER_KEQING_NAME" Language="en_US">
 			<Text>Keqing</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_KEQING_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_QIXING_YUHENG_NAME" Language="en_US">
 			<Text>Yuheng, the Star of Change</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_KEQING_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_QIXING_YUHENG_DESCRIPTION" Language="en_US">
 			<Text>+2 [ICON_Movement] Movement for all civilian units. Civilian units ignore [ICON_Movement] Movement costs of terrain, features and crossing rivers. Builders receive 2 less build charges. Receive 2 additional Builders or Military Engineers each time you train one. One extra Wildcard policy slot in any government.</Text>
 		</Row>
+		
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="en_US">
 			<Text>Keqing, Yuheng of the Liyue Qixing, the future of Liyue lies in your hands. You are representation of your people, and make your decisions lightning fast like a driving thunder. Under your leadership, your people will rewrite the old order existed for millennia, replace the gods as masters of your own universe, and stand the test of time. Stay at the cutting edge of era, create a new path with your own hands, and make your thoughts into actions.</Text>
 		</Row>

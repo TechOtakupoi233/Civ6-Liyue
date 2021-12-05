@@ -9,8 +9,8 @@
 			<CivilizationIcon>ICON_CIVILIZATION_LIYUE_CL</CivilizationIcon>
 			<LeaderName>LOC_LEADER_NINGGUANG_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_NINGGUANG</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_GEO_HARBOR_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_GEO_HARBOR_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_LIYUE_CL</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_NINGGUANG_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION</LeaderAbilityDescription>
