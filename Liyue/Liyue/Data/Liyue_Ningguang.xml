@@ -4,31 +4,8 @@
 <!-- DateCreated: 9/14/2021 4:22:47 PM -->
 <GameData>
 	<Types>
-		<Row Type="LEADER_NINGGUANG" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_TIANQUAN" Kind="KIND_TRAIT"/>
 	</Types>
-	<Leaders>
-		<Row>
-			<LeaderType>LEADER_NINGGUANG</LeaderType>
-			<Name>LOC_LEADER_NINGGUANG_NAME</Name>
-			<InheritFrom>LEADER_DEFAULT</InheritFrom>
-		</Row>
-		<Update>
-			<Where LeaderType="LEADER_NINGGUANG"/>
-			<Set>
-				<Sex>Female</Sex>
-			</Set>
-		</Update>
-	</Leaders>
-	<LeaderQuotes>
-		<Row LeaderType="LEADER_NINGGUANG" Quote="LOC_LEADER_NINGGUANG_QUOTE" QuoteAudio="NINGGUANG_MISC_PEP_TALK_A"/>
-	</LeaderQuotes>
-	<Loadinginfo>
-		<Row>
-			<LeaderType>LEADER_NINGGUANG</LeaderType>
-			<ForegroundImage>LEADER_NINGGUANG_LOADING</ForegroundImage>
-		</Row>
-	</Loadinginfo>
 	
 	<LeaderTraits>
 		<Row LeaderType="LEADER_NINGGUANG" TraitType="TRAIT_TIANQUAN"/>

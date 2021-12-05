@@ -16,12 +16,12 @@ INSERT INTO Players(
 	PortraitBackground
 ) VALUES (
 	/* Domain  */ 'Players:Expansion1_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
-	/* CivName */ 'LOC_CIVILIZATION_LIYUE_CL_NAME',
-	/* CivIcon */ 'ICON_CIVILIZATION_LIYUE_CL',
+	/* CivType */ 'CIVILIZATION_GENSHIN_LIYUE',
+	/* CivName */ 'LOC_CIVILIZATION_GENSHIN_LIYUE_NAME',
+	/* CivIcon */ 'ICON_CIVILIZATION_GENSHIN_LIYUE',
 	/* UA Name */ 'LOC_TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS_NAME',
 	/* UA Dscp */ 'LOC_TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS_DESCRIPTION',
-	/* UA Icon */ 'ICON_CIVILIZATION_LIYUE_CL',
+	/* UA Icon */ 'ICON_CIVILIZATION_GENSHIN_LIYUE',
 	/* LdrType */ 'LEADER_KEQING',
 	/* LdrName */ 'LOC_LEADER_KEQING_NAME',
 	/* LdrIcon */ 'ICON_LEADER_KEQING',
@@ -32,12 +32,12 @@ INSERT INTO Players(
 	/* Backgnd */ 'LEADER_KEQING_BACKGROUND'
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
-	/* CivName */ 'LOC_CIVILIZATION_LIYUE_CL_NAME',
-	/* CivIcon */ 'ICON_CIVILIZATION_LIYUE_CL',
+	/* CivType */ 'CIVILIZATION_GENSHIN_LIYUE',
+	/* CivName */ 'LOC_CIVILIZATION_GENSHIN_LIYUE_NAME',
+	/* CivIcon */ 'ICON_CIVILIZATION_GENSHIN_LIYUE',
 	/* UA Name */ 'LOC_TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS_NAME',
 	/* UA Dscp */ 'LOC_TRAIT_CIVILIZATION_JADE_MOON_UPON_CLOUDS_DESCRIPTION',
-	/* UA Icon */ 'ICON_CIVILIZATION_LIYUE_CL',
+	/* UA Icon */ 'ICON_CIVILIZATION_GENSHIN_LIYUE',
 	/* LdrType */ 'LEADER_KEQING',
 	/* LdrName */ 'LOC_LEADER_KEQING_NAME',
 	/* LdrIcon */ 'ICON_LEADER_KEQING',
@@ -51,7 +51,7 @@ INSERT INTO Players(
 INSERT INTO PlayerItems (Domain, CivilizationType, LeaderType, Type, Icon, Name, Description, SortIndex)
 VALUES (
 	/* Domain  */ 'Players:Expansion1_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* CivType */ 'CIVILIZATION_GENSHIN_LIYUE',
 	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'UNIT_MILLELITH',
 	/* ItmIcon */ 'ICON_UNIT_MILLELITH',
@@ -60,7 +60,7 @@ VALUES (
 	/* SortIdx */ 10
 ),(
 	/* Domain  */ 'Players:Expansion1_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* CivType */ 'CIVILIZATION_GENSHIN_LIYUE',
 	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'DISTRICT_LIYUE_HARBOR',
 	/* ItmIcon */ 'ICON_DISTRICT_LIYUE_HARBOR',
@@ -69,7 +69,7 @@ VALUES (
 	/* SortIdx */ 20
 ),(
 	/* Domain  */ 'Players:Expansion1_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* CivType */ 'CIVILIZATION_GENSHIN_LIYUE',
 	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'BUILDING_STATUE_OF_THE_SEVEN',
 	/* ItmIcon */ 'ICON_BUILDING_STATUE_OF_THE_SEVEN',
@@ -78,7 +78,7 @@ VALUES (
 	/* SortIdx */ 30
 ),(
 	/* Domain  */ 'Players:Expansion1_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* CivType */ 'CIVILIZATION_GENSHIN_LIYUE',
 	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'IMPROVEMENT_ADVENTURERS_GUILD',
 	/* ItmIcon */ 'ICON_IMPROVEMENT_ADVENTURERS_GUILD',
@@ -87,7 +87,7 @@ VALUES (
 	/* SortIdx */ 40
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* CivType */ 'CIVILIZATION_GENSHIN_LIYUE',
 	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'UNIT_MILLELITH',
 	/* ItmIcon */ 'ICON_UNIT_MILLELITH',
@@ -96,7 +96,7 @@ VALUES (
 	/* SortIdx */ 10
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* CivType */ 'CIVILIZATION_GENSHIN_LIYUE',
 	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'DISTRICT_LIYUE_HARBOR',
 	/* ItmIcon */ 'ICON_DISTRICT_LIYUE_HARBOR',
@@ -105,7 +105,7 @@ VALUES (
 	/* SortIdx */ 20
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* CivType */ 'CIVILIZATION_GENSHIN_LIYUE',
 	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'BUILDING_STATUE_OF_THE_SEVEN',
 	/* ItmIcon */ 'ICON_BUILDING_STATUE_OF_THE_SEVEN',
@@ -114,7 +114,7 @@ VALUES (
 	/* SortIdx */ 30
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* CivType */ 'CIVILIZATION_GENSHIN_LIYUE',
 	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'IMPROVEMENT_ADVENTURERS_GUILD',
 	/* ItmIcon */ 'ICON_IMPROVEMENT_ADVENTURERS_GUILD',

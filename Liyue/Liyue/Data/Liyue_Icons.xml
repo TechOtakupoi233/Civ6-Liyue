@@ -48,7 +48,7 @@
 		<Row Name="ICON_ATLAS_GANYU_GOVERNORS_SLOT" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorsCityBannerSlot22"/>
 	</IconTextureAtlases>
 	<IconDefinitions>		
-		<Row Name="ICON_CIVILIZATION_LIYUE_CL" Atlas="ATLAS_LIYUE" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_GENSHIN_LIYUE" Atlas="ATLAS_LIYUE" Index="0"/>
 		<Row Name="ICON_LEADER_KEQING" Atlas="ATLAS_KEQING" Index="0"/>
 		<Row Name="ICON_LEADER_NINGGUANG" Atlas="ATLAS_NINGGUANG" Index="0"/>
 		<Row Name="ICON_UNIT_MILLELITH" Atlas="ATLAS_MILLELITH_ICON" Index="0"/>
