@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		
 		<!-- Pedia text (historical context) about the new building. -->
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TEAHOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>一张屏风和几套桌椅，一个说书人和一壶好茶。茶室是包括岩王帝君在内的璃月人都喜欢光顾的地方。除了评书之外，要是遇上了云堇上戏台的日子，闻名而来的看客能把小小的茶馆里三层外三层围得水泄不通。</Text>
@@ -155,124 +156,124 @@
 			<Text></Text>
 		</Row>
 		<!-- Civlization Citizen Names -->
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_1" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_1" Language="zh_Hans_CN">
 			<Text>嘉义</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_2" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_2" Language="zh_Hans_CN">
 			<Text>弘毅</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_3" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_3" Language="zh_Hans_CN">
 			<Text>夙凌</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_4" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_4" Language="zh_Hans_CN">
 			<Text>言笑</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_5" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_5" Language="zh_Hans_CN">
 			<Text>强</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_6" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_6" Language="zh_Hans_CN">
 			<Text>仲林</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_7" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_7" Language="zh_Hans_CN">
 			<Text>志华</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_8" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_8" Language="zh_Hans_CN">
 			<Text>茱萸</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_9" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_9" Language="zh_Hans_CN">
 			<Text>碧波</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_10" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_10" Language="zh_Hans_CN">
 			<Text>顺</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_11" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_11" Language="zh_Hans_CN">
 			<Text>宽</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_12" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_12" Language="zh_Hans_CN">
 			<Text>逢岩</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_13" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_13" Language="zh_Hans_CN">
 			<Text>鸿如</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_14" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_14" Language="zh_Hans_CN">
 			<Text>桂</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_15" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_15" Language="zh_Hans_CN">
 			<Text>镇海</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_16" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_16" Language="zh_Hans_CN">
 			<Text>东升</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_17" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_17" Language="zh_Hans_CN">
 			<Text>石头</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_18" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_18" Language="zh_Hans_CN">
 			<Text>旭</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_19" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_19" Language="zh_Hans_CN">
 			<Text>德贵</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_MALE_20" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_20" Language="zh_Hans_CN">
 			<Text>博来</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_1" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_1" Language="zh_Hans_CN">
 			<Text>绮命</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_2" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_2" Language="zh_Hans_CN">
 			<Text>长顺</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_3" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_3" Language="zh_Hans_CN">
 			<Text>紫微</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_4" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_4" Language="zh_Hans_CN">
 			<Text>汐零</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_5" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_5" Language="zh_Hans_CN">
 			<Text>绘星</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_6" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_6" Language="zh_Hans_CN">
 			<Text>无怨</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_7" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_7" Language="zh_Hans_CN">
 			<Text>秀华</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_8" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_8" Language="zh_Hans_CN">
 			<Text>银杏</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_9" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_9" Language="zh_Hans_CN">
 			<Text>黄衫</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_10" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_10" Language="zh_Hans_CN">
 			<Text>甜甜</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_11" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_11" Language="zh_Hans_CN">
 			<Text>百晓</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_12" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_12" Language="zh_Hans_CN">
 			<Text>雨</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_13" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_13" Language="zh_Hans_CN">
 			<Text>纪芳</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_14" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_14" Language="zh_Hans_CN">
 			<Text>若心</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_15" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_15" Language="zh_Hans_CN">
 			<Text>公明</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_16" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_16" Language="zh_Hans_CN">
 			<Text>琳琅</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_17" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_17" Language="zh_Hans_CN">
 			<Text>落霞</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_18" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_18" Language="zh_Hans_CN">
 			<Text>慧心</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_19" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_19" Language="zh_Hans_CN">
 			<Text>星稀</Text>
 		</Row>
-		<Row Tag="LOC_CITIZEN_LIYUE_FEMALE_20" Language="zh_Hans_CN">
+		<Row Tag="LOC_CITIZEN_LIYUE_CL_FEMALE_20" Language="zh_Hans_CN">
 			<Text>月疏</Text>
 		</Row>
 
@@ -373,191 +374,9 @@
 		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION" Language="zh_Hans_CN">
 			<Text>位置</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_CIVINFO_LIYUE_CL_LOCATION" Language="zh_Hans_CN">
 			<Text>提瓦特</Text>
 		</Row>
 
-		<!-- Leader Quotes -->
-		<!-- 领袖名言 -->
-		<Row Tag="LOC_LEADER_KEQING_QUOTE" Language="zh_Hans_CN">
-			<Text>觉得自己是正确的，就要大声地说出来坚决地去行动——这是我一直以来都贯彻的人生理念。</Text>
-		</Row>
-
-		<!--<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_NAME" Language="zh_Hans_CN">
-			<Text>文科学者的浪漫</Text>
-		</Row>
-		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>喜欢 [ICON_Science] 科学和 [ICON_Culture] 均领先的文明，敌视 [ICON_Science] 科学领先但 [ICON_Culture] 落后的文明。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_KEQING_REASON_ANY" Language="zh_Hans_CN">
-			<Text>（您的文化和科研都领先）</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE" Language="zh_Hans_CN">
-			<Text>优妮对您的科学和文化大为赞赏</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_WARNING_LEADER_KEQING_REASON_ANY" Language="zh_Hans_CN">
-			<Text>（您的文化发展无法与科学相当）</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE" Language="zh_Hans_CN">
-			<Text>优妮对您缺乏文化非常失望</Text>
-		</Row>-->
-		<!-- Leader Quotes -->
-		<!-- 领袖名言 -->
-		<Row Tag="LOC_LEADER_NINGGUANG_QUOTE" Language="zh_Hans_CN">
-			<Text>赌徒永远会把希望寄托在下一颗骰子上。但最后赚钱的，当然是从来不碰骰子的庄家。</Text>
-		</Row>
-
-		<!-- Leader Dialog -->
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--同意声明友谊-->
-			<Text>既然是你，就不用恪守那些繁文缛节了，可以随意一些。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--拒绝声明友谊-->
-			<Text>这笔投资值不值，我还得再考虑考虑。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--请求声明友谊-->
-			<Text>关于我的传言，最近听了不少吧。我究竟是怎样的人？用你自己的双眼分辨吧…当然，你的看法，也会成为传言的一部分。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--请求声明友谊被接受-->
-			<Text>真是一笔不错的投资。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--请求声明友谊被拒绝-->
-			<Text>至于用摩拉也解决不了的事情…至今我只遇到过一件。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--被宣战-->
-			<Text>哼，劝你放弃。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--主动宣战-->
-			<Text>向我臣服吧。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--接受使节派遣-->
-			<Text>你的礼物我会收下的。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--拒绝使节派遣-->
-			<Text>抱歉，璃月还没有做好接待贵国使团的准备。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--请求派遣使节-->
-			<Text>这是一些璃月的特产，收下吧。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--被谴责-->
-			<Text>「道不同不相为谋」，说的就是这个道理。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--谴责玩家-->
-			<Text>漠视契约是对璃月港最大的背叛。（谴责你）</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--初次见面-->
-			<Text>我是七星之「天权」，凝光。要做个交易吗？</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--初次见面，提供最近城市位置-->
-			<Text>我们附近有一座城市。想来拜访吗？璃月的文化底蕴不会让你失望的。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--初次见面，玩家提供最近城市位置-->
-			<Text>很好。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--初次见面，请求交换首都位置-->
-			<Text>给我介绍一下你们的首都吧。这会是一笔不错的交易。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_GREETING_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
-			<Text></Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--领袖对玩家有好感-->
-			<Text>我并不轻易肯定别人，但现在看来，我这赞扬是留不住了。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--领袖敌视玩家-->
-			<Text>或许你没有遇到过这种糟糕的交流体验，将好话坏话说尽了，对方却依然自行其是。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--请求结盟-->
-			<Text>和璃月共同发展吧，让世界知道人类不需要神明也能做的很好。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--理论上是同意求和，但从未被使用过-->
-			<Text></Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--理论上是拒绝求和，但从未被使用过-->
-			<Text></Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--理论上是求和，但从未被使用过-->
-			<Text></Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--理论上是同意开放边界，但从未被使用过-->
-			<Text></Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--理论上是拒绝开放边界，但从未被使用过-->
-			<Text></Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--理论上是请求开放边界，但从未被使用过-->
-			<Text></Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--要求移开边境军队-->
-			<Text>有市民对你在璃月边境的部队感到不安。虽然这不是我的管辖范围，但我还是希望你可以帮我这个忙。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--领取便当-->
-			<Text>胜负已分···真是无可奈何。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--同意交易-->
-			<Text>交易愉快。</Text>
-		</Row>
-
-		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NINGGUANG_ANY" Language="zh_Hans_CN">
-			<!--拒绝交易-->
-			<Text>找笔新的投资吧。无论如何，摩拉都不会嫌多。</Text>
-		</Row>
 	</LocalizedText>
 </GameData>
