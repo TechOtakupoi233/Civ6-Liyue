@@ -5,21 +5,21 @@
 			<Text>Liyue</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_DESCRIPTION" Language="en_US">
-			<Text>Liyue Harbor</Text>
+			<Text>Liyue</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_ADJECTIVE" Language="en_US">
 			<Text>Liyue</Text>
 		</Row>
 
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME"	Text="Placeholder"/>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME"	Text="Harbor of Stone and Contracts"/>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION"
 			Text="Placeholder"/>
 
-		<Row Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="Placeholder"/>
+		<Row Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="Liyue Harbor"/>
 		<Row Tag="LOC_DISTRICT_LIYUE_HARBOR_DESCRIPTION"
 			Text="Placeholder"/>
 
-		<Row Tag="LOC_UNIT_MILLELITH_NAME"				Text="Placeholder"/>
+		<Row Tag="LOC_UNIT_MILLELITH_NAME"				Text="Millelith"/>
 		<Row Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
 			Text="Placeholder"/>
 		
@@ -34,7 +34,7 @@
 		</Row>
 		
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="en_US">
-			<Text>Keqing, Yuheng of the Liyue Qixing, the future of Liyue lies in your hands. You are representation of your people, and make your decisions lightning fast like a driving thunder. Under your leadership, your people will rewrite the old order existed for millennia, replace the gods as masters of your own universe, and stand the test of time. Stay at the cutting edge of era, create a new path with your own hands, and make your thoughts into actions.</Text>
+			<Text>Keqing, Yuheng of the Liyue Qixing, the future of Liyue lies in your hands. You are representation of your people, and make your decisions lightning fast like a driving thunder. Under your leadership, your people will rewrite the old order existed for millennia, replace the gods as masters of your own universe, and stand the test of time. Stay at the cutting edge in eras, create a new path with your own hands, and make your thoughts into actions.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_NINGGUANG_NAME" Language="en_US">
 			<Text>Ningguang</Text>

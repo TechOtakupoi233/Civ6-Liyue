@@ -24,7 +24,7 @@
 		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_KEQING_NAME"					Text="刻晴"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_QIXING_YUHENG_NAME"	Text="引领变革的玉衡星"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_QIXING_YUHENG_DESCRIPTION"
-			Text="购买的单位在该回合就能行动。平民单位无视地貌和地形的 [ICON_Movement] 移动力惩罚。建造者和军事工程师建造后可立即恢复 [ICON_Movement] 移动力和 [ICON_Charges] 建造力。"/>
+			Text="购买的单位在该回合就能行动。平民单位无视地貌和地形的 [ICON_Movement] 移动力惩罚。每回合建造者和军事工程师建造后可立即恢复一次全部 [ICON_Movement] 移动力。"/>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="en_US">
 			<Text>刻晴，璃月七星的玉衡星，璃月的前景掌握在您的手中。您是人民的表率，决策如霆霓快雨般迅捷。在您的带领下，您的人民将改写维持千年的秩序，真正取代神明当家作主，经受住时间的考验。站在时代最前沿，亲手开创新的道路吧，将您的想法化为行动。</Text>

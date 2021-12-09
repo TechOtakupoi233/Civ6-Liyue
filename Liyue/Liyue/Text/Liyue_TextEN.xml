@@ -280,88 +280,88 @@
 			<Text>Liyue</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_TIANHENG" Language="en_US">
-			<Text>Tian Heng</Text>
+			<Text>Tianheng</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_DIHUA" Language="en_US">
-			<Text>Di Hua</Text>
+			<Text>Dihua</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_WANGSHU" Language="en_US">
-			<Text>Wang Shu</Text>
+			<Text>Wangshu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_QINGCE" Language="en_US">
-			<Text>Qing Ce</Text>
+			<Text>Qingce</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JUEYUN" Language="en_US">
-			<Text>Jue Yun</Text>
+			<Text>Jueyun</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_BISHUI" Language="en_US">
-			<Text>Bi Shui</Text>
+			<Text>Bishui</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_STONE_GATE" Language="en_US">
 			<Text>Stone Gate</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_WUWANG" Language="en_US">
-			<Text>Wu Wang</Text>
+			<Text>Wuwang</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SAL_TERRAE" Language="en_US">
 			<Text>Sal Terrae</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_MINLIN" Language="en_US">
-			<Text>Min Lin</Text>
+			<Text>Minlin</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_CUIJUE" Language="en_US">
-			<Text>Cui Jue</Text>
+			<Text>Cuijue</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_HUAGUANG" Language="en_US">
-			<Text>Hua Guang</Text>
+			<Text>Huaguang</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_AOCANG" Language="en_US">
-			<Text>Ao Cang</Text>
+			<Text>Aocang</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_HULAO" Language="en_US">
-			<Text>Hu Lao</Text>
+			<Text>Hulao</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_NANTIANMEN" Language="en_US">
-			<Text>Nan Tian Men</Text>
+			<Text>Nantianmen</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_QINYUN" Language="en_US">
-			<Text>Qing Yun</Text>
+			<Text>Qingyun</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_TIANQIU" Language="en_US">
-			<Text>Tian Qiu</Text>
+			<Text>Tianqiu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_QIONGJI" Language="en_US">
-			<Text>Qing Ji</Text>
+			<Text>Qingji</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_GUILI" Language="en_US">
-			<Text>Gui Li</Text>
+			<Text>Guili</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_MINGYUN" Language="en_US">
 			<Text>Ming Yun</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_YAOGUANG" Language="en_US">
-			<Text>Yao Guang</Text>
+			<Text>Yaoguang</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_LUHUA" Language="en_US">
-			<Text>Lu Hua</Text>
+			<Text>Luhua</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_LISHA" Language="en_US">
-			<Text>Li Sha</Text>
+			<Text>Lisha</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_DUNYU" Language="en_US">
-			<Text>Du Yu</Text>
+			<Text>Dunyu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_LINGJU" Language="en_US">
-			<Text>Ling Ju</Text>
+			<Text>Lingju</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_QINGXU" Language="en_US">
-			<Text>Qing Xu</Text>
+			<Text>Qingxu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_YUNLAI" Language="en_US">
-			<Text>Yun Lai</Text>
+			<Text>Yunlai</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_GUYUN" Language="en_US">
-			<Text>Gu Yun</Text>
+			<Text>Guyun</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_THE_CHASM" Language="en_US">
 			<Text>The Chasm</Text>
@@ -374,35 +374,6 @@
 		</Row>
 		<Row Tag="LOC_CIVINFO_LIYUE_CL_LOCATION" Language="en_US">
 			<Text>Teywat</Text>
-		</Row>
-
-		<!-- Leader Quotes -->
-		<!-- 领袖名言 -->
-		<Row Language="en_US" Tag="LOC_PEDIA_LEADERS_PAGE_KEQING_QUOTE"
-			 Text="If you feel strongly about something, you should speak up and take action. That's the philosophy I live by."
-/>
-		<!--first meet-->
-		<Row Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_ANY"
-			Text="I am Keqing, Yuheng of the Liyue Qixing. My role is to manage real estate and construction in Liyue."
-/>
-		<Row Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KEQING_ANY"
-			Text="Liyue is a vast place with abundant resources. I will show you around. You deserve to see Liyue cities with your own eyes."
-/>
-		<Row Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KEQING_ANY"
-			Text="Let's go, time is against us."
-/>
-		<Row Language="en_US" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KEQING_ANY"
-			Text="Would you like some kindly exchange of capital information? In return, I will show you around when you come to see our capital Liyue one day."
-/>
-		<!--deligation-->
-		<Row Language="en_US" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY"
-			Text="Accepted. I like you as you make up your own mind."
-/>
-		
-		<!-- Leader Quotes -->
-		<!-- 领袖名言 -->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_NINGGUANG_QUOTE" Language="en_US">
-			<Text>赌徒永远会把希望寄托在下一颗骰子上。但最后赚钱的，当然是从来不碰骰子的庄家。</Text>
 		</Row>
 
 	</LocalizedText>
