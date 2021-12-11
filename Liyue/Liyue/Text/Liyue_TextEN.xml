@@ -7,30 +7,59 @@
 			<Text>一张屏风和几套桌椅，一个说书人和一壶好茶。茶室是包括岩王帝君在内的璃月人都喜欢光顾的地方。除了评书之外，要是遇上了云堇上戏台的日子，闻名而来的看客能把小小的茶馆里三层外三层围得水泄不通。</Text>
 		</Row>
 
+		<!-- Keqing -->
+		
 		<!-- Leader specific pedia text. -->
 		<!-- 领袖特性概要 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_CAPSULE_BODY" Language="en_US">
-			<Text>Keqing and the workers she is leading are impressively productive. They will make use of every inch of land under their foot.</Text>
+			<Text>Keqing and workers in the charge of her never procrastinate, and aim to improve every single tile in their empire.</Text>
 		</Row>
 		<!-- 领袖玩法介绍 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Liyue with Keqing's lead can expand and develop massive amount of tiles effectivly, and settlers with quick movement can reach important stategic location ahead of any one else.[NEWLINE]With the support of Ganyu, Liyue has world leading ability of trading and economic.</Text>
+			<Text>Liyue under Keqing's lead can occupy beneficial terrain with their agile Settlers and purchase Builders that can move instantly after purchase to improve tiles around their cities, accelerating development of Liyue - which can be essential to any victory type. By constructing Mines and Liyue Harbor, Liyue can earn a considerable amount of [ICON_Production] Production and [ICON_Gold] Gold.</Text>
 		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- 领袖历史背景 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue — but in truth, gods admire skeptics such as her quite a lot.[NEWLINE]One of the Liyue Qixing, Keqing has an uncompromising belief in actions over words. If she sees something that needs doing, she'll do it herself. For example, she traveled around Liyue and carefully memorized each detail of the land so that she may one day be able to maximize the utility of every last inch of Liyue.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>Keqing deals with the day-to-day affairs of Liyue, whether great or small, while Rex Lapis only descends once a year.[NEWLINE]To many, the millennia of prosperity that Liyue has enjoyed serve to legitimize Rex Lapis' guidance of the city. But Keqing has her reservations about all this, viewing Liyue's present prosperity as akin to a magnificent sandcastle on the beach — humanity does not have the luxury of deciding when the tide will come in.[NEWLINE]"Rex Lapis has watched over Liyue for a millennium. But what about the next millennium? What about the next ten, or the next hundred millennia? How long are we expecting this status quo to last?"[NEWLINE]It is this unanswered question that drives Keqing to work relentlessly and remain diligent.[NEWLINE]From most people's perspective, there is no point in working oneself up like this. But Keqing cannot sit by idly and ignore this hidden danger.[NEWLINE]The people of Liyue have never considered navigating the future on their own terms. But someone must walk on the front line of the epoch and forge a new path with their own hands.[NEWLINE]From most people's perspective, there is no point in working oneself up like this. But Keqing cannot sit by idly and ignore this hidden danger.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text>Rex Lapis' departure has put Liyue Harbor through a great deal of hardship. All the duties Rex once fulfilled have been taken up by the Qixing and the Eight Trades.[NEWLINE]Now that divine rule is a thing of the past, the old strictures left behind can't simply be continued wholesale. But to establish new laws for Liyue, whose history spans several thousand years, is no mean feat.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_4" Language="en_US">
-			<Text>At first, Keqing was incredibly enthusiastic about this task, having long prepared for this day when she might finally show her mettle. But several months in, and she was still stuck on a single task, land infrastructure — and it was driving her up the wall.[NEWLINE]No matter how hard she struggled, the mountain of tasks was like a quagmire. She was making a difference, yes, but not nearly with as much ease as Rex Lapis.[NEWLINE]"Why can I only do this much? Why... can't I do it better?"[NEWLINE]Of course, she had long understood the wherefores here.[NEWLINE]Her lack of respect for the gods had somehow received their recognition all the same, yes, but that didn't mean that she was ready to simply replace them.[NEWLINE]But she was still Keqing, resolute and tenacious. From that day on, she shut herself in, studying classics of various kinds to learn all that she needed. Placing herself lowest, she accepted all that she had hitherto not known with open arms.[NEWLINE]During this period, she gained a certain calm, slowly discarding the "opprobrium" she had long held against Rex Lapis. They were both working for the good of Liyue, after all — and two people who love the same thing need not be on opposing sides.[NEWLINE]She also seemingly came to an understanding concerning the smile Rex Lapis had given her during the Rite of Descension. It was, Keqing now believes, an expression of acknowledgement and expectation.[NEWLINE]She hasn't lost any of her forceful and decisive manner, no. But sometimes, when she feels lost, she will stop and think: "What would Rex Lapis do at a moment such as this?"</Text>
+			<Text></Text>
 		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_KEQING_QUOTE" Language="en_US">
+			<Text>If you feel strongly about something, you should speak up and take action. That's the philosophy I live by.</Text>
+		</Row>
+
+		<!-- Ningguang -->
+		
 		<!-- Leader specific pedia text. -->
 		<!-- 领袖特性概要 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_CAPSULE_BODY" Language="en_US">
@@ -66,6 +95,7 @@
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text>魔神战争爆发时，这个文明经过了激烈战争后被摧毁，也导致了归终的死亡；本来肥沃的荻花州变成了一片沼泽。摩拉克斯带他的人民向南，在天衡山南边建立璃月港，直到今日。为了保护这新的城市，摩拉克斯与仙人签订了契约，自己就去与其他恶神作战。在镇压了数个魔神，如“漩涡之魔神”，以及其他魔神的死去（如“盐之魔神”赫乌莉亚) 后，摩拉克斯成为璃月战场中的胜者，成为尘世的岩神。一年一度，摩拉克斯在“七星请仙典仪”正式下凡，为璃月人民赐下神谕，指引下一年璃月经营的方向。日常凡务就由璃月七星、商会、和千岩军处理。</Text>
 		</Row>-->
+		
 		<Row Tag="LOC_GOVERNOR_GANYU_NAME" Language="en_US">
 			<Text>Ganyu</Text>
 		</Row>
