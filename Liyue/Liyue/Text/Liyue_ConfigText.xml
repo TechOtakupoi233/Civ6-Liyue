@@ -11,16 +11,16 @@
 			<Text>Liyue</Text>
 		</Row>
 
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME"	Text="Harbor of Stone and Contracts"/>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION"
+		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME"	Text="Harbor of Stone and Contracts"/>
+		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION"
 			Text="Placeholder"/>
 
-		<Row Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="Liyue Harbor"/>
-		<Row Tag="LOC_DISTRICT_LIYUE_HARBOR_DESCRIPTION"
+		<Row Language="en_US" Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="Liyue Harbor"/>
+		<Row Language="en_US" Tag="LOC_DISTRICT_LIYUE_HARBOR_DESCRIPTION"
 			Text="Placeholder"/>
 
-		<Row Tag="LOC_UNIT_MILLELITH_NAME"				Text="Millelith"/>
-		<Row Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
+		<Row Language="en_US" Tag="LOC_UNIT_MILLELITH_NAME"					Text="Millelith"/>
+		<Row Language="en_US" Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
 			Text="Placeholder"/>
 		
 		<Row Tag="LOC_LEADER_KEQING_NAME" Language="en_US">
