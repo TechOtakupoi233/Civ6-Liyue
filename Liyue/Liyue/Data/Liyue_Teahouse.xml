@@ -10,8 +10,6 @@
 		<Row BuildingType="BUILDING_TEAHOUSE" Name="LOC_BUILDING_TEAHOUSE_NAME" PrereqCivic="CIVIC_DRAMA_POETRY" PrereqDistrict="DISTRICT_THEATER" TraitType="TRAIT_CIVILIZATION_BUILDING_TEAHOUSE" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" Entertainment="1"/>
 	</Buildings>
 	<BuildingPrereqs>
-		<Row Building="BUILDING_MUSEUM_ART" PrereqBuilding="BUILDING_MUSEUM_ART"/>
-		<Row Building="BUILDING_MUSEUM_ARTIFACT" PrereqBuilding="BUILDING_MUSEUM_ART"/>
 	</BuildingPrereqs>
 	<Building_TourismBombs_XP2>
 		<Row BuildingType="BUILDING_TEAHOUSE" TourismBombValue="250"/>
