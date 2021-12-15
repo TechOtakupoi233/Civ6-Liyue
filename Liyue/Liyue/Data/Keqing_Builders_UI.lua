@@ -17,7 +17,7 @@ function OnSettleButtonClicked()
 end
 
 
-function Setup()
+function SetupRegroupButton()
     local path = '/InGame/UnitPanel/StandardActionsStack'
     local ctrl = ContextPtr:LookUpControl(path)
     if ctrl ~= nil then
@@ -26,5 +26,5 @@ function Setup()
     Controls.RegroupButton:RegisterCallback(Mouse.eLClick, OnRegroupButtonClicked)
 end
 
-Events.LoadGameViewStateDone.Add(Setup)
+Events.LoadGameViewStateDone.Add(SetupRegroupButton)
 Events.UnitSelectionChanged.Add(OnUnitSelectionChanged)
