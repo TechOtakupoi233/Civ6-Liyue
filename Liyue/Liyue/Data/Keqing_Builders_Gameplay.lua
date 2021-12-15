@@ -33,5 +33,33 @@ function OnUnitChargesChanged_ExtendedShift(playerID, unitID, newCharges, oldCha
     end
 end
 
+function OnUnitSelectionChanged(iPlayerID, iUnitID, iPlotX, iPlotY, iPlotZ, bSelected, bEditable)
+    if bSelected then
+        local pUnit = UnitManager.GetUnit(iPlayerID, iUnitID)
+        if pUnit:GetType() ~= m_SettlerIndex then
+            Controls.SettleButtonGrid:SetHide(true)
+            return
+        end
+        
+        local pPlot = Map.GetPlot(iPlotX, iPlotY)
+        Controls.SettleButtonGrid:SetHide(not pPlot:IsWater())
+    end
+end
+
+
+
+function OnRegroupButtonClicked(unitID,iX,iY)
+    if unitID ~= nil then
+        local pPlayer = Players[playerID];
+        UnitManager.GetUnit();
+        UnitManager.Kill(unitID);
+        UnitManager.Initunit(pPlayer, UnitType, iX, iY)
+    end
+end
+
+function OnBuildersRegroup()
+    
+end
+
 Events.PlayerTurnStarted.Add(OnTurnStarted)
 Events.UnitChargesChanged.Add(OnUnitChargesChanged_ExtendedShift);
