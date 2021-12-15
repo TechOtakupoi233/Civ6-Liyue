@@ -7,9 +7,6 @@ function OnUnitSelectionChanged(iPlayerID, iUnitID, iPlotX, iPlotY, iPlotZ, bSel
             Controls.RegroupButtonGrid:SetHide(true)
             return
         end
-        
-        local pPlot = Map.GetPlot(iPlotX, iPlotY)
-        Controls.RegroupButtonGrid:SetHide(not pPlot:IsWater())
     end
 end
 -- 按钮被点击之后
