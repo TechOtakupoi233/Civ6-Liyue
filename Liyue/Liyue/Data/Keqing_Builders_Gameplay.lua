@@ -33,17 +33,15 @@ function OnUnitChargesChanged_ExtendedShift(playerID, unitID, newCharges, oldCha
     end
 end
 
-function OnRegroupButtonClicked(unitID,iX,iY)
+function OnRegroupButtonClicked(iX,iY,pUnit)
     if unitID ~= nil then
         local pPlayer = Players[playerID];
-        local pUnit = pPlayer:GetUnits():FindID(unitID);
-        local iUnitType = "UNIT_BUILDER"
-        Unit:GetLocation(iX,iY);
+        local iUnitType = "UNIT_BUILDER";
         UnitManager.Kill(pUnit);
-        UnitManager.Initunit(pPlayer, iUnitType, iX, iY)
+        UnitManager.Initunit(pPlayer, iUnitType, iX, iY);
     end
 end
 
-
+ExposedMembers.RegroupButton.Unit = OnRegroupButtonClicked
 Events.PlayerTurnStarted.Add(OnTurnStarted)
 Events.UnitChargesChanged.Add(OnUnitChargesChanged_ExtendedShift);

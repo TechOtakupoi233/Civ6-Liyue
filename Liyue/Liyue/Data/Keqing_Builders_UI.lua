@@ -10,10 +10,11 @@ function OnUnitSelectionChanged(iPlayerID, iUnitID, iPlotX, iPlotY, iPlotZ, bSel
     end
 end
 -- 按钮被点击之后
-function OnSettleButtonClicked()
+function OnRegroupButtonClicked()
     local pUnit = UI.GetHeadSelectedUnit()
     local iX = pUnit:GetX()
     local iY = pUnit:GetY()
+    ExposedMembers.RegroupButton.Unit(iX, iY, pUnit)
 end
 
 
