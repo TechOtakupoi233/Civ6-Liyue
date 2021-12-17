@@ -8,7 +8,6 @@ function OnTurnBegin_SotSReset()
 		local pPlayer = Players[i];
 		if HasTrait("TRAIT_GENSHIN_BUILDING_STATUE_OF_THE_SEVEN", pPlayer:GetID()) then
 			pPlayer:SetProperty("SotSHealCapability", 25);
-			print("Player"..i.."SotSHealCapability".. pPlayer:GetProperty("SotSHealCapability"));
 		end
 	end
 end
