@@ -8,7 +8,7 @@
 		<Row Language="en_US" Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME"
 	Text="Statue of the Seven"/>
 		<Row Language="en_US" Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DESCRIPTION"
-			Text="Genshin Impact unique building that replaces the Monument. Provides an additional +2 [ICON_Faith] Faith.[NEWLINE]Units instantly heals (up to 25 hit points per turn) when moved to a Statue of the Seven."/>
+			Text="Genshin Impact unique building that replaces the Monument. Provides an additional +2 [ICON_Faith] Faith. Units instantly heals (up to 25 hit points per turn) when moved to a Statue of the Seven."/>
 
 		<Row Language="en_US" Tag="LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME"
 	Text="Adventurers' Guild"/>
@@ -23,7 +23,7 @@
 		<Row Language="zh_Hans_CN" Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME"
 	Text="七天神像"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DESCRIPTION"
-			Text="替代纪念碑的原神特色建筑。额外提供 +2 [ICON_Faith] 信仰值。[NEWLINE]移动至七天神像的单位立即回复生命值（每回合最多25点）。"/>
+			Text="替代纪念碑的原神特色建筑。额外提供 +2 [ICON_Faith] 信仰值。移动至七天神像的单位立即回复生命值（每回合最多25点）。"/>
 
 		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME"
 	Text="冒险家协会"/>
