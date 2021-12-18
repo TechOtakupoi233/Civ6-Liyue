@@ -5,9 +5,31 @@
 			<Text>Statue of the Seven: </Text>
 		</Row>
 
+		<Row Language="en_US" Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME"
+	Text="Statue of the Seven"/>
+		<Row Language="en_US" Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DESCRIPTION"
+			Text="Genshin Impact unique building that replaces the Monument. Provides an additional +2 [ICON_Faith] Faith.[NEWLINE]Units instantly heals (up to 25 hit points per turn) when moved to a Statue of the Seven."/>
+
+		<Row Language="en_US" Tag="LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME"
+	Text="Adventurers' Guild"/>
+		<Row Language="en_US" Tag="LOC_IMPROVEMENT_ADVENTURERS_GUILD_DESCRIPTION"
+			Text="Unlocks the Builder ability to constrcut a Adventurers' Guild, unique to Genshin Impact.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture and [ICON_Production] Production. +1 [ICON_Gold] Gold and Appeal to adjacent tiles. One per city. Tiles with Adventurers' Guild cannot be swapped."/>
+
+
 		<Row Tag="LOC_TOOLTIP_STATUE_OF_THE_SEVEN" Language="zh_Hans_CN">
 			<Text>七天神像：</Text>
 		</Row>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME"
+	Text="七天神像"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_BUILDING_STATUE_OF_THE_SEVEN_DESCRIPTION"
+			Text="替代纪念碑的原神特色建筑。额外提供 +2 [ICON_Faith] 信仰值。[NEWLINE]移动至七天神像的单位立即回复生命值（每回合最多25点）。"/>
+
+		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME"
+	Text="冒险家协会"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_IMPROVEMENT_ADVENTURERS_GUILD_DESCRIPTION"
+			Text="解锁建造冒险家协会（原神特色改良设施）的能力。[NEWLINE][NEWLINE]+1 [ICON_Culture] 文化值 +1 [ICON_Production] 生产力，为相邻单元格提供 +1 [ICON_Gold] 金币 +1 魅力。每个城市仅限建造一座。冒险家协会所在的单元格无法被切换给另一座城市。"/>
+
 	</LocalizedText>
 	
 </GameData>
