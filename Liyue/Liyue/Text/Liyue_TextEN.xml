@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+
+		<Row Tag="LOC_ABILITY_KEQING_EXTENDED_SHIFT_NAME" Language="en_US">
+			<Text>Extended Shift</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KEQING_EXTENDED_SHIFT_DESCRIPTION" Language="en_US">
+			<Text>Can restore full [ICON_Movement] Movement next time finishing a build action.</Text>
+		</Row>
 		
 		<!-- Pedia text (historical context) about the new building. -->
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TEAHOUSE_CHAPTER_HISTORY_PARA_1" Language="en_US">

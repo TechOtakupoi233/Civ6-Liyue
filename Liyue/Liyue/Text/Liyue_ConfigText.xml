@@ -40,7 +40,7 @@
 			<Text>Ningguang</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_NAME" Language="en_US">
-			<Text>Tian Quan Ningguang -- Businessman who knows everything</Text>
+			<Text>Tianquan, the Star of All-Seeing</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION" Language="en_US">
 			<Text>Ningguang has 1 level diplomatic visibility to anyone else. Her spy gets "SURVEILLANCE" and "POLYGRAPH" promotions initially. [NEWLINE]Gets double [ICON_Favor] Favor as the suzerain of a city state, doubles the first [ICON_Envoy] envoy sent to a city state. [NEWLINE]Ninnguang can buy Traders for free, and has 20% off when buying a building with [ICON_Gold]Gold. +5 [ICON_Gold] Gold from Trade routes passing Liyue cities.[NEWLINE]Extra [ICON_GreatMerchant] Great Merchant Point from Commercial Hub and Harbor, each 2 adjacent bonus these districts have will get 20% [ICON_Gold]Gold bonus, Max bonus is 10.</Text>
@@ -56,12 +56,6 @@
 			<Text>Replaces AMPHITHEATER. +1 [ICON_Amenities] Amenity, doubles [ICON_Culture] Culture and [ICON_Tourism] Tourism from [ICON_GreatWork_Writing] Writing Great work in this city.</Text>
 		</Row>
 		
-		<Row Tag="LOC_UNIT_MILLELITH_NAME" Language="en_US">
-			<Text>Millelith</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_MILLELITH_DESCRIPTION" Language="en_US">
-			<Text>Replaces PIKEMAN. +1 [ICON_Movement] Movement, get double Flanking and Support bonus.</Text>
-		</Row>
 
 		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_BP" Language="en_US">
 		    <Text>Liyue Civilization Pack - Balanced Patch</Text>

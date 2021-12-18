@@ -26,7 +26,7 @@
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_QIXING_YUHENG_DESCRIPTION"
 			Text="购买的单位在该回合就能行动。平民单位无视地貌和地形的 [ICON_Movement] 移动力惩罚。每回合建造者和军事工程师建造后可立即恢复一次全部 [ICON_Movement] 移动力。"/>
 
-		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="en_US">
+		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="zh_Hans_CN">
 			<Text>刻晴，璃月七星的玉衡星，璃月的前景掌握在您的手中。您是人民的表率，决策如霆霓快雨般迅捷。在您的带领下，您的人民将改写维持千年的秩序，真正取代神明当家作主，经受住时间的考验。站在时代最前沿，亲手开创新的道路吧，将您的想法化为行动。</Text>
 		</Row>
 		
@@ -35,7 +35,7 @@
 			<Text>凝光</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_NAME" Language="zh_Hans_CN">
-			<Text>无所不知的「天权星」</Text>
+			<Text>无所不知的天权星</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>外交能见度提升一级，凝光的间谍初始就拥有“监视”和“测谎仪”升级。[NEWLINE]派往城邦的首个[ICON_Envoy]使者视为两个[ICON_Envoy]使者。作为城邦的宗主国时，每回合从城邦处获得的[ICON_Favor]外交支持翻倍。[NEWLINE]凝光可免费购买商人，经过璃月城市的国际贸易路线+5[ICON_Gold]金币。[NEWLINE]商业中心和港口提供[ICON_GreatMerchant]大商人点数，且每有2点邻接加成便为此区域中的建筑+20%[ICON_Gold]金币，至多生效10点邻接加成。</Text>

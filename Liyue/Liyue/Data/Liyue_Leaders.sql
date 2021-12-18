@@ -33,6 +33,11 @@ VALUES	('LEADER_KEQING',	'TRAIT_LEADER_QIXING_YUHENG');
 INSERT INTO TraitModifiers (TraitType, ModifierId)
 VALUES	('TRAIT_LEADER_QIXING_YUHENG',	'TRAIT_KEQING_UNITS_IGNORE_TERRAIN');
 
+/*Designed to work with the lua script, so don't expect them to work properly without modifying the script!
+  Grant ability to all builders and military engineers when they are created so that they can restore movement the turn it is created.*/
+INSERT INTO TraitModifiers (TraitType, ModifierId)
+VALUES	('TRAIT_LEADER_QIXING_YUHENG',	'TRAIT_QIXING_YUHENG_EXTENDED_SHIFT_GRANT');
+
 --------------------------------------------------------------
 INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
 VALUES	('TRAIT_KEQING_UNITS_IGNORE_TERRAIN',	'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER',	'KEQING_UNIT_IS_CIVILIAN_REQUIREMENTS');
@@ -51,3 +56,10 @@ VALUES ('REQUIRES_CIVILIAN_UNIT_LIYUE', 'REQUIREMENT_UNIT_TAG_MATCHES');
 
 INSERT INTO RequirementArguments (RequirementId, Name, Value)
 VALUES ('REQUIRES_CIVILIAN_UNIT_LIYUE', 'Tag', 'CLASS_LANDCIVILIAN');
+
+/*Designed to work with the lua script, so don't expect them to work properly without modifying the script!
+  Grant ability to all builders and military engineers when they are created so that they can restore movement the turn it is created.*/
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+VALUES	('TRAIT_QIXING_YUHENG_EXTENDED_SHIFT_GRANT',	'MODIFIER_PLAYER_UNITS_GRANT_ABILITY',	'KEQING_UNIT_IS_CIVILIAN_REQUIREMENTS');
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+VALUES	('TRAIT_QIXING_YUHENG_EXTENDED_SHIFT_GRANT',	'AbilityType',	'ABILITY_KEQING_EXTENDED_SHIFT'	);

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--These entries are designed to work with the lua script, so don't expect them to work properly without modifying the script! -->
+	<!--Set an ability for builders and military engineers so that they can restore movement.-->
+	<Types>
+		<Row Type="ABILITY_KEQING_EXTENDED_SHIFT" Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_EXTENDED_SHIFT" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="ABILITY_KEQING_EXTENDED_SHIFT" Tag="CLASS_EXTENDED_SHIFT"/>
+		<Row Type="UNIT_BUILDER" Tag="CLASS_EXTENDED_SHIFT"/>
+		<Row Type="UNIT_MILITARY_ENGINEER" Tag="CLASS_EXTENDED_SHIFT"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_KEQING_EXTENDED_SHIFT" Name="LOC_ABILITY_KEQING_EXTENDED_SHIFT_NAME" Description="LOC_ABILITY_KEQING_EXTENDED_SHIFT_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+</GameData>

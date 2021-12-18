@@ -2,6 +2,13 @@
 <GameData>
 	<LocalizedText>
 		
+		<Row Tag="LOC_ABILITY_KEQING_EXTENDED_SHIFT_NAME" Language="zh_Hans_CN">
+			<Text>延长班时</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KEQING_EXTENDED_SHIFT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>下次完成建造时可回复完整 [ICON_Movement] 移动力。</Text>
+		</Row>
+		
 		<!-- Pedia text (historical context) about the new building. -->
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TEAHOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>一张屏风和几套桌椅，一个说书人和一壶好茶。茶室是包括岩王帝君在内的璃月人都喜欢光顾的地方。除了评书之外，要是遇上了云堇上戏台的日子，闻名而来的看客能把小小的茶馆里三层外三层围得水泄不通。</Text>
