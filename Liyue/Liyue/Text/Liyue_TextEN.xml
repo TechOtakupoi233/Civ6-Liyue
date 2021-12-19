@@ -316,6 +316,15 @@
 		<Row Tag="LOC_CITY_NAME_LIYUE" Language="en_US">
 			<Text>Liyue</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_FEIYUN" Language="en_US">
+			<Text>Feiyun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHIHU" Language="en_US">
+			<Text>Chihu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YUJING" Language="en_US">
+			<Text>Yujing</Text>
+		</Row>
 		<Row Tag="LOC_CITY_NAME_TIANHENG" Language="en_US">
 			<Text>Tianheng</Text>
 		</Row>
@@ -330,9 +339,6 @@
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JUEYUN" Language="en_US">
 			<Text>Jueyun</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_BISHUI" Language="en_US">
-			<Text>Bishui</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_STONE_GATE" Language="en_US">
 			<Text>Stone Gate</Text>
@@ -374,13 +380,10 @@
 			<Text>Guili</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_MINGYUN" Language="en_US">
-			<Text>Ming Yun</Text>
+			<Text>Mingyun</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_YAOGUANG" Language="en_US">
 			<Text>Yaoguang</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_LUHUA" Language="en_US">
-			<Text>Luhua</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_LISHA" Language="en_US">
 			<Text>Lisha</Text>
@@ -393,9 +396,6 @@
 		</Row>
 		<Row Tag="LOC_CITY_NAME_QINGXU" Language="en_US">
 			<Text>Qingxu</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_YUNLAI" Language="en_US">
-			<Text>Yunlai</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_GUYUN" Language="en_US">
 			<Text>Guyun</Text>
@@ -413,6 +413,11 @@
 		<Row Tag="LOC_NAMED_RIVER_BISHUI_NAME" Language="en_US">
 			<Text>Bishui River</Text>
 		</Row>
-
+		<Row Tag="LOC_NAMED_SEA_SEA_OF_CLOUDS_NAME" Language="en_US">
+			<Text>Sea of Clouds</Text>
+		</Row>
+		<Row Tag="NAMED_LAKE_LUHUA_POOL" Language="en_US">
+			<Text>Luhua Pool</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

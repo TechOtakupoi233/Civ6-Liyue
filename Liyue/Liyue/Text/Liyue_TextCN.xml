@@ -318,6 +318,15 @@
 		<Row Tag="LOC_CITY_NAME_LIYUE" Language="zh_Hans_CN">
 			<Text>璃月</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_FEIYUN" Language="zh_Hans_CN">
+			<Text>绯云</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHIHU" Language="zh_Hans_CN">
+			<Text>吃虎</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YUJING" Language="zh_Hans_CN">
+			<Text>玉京</Text>
+		</Row>
 		<Row Tag="LOC_CITY_NAME_TIANHENG" Language="zh_Hans_CN">
 			<Text>天衡</Text>
 		</Row>
@@ -332,9 +341,6 @@
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JUEYUN" Language="zh_Hans_CN">
 			<Text>绝云</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_BISHUI" Language="zh_Hans_CN">
-			<Text>碧水</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_STONE_GATE" Language="zh_Hans_CN">
 			<Text>石门</Text>
@@ -381,9 +387,6 @@
 		<Row Tag="LOC_CITY_NAME_YAOGUANG" Language="zh_Hans_CN">
 			<Text>瑶光</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_LUHUA" Language="zh_Hans_CN">
-			<Text>渌华</Text>
-		</Row>
 		<Row Tag="LOC_CITY_NAME_LISHA" Language="zh_Hans_CN">
 			<Text>璃沙</Text>
 		</Row>
@@ -395,9 +398,6 @@
 		</Row>
 		<Row Tag="LOC_CITY_NAME_QINGXU" Language="zh_Hans_CN">
 			<Text>青墟</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_YUNLAI" Language="zh_Hans_CN">
-			<Text>云来</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_GUYUN" Language="zh_Hans_CN">
 			<Text>孤云</Text>
@@ -415,6 +415,11 @@
 		<Row Tag="LOC_NAMED_RIVER_BISHUI_NAME" Language="zh_Hans_CN">
 			<Text>碧水河</Text>
 		</Row>
-
+		<Row Tag="LOC_NAMED_SEA_SEA_OF_CLOUDS_NAME" Language="zh_Hans_CN">
+			<Text>云来海</Text>
+		</Row>
+		<Row Tag="NAMED_LAKE_LUHUA_POOL" Language="zh_Hans_CN">
+			<Text>渌华池</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
