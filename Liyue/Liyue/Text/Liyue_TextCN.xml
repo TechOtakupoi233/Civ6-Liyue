@@ -408,11 +408,12 @@
 
 		<!--Civilization Factoids -->
 		<!-- 地理环境与社会数据 -->
-		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION" Language="zh_Hans_CN">
-			<Text>位置</Text>
-		</Row>
 		<Row Tag="LOC_CIVINFO_LIYUE_CL_LOCATION" Language="zh_Hans_CN">
 			<Text>提瓦特</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_RIVER_BISHUI_NAME" Language="zh_Hans_CN">
+			<Text>碧水河</Text>
 		</Row>
 
 	</LocalizedText>

@@ -406,11 +406,12 @@
 		
 		<!--Civilization Factoids -->
 		<!-- 地理环境与社会数据 -->
-		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION" Language="en_US">
-			<Text>Location</Text>
-		</Row>
 		<Row Tag="LOC_CIVINFO_LIYUE_CL_LOCATION" Language="en_US">
-			<Text>Teywat</Text>
+			<Text>Teyvat</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_RIVER_BISHUI_NAME" Language="en_US">
+			<Text>Bishui River</Text>
 		</Row>
 
 	</LocalizedText>

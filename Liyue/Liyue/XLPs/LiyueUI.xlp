@@ -79,11 +79,11 @@
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_KEQING_NEUTRAL"/>
-			<m_ObjectName text="LEADER_KEQING_NEUTRAL"/>
+			<m_ObjectName text="LEADER_KEQING_LOADING"/>
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_KEQING_LOADING"/>
-			<m_ObjectName text="LEADER_KEQING_LOADING"/>
+			<m_ObjectName text="LEADER_KEQING_NEUTRAL"/>
 		</Element>
 		<Element>
 			<m_EntryID text="TEAHOUSE_ICON_128"/>
@@ -135,11 +135,11 @@
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_NINGGUANG_LOADING"/>
-			<m_ObjectName text="LEADER_NINGGUANG_LOADING"/>
+			<m_ObjectName text="LEADER_NINGGUANG_NEUTRAL"/>
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_NINGGUANG_NEUTRAL"/>
-			<m_ObjectName text="LEADER_NINGGUANG_NEUTRAL"/>
+			<m_ObjectName text="LEADER_NINGGUANG_LOADING"/>
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_NINGGUANG_ICON_256"/>
@@ -346,3 +346,4 @@
 		<Element>WINDOWS</Element>
 	</m_AllowedPlatforms>
 </AssetObjects..XLP>
+

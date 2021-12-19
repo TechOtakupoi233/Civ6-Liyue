@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="NAMED_RIVER_BISHUI" Kind="KIND_NAMED_RIVER"/>
+	</Types>
+
+	<NamedRivers>
+		<Row NamedRiverType="NAMED_RIVER_BISHUI" Name="LOC_NAMED_RIVER_BISHUI_NAME"/>
+	</NamedRivers>
+
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_BISHUI" CivilizationType="CIVILIZATION_LIYUE_CL"/>
+	</NamedRiverCivilizations>
+
+	<!--
+	<Types>
+		<Row Type="NAMED_VOLCANO_VARIO" Kind="KIND_NAMED_VOLCANO"/>
+		<Row Type="NAMED_MOUNTAIN_THEMIS" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_DESERT_GENUA" Kind="KIND_NAMED_DESERT"/>
+		<Row Type="NAMED_LAKE_LAKE_FLORA" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_SEA_LORETTA" Kind="KIND_NAMED_SEA"/>
+	</Types>
+
+	<NamedVolcanoes>
+		<Row NamedVolcanoType="NAMED_VOLCANO_VARIO" Name="LOC_NAMED_VOLCANO_VARIO_NAME"/>
+	</NamedVolcanoes>
+	<NamedMountains>
+		<Row NamedMountainType="NAMED_MOUNTAIN_THEMIS" Name="LOC_NAMED_MOUNTAIN_THEMIS_NAME"/>
+	</NamedMountains>
+	<NamedDeserts>
+		<Row NamedDesertType="NAMED_DESERT_GENUA" Name="LOC_NAMED_DESERT_GENUA_NAME"/>
+	</NamedDeserts>
+	<NamedLakes>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_FLORA" Name="LOC_NAMED_LAKE_LAKE_FLORA_NAME"/>
+	</NamedLakes>
+	<NamedSeas>
+		<Row NamedSeaType="NAMED_SEA_LORETTA" Name="LOC_NAMED_SEA_LORETTA_NAME"/>
+	</NamedSeas>
+
+	<NamedVolcanoCivilizations>
+		<Row NamedVolcanoType="NAMED_VOLCANO_VARIO" CivilizationType="CIVILIZATION_LIYUE_CL"/>
+	</NamedVolcanoCivilizations>
+	<NamedMountainCivilizations>
+		<Row NamedMountainType="NAMED_MOUNTAIN_THEMIS" CivilizationType="CIVILIZATION_LIYUE_CL"/>
+	</NamedMountainCivilizations>
+	<NamedDesertCivilizations>
+		<Row NamedDesertType="NAMED_DESERT_GENUA" CivilizationType="CIVILIZATION_LIYUE_CL"/>
+	</NamedDesertCivilizations>
+	<NamedLakeCivilizations>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_FLORA" CivilizationType="CIVILIZATION_LIYUE_CL"/>
+	</NamedLakeCivilizations>
+	<NamedSeaCivilizations>
+		<Row NamedSeaType="NAMED_SEA_LORETTA" CivilizationType="CIVILIZATION_LIYUE_CL"/>
+	</NamedSeaCivilizations>
+	UNDER CONSTRUCTION. DON'T APPLY FOR NOW-->
+</GameData>

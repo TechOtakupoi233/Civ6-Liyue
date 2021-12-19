@@ -15,7 +15,7 @@
 			<LeaderAbilityName>LOC_TRAIT_LEADER_NINGGUANG_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_NINGGUANG</LeaderAbilityIcon>
-			<Portrait>LEADER_NINGGUANG_NEUTRAL</Portrait>
+			<Portrait>LEADER_NINGGUANG_LOADING</Portrait>
 			<PortraitBackground>LEADER_NINGGUANG_BACKGROUND</PortraitBackground>
 		</Row>
 	</Players>

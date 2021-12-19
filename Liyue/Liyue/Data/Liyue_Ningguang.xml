@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Liyue_Ningguang -->
-<!-- Author: Shiro -->
-<!-- DateCreated: 9/14/2021 4:22:47 PM -->
 <GameData>
 	<Types>
 		<Row Type="TRAIT_TIANQUAN" Kind="KIND_TRAIT"/>
