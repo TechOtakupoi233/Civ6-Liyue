@@ -86,30 +86,6 @@
 			<m_ObjectName text="LEADER_KEQING_NEUTRAL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="TEAHOUSE_ICON_128"/>
-			<m_ObjectName text="TEAHOUSE_ICON_128"/>
-		</Element>
-		<Element>
-			<m_EntryID text="TEAHOUSE_ICON_256"/>
-			<m_ObjectName text="TEAHOUSE_ICON_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="TEAHOUSE_ICON_32"/>
-			<m_ObjectName text="TEAHOUSE_ICON_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="TEAHOUSE_ICON_38"/>
-			<m_ObjectName text="TEAHOUSE_ICON_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="TEAHOUSE_ICON_50"/>
-			<m_ObjectName text="TEAHOUSE_ICON_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="TEAHOUSE_ICON_80"/>
-			<m_ObjectName text="TEAHOUSE_ICON_80"/>
-		</Element>
-		<Element>
 			<m_EntryID text="MILLELITH_ICON_22"/>
 			<m_ObjectName text="MILLELITH_ICON_22"/>
 		</Element>
@@ -222,30 +198,6 @@
 			<m_ObjectName text="Ganyu_GovernorsCityBannerSlot32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_128"/>
-			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_128"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_256"/>
-			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_32"/>
-			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_38"/>
-			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_50"/>
-			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_80"/>
-			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_80"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_UNIT_HILICHURL_FIGHTER_22"/>
 			<m_ObjectName text="ICON_UNIT_HILICHURL_FIGHTER_22"/>
 		</Element>
@@ -341,9 +293,35 @@
 			<m_EntryID text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_95"/>
 			<m_ObjectName text="ICON_UNIT_PORTRAIT_HILICHURL_GUARD_95"/>
 		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_128"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_256"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_32"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_38"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_50"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_STATUE_OF_THE_SEVEN_80"/>
+			<m_ObjectName text="ICON_BUILDING_STATUE_OF_THE_SEVEN_80"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
 	</m_AllowedPlatforms>
 </AssetObjects..XLP>
-

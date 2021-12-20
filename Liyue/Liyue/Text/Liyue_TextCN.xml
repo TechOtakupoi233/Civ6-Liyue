@@ -439,111 +439,60 @@
 		</Row>
 
 		<!-- Civilization City Names-->
-		<Row Tag="LOC_CITY_NAME_LIYUE" Language="zh_Hans_CN">
-			<Text>璃月</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_FEIYUN" Language="zh_Hans_CN">
-			<Text>绯云</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_CHIHU" Language="zh_Hans_CN">
-			<Text>吃虎</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_YUJING" Language="zh_Hans_CN">
-			<Text>玉京</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_TIANHENG" Language="zh_Hans_CN">
-			<Text>天衡</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_DIHUA" Language="zh_Hans_CN">
-			<Text>荻花</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WANGSHU" Language="zh_Hans_CN">
-			<Text>望舒</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_QINGCE" Language="zh_Hans_CN">
-			<Text>轻策</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_JUEYUN" Language="zh_Hans_CN">
-			<Text>绝云</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STONE_GATE" Language="zh_Hans_CN">
-			<Text>石门</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WUWANG" Language="zh_Hans_CN">
-			<Text>无妄</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SAL_TERRAE" Language="zh_Hans_CN">
-			<Text>地中之盐</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_MINLIN" Language="zh_Hans_CN">
-			<Text>珉林</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_CUIJUE" Language="zh_Hans_CN">
-			<Text>翠玦</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_HUAGUANG" Language="zh_Hans_CN">
-			<Text>华光</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_AOCANG" Language="zh_Hans_CN">
-			<Text>奥藏</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_HULAO" Language="zh_Hans_CN">
-			<Text>琥牢</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_NANTIANMEN" Language="zh_Hans_CN">
-			<Text>南天门</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_QINYUN" Language="zh_Hans_CN">
-			<Text>庆云</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_TIANQIU" Language="zh_Hans_CN">
-			<Text>天遒</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_QIONGJI" Language="zh_Hans_CN">
-			<Text>琼玑</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_GUILI" Language="zh_Hans_CN">
-			<Text>归离</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_MINGYUN" Language="zh_Hans_CN">
-			<Text>明蕴</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_YAOGUANG" Language="zh_Hans_CN">
-			<Text>瑶光</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_LISHA" Language="zh_Hans_CN">
-			<Text>璃沙</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_DUNYU" Language="zh_Hans_CN">
-			<Text>遁玉</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_LINGJU" Language="zh_Hans_CN">
-			<Text>灵矩</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_QINGXU" Language="zh_Hans_CN">
-			<Text>青墟</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_GUYUN" Language="zh_Hans_CN">
-			<Text>孤云</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_THE_CHASM" Language="zh_Hans_CN">
-			<Text>层岩巨渊</Text>
-		</Row>
-
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_1"  Text="璃月"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_2"  Text="轻策庄"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_3"  Text="望舒原"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_4"  Text="绝云间"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_5"  Text="石门"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_6"  Text="碧水原"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_7"  Text="归离原"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_8"  Text="吃虎岩"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_9"  Text="万民堂"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_10" Text="明蕴镇"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_11" Text="孤云阁"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_12" Text="石林"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_13" Text="灵矩关"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_14" Text="南天门"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_15" Text="华光林"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_16" Text="华池岩"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_17" Text="遁玉陵"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_18" Text="玉京台"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_19" Text="青墟浦"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_20" Text="绯云坡"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_21" Text="珉林"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_22" Text="琼玑野"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_23" Text="泰山府"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_24" Text="凌霄殿"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_25" Text="华清宫"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_26" Text="连山宫"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_27" Text="天遒"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_28" Text="瑶光"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_29" Text="璃沙"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_CITY_NAME_LIYUE_CL_30" Text="明星斋"/>
+		
 		<!--Civilization Factoids -->
 		<!-- 地理环境与社会数据 -->
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_LAKE_LIYUE_1" Text="荻花洲"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_LAKE_LIYUE_2" Text="绿华池"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_LAKE_LIYUE_3" Text="华清池"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_LAKE_LIYUE_4" Text="云间潭"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_MOUNTAIN_LIYUE_1" Text="天衡山"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_MOUNTAIN_LIYUE_2" Text="翠玦坡"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_MOUNTAIN_LIYUE_3" Text="琥牢山"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_MOUNTAIN_LIYUE_4" Text="奥藏山"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_MOUNTAIN_LIYUE_5" Text="无妄坡"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_RIVER_LIYUE_2" Text="碧水河"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_RIVER_LIYUE_3" Text="石林溪"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_RIVER_LIYUE_4" Text="轻策川"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_SEA_LIYUE_1" Text="云来海"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_SEA_LIYUE_2" Text="孤云海"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_SEA_LIYUE_3" Text="明宵海"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_VOLCANO_LIYUE_1" Text="庆云顶"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_VOLCANO_LIYUE_2" Text="层岩巨渊"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_NAMED_VOLCANO_LIYUE_3" Text="雷震山"/>
+
 		<Row Tag="LOC_CIVINFO_LIYUE_CL_LOCATION" Language="zh_Hans_CN">
 			<Text>提瓦特</Text>
-		</Row>
-
-		<Row Tag="LOC_NAMED_RIVER_BISHUI_NAME" Language="zh_Hans_CN">
-			<Text>碧水河</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_SEA_SEA_OF_CLOUDS_NAME" Language="zh_Hans_CN">
-			<Text>云来海</Text>
-		</Row>
-		<Row Tag="NAMED_LAKE_LUHUA_POOL" Language="zh_Hans_CN">
-			<Text>渌华池</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

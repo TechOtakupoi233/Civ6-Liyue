@@ -435,111 +435,11 @@
 		</Row>
 
 		<!-- Civilization City Names-->
-		<Row Tag="LOC_CITY_NAME_LIYUE" Language="en_US">
-			<Text>Liyue</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_FEIYUN" Language="en_US">
-			<Text>Feiyun</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_CHIHU" Language="en_US">
-			<Text>Chihu</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_YUJING" Language="en_US">
-			<Text>Yujing</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_TIANHENG" Language="en_US">
-			<Text>Tianheng</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_DIHUA" Language="en_US">
-			<Text>Dihua</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WANGSHU" Language="en_US">
-			<Text>Wangshu</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_QINGCE" Language="en_US">
-			<Text>Qingce</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_JUEYUN" Language="en_US">
-			<Text>Jueyun</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STONE_GATE" Language="en_US">
-			<Text>Stone Gate</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WUWANG" Language="en_US">
-			<Text>Wuwang</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SAL_TERRAE" Language="en_US">
-			<Text>Sal Terrae</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_MINLIN" Language="en_US">
-			<Text>Minlin</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_CUIJUE" Language="en_US">
-			<Text>Cuijue</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_HUAGUANG" Language="en_US">
-			<Text>Huaguang</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_AOCANG" Language="en_US">
-			<Text>Aocang</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_HULAO" Language="en_US">
-			<Text>Hulao</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_NANTIANMEN" Language="en_US">
-			<Text>Nantianmen</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_QINYUN" Language="en_US">
-			<Text>Qingyun</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_TIANQIU" Language="en_US">
-			<Text>Tianqiu</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_QIONGJI" Language="en_US">
-			<Text>Qingji</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_GUILI" Language="en_US">
-			<Text>Guili</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_MINGYUN" Language="en_US">
-			<Text>Mingyun</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_YAOGUANG" Language="en_US">
-			<Text>Yaoguang</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_LISHA" Language="en_US">
-			<Text>Lisha</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_DUNYU" Language="en_US">
-			<Text>Dunyu</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_LINGJU" Language="en_US">
-			<Text>Lingju</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_QINGXU" Language="en_US">
-			<Text>Qingxu</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_GUYUN" Language="en_US">
-			<Text>Guyun</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_THE_CHASM" Language="en_US">
-			<Text>The Chasm</Text>
-		</Row>
 		
 		<!--Civilization Factoids -->
 		<!-- 地理环境与社会数据 -->
 		<Row Tag="LOC_CIVINFO_LIYUE_CL_LOCATION" Language="en_US">
 			<Text>Teyvat</Text>
-		</Row>
-
-		<Row Tag="LOC_NAMED_RIVER_BISHUI_NAME" Language="en_US">
-			<Text>Bishui River</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_SEA_SEA_OF_CLOUDS_NAME" Language="en_US">
-			<Text>Sea of Clouds</Text>
-		</Row>
-		<Row Tag="NAMED_LAKE_LUHUA_POOL" Language="en_US">
-			<Text>Luhua Pool</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
