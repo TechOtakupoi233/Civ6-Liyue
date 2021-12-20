@@ -1,3 +1,4 @@
+/*"Is the sand there sweet?" "No. Your brother dreamed of sweet sand that day, and it's unnecessary to fix a dream."*/
 INSERT OR IGNORE INTO NamedDeserts (NamedDesertType, Name)
 VALUES	('NAMED_DESSERT_LIYUE_1',	'LOC_NAMED_DESSERT_LIYUE_1'),
 		('NAMED_DESSERT_LIYUE_2',	'LOC_NAMED_DESSERT_LIYUE_2');

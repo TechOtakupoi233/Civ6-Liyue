@@ -135,11 +135,6 @@
 			<Text>You always have to seize the opportunity while it's there.</Text>
 		</Row>
 
-		<!-- Pedia text (historical context) about the new building. -->
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TEAHOUSE_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>一张屏风和几套桌椅，一个说书人和一壶好茶。茶室是包括岩王帝君在内的璃月人都喜欢光顾的地方。除了评书之外，要是遇上了云堇上戏台的日子，闻名而来的看客能把小小的茶馆里三层外三层围得水泄不通。</Text>
-		</Row>
-
 		<!-- Keqing -->
 		
 		<!-- Leader specific pedia text. -->
@@ -201,18 +196,37 @@
 
 		<!-- Leader specific historical text. -->
 		<!-- 领袖历史背景 -->
-		<!--<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>「掌握了璃月港所有秘密的凝光是璃月港最大的秘密。」——璃月七星·开阳星如此评价她。</Text>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>凝光是掌管重权的「璃月七星」之一，居天权星之位，识人心，擅话术。即使在人人经商的璃月港，她也是首屈一指的大商人。[NEWLINE]每个见过凝光的人都会被她惊人的洞察力与过人的头脑折服。不仅如此，凝光的作风也极为独特。[NEWLINE]她斥巨资搜集来大量浮空石制成基盘，又在其上建造出一座空前华美的宫殿。浮空石托起空中幻城，使之终年悬浮在璃月港上空。[NEWLINE]这座宫阁正如凝光本人一般，高不可测，远离众生，却轻易吸引了所有目光。[NEWLINE]震动商界的女富商、孩子们最喜欢的温柔姐姐、玉京台宴会上的名媛、甜食界的鉴赏名家……她是千面佳人，也是一个永远无法读懂的美丽谜题。</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text>「凝光大人什么都知道。」外来人常常会被璃月人如此告诫。[NEWLINE]想要钻漏子的商会、某位正在囤积货物的奸商、归港船队携带的违禁私货…对于这些或明或暗的信息，「天权」无一不知。[NEWLINE]某位须弥炼金术士到璃月游学，无意中查阅到黑岩厂十年前一笔夜泊石交易的账目。当夜，凝光的近侍便敲响了他的窗户，请他去「群玉阁」一叙。</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_4" Language="en_US">
-			<Text>生活在璃月，人人都需按规则出牌。规则会保护他们的利益不受侵犯，相应地，违规之人也将受到惩罚。[NEWLINE]这些规则源自璃月守护神「摩拉克斯」制订的古老律法，绝对可靠。璃月数千年历史中，历任「天权」对每条律法逐一修订，使其符合璃月不同阶段的社会需求。这些古老律法被整合成册，附带一本两百七十九页的注释，发放到所有璃月人手中。[NEWLINE]凝光喜欢这样的璃月港。井然的秩序能让商业更具活力，而她又比任何人都更理解秩序的细节。	</Text>
-		</Row>-->
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text></Text>
+		</Row>
+
 		<!-- Civilization specific historical text. -->
 		<!-- 文明历史背景 -->
 		<!--<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_1" Language="en_US">
@@ -435,6 +449,69 @@
 		</Row>
 
 		<!-- Civilization City Names-->
+		<!-- Civilization City Names-->
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_1"  Text="Liyue"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_2"  Text="Qingce"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_3"  Text="Wangshu"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_4"  Text="Jueyun"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_5"  Text="Stone Gate"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_6"  Text="Bishui"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_7"  Text="Guili"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_8"  Text="Chihu"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_9"  Text="Wanmin"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_10" Text="Mingyun"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_11" Text="Guyun"/>
+		<!--Not found. Lit. Stone Forest, while all stone forests has been here (as Huaguang and Guyun)-->
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_12" Text="Stone Forest"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_13" Text="Lingju"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_14" Text="Nantianmen"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_15" Text="Huaguang"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_16" Text="Huachi"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_17" Text="Dunyu"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_18" Text="Yujing"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_19" Text="Qingxu"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_20" Text="Feiyun"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_21" Text="Minlin"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_22" Text="Qiongji"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_23" Text="Taishan"/>
+		<!--Not found. Romanized.-->
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_24" Text="Lingxiao"/>
+		<!--Not found. Romanized.-->
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_25" Text="Huaqing"/>
+		<!--Not found. Romanized.-->
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_26" Text="Lianshan"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_27" Text="Tianqiu"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_28" Text="Yaoguang"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_29" Text="Lisha"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_30" Text="Mingxing"/>
+
+
+		<Row Language="en_US" Tag="LOC_NAMED_LAKE_LIYUE_1" Text="Dihua Marsh"/>
+		<Row Language="en_US" Tag="LOC_NAMED_LAKE_LIYUE_2" Text="Luhua Pool"/>
+		<!--Not found. Lit. Huaqing Pool where hua means "magnificent" and qing means "clear".-->
+		<Row Language="en_US" Tag="LOC_NAMED_LAKE_LIYUE_3" Text="Huaqing Pool"/>
+		<!--Not found. Lit. Yunjian Lake where yunjian means "between clouds".-->
+		<Row Language="en_US" Tag="LOC_NAMED_LAKE_LIYUE_4" Text="Yunjian Lake"/>
+		<!--Ther're simply independent mountains, not mountain chains, while their names can still be used to make some Liyue flavor.-->
+		<Row Language="en_US" Tag="LOC_NAMED_MOUNTAIN_LIYUE_1" Text="Tianheng Mountains"/>
+		<Row Language="en_US" Tag="LOC_NAMED_MOUNTAIN_LIYUE_2" Text="Cuijue Mountains"/>
+		<Row Language="en_US" Tag="LOC_NAMED_MOUNTAIN_LIYUE_3" Text="Hulao Mountains"/>
+		<Row Language="en_US" Tag="LOC_NAMED_MOUNTAIN_LIYUE_4" Text="Aocang Mountains"/>
+		<Row Language="en_US" Tag="LOC_NAMED_MOUNTAIN_LIYUE_5" Text="Wuwang Mountains"/>
+		<Row Language="en_US" Tag="LOC_NAMED_RIVER_LIYUE_2" Text="Bishui River"/>
+		<!--Forged name. Lit. Stone Forest River.-->
+		<Row Language="en_US" Tag="LOC_NAMED_RIVER_LIYUE_3" Text="Shilin River"/>
+		<!--Forged name. Lit. Qingce River where Qingce is derived from the Qingce Village.-->
+		<Row Language="en_US" Tag="LOC_NAMED_RIVER_LIYUE_4" Text="Qingce River"/>
+		<Row Language="en_US" Tag="LOC_NAMED_SEA_LIYUE_1" Text="Sea of Clouds"/>
+		<!--Forged name. Lit. Guyun Sea where Guyun is derived from the Guyun Stone Forest.-->
+		<Row Language="en_US" Tag="LOC_NAMED_SEA_LIYUE_2" Text="Guyun Sea"/>
+		<!--Forged name. Derived from official Chinese codename of version 1.3, where Mingxiao means "bright sky".-->
+		<Row Language="en_US" Tag="LOC_NAMED_SEA_LIYUE_3" Text="Mingxiao Sea"/>
+		<Row Language="en_US" Tag="LOC_NAMED_VOLCANO_LIYUE_1" Text="Qingyun Peak"/>
+		<Row Language="en_US" Tag="LOC_NAMED_VOLCANO_LIYUE_2" Text="The Chasm"/>
+		<!--Not found. Lit. Mount Leizhen where Leizhen means "thundering".-->
+		<Row Language="en_US" Tag="LOC_NAMED_VOLCANO_LIYUE_3" Text="Mount Leizhen"/>
 		
 		<!--Civilization Factoids -->
 		<!-- 地理环境与社会数据 -->
