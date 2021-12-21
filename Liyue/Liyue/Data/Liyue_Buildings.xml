@@ -38,15 +38,55 @@
 		<Row BuildingType="BUILDING_HEYU_TEAHOUSE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
 	</Building_GreatWorks>
 	<BuildingModifiers>
+		<Row BuildingType="BUILDING_LAWHOUSE" ModifierId="MOD_LAWHOUSE_TRADEROUTE_INBOUND_DOMESTIC"/>
+		<Row BuildingType="BUILDING_LAWHOUSE" ModifierId="MOD_LAWHOUSE_TRADEROUTE_OUTBOUND_DOMESTIC"/>
+		<Row BuildingType="BUILDING_LAWHOUSE" ModifierId="MOD_LAWHOUSE_TRADEROUTE_INBOUND"/>
+		<Row BuildingType="BUILDING_LAWHOUSE" ModifierId="MOD_LAWHOUSE_TRADEROUTE_OUTBOUND"/>
 		<Row BuildingType="BUILDING_HEYU_TEAHOUSE" ModifierId="MOD_GREATWORK_YIELD_CULTURE"/>
+		<Row BuildingType="BUILDING_BUBU_PHARMACY" ModifierId="MOD_BUBU_PHARMACY_POPULATE"/>
+		<Row BuildingType="BUILDING_BUBU_PHARMACY" ModifierId="MOD_BUBU_PHARMACY_MEDIC"/>
 	</BuildingModifiers>
 	<Modifiers>
-		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_GREATWORK_YIELD" SubjectRequirementSetId="HAS_BUILDING"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_INBOUND_DOMESTIC" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_OUTBOUND_DOMESTIC" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_INBOUND" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_OUTBOUND" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS"/>
+		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_GREATWORK_YIELD"/>
+        <Row ModifierId="MOD_BUBU_PHARMACY_POPULATE" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH"/>
+        <Row ModifierId="MOD_BUBU_PHARMACY_MEDIC_TRIGGER" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="UNIT_IN_CITY_TERRITORY" />
+        <Row ModifierId="MOD_BUBU_PHARMACY_MEDIC" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN"/>
+
 	</Modifiers>
 	<ModifierArguments>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_INBOUND_DOMESTIC" Name="YieldType"  Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_INBOUND_DOMESTIC" Name="Amount"  Value="2"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_INBOUND_DOMESTIC" Name="Domestic"  Value="1"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_OUTBOUND_DOMESTIC" Name="YieldType"  Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_OUTBOUND_DOMESTIC" Name="Amount"  Value="2"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_OUTBOUND_DOMESTIC" Name="Domestic"  Value="1"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_INBOUND" Name="YieldType"  Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_INBOUND" Name="Amount"  Value="2"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_INBOUND" Name="Domestic"  Value="0"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_OUTBOUND" Name="YieldType"  Value="YIELD_GOLD"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_OUTBOUND" Name="Amount"  Value="2"/>
+		<Row ModifierId="MOD_LAWHOUSE_TRADEROUTE_OUTBOUND" Name="Domestic"  Value="0"/>
 		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="GreatWorkObjectType"  Value="GREATWORKOBJECT_WRITING"/>
 		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="ScalingFactor"  Value="200"/>
 		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="YieldType"  Value="YIELD_CULTURE"/>
 		<Row ModifierId="MOD_GREATWORK_YIELD_CULTURE" Name="YieldChange"  Value="0"/>
+        <Row ModifierId="MOD_BUBU_PHARMACY_POPULATE" Name="Amount"  Value="25"/>
+        <Row ModifierId="MOD_BUBU_PHARMACY_MEDIC_TRIGGER" Name="ModifierId"  Value="MOD_BUBU_PHARMACY_MEDIC"/>
+        <Row ModifierId="MOD_BUBU_PHARMACY_MEDIC" Name="Amount"  Value="10"/>
 	</ModifierArguments>
+    <RequirementSets>
+        <Row RequirementSetId="UNIT_IN_CITY_TERRITORY" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+    </RequirementSets>
+    <RequirementSetRequirements>
+        <Row RequirementSetId="UNIT_IN_CITY_TERRITORY" RequirementId="REQ_UNIT_IN_CITY_TERRITORY"/>
+    </RequirementSetRequirements>
+    <Requirements>
+        <Row RequirementId="REQ_UNIT_IN_CITY_TERRITORY" RequirementType="REQUIREMENT_UNIT_ADJACENT_TO_OWNER_TERRITORY"/>
+    </Requirements>
+    <RequirementArguments>
+    </RequirementArguments>
 </GameData>
