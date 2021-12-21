@@ -63,7 +63,7 @@ function OnRegroupButtonClicked(iX,iY,pUnit)
         local iUnitType = "UNIT_BUILDER";
         UnitManager.Kill(pUnit);
         UnitManager.Initunit(pPlayer, iUnitType, iX, iY);
-        pPlayer:GetTreasury():ChangeGoldBalance(-200)
+        pPlayer:GetTreasury():ChangeGoldBalance(-200);
     end
 end
 
