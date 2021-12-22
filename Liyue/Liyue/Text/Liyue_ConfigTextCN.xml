@@ -59,19 +59,19 @@
 			<Text>往生堂</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，提供+2[ICCON_Gold]金币和[ICON_Amenities]宜居度。</Text>
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，提供+2 [ICCON_Gold] 金币和 [ICON_Amenities] 宜居度。</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_WANMIN_RESTAURANT_NAME" Language="zh_Hans_CN">
 			<Text>万民堂</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_WANMIN_RESTAURANT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，提供+2[ICON_Food]食物和+1[ICON_Amenities]宜居度。</Text>
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，提供+2 [ICON_Food] 食物和+1 [ICON_Amenities] 宜居度。</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LAWHOUSE_NAME" Language="zh_Hans_CN">
 			<Text>律法咨询屋</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_LAWHOUSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，为到达此城市或从此城市出发的国内外商路+2金币。</Text>
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，为到达此城市或从此城市出发的国内外商路+2 [ICCON_Gold] 金币。</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HEYU_TEAHOUSE_NAME" Language="zh_Hans_CN">
 			<Text>和裕茶馆</Text>
@@ -83,7 +83,7 @@
 			<Text>万文集舍</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_WANWEN_BOOKHOUSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，提供+2[ICON_Culture]文化和+3[ICCON_Gold]金币。</Text>
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，提供+2 [ICON_Culture] 文化和+3 [ICCON_Gold] 金币。</Text>
 		</Row>		
 		<Row Tag="LOC_BUILDING_BUBU_PHARMACY_NAME" Language="zh_Hans_CN">
 			<Text>不卜卢</Text>
@@ -95,14 +95,14 @@
 			<Text>辛焱的{LOC_UNIT_ROCK_BAND_NAME}</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_LIYUE_TRAIT_PREFIX}{LOC_UNIT_ROCK_BAND_NAME}，能够选择所有升级。{LOC_UNIT_ROCK_BAND_DESCRIPTION}</Text>
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}{LOC_UNIT_ROCK_BAND_NAME}，能够选择所有升级。[NEWLINE]{LOC_UNIT_ROCK_BAND_DESCRIPTION}</Text>
 		</Row>
 		
 		<Row Tag="LOC_UNIT_MILLELITH_NAME" Language="zh_Hans_CN">
 			<Text>千岩军</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_LIYUE_TRAIT_PREFIX}单位，替代长矛兵。拥有更高的 [ICON_Movement] 移动力，成本和维护费更低。</Text>
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}反骑兵单位，替代长矛兵。拥有更高的 [ICON_Movement] 移动力，成本和维护费更低。</Text>
 		</Row>
 
 		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_BP" Language="zh_Hans_CN">
