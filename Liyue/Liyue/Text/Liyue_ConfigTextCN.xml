@@ -86,6 +86,12 @@
 		</Row>
 		<Row Tag="LOC_BUILDING_BUBU_PHARMACY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>此城市的人口增长速度提高25%，驻守于此城市内的单位每回合恢复更多生命值。</Text>
+		</Row>	
+		<Row Tag="LOC_UNIT_XINYAN_ROCK_BAND_NAME" Language="zh_Hans_CN">
+			<Text>辛焱的摇滚乐队</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>能够选择所有升级。</Text>
 		</Row>
 
 		

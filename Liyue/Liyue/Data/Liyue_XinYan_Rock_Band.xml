@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+    <Types>
+        <Row Type="UNIT_XINYAN_ROCK_BAND" Kind="KIND_UNIT"/>
+    </Types>
+	<TypeTags>
+		<Row Type="UNIT_XINYAN_ROCK_BAND" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_XINYAN_ROCK_BAND" Tag="CLASS_ROCK_BAND"/>
+	</TypeTags>
+    <Units>
+        <Row UnitType="UNIT_XINYAN_ROCK_BAND" Cost="300" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_XINYAN_ROCK_BAND_NAME" Description="LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION" PurchaseYield="YIELD_FAITH" PrereqCivic="CIVIC_COLD_WAR" MustPurchase="TRUE" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="50" CanRetreatWhenCaptured="True" InitialLevel="2" NumRandomChoices="12" PromotionClass="PROMOTION_CLASS_ROCK_BAND" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS"/>
+    </Units>
+    <Units_XP2>
+        <Row UnitType="UNIT_XINYAN_ROCK_BAND" TourismBombPossible="true" CanEarnExperience="false"/>
+    </Units_XP2>
+    <UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_XINYAN_ROCK_BAND" ReplacesUnitType="UNIT_ROCK_BAND"/>
+    </UnitReplaces>
+</GameInfo>
