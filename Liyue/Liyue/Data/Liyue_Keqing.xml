@@ -3,6 +3,7 @@
 	<Types>
 		<Row Type="LEADER_KEQING" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_YUHENG" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_KEQING" Kind="KIND_TRAIT"/>
 		<Row Type="ABILITY_CIVILIAN_IGNORE_TERRAIN_COST" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_CIVILIAN_IGNORE_RIVERS" Kind="KIND_ABILITY"/>
 	</Types>
@@ -60,6 +61,7 @@
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="TRAIT_YUHENG" Name="LOC_TRAIT_LEADER_KEQING_NAME" Description="LOC_TRAIT_LEADER_KEQING_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_KEQING"/>		
 	</Traits>
 	<TraitModifiers>
 		<!-- <Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_BUILDER_CHARGE"/>-->
@@ -73,7 +75,7 @@
 		<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ADJUST_GOVERNMENT_SLOTS"/>
 	</TraitModifiers>
 	<HistoricalAgendas>
-		<Row LeaderType="LEADER_KEQING" AgendaType="AGENDA_EXPLOITATIVE"/>
+		<!--<Row LeaderType="LEADER_KEQING" AgendaType="AGENDA_EXPLOITATIVE"/>-->
 	</HistoricalAgendas>
 
 	<UnitAbilities>

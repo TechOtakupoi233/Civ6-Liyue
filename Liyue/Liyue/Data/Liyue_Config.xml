@@ -137,7 +137,7 @@
 			<LeaderType>LEADER_KEQING</LeaderType>
 			<Type>BUILDING_TEAHOUSE</Type>
 			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
-			<Description>LOC_BUILDING_TEAHOUSE_DESCRIPTION</Description>
+			<Description>LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_TEAHOUSE</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
@@ -180,7 +180,7 @@
 			<Type>BUILDING_TEAHOUSE</Type>
 			<Name>LOC_BUILDING_TEAHOUSE_NAME</Name>
 			<Description>LOC_BUILDING_TEAHOUSE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_TEAHOUSE</Icon>
+			<Icon>ICON_BUILDING_HEYU_TEAHOUSE</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 		<Row>

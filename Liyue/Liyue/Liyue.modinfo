@@ -4,7 +4,7 @@
     <Name>LOC_LIYUE_MOD_TITLE_CL</Name>
     <Description>LOC_LIYUE_MOD_DESCRIPTION_CL</Description>
     <CustomProperties></CustomProperties>
-    <Created>1633665842</Created>
+    <Created>1640183331</Created>
     <Teaser>LOC_LIYUE_MOD_TEASER_CL</Teaser>
     <Authors>CLHotuski</Authors>
     <SpecialThanks>Dwughjsd, KevinLiu, hemmelfort</SpecialThanks>
@@ -29,64 +29,77 @@
   </LocalizedText>
   <FrontEndActions>
     <UpdateDatabase id="Config">
-      <File>Liyue_Config.xml</File>
+      <File>Data/Liyue_Config.xml</File>
     </UpdateDatabase>
     <UpdateText id="ConfigText">
       <File>Text/Liyue_ConfigTextCN.xml</File>
       <File>Text/Liyue_ConfigText.xml</File>
     </UpdateText>
     <UpdateIcons id="ConfigIcons">
-      <File>Liyue_Icons.xml</File>
+      <File>Data/Liyue_Icons.xml</File>
     </UpdateIcons>
     <UpdateArt id="ConfigArt">
-      <File>Liyue-Keqing.dep</File>
+      <File>Liyue.dep</File>
     </UpdateArt>
     <UpdateColors id="CinfigColor">
-      <File>Liyue_Colors.xml</File>
+      <File>Data/Liyue_Colors.xml</File>
     </UpdateColors>
   </FrontEndActions>
   <InGameActions>
     <UpdateDatabase id="Gameplay">
-      <File priority="1">Liyue_Keqing.xml</File>
-      <File>Liyue_Civilization.xml</File>
-      <File>Liyue_Teahouse.xml</File>
-      <File>Liyue_Millelith.xml</File>
-      <File>Liyue_Ningguang.xml</File>
+      <File>Data/Liyue_Civilization.xml</File>
+      <File>Data/Liyue_Keqing.xml</File>
+      <File>Data/Liyue_Ningguang.xml</File>
+      <File>Data/Liyue_Ganyu.xml</File>
+      <File>Data/Liyue_Millelith.xml</File>
+      <File>Data/Modifiers_Ningguang.sql</File>
+      <File>Data/Liyue_Agendas.xml</File>
+      <File>Data/Liyue_Buildings.xml</File>
+      <File>Data/Liyue_XinYan_Rock_Band.xml</File>
     </UpdateDatabase>
     <UpdateText id="Text">
       <File>Text/Liyue_ConfigTextCN.xml</File>
       <File>Text/Liyue_TextCN.xml</File>
       <File>Text/Liyue_ConfigText.xml</File>
+      <File>Text/Liyue_TextEN.xml</File>
     </UpdateText>
     <UpdateIcons id="Icons">
-      <File>Liyue_Icons.xml</File>
+      <File>Data/Liyue_Icons.xml</File>
     </UpdateIcons>
     <UpdateArt id="Art">
-      <File>Liyue-Keqing.dep</File>
+      <File>Liyue.dep</File>
     </UpdateArt>
     <UpdateColors id="Color">
-      <File>Liyue_Colors.xml</File>
+      <File>Data/Liyue_Colors.xml</File>
     </UpdateColors>
     <UpdateAudio id="Music">
       <File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File>
     </UpdateAudio>
+    <AddUserInterfaces id="UI">
+      <File>Data/Liyue_Buttons.xml</File>
+    </AddUserInterfaces>
   </InGameActions>
   <Files>
     <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
     <File>ArtDefs/Units.artdef</File>
-    <File>Liyue-Keqing.dep</File>
+    <File>Data/Keqing_Builders_Gameplay.lua</File>
+    <File>Data/Keqing_Builders_UI.lua</File>
+    <File>Data/Keqing_Builders_UI.xml</File>
+    <File>Data/Liyue_Agendas.xml</File>
+    <File>Data/Liyue_Buildings.xml</File>
+    <File>Data/Liyue_Civilization.xml</File>
+    <File>Data/Liyue_Colors.xml</File>
+    <File>Data/Liyue_Config.xml</File>
+    <File>Data/Liyue_Ganyu.xml</File>
+    <File>Data/Liyue_Icons.xml</File>
+    <File>Data/Liyue_Keqing.xml</File>
+    <File>Data/Liyue_Millelith.xml</File>
+    <File>Data/Liyue_Ningguang.xml</File>
+    <File>Data/Liyue_XinYan_Rock_Band.xml</File>
+    <File>Data/Modifiers_Ningguang.sql</File>
     <File>Liyue.Art.xml</File>
-    <File>Liyue_Civilization.xml</File>
-    <File>Liyue_Colors.xml</File>
-    <File>Liyue_Config.xml</File>
-    <File>Liyue_Icons.xml</File>
-    <File>Liyue_Keqing.xml</File>
-    <File>Liyue_Millelith.xml</File>
-    <File>Liyue_Ningguang.xml</File>
-    <File>Liyue_Teahouse.xml</File>
-    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
-    <File>Platforms/MacOS/BLPs/LiyueUI.blp</File>
-    <File>Platforms/MacOS/BLPs/UI/PrideMoments.blp</File>
+    <File>Liyue.dep</File>
     <File>Platforms/Windows/Audio/1004924057.wem</File>
     <File>Platforms/Windows/Audio/158279736.wem</File>
     <File>Platforms/Windows/Audio/167037324.wem</File>
@@ -117,23 +130,13 @@
     <File>Platforms/Windows/Audio/LiyueLeaderSpeechBank.xml</File>
     <File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/Leaders.blp</File>
     <File>Platforms/Windows/BLPs/LiyueUI.blp</File>
     <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
-    <File>Textures/FALLBACK_NEUTRAL_KEQING.dds</File>
-    <File>Textures/FALLBACK_NEUTRAL_KEQING.tex</File>
-    <File>Textures/FALLBACK_NEUTRAL_NINGGUANG.dds</File>
-    <File>Textures/FALLBACK_NEUTRAL_NINGGUANG.tex</File>
-    <File>Textures/LEADER_KEQING_LOADING.dds</File>
-    <File>Textures/LEADER_KEQING_LOADING.tex</File>
-    <File>Textures/LEADER_KEQING_NEUTRAL.dds</File>
-    <File>Textures/LEADER_KEQING_NEUTRAL.tex</File>
-    <File>Textures/LEADER_NINGGUANG_LOADING.dds</File>
-    <File>Textures/LEADER_NINGGUANG_LOADING.tex</File>
-    <File>Textures/LEADER_NINGGUANG_NEUTRAL.dds</File>
-    <File>Textures/LEADER_NINGGUANG_NEUTRAL.tex</File>
     <File>Text/Liyue_ConfigText.xml</File>
     <File>Text/Liyue_ConfigTextCN.xml</File>
     <File>Text/Liyue_TextCN.xml</File>
+    <File>Text/Liyue_TextEN.xml</File>
     <File>XLPs/LiyueUI.xlp</File>
   </Files>
 </Mod>

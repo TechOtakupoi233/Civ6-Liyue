@@ -13,7 +13,7 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/Liyue_Civilization.xml</File><File>Data/Liyue_Keqing.xml</File><File>Data/Liyue_Ningguang.xml</File><File>Data/Liyue_Ganyu.xml</File><File>Data/Liyue_Millelith.xml</File><File>Data/Liyue_Teahouse.xml</File><File>Data/Modifiers_Ningguang.sql</File></UpdateDatabase><UpdateText id="Text"><File>Text/Liyue_ConfigTextCN.xml</File><File>Text/Liyue_TextCN.xml</File><File>Text/Liyue_ConfigText.xml</File><File>Text/Liyue_TextEN.xml</File></UpdateText><UpdateIcons id="Icons"><File>Data/Liyue_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="Color"><File>Data/Liyue_Colors.xml</File></UpdateColors><UpdateAudio id="Music"><File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File></UpdateAudio><AddUserInterfaces id="UI"><File>Data/Liyue_Buttons.xml</File></AddUserInterfaces></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/Liyue_Civilization.xml</File><File>Data/Liyue_Keqing.xml</File><File>Data/Liyue_Ningguang.xml</File><File>Data/Liyue_Ganyu.xml</File><File>Data/Liyue_Millelith.xml</File><File>Data/Modifiers_Ningguang.sql</File><File>Data/Liyue_Agendas.xml</File><File>Data/Liyue_Buildings.xml</File><File>Data/Liyue_XinYan_Rock_Band.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/Liyue_ConfigTextCN.xml</File><File>Text/Liyue_TextCN.xml</File><File>Text/Liyue_ConfigText.xml</File><File>Text/Liyue_TextEN.xml</File><File>Text/Keqing_DiplomaticText.xml</File></UpdateText><UpdateIcons id="Icons"><File>Data/Liyue_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="Color"><File>Data/Liyue_Colors.xml</File></UpdateColors><UpdateAudio id="Music"><File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File></UpdateAudio></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/Liyue_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/Liyue_ConfigTextCN.xml</File><File>Text/Liyue_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Data/Liyue_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="CinfigColor"><File>Data/Liyue_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <AssemblyName>Liyue</AssemblyName>
     <RootNamespace>Liyue</RootNamespace>
@@ -39,7 +39,13 @@
     <Content Include="Data\Keqing_Builders_UI.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Data\Liyue_Buttons.xml">
+    <Content Include="Data\Keqing_Builders_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Liyue_Agendas.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Liyue_Buildings.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Liyue_Civilization.xml">
@@ -66,7 +72,7 @@
     <Content Include="Data\Liyue_Ningguang.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Data\Liyue_Teahouse.xml">
+    <Content Include="Data\Liyue_XinYan_Rock_Band.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Modifiers_Ningguang.sql">
@@ -162,6 +168,9 @@
     <Content Include="Platforms\Windows\Audio\LiyueSoundBanks.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Text\Keqing_DiplomaticText.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Text\Liyue_ConfigText.xml">
       <SubType>Content</SubType>
     </Content>
@@ -174,18 +183,13 @@
     <Content Include="Text\Liyue_TextEN.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="XLPs\LiyueUI.xlp">
-      <SubType>Content</SubType>
-    </Content>
     <Folder Include="Artdefs\" />
     <Folder Include="Data" />
     <Folder Include="Platforms\" />
     <Folder Include="Platforms\Windows\" />
     <Folder Include="Platforms\Windows\Audio" />
     <Folder Include="Text" />
-    <Folder Include="XLPs\" />
     <None Include="ArtDefs\FallbackLeaders.artdef" />
-    <None Include="XLPs\LeaderFallbacks.xlp" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
