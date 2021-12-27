@@ -32,12 +32,12 @@
 		<Row Name="ATLAS_MILLELITH_ICON" IconSize="50" Filename="MILLELITH_ICON_50"/>
 		<Row Name="ATLAS_MILLELITH_ICON" IconSize="80" Filename="MILLELITH_ICON_80"/>
 		<Row Name="ATLAS_MILLELITH_ICON" IconSize="256" Filename="MILLELITH_ICON_256"/>
-		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="32" Filename="TEAHOUSE_ICON_32"/>
-		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="38" Filename="TEAHOUSE_ICON_38"/>
-		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="50" Filename="TEAHOUSE_ICON_50"/>
-		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="80" Filename="TEAHOUSE_ICON_80"/>
-		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="128" Filename="TEAHOUSE_ICON_128"/>
-		<Row Name="ATLAS_TEAHOUSE_ICON" IconSize="256" Filename="TEAHOUSE_ICON_256"/>
+		<Row Name="ATLAS_ICON_HEYU_TEAHOUSE" IconSize="32" Filename="ICON_HEYU_TEAHOUSE_32"/>
+		<Row Name="ATLAS_ICON_HEYU_TEAHOUSE" IconSize="38" Filename="ICON_HEYU_TEAHOUSE_38"/>
+		<Row Name="ATLAS_ICON_HEYU_TEAHOUSE" IconSize="50" Filename="ICON_HEYU_TEAHOUSE_50"/>
+		<Row Name="ATLAS_ICON_HEYU_TEAHOUSE" IconSize="80" Filename="ICON_HEYU_TEAHOUSE_80"/>
+		<Row Name="ATLAS_ICON_HEYU_TEAHOUSE" IconSize="128" Filename="ICON_HEYU_TEAHOUSE_128"/>
+		<Row Name="ATLAS_ICON_HEYU_TEAHOUSE" IconSize="256" Filename="ICON_HEYU_TEAHOUSE_256"/>
 		<Row Name="ICON_ATLAS_GANYU_GOVERNORS" IconSize="32" IconsPerRow="8" IconsPerColumn="1" Filename="Ganyu_Governors32"/>
 		<Row Name="ICON_ATLAS_GANYU_GOVERNORS" IconSize="64" IconsPerRow="8" IconsPerColumn="1" Filename="Ganyu_Governors64"/>
 		<Row Name="ICON_ATLAS_GANYU_GOVERNOR_PROMOTIONS" IconSize="24" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorPromotions24"/>
@@ -52,7 +52,7 @@
 		<Row Name="ICON_LEADER_KEQING" Atlas="ATLAS_KEQING" Index="0"/>
 		<Row Name="ICON_LEADER_NINGGUANG" Atlas="ATLAS_NINGGUANG" Index="0"/>
 		<Row Name="ICON_UNIT_MILLELITH" Atlas="ATLAS_MILLELITH_ICON" Index="0"/>
-		<Row Name="ICON_BUILDING_TEAHOUSE" Atlas="ATLAS_TEAHOUSE_ICON" Index="0"/>
+		<Row Name="ICON_BUILDING_HEYU_TEAHOUSE" Atlas="ATLAS_ICON_HEYU_TEAHOUSE" Index="0"/>
 		<Row Name="ICON_GOVERNOR_GANYU" Atlas="ICON_ATLAS_GANYU_GOVERNORS" Index="0"/>
 		<Row Name="ICON_GOVERNOR_GANYU_FILL" Atlas="ICON_ATLAS_GANYU_GOVERNORS_FILL" Index="0"/>
 		<Row Name="ICON_GOVERNOR_GANYU_SLOT" Atlas="ICON_ATLAS_GANYU_GOVERNORS_SLOT" Index="0"/>

@@ -460,9 +460,7 @@
 		</Element>
 		<Element>
 			<libraryName text="Leader"/>
-			<relativePackagePaths>
-				<Element text="Leaders"/>
-			</relativePackagePaths>
+			<relativePackagePaths/>
 		</Element>
 		<Element>
 			<libraryName text="LeaderFallback"/>
