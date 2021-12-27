@@ -83,6 +83,9 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
 			<Text>凝光具有强大的情报能力和反间谍能力，这能确保没有人可以在以「契约」闻名的璃月暗中搞破坏。同时，作为一个大商人，她能从璃月境内的国际商会中获取额外利益。[NEWLINE]璃月还拥有世界领先的贸易能力和经济能力，且特色建筑和来自岩石的历史底蕴能确保璃月的文化领先。</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_NINGGUANG_QUOTE" Language="zh_Hans_CN">
+			<Text>赌徒永远会把希望寄托在下一颗骰子上……但最后赚钱的，当然是从来不碰骰子的庄家。</Text>
+		</Row>
 
 		<!-- Leader specific historical text. -->
 		<!-- 领袖历史背景 -->
