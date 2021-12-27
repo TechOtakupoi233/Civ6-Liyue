@@ -48,10 +48,10 @@
 			<Text>"Tian Quan" Ningguang, you have no opponent in commercial battles, you know everything happending in the Liyue Harbor. You have built the Jade Chamber for years, and whish to cover all the 7 nations with its shadow. Now there is a much larger stage, make it great.</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_HEYU_TEAHOUSE_NAME" Language="en_US">
-			<Text>He Yu Teahouse</Text>
+		<Row Tag="LOC_BUILDING_TEAHOUSE_NAME" Language="en_US">
+			<Text>Teahouse</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_BUILDING_TEAHOUSE_DESCRIPTION" Language="en_US">
 			<Text>Replaces AMPHITHEATER. +1 [ICON_Amenities] Amenity, doubles [ICON_Culture] Culture and [ICON_Tourism] Tourism from [ICON_GreatWork_Writing] Writing Great work in this city.</Text>
 		</Row>
 		

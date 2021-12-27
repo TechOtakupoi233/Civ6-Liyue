@@ -86,6 +86,30 @@
 			<m_ObjectName text="LEADER_KEQING_LOADING"/>
 		</Element>
 		<Element>
+			<m_EntryID text="TEAHOUSE_ICON_128"/>
+			<m_ObjectName text="TEAHOUSE_ICON_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TEAHOUSE_ICON_256"/>
+			<m_ObjectName text="TEAHOUSE_ICON_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TEAHOUSE_ICON_32"/>
+			<m_ObjectName text="TEAHOUSE_ICON_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TEAHOUSE_ICON_38"/>
+			<m_ObjectName text="TEAHOUSE_ICON_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TEAHOUSE_ICON_50"/>
+			<m_ObjectName text="TEAHOUSE_ICON_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TEAHOUSE_ICON_80"/>
+			<m_ObjectName text="TEAHOUSE_ICON_80"/>
+		</Element>
+		<Element>
 			<m_EntryID text="MILLELITH_ICON_22"/>
 			<m_ObjectName text="MILLELITH_ICON_22"/>
 		</Element>
@@ -197,6 +221,7 @@
 			<m_EntryID text="Ganyu_GovernorsCityBannerSlot32"/>
 			<m_ObjectName text="Ganyu_GovernorsCityBannerSlot32"/>
 		</Element>
+<<<<<<< HEAD
 		<Element>
 			<m_EntryID text="ICON_HEYU_TEAHOUSE_128"/>
 			<m_ObjectName text="ICON_HEYU_TEAHOUSE_128"/>
@@ -233,6 +258,8 @@
 			<m_EntryID text="NINGGUANG_1"/>
 			<m_ObjectName text="BARBAROSSA_1"/>
 		</Element>
+=======
+>>>>>>> parent of 8fb85da (Replace teahouse)
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

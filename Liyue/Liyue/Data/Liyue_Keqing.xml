@@ -49,6 +49,12 @@
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_KEQING" Quote="LOC_LEADER_KEQING_QUOTE" QuoteAudio="KEQING_MISC_PEP_TALK_A"/>
 	</LeaderQuotes>
+	<Loadinginfo>
+		<Row>
+			<LeaderType>LEADER_KEQING</LeaderType>
+			<ForegroundImage>LEADER_KEQING_LOADING</ForegroundImage>
+		</Row>
+	</Loadinginfo>
 	
 	<LeaderTraits>
 		<Row LeaderType="LEADER_KEQING" TraitType="TRAIT_YUHENG"/>
