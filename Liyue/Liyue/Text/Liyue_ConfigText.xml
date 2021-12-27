@@ -57,14 +57,14 @@
 		</Row>
 		
 
-		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_BP" Language="en_US">
-		    <Text>Liyue Civilization Pack - Balanced Patch</Text>
+		<Row Tag="LOC_LIYUE_CL_DLC1_TITLE" Language="en_US">
+		    <Text>Liyue Civilization Pack - More Traits</Text>
 		</Row>
-		<Row Tag="LOC_LIYUE_MOD_TEASER_CL_BP" Language="en_US">
-		    <Text>Balance patch for Liyue Civilization.</Text>
+		<Row Tag="LOC_LIYUE_CL_DLC1_TEASER" Language="en_US">
+		    <Text>A DLC of Liyue Civilization.</Text>
 		</Row>
-		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL_BP" Language="en_US">
-		    <Text>Adjust the traits of Liyue Civiliazatio for better balanced game.</Text>
+		<Row Tag="LOC_LIYUE_CL_DLC1_DESCRIPTION" Language="en_US">
+		    <Text>Adding more traits to the Civilization.</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_SOT7" Language="en_US">
 		    <Text>Liyue Civilization Pack - Statue Of The Seven Patch</Text>

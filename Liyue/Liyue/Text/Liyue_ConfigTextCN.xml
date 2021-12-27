@@ -30,7 +30,6 @@
 			<Text>刻晴，璃月七星的玉衡星，璃月的前景掌握在您的手中。您是人民的表率，决策如霆霓快雨般迅捷。在您的带领下，您的人民将改写维持千年的秩序，真正取代神明当家作主，经受住时间的考验。站在时代最前沿，亲手开创新的道路吧，将您的想法化为行动。</Text>
 		</Row>
 		
-		
 		<Row Tag="LOC_LEADER_NINGGUANG_NAME" Language="zh_Hans_CN">
 			<Text>凝光</Text>
 		</Row>
@@ -44,21 +43,14 @@
 			<Text>「天权星」凝光，在商战中您无人能敌，璃月港的大小动静您无所不知，您还曾立志让群玉阁的阴影笼罩提瓦特的七国。现在，在这片全新的土地上开始您伟大的征程吧，让群玉阁发展到前所未有的规模，向世界宣告您的到来。</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_TEAHOUSE_NAME" Language="zh_Hans_CN">
-			<Text>茶馆</Text>
+		<Row Tag="LOC_LIYUE_CL_DLC1_MOD_TITLE" Language="zh_Hans_CN">
+		    <Text>璃月文明包-更多特性包</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_TEAHOUSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>替代古罗马剧场。提供 [ICON_Amenities] 宜居度，并为此城市中的 [ICON_GreatWork_Writing] 文学巨作提供翻倍的 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。</Text>
+		<Row Tag="LOC_LIYUE_CL_DLC1_MOD_TEASER" Language="zh_Hans_CN">
+		    <Text>璃月文明包的可下载内容。</Text>
 		</Row>
-
-		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_BP" Language="zh_Hans_CN">
-		    <Text>璃月文明包-平衡分支补丁</Text>
-		</Row>
-		<Row Tag="LOC_LIYUE_MOD_TEASER_CL_BP" Language="zh_Hans_CN">
-		    <Text>璃月文明包的平衡分支补丁。</Text>
-		</Row>
-		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL_BP" Language="zh_Hans_CN">
-		    <Text>对璃月文明和领袖针对原版游戏进行平衡性调整。</Text>
+		<Row Tag="LOC_LIYUE_CL_DLC1_MOD_DESCRIPTION" Language="zh_Hans_CN">
+		    <Text>为璃月文明添加更多特性，并增强现有领袖本身的特性。</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_SOT7" Language="zh_Hans_CN">
 		    <Text>璃月文明包-七天神像补丁</Text>
