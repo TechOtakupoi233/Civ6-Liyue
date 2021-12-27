@@ -438,7 +438,7 @@
 		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION" Language="zh_Hans_CN">
 			<Text>位置</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_LIYUE_CL_LOCATION" Language="zh_Hans_CN">
+		<Row Tag="LOC_CIVINFO_LIYUE_LOCATION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>提瓦特</Text>
 		</Row>
 
