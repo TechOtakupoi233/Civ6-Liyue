@@ -194,6 +194,127 @@
 			<Text>Ningguang has powerful intelligence and anti-spy abilities, this make sure no one can damage Liyue in dark. As a professional businesswoman, she can earn extra profit from international businesses.</Text>
 		</Row>
 
+        <Row Tag="LOC_LEADER_NINGGUANG_QUOTE" Language="en_US">
+			<Text>Gamblers always place their bets on the next dice roll... But the bankers always have the last laugh, and they never touch a single die.</Text>
+		</Row>
+
+         <!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--同意声明友谊-->
+			<Text>Cashing in time for power... Interesting. This shows its true value.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--拒绝声明友谊-->
+			<Text>I should really consider whether the investment is worth it some more.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--请求声明友谊-->
+			<Text>I'm usually not so quick to place my trust in others, but it seems I will no longer be able to make such claims. You've done splendidly. If only I had your friendship...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--请求声明友谊被接受-->
+			<Text>Haha, seems I win again - I put my investment on the right person.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--请求声明友谊被拒绝-->
+			<Text>Seize the opportunity, and don't disappoint me.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--被宣战-->
+			<Text>There's no style in resorting to violence, it's simply the worst of all the bad decisions you could make.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--主动宣战（配音）-->
+			<Text>Your life is mine. Farewell!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--接受使节派遣-->
+			<Text>Your delegation will be treated in the Jade Chamber... if you can afford the price.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--拒绝使节派遣-->
+			<Text>If you're ever thinking of gifting me such things, you'd be better off just giving the Mora to me directly.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--请求派遣使节-->
+			<Text>We have sent you a delegation with gifts of Liyue's finest brocades, woven from silk flowers. You can use it to have some clothing made.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--被谴责-->
+			<Text>Those who have different beliefs should not work together.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--谴责玩家-->
+			<Text>All that can be said has been said — both the good and the bad — but you still do as you please. Get out of my sight. (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--初次见面-->
+			<Text>I am Ningguang, Tianquan of Qixing. You wish to trade? Mora doesn't grow on trees.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--初次见面，提供最近城市位置-->
+			<Text>Have you learned to observe? Then observe our city nearby. Observe it right down to its very core.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>Let's make haste.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--初次见面，请求交换首都位置-->
+			<Text>I suppose you've heard enough rumors about my capital. Hehe... What kind of city is it? I shall leave that for you to decide... Of course, your judgement will become a part of the rumor.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--领袖对玩家有好感（配音）-->
+			<Text>You can learn from me, and use Mora to make things a little easier on yourself. But remember, relationships built on Mora can only be relied on for a time.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--领袖敌视玩家（配音）-->
+			<Text>Even if an antique is priceless, the happiness it brings lasts for only the moment you obtain it.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--请求结盟-->
+			<Text>I've been thinking about something lately. If I were to form an alliance with you, perhaps... at the right time, I might be able to leverage Liyue to...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--要求移开边境军队-->
+			<Text>Borders? If I told you we are aware of your army for long, do you still think you are a perfect hunter? And if you ever make the mistake of sparking a war...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--战败（配音）-->
+			<Text>Is this the end of Tianquan? The victor has been decided...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--同意交易-->
+			<Text>Wealth... why settle for less than more?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
+			<!--拒绝交易-->
+			<Text>You wait.</Text>
+		</Row>
+
+
 		<!-- Leader specific historical text. -->
 		<!-- 领袖历史背景 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
