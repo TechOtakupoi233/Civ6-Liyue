@@ -58,11 +58,11 @@
 		<Row TraitType="TRAIT_AGENDA_KEQING"/>		
 	</Traits>
 	<TraitModifiers>
-		<!-- <Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_BUILDER_CHARGE"/>-->
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_BUILDER_CHARGE"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_CIVILIAN_MOVEMENT"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_CIVILIAN_IGNORE_TERRAIN_COST"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_CIVILIAN_CROSSING_RIVERS_COST"/>
-		<!-- <Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_COPY_BUILDER"/>-->
+		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_COPY_BUILDER"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_BUILDER_DISCOUNT"/>
 		<Row TraitType="TRAIT_YUHENG" ModifierId="MOD_YUHENG_ENGINEER_DISCOUNT"/>
 		<!--<Row TraitType="TRAIT_YUHENG" ModifierId="TRAIT_ALL_DISTRICTS_CULTURE_BOMB"/>-->
