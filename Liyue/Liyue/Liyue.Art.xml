@@ -70,7 +70,9 @@
 		</Element>
 		<Element>
 			<consumerName text="StrategicView_Properties"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="StrategicView.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
@@ -108,7 +110,9 @@
 		</Element>
 		<Element>
 			<consumerName text="StrategicView_TerrainType"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="StrategicView.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
 				<Element text="StrategicView_TerrainBlendCorners"/>
@@ -119,7 +123,9 @@
 		</Element>
 		<Element>
 			<consumerName text="StrategicView_TerrainBlendCorners"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="StrategicView.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlendCorners"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -128,7 +134,9 @@
 		</Element>
 		<Element>
 			<consumerName text="StrategicView_TerrainBlend"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="StrategicView.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -184,7 +192,9 @@
 		</Element>
 		<Element>
 			<consumerName text="UILensAsset"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Overlay.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -193,7 +203,9 @@
 		</Element>
 		<Element>
 			<consumerName text="Overlay"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Overlay.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -506,6 +518,7 @@
 			<libraryName text="StrategicView_Sprite"/>
 			<relativePackagePaths>
 				<Element text="DLC_Strategicview"/>
+				<Element text="strategicview/strategicview_uilenses"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -540,7 +553,9 @@
 		</Element>
 		<Element>
 			<libraryName text="UILensAsset"/>
-			<relativePackagePaths/>
+			<relativePackagePaths>
+				<Element text="UILensAssets"/>
+			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="UITexture"/>
