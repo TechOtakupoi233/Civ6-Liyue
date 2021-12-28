@@ -51,7 +51,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
-			<!--主动宣战（配音）-->
+			<!--主动宣战-->
 			<Text>Come on. Enough procrastinating. Let us cut to the chase: war is upon us.</Text>
 		</Row>
 
@@ -101,12 +101,12 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KEQING_ANY" Language="en_US">
-			<!--领袖对玩家有好感（配音）-->
+			<!--领袖对玩家有好感-->
 			<Text>I have huge respect for you! When your heart is set on something, you get closer to your goal with each passing day.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KEQING_ANY" Language="en_US">
-			<!--领袖敌视玩家（配音）-->
+			<!--领袖敌视玩家-->
 			<Text>When you drag your heels on one thing, you're actually causing chaos for a whole bunch of other connected issues, too. You should never put off until tomorrow what you can do today...</Text>
 		</Row>
 
@@ -121,7 +121,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
-			<!--战败（配音）-->
+			<!--战败-->
 			<Text>Right idea, wrong time... I will not go quietly...</Text>
 		</Row>
 
@@ -230,7 +230,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
-			<!--主动宣战（配音）-->
+			<!--主动宣战-->
 			<Text>Your life is mine. Farewell!</Text>
 		</Row>
 
@@ -280,12 +280,12 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NINGGUANG_ANY" Language="en_US">
-			<!--领袖对玩家有好感（配音）-->
+			<!--领袖对玩家有好感-->
 			<Text>You can learn from me, and use Mora to make things a little easier on yourself. But remember, relationships built on Mora can only be relied on for a time.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NINGGUANG_ANY" Language="en_US">
-			<!--领袖敌视玩家（配音）-->
+			<!--领袖敌视玩家-->
 			<Text>Even if an antique is priceless, the happiness it brings lasts for only the moment you obtain it.</Text>
 		</Row>
 
@@ -300,7 +300,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
-			<!--战败（配音）-->
+			<!--战败-->
 			<Text>Is this the end of Tianquan? The victor has been decided...</Text>
 		</Row>
 

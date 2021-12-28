@@ -40,9 +40,6 @@
     <ArtDef Include="ArtDefs\Landmark.artdef">
       <SubType>Content</SubType>
     </ArtDef>
-    <ArtDef Include="ArtDefs\Leaders.artdef">
-      <SubType>Content</SubType>
-    </ArtDef>
     <ArtDef Include="ArtDefs\StrategicView.artdef">
       <SubType>Content</SubType>
     </ArtDef>
@@ -52,12 +49,12 @@
     <ArtDef Include="ArtDefs\Civilization.artdef">
       <SubType>Content</SubType>
     </ArtDef>
-    <ArtDef Include="ArtDefs\Culture.artdef">
-      <SubType>Content</SubType>
-    </ArtDef>
     <ArtDef Include="ArtDefs\District.artdef">
       <SubType>Content</SubType>
     </ArtDef>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\Genshin_Shared_Data.lua">
       <SubType>Content</SubType>
     </Content>
