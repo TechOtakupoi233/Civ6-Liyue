@@ -350,16 +350,40 @@
 
 		<!-- Civilization specific historical text. -->
 		<!-- 文明历史背景 -->
-		<!--<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>璃月是提瓦特历史最悠久的国家。3700年前，摩拉克斯和仙人签订了契约以保护璃月港，这就是璃月国的成立。</Text>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>在璃月港建立很久以前，提瓦特七大魔神还没任职而神灵还自由地在世上漫游的时间，这片将会成为璃月的土地上存有很多村庄。在这个时代，摩拉克斯和尘土之神归终共同管治现在名为“归离原”的地方。 这个文明在他们的共同统治和在仙人的保护下变得繁荣昌盛。</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text>魔神战争爆发时，这个文明经过了激烈战争后被摧毁，也导致了归终的死亡；本来肥沃的荻花州变成了一片沼泽。摩拉克斯带他的人民向南，在天衡山南边建立璃月港，直到今日。为了保护这新的城市，摩拉克斯与仙人签订了契约，自己就去与其他恶神作战。在镇压了数个魔神，如“漩涡之魔神”，以及其他魔神的死去（如“盐之魔神”赫乌莉亚) 后，摩拉克斯成为璃月战场中的胜者，成为尘世的岩神。一年一度，摩拉克斯在“七星请仙典仪”正式下凡，为璃月人民赐下神谕，指引下一年璃月经营的方向。日常凡务就由璃月七星、商会、和千岩军处理。</Text>
-		</Row>-->
-		
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_11" Language="en_US">
+			<Text></Text>
+		</Row>
+
 		<Row Tag="LOC_GOVERNOR_GANYU_NAME" Language="en_US">
 			<Text>Ganyu</Text>
 		</Row>
