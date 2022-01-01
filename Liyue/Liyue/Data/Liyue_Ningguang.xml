@@ -2,12 +2,14 @@
 <GameData>
 	<Types>
 		<Row Type="TRAIT_TIANQUAN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_LIYUE_INVESTOR" Kind="KIND_TRAIT"/>
 	</Types>
 	
 	<LeaderTraits>
 		<Row LeaderType="LEADER_NINGGUANG" TraitType="TRAIT_TIANQUAN"/>
 	</LeaderTraits>
 	<Traits>
+		<Row TraitType="TRAIT_AGENDA_LIYUE_INVESTOR"/>
 		<Row TraitType="TRAIT_TIANQUAN" Name="LOC_TRAIT_LEADER_NINGGUANG_NAME" Description="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
@@ -19,17 +21,6 @@
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_GREAT_MERCHANT_POINTS"/>
 		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST"/>
-		<!--<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST"/>-->
-		<!--<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_2ADJ_COMMERCIAL_HUB"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_4ADJ_COMMERCIAL_HUB"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_6ADJ_COMMERCIAL_HUB"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_8ADJ_COMMERCIAL_HUB"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_10ADJ_COMMERCIAL_HUB"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_2ADJ_HARBOR"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_4ADJ_HARBOR"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_6ADJ_HARBOR"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_8ADJ_HARBOR"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_10ADJ_HARBOR"/>-->
 	</TraitModifiers>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_NINGGUANG" AgendaType="AGENDA_MONEY_GRUBBER"/>
@@ -58,16 +49,6 @@
 		</Row>
 		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"/>
 		<Row ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_ALL_BUILDINGS_PURCHASE_COST"/>
-		<!--<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="2ADJ_COMMERCIAL_HUB"/>
-		<Row ModifierId="MOD_4ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="4ADJ_COMMERCIAL_HUB"/>
-		<Row ModifierId="MOD_6ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="6ADJ_COMMERCIAL_HUB"/>
-		<Row ModifierId="MOD_8ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="8ADJ_COMMERCIAL_HUB"/>
-		<Row ModifierId="MOD_10ADJ_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="10ADJ_COMMERCIAL_HUB"/>
-		<Row ModifierId="MOD_2ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="2ADJ_HARBOR"/>
-		<Row ModifierId="MOD_4ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="4ADJ_HARBOR"/>
-		<Row ModifierId="MOD_6ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="6ADJ_HARBOR"/>
-		<Row ModifierId="MOD_8ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="8ADJ_HARBOR"/>
-		<Row ModifierId="MOD_10ADJ_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT" SubjectRequirementSetId="10ADJ_HARBOR"/>-->
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -108,36 +89,6 @@
 		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" Name="Amount" Value="100"/>
 		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" Name="UnitType" Value="UNIT_TRADER"/>
 		<Row ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST" Name="Amount" Value="20"/>
-		<!--<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_2ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_4ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row ModifierId="MOD_4ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_4ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_6ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row ModifierId="MOD_6ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_6ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_8ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row ModifierId="MOD_8ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_8ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_10ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row ModifierId="MOD_10ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_10ADJ_COMMERCIAL_HUB" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_2ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row ModifierId="MOD_2ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_2ADJ_HARBOR" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_4ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row ModifierId="MOD_4ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_4ADJ_HARBOR" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_6ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row ModifierId="MOD_6ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_6ADJ_HARBOR" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_8ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row ModifierId="MOD_8ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_8ADJ_HARBOR" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_10ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row ModifierId="MOD_10ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row ModifierId="MOD_10ADJ_HARBOR" Name="Amount" Value="20"/>-->
 	</ModifierArguments>
 	<!-- =============== RequirementSets =============== -->
 	<RequirementSets>
@@ -160,9 +111,6 @@
 		<Row RequirementSetId="CITY_HAS_ENTERTAINMENT_COMPLEX" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="CITY_HAS_THEATER" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="CITY_HAS_INDUSTRIAL_ZONE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<!--<Row RequirementSetId="CITY_HAS_HOLY_SITE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="CITY_HAS_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="CITY_HAS_ENCAMPMENT" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>-->
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="IS_COMMERCIAL_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_COMMERCIAL_HUB"/>
@@ -182,9 +130,6 @@
 		<Row RequirementSetId="CITY_HAS_ENTERTAINMENT_COMPLEX" RequirementId="REQ_ENTERTAINMENT_COMPLEX"/>
 		<Row RequirementSetId="CITY_HAS_THEATER" RequirementId="REQUIRES_CITY_HAS_THEATER_DISTRICT"/>
 		<Row RequirementSetId="CITY_HAS_INDUSTRIAL_ZONE" RequirementId="REQUIRES_CITY_HAS_INDUSTRIAL_ZONE"/>
-		<!--<Row RequirementSetId="CITY_HAS_HOLY_SITE" RequirementId="REQUIRES_CITY_HAS_HOLY_SITE"/>
-		<Row RequirementSetId="CITY_HAS_ENCAMPMENT" RequirementId="REQUIRES_CITY_HAS_ENCAMPMENT"/>
-		<Row RequirementSetId="CITY_HAS_COMMERCIAL_HUB" RequirementId="REQUIRES_CITY_HAS_COMMERCIAL_HUB"/>-->
 	</RequirementSetRequirements>
 	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
 	<Requirements>
@@ -233,4 +178,59 @@
 		<Row RequirementId="REQ_10ADJ_HARBOR" Name="Amount" Value="10"/>
 		<Row RequirementId="REQ_ENTERTAINMENT_COMPLEX" Name="DistrictType" Value="DISTRICT_ENTERTAINMENT_COMPLEX"/>
 	</RequirementArguments>
+	
+	<AiListTypes>
+		<Row ListType="NingguangTechs"/>
+		<Row ListType="NingguangCivics"/>
+		<Row ListType="NingguangWonders"/>
+		<Row ListType="NingguangGoldPreference"/>
+		<Row ListType="NingguangTradePreference"/>
+	</AiListTypes>
+
+	<AiLists>
+		<Row ListType="NingguangTechs" LeaderType="TRAIT_TIANQUAN" System="Technologies"/>
+		<Row ListType="NingguangWonders" LeaderType="TRAIT_TIANQUAN" System="Buildings"/>
+		<Row ListType="NingguangCivics" LeaderType="TRAIT_TIANQUAN" System="Civics"/>
+		<Row ListType="NingguangGoldPreference" AgendaType="TRAIT_AGENDA_LIYUE_INVESTOR" System="Yields"/>
+		<Row ListType="NingguangTradePreference" AgendaType="TRAIT_AGENDA_LIYUE_INVESTOR" System="PseudoYields"/>
+
+	</AiLists>
+
+	<AiFavoredItems>
+		<Row ListType="NingguangTechs" Item="TECH_BANKING" Favored="true"/>
+		<Row ListType="NingguangTechs" Item="TECH_CURRENCY" Favored="true"/>
+		<Row ListType="NingguangTechs" Item="TECH_ECONOMICS" Favored="true"/>
+		<Row ListType="NingguangTechs" Item="TECH_CASTLES" Favored="true"/>
+		<Row ListType="NingguangTechs" Item="TECH_MASONRY" Favored="true"/>
+		<Row ListType="NingguangWonders" Item="BUILDING_GREAT_ZIMBABWE" Favored="true"/>
+		<Row ListType="NingguangWonders" Item="BUILDING_FORBIDDEN_CITY" Favored="true"/>
+		<Row ListType="NingguangWonders" Item="BUILDING_BIG_BEN" Favored="true"/>
+		<Row ListType="NingguangWonders" Item="BUILDING_COLOSSUS" Favored="true"/>
+		<Row ListType="NingguangCivics" Item="CIVIC_FOREIGN_TRADE" Favored="true"/>
+		<Row ListType="NingguangCivics" Item="CIVIC_EARLY_EMPIRE" Favored="true"/>
+		<Row ListType="NingguangCivics" Item="CIVIC_MERCENARIES" Favored="true"/>
+		<Row ListType="NingguangCivics" Item="CIVIC_MEDIEVAL_FAIRES" Favored="true"/>
+		<Row ListType="NingguangCivics" Item="CIVIC_MERCANTILISM" Favored="true"/>
+		<Row ListType="NingguangCivics" Item="CIVIC_COLONIALISM" Favored="true"/>
+		<Row ListType="NingguangCivics" Item="CIVIC_CAPITALISM" Favored="true"/>
+		<Row ListType="NingguangGoldPreference" Item="YIELD_GOLD" Value="20"/>
+		<Row ListType="NingguangTradePreference" Item="PSEUDOYIELD_UNIT_TRADE" Value="50"/>
+	</AiFavoredItems>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_LIYUE_INVESTOR" Name="LOC_AGENDA_LIYUE_INVESTOR_NAME" Description="LOC_AGENDA_LIYUE_INVESTOR_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_NINGGUANG" AgendaType="AGENDA_LIYUE_INVESTOR"/>
+	</HistoricalAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_LIYUE_INVESTOR" TraitType="TRAIT_AGENDA_LIYUE_INVESTOR"/>
+	</AgendaTraits>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_LIYUE_INVESTOR" AgendaTwo="AGENDA_MONEY_GRUBBER"/>
+	</ExclusiveAgendas>
+
 </GameData>

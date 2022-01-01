@@ -14,6 +14,15 @@
 		<Row Tag="LOC_AGENDA_KEQING_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>钟情于建造各种不同类型的区域，清除所有地貌并改良所有可以改良的单元格。喜欢被改良的单元格占很高比例的文明。讨厌已改良的单元格占很低比例的文明。</Text>
 		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_KEQING" Language="zh_Hans_CN">
+			<Text>刻晴正在观察您改良领土的进展</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LIYUE_INVESTOR_NAME" Language="zh_Hans_CN">
+			<Text>垄断投资商</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LIYUE_INVESTOR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会尝试将 [ICON_TradeRoute] 贸易路线尽量发展壮大。喜欢不将商路通往她的文明，讨厌与之建立贸易路线的文明。</Text>
+		</Row>
 
 		<!-- 刻晴 -->
 		<Row Tag="LOC_LEADER_KEQING_QUOTE" Language="zh_Hans_CN">

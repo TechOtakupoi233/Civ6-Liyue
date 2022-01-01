@@ -2,12 +2,19 @@
 <GameData>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_AGENDA_KEQING" ModifierId="AGENDA_KEQING_EXPLOITATION_MODIFIER"/>
+		<Row TraitType="TRAIT_AGENDA_LIYUE_INVESTOR" ModifierId="AGENDA_LIYUE_INVESTOR_TRADE"/>
 	</TraitModifiers>
 
 	<Modifiers>
 		<Row>
 			<ModifierId>AGENDA_KEQING_EXPLOITATION_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_EXPLOITATIVE</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LIYUE_INVESTOR_TRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_TRADE_RELATIONS</ModifierType>
 			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
 			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
 		</Row>
@@ -31,7 +38,7 @@
 		<Row>
 			<ModifierId>AGENDA_KEQING_EXPLOITATION_MODIFIER</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_EXPLOITATION</Value>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_KEQING</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_KEQING_EXPLOITATION_MODIFIER</ModifierId>
@@ -78,8 +85,40 @@
 			<Name>LowScoreThreshold</Name>
 			<Value>-8</Value>
 		</Row>
+		<Row>
+			<ModifierId>AGENDA_LIYUE_INVESTOR_TRADE</ModifierId>
+			<Name>TradeBonus</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LIYUE_INVESTOR_TRADE</ModifierId>
+			<Name>NoTradePenalty</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LIYUE_INVESTOR_TRADE</ModifierId>
+			<Name>BonusPerRoute</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LIYUE_INVESTOR_TRADE</ModifierId>
+			<Name>OnlyInboundTrade</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LIYUE_INVESTOR_TRADE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_NINGGUANG_ANY</Value>
+		</Row>
+		<Row>
+			<!--Not used-->
+			<ModifierId>AGENDA_LIYUE_INVESTOR_TRADE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_NINGGUANG_LIYUE_INVESTOR_TRADE</Value>
+		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
 		<Row ModifierId="AGENDA_KEQING_EXPLOITATION_MODIFIER" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_LIYUE_INVESTOR_TRADE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 	</ModifierStrings>
 </GameData>

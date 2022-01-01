@@ -14,6 +14,15 @@
 		<Row Tag="LOC_AGENDA_KEQING_DESCRIPTION" Language="en_US">
 			<Text>Prefers to build each different kind of district, clear all features and improve all possible tiles. Likes civilizations with a high percentage of improved tiles. Dislikes civilizations with low percentage of improved tiles.</Text>
 		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_KEQING" Language="en_US">
+			<Text>Keqing is watching your progress on improving your territory</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LIYUE_INVESTOR_NAME" Language="en_US">
+			<Text>Monopolistic Investor</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LIYUE_INVESTOR_DESCRIPTION" Language="en_US">
+			<Text>Tries to maximize [ICON_TradeRoute] Trade Routes. Likes civilizations that don't establish any [ICON_TradeRoute] Trade Route to her, dislikes those who do so.</Text>
+		</Row>
 
 		<Row Tag="LOC_LEADER_KEQING_QUOTE" Language="en_US">
 			<Text>If you feel strongly about something, you should speak up and take action. That's the philosophy I live by.</Text>
