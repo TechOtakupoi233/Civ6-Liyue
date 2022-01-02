@@ -391,8 +391,14 @@
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LIYUE_CL_CHAPTER_HISTORY_PARA_11" Language="zh_Hans_CN">
 			<Text>《原神》的游戏剧情于虚构世界的提瓦特大陆上展开，被神明选中的人将被授予引导元素力量的“神之眼”，而最终登上天空岛的人会获得神之心，这些拥有“神之心”的人被称为“原神”。玩家将扮演旅行者游历七国，寻找自己失散的唯一血亲。本作得到相关媒体的普遍好评，评论称赞游戏的战斗机制和开放世界的自由度，但对后期的游戏内容和盈利方式提出了批评。在商业上，该作获取了成功，在发行六个月内总收入超过10亿美元。</Text>
 		</Row>
-		
-		
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MILLELITH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>千岩军是驻扎在璃月地区的守卫军队，主要职责便是守护璃月的安宁。这支军队的地位相当于蒙德的西风骑士团或者稻妻的幕府，直接效忠于璃月七星。千岩军的前身是在魔神战争中活跃的千岩团，成立于璃月港创立之初，几乎与璃月七星同时出现，其格言“千岩牢固，重嶂不移”从那时便流传至今。千岩军士兵常用长柄武器，多为可靠坚实的白缨枪或者钺矛。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_LIYUE_HARBOR_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>璃月港位于提瓦特大陆的东海岸，是提瓦特最大的贸易港口。约3700年前，在归离集覆灭之后，岩神摩拉克斯将他带领的人民带向天衡山以南，并在此处建立起了未来的璃月港。整个璃月的海运业因其而腾飞，不计其数的货品从此地运进流出，令所有其他港口都相形见绌。在一年一度的海灯节时，上千灯火会在此处升入夜空，制造出造访璃月不可错过的美妙景象。</Text>
+		</Row>
 		
 		
 		<Row Tag="LOC_GOVERNOR_GANYU_NAME" Language="zh_Hans_CN">
