@@ -10,11 +10,11 @@
 
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME"	Text="岩与契约的海港"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION"
-			Text="从被改良的矿产资源中获得 +1 [ICON_Culture] 文化值。采石场和矿山 +1 [ICON_Production] 生产力。拥有璃月港的城市，采石场和矿山额外提供 +2 [ICON_Gold] 金币。"/>
-
+			Text="矿山和采石场 +1 [ICON_Production] 生产力，若地块有资源则额外 +1 [ICON_Culture] 文化值，若所在城市建有璃月港则额外 +2 [ICON_Gold] 金币。"/>
+		
 		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="璃月港"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_LIYUE_HARBOR_DESCRIPTION"
-			Text="璃月特色海军活动区域，替代港口，建造费用更低。建成后所在城市立即获得贸易站。[NEWLINE]拥有璃月港的城市每回合 +5 忠诚度。"/>
+			Text="璃月特色海军活动区域，替代港口，建造费用更低。建成时于此城市建立贸易站。[NEWLINE][NEWLINE]使此城市每回合 +5 忠诚度。"/>
 
 		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_MILLELITH_NAME"				Text="千岩军"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
@@ -37,12 +37,12 @@
 			<Text>无所不知的天权星</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>外交能见度提升一级，凝光的间谍初始就拥有“监视”和“测谎仪”升级。[NEWLINE]派往城邦的首个[ICON_Envoy]使者视为两个[ICON_Envoy]使者。作为城邦的宗主国时，每回合从城邦处获得的[ICON_Favor]外交支持翻倍。[NEWLINE]凝光可免费购买商人，经过璃月城市的国际贸易路线+5[ICON_Gold]金币。[NEWLINE]商业中心和港口提供[ICON_GreatMerchant]大商人点数，且每有2点邻接加成便为此区域中的建筑+20%[ICON_Gold]金币，至多生效10点邻接加成。</Text>
+			<Text>存在通往一个文明的国际 [ICON_TradeRoute] 贸易路线时，对该文明的 [ICON_VisLimited] 外交能见度上升1级。间谍初始便拥有“监视”升级。从国际 [ICON_TradeRoute] 贸易路线 +1 [ICON_Culture] 文化值和 +1 [ICON_Faith] 信仰值，且 [ICON_Gold] 金币产出 +50%。</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="zh_Hans_CN">
-			<Text>「天权星」凝光，在商战中您无人能敌，璃月港的大小动静您无所不知，您还曾立志让群玉阁的阴影笼罩提瓦特的七国。现在，在这片全新的土地上开始您伟大的征程吧，让群玉阁发展到前所未有的规模，向世界宣告您的到来。</Text>
+			<Text>天权星凝光，璃月港的明暗动静都逃不过你的耳目。您待民众温柔亲切，却是任何敌人都不愿面对的完美猎手，鲜有人能望您项背。继续进行投资，开拓贸易路线吧，让群玉阁遮蔽璃月上空的银月。</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_LIYUE_CL_DLC1_MOD_TITLE" Language="zh_Hans_CN">
 		    <Text>璃月文明包-更多特性包</Text>
 		</Row>

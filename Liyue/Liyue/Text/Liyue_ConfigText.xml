@@ -13,15 +13,15 @@
 
 		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME"	Text="Harbor of Stone and Contracts"/>
 		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION"
-			Text="Placeholder"/>
+			Text="Mines and Quarries provide +1 [ICON_Production] Production, receive additional +1 [ICON_Culture] Culture if built on a resource and additional +2 [ICON_Gold] Gold in cities with a Liyue Harbor."/>
 
 		<Row Language="en_US" Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="Liyue Harbor"/>
 		<Row Language="en_US" Tag="LOC_DISTRICT_LIYUE_HARBOR_DESCRIPTION"
-			Text="Placeholder"/>
+			Text="A district unique to Liyue for naval activity in your city. Replaces the Harbor district and cheaper to build. Creates a [ICON_TradingPost] Trading Post in this city when built.[NEWLINE][NEWLINE]Grants +5 Loyalty per turn in this city."/>
 
 		<Row Language="en_US" Tag="LOC_UNIT_MILLELITH_NAME"					Text="Millelith"/>
 		<Row Language="en_US" Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
-			Text="Placeholder"/>
+			Text="Liyue unique Ancient era anti-cavalry unit that replaces the Spearman. Ignores [ICON_Movement] Movement penalties for Hills. +5 [ICON_Strength] Combat Strength when defending on Hills."/>
 		
 		<Row Tag="LOC_LEADER_KEQING_NAME" Language="en_US">
 			<Text>Keqing</Text>
@@ -43,17 +43,10 @@
 			<Text>Tianquan, the Star of All-Seeing</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION" Language="en_US">
-			<Text>Ningguang has 1 level diplomatic visibility to anyone else. Her spy gets "SURVEILLANCE" and "POLYGRAPH" promotions initially. [NEWLINE]Gets double [ICON_Favor] Favor as the suzerain of a city state, doubles the first [ICON_Envoy] envoy sent to a city state. [NEWLINE]Ninnguang can buy Traders for free, and has 20% off when buying a building with [ICON_Gold]Gold. +5 [ICON_Gold] Gold from Trade routes passing Liyue cities.[NEWLINE]Extra [ICON_GreatMerchant] Great Merchant Point from Commercial Hub and Harbor, each 2 adjacent bonus these districts have will get 20% [ICON_Gold]Gold bonus, Max bonus is 10.</Text>
+			<Text>Receive an extra level of [ICON_VisLimited] Diplomatic Visibility for having an international [ICON_TradeRoute] Trade Route to a civilization. All spies start with a free Surveillance promotion. +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith and +50% [ICON_Gold] Gold from international [ICON_TradeRoute] Trade Routes. </Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="en_US">
-			<Text>"Tian Quan" Ningguang, you have no opponent in commercial battles, you know everything happending in the Liyue Harbor. You have built the Jade Chamber for years, and whish to cover all the 7 nations with its shadow. Now there is a much larger stage, make it great.</Text>
-		</Row>
-
-		<Row Tag="LOC_BUILDING_TEAHOUSE_NAME" Language="en_US">
-			<Text>Teahouse</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_TEAHOUSE_DESCRIPTION" Language="en_US">
-			<Text>Replaces AMPHITHEATER. +1 [ICON_Amenities] Amenity, doubles [ICON_Culture] Culture and [ICON_Tourism] Tourism from [ICON_GreatWork_Writing] Writing Great work in this city.</Text>
+			<Text>Ningguang, Tianquan of the Liyue Qixing, you knows all details about good and bad things in Liyue. You are kind toward your people, but a perfect hunter that none of your enemy could ever hope to see, and unsurpassed in all of Teyvat. Continue investing, expand trade routes, and develop the Jade Chamber so that it can casts its shadow over the whole of Liyue in the moonlight.</Text>
 		</Row>
 		
 

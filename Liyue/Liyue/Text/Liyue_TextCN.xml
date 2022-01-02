@@ -197,11 +197,11 @@
 		<!-- Leader specific pedia text. -->
 		<!-- 领袖特性概要 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
-			<Text>「璃月七星」手眼通天，凝光的眼线遍布璃月，在璃月境内没有什么能逃得过凝光的耳目。</Text>
+			<Text>凝光了解璃月港里的一切秘密，并善于在商战中为璃月赚取利益。</Text>
 		</Row>
 		<!-- 领袖玩法介绍 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
-			<Text>凝光具有强大的情报能力和反间谍能力，这能确保没有人可以在以「契约」闻名的璃月暗中搞破坏。同时，作为一个大商人，她能从璃月境内的国际商会中获取额外利益。[NEWLINE]璃月还拥有世界领先的贸易能力和经济能力，且特色建筑和来自岩石的历史底蕴能确保璃月的文化领先。</Text>
+			<Text>凝光具有强大的情报能力。只要将间谍派驻于国内城市，她很容易阻止璃月受敌人破坏。在使用凝光进行游戏时，务必维持大量国际 [ICON_TradeRoute] 贸易路线以获取最大收益。通过建设矿山和璃月港，璃月可以获得可观的 [ICON_Production] 生产力和 [ICON_Gold] 金币。</Text>
 		</Row>
         <Row Tag="LOC_LEADER_NINGGUANG_QUOTE" Language="zh_Hans_CN">
 			<Text>赌徒永远会把希望寄托在下一颗骰子上……但最后赚钱的，当然是从来不碰骰子的庄家。</Text>

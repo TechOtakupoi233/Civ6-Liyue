@@ -196,11 +196,11 @@
 		<!-- Leader specific pedia text. -->
 		<!-- 领袖特性概要 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_CAPSULE_BODY" Language="en_US">
-			<Text>Ningguang knows everything happening in Liyue harbor, her wealth is unsurpassed in all of Teyvat.</Text>
+			<Text>Ningguang knows everything happens in Liyue, and excels at making profit for Liyue in trade war.</Text>
 		</Row>
 		<!-- 领袖玩法介绍 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Ningguang has powerful intelligence and anti-spy abilities, this make sure no one can damage Liyue in dark. As a professional businesswoman, she can earn extra profit from international businesses.</Text>
+			<Text>Ningguang is strong in espionage. By establishing spies in her cities, it's easy for her to prevent Liyue from enemy sabotage. When playing as Ningguang, be sure to keep a lot of international [ICON_TradeRoute] Trade Routes for maximum income. By constructing Mines and Liyue Harbor, Liyue can earn a considerable amount of [ICON_Production] Production and [ICON_Gold] Gold.</Text>
 		</Row>
 
         <Row Tag="LOC_LEADER_NINGGUANG_QUOTE" Language="en_US">

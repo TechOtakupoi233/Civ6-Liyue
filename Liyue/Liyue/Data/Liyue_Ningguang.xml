@@ -3,8 +3,8 @@
 	<Types>
 		<Row Type="TRAIT_TIANQUAN" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_LIYUE_INVESTOR" Kind="KIND_TRAIT"/>
+		<Row Type="MODIFIER_PLAYER_ADJUST_INTERNATIONAL_TRADE_ROUTE_YIELD_MODIFIER_LIYUE" Kind="KIND_MODIFIER"/>
 	</Types>
-	
 	<LeaderTraits>
 		<Row LeaderType="LEADER_NINGGUANG" TraitType="TRAIT_TIANQUAN"/>
 	</LeaderTraits>
@@ -13,171 +13,94 @@
 		<Row TraitType="TRAIT_TIANQUAN" Name="LOC_TRAIT_LEADER_NINGGUANG_NAME" Description="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="UNIQUE_LEADER_ADD_VISIBILITY"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_SPY_PROMOTION_SURVEILLANCE"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_SPY_PROMOTION_POLYGRAPH"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="DIPLOMATICLEAGUE_DUPLICATEFIRSTINFLUENCETOKEN"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MODIFIER_TIANQUAN_SUZERAIN_FAVOR"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_GREAT_MERCHANT_POINTS"/>
-		<Row TraitType="TRAIT_TIANQUAN" ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="TIANQUAN_TRADER_VISIBILITY"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="TIANQUAN_SPY_PROMOTION_SURVEILLANCE"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="TIANQUAN_INTERNATIONALTRADECULTURE"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="TIANQUAN_INTERNATIONALTRADEFAITH"/>
+		<Row TraitType="TRAIT_TIANQUAN" ModifierId="TIANQUAN_INTERNATIONALTRADE_GAIN_GOLD"/>
 	</TraitModifiers>
-	<HistoricalAgendas>
-		<Row LeaderType="LEADER_NINGGUANG" AgendaType="AGENDA_MONEY_GRUBBER"/>
-	</HistoricalAgendas>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INTERNATIONAL_TRADE_ROUTE_YIELD_MODIFIER_LIYUE</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_PLAYER_INTERNATIONAL_TRADE_ROUTE_YIELD_MODIFIER</EffectType>
+		</Row>
+	</DynamicModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>MOD_TIANQUAN_SPY_PROMOTION_SURVEILLANCE</ModifierId>
+			<ModifierId>TIANQUAN_TRADER_VISIBILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TIANQUAN_SPY_PROMOTION_SURVEILLANCE</ModifierId>
 		    <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>MOD_TIANQUAN_SPY_PROMOTION_POLYGRAPH</ModifierId>
-	    	<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<ModifierId>TIANQUAN_INTERNATIONALTRADECULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>MODIFIER_TIANQUAN_SUZERAIN_FAVOR</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_SUZERAIN_FAVOR_MULTIPLIER</ModifierType>
+			<ModifierId>TIANQUAN_INTERNATIONALTRADEFAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_FOREIGN_TRADE_ROUTES_PASSING_THROUGH</ModifierType>
+			<ModifierId>TIANQUAN_INTERNATIONALTRADE_GAIN_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INTERNATIONAL_TRADE_ROUTE_YIELD_MODIFIER_LIYUE</ModifierType>
 		</Row>
-		<Row>
-			<ModifierId>MOD_TIANQUAN_GREAT_MERCHANT_POINTS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>IS_COMMERCIAL_DISTRICT</SubjectRequirementSetId>
-		</Row>
-		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST"/>
-		<Row ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_ALL_BUILDINGS_PURCHASE_COST"/>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>MOD_TIANQUAN_SPY_PROMOTION_SURVEILLANCE</ModifierId>
-			<Name>PromotionType</Name>
-			<Value>PROMOTION_SPY_SURVEILLANCE</Value>
-		</Row>
-		<Row>
-			<ModifierId>MOD_TIANQUAN_SPY_PROMOTION_POLYGRAPH</ModifierId>
-			<Name>PromotionType</Name>
-			<Value>PROMOTION_SPY_POLYGRAPH</Value>
-		</Row>
-		<Row>
-			<ModifierId>MODIFIER_TIANQUAN_SUZERAIN_FAVOR</ModifierId>
-			<Name>Amount</Name>
-			<Value>100</Value>
-		</Row>
-		<Row>
-			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>
-			<Name>Amount</Name>
-			<Value>5</Value>
-		</Row>
-		<Row>
-			<ModifierId>MOD_TIANQUAN_YIELD_FROM_TRADE_ROUTES</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
-		</Row>
-		<Row>
-			<ModifierId>MOD_TIANQUAN_GREAT_MERCHANT_POINTS</ModifierId>
+			<ModifierId>TIANQUAN_TRADER_VISIBILITY</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>MOD_TIANQUAN_GREAT_MERCHANT_POINTS</ModifierId>
-			<Name>GreatPersonClassType</Name>
-			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+			<ModifierId>TIANQUAN_TRADER_VISIBILITY</ModifierId>
+			<Name>Source</Name>
+			<Value>SOURCE_TRADER</Value>
 		</Row>
-		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" Name="Amount" Value="100"/>
-		<Row ModifierId="MOD_TIANQUAN_TRADER_PURCHASE_COST" Name="UnitType" Value="UNIT_TRADER"/>
-		<Row ModifierId="MOD_TIANQUAN_BUILDINGS_PURCHASE_COST" Name="Amount" Value="20"/>
-	</ModifierArguments>
-	<!-- =============== RequirementSets =============== -->
-	<RequirementSets>
 		<Row>
-			<RequirementSetId>IS_COMMERCIAL_DISTRICT</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+			<ModifierId>TIANQUAN_TRADER_VISIBILITY</ModifierId>
+			<Name>SourceType</Name>
+			<Value>DIPLO_SOURCE_ALL_NAMES</Value>
 		</Row>
-		<Row RequirementSetId="2ADJ_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="4ADJ_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="6ADJ_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="8ADJ_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="10ADJ_COMMERCIAL_HUB" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="2ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="4ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="6ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="8ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="10ADJ_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="CITY_HAS_CAMPUS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="CITY_HAS_HARBOR" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="CITY_HAS_ENTERTAINMENT_COMPLEX" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="CITY_HAS_THEATER" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="CITY_HAS_INDUSTRIAL_ZONE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-	</RequirementSets>
-	<RequirementSetRequirements>
-		<Row RequirementSetId="IS_COMMERCIAL_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_COMMERCIAL_HUB"/>
-		<Row RequirementSetId="IS_COMMERCIAL_DISTRICT" RequirementId="REQUIRES_DISTRICT_IS_HARBOR"/>
-		<Row RequirementSetId="2ADJ_COMMERCIAL_HUB" RequirementId="REQ_2ADJ_COMMERCIAL_HUB"/>
-		<Row RequirementSetId="4ADJ_COMMERCIAL_HUB" RequirementId="REQ_4ADJ_COMMERCIAL_HUB"/>
-		<Row RequirementSetId="6ADJ_COMMERCIAL_HUB" RequirementId="REQ_6ADJ_COMMERCIAL_HUB"/>
-		<Row RequirementSetId="8ADJ_COMMERCIAL_HUB" RequirementId="REQ_8ADJ_COMMERCIAL_HUB"/>
-		<Row RequirementSetId="10ADJ_COMMERCIAL_HUB" RequirementId="REQ_10ADJ_COMMERCIAL_HUB"/>
-		<Row RequirementSetId="2ADJ_HARBOR" RequirementId="REQ_2ADJ_HARBOR"/>
-		<Row RequirementSetId="4ADJ_HARBOR" RequirementId="REQ_4ADJ_HARBOR"/>
-		<Row RequirementSetId="6ADJ_HARBOR" RequirementId="REQ_6ADJ_HARBOR"/>
-		<Row RequirementSetId="8ADJ_HARBOR" RequirementId="REQ_8ADJ_HARBOR"/>
-		<Row RequirementSetId="10ADJ_HARBOR" RequirementId="REQ_10ADJ_HARBOR"/>
-		<Row RequirementSetId="CITY_HAS_CAMPUS" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
-		<Row RequirementSetId="CITY_HAS_HARBOR" RequirementId="REQUIRES_CITY_HAS_HARBOR"/>
-		<Row RequirementSetId="CITY_HAS_ENTERTAINMENT_COMPLEX" RequirementId="REQ_ENTERTAINMENT_COMPLEX"/>
-		<Row RequirementSetId="CITY_HAS_THEATER" RequirementId="REQUIRES_CITY_HAS_THEATER_DISTRICT"/>
-		<Row RequirementSetId="CITY_HAS_INDUSTRIAL_ZONE" RequirementId="REQUIRES_CITY_HAS_INDUSTRIAL_ZONE"/>
-	</RequirementSetRequirements>
-	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
-	<Requirements>
-		<Row RequirementId="REQ_2ADJ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
-		<Row RequirementId="REQ_4ADJ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
-		<Row RequirementId="REQ_6ADJ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
-		<Row RequirementId="REQ_8ADJ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
-		<Row RequirementId="REQ_10ADJ_COMMERCIAL_HUB" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
-		<Row RequirementId="REQ_2ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
-		<Row RequirementId="REQ_4ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
-		<Row RequirementId="REQ_6ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
-		<Row RequirementId="REQ_8ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
-		<Row RequirementId="REQ_10ADJ_HARBOR" RequirementType="REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT"/>
-		<Row RequirementId="REQ_ENTERTAINMENT_COMPLEX" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
-	</Requirements>
-	<RequirementArguments>
-		<Row RequirementId="REQ_2ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row RequirementId="REQ_2ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row RequirementId="REQ_2ADJ_COMMERCIAL_HUB" Name="Amount" Value="2"/>
-		<Row RequirementId="REQ_4ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row RequirementId="REQ_4ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row RequirementId="REQ_4ADJ_COMMERCIAL_HUB" Name="Amount" Value="4"/>
-		<Row RequirementId="REQ_6ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row RequirementId="REQ_6ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row RequirementId="REQ_6ADJ_COMMERCIAL_HUB" Name="Amount" Value="6"/>
-		<Row RequirementId="REQ_8ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row RequirementId="REQ_8ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row RequirementId="REQ_8ADJ_COMMERCIAL_HUB" Name="Amount" Value="8"/>
-		<Row RequirementId="REQ_10ADJ_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row RequirementId="REQ_10ADJ_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row RequirementId="REQ_10ADJ_COMMERCIAL_HUB" Name="Amount" Value="10"/>
-		<Row RequirementId="REQ_2ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row RequirementId="REQ_2ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row RequirementId="REQ_2ADJ_HARBOR" Name="Amount" Value="2"/>
-		<Row RequirementId="REQ_4ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row RequirementId="REQ_4ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row RequirementId="REQ_4ADJ_HARBOR" Name="Amount" Value="4"/>
-		<Row RequirementId="REQ_6ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row RequirementId="REQ_6ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row RequirementId="REQ_6ADJ_HARBOR" Name="Amount" Value="6"/>
-		<Row RequirementId="REQ_8ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row RequirementId="REQ_8ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row RequirementId="REQ_8ADJ_HARBOR" Name="Amount" Value="8"/>
-		<Row RequirementId="REQ_10ADJ_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row RequirementId="REQ_10ADJ_HARBOR" Name="YieldType" Value="YIELD_GOLD"/>
-		<Row RequirementId="REQ_10ADJ_HARBOR" Name="Amount" Value="10"/>
-		<Row RequirementId="REQ_ENTERTAINMENT_COMPLEX" Name="DistrictType" Value="DISTRICT_ENTERTAINMENT_COMPLEX"/>
-	</RequirementArguments>
+		<Row>
+			<ModifierId>TIANQUAN_SPY_PROMOTION_SURVEILLANCE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_SPY_SURVEILLANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TIANQUAN_INTERNATIONALTRADECULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TIANQUAN_INTERNATIONALTRADECULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TIANQUAN_INTERNATIONALTRADEFAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TIANQUAN_INTERNATIONALTRADEFAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Workaround to ensure only gold has +50% bonus. Just don't touch it. Firaxis magic!-->
+		<Row>
+			<ModifierId>TIANQUAN_INTERNATIONALTRADE_GAIN_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION, YIELD_FOOD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_GOLD, YIELD_FAITH,</Value>
+		</Row>
+		<Row>
+			<ModifierId>TIANQUAN_INTERNATIONALTRADE_GAIN_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>0, 0, 50, 0, 0, 0,</Value>
+		</Row>
+	</ModifierArguments>
 	
 	<AiListTypes>
 		<Row ListType="NingguangTechs"/>

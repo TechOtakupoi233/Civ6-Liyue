@@ -2,6 +2,8 @@
 -- Author: Shiro
 -- DateCreated: 11/18/2021 11:03:45 AM
 --------------------------------------------------------------
+-- currently commented out. further cleanup pending.
+/*
 INSERT INTO TraitModifiers (TraitType, ModifierId)
 VALUES	('TRAIT_TIANQUAN',	'MOD_2ADJ_COMMERCIAL_HUB'	),
         ('TRAIT_TIANQUAN',	'MOD_4ADJ_COMMERCIAL_HUB'	),
@@ -152,3 +154,4 @@ VALUES	('MOD_TIANQUAN_REVERSE_TRADE_CITY_CENTER_DF',			'YieldType',		'YIELD_FOOD
 		('MOD_10ADJ_HARBOR',				'YieldType',		'YIELD_GOLD'				),
 		('MOD_10ADJ_HARBOR',				'Amount',			20							),
 		('MOD_10ADJ_HARBOR',				'DistrictType',		'DISTRICT_HARBOR'			);
+*/
