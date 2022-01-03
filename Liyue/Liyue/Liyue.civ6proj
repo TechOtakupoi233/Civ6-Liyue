@@ -271,6 +271,18 @@
     <Content Include="Text\Liyue_TextEN.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="XLPs\Leaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\StrategicView_UILenses.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILensModels.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UI_PrideMoments.xlp">
+      <SubType>Content</SubType>
+    </Content>
     <XLP Include="XLPs\LiyueUI.xlp">
       <SubType>Content</SubType>
     </XLP>

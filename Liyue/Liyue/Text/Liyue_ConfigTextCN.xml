@@ -33,10 +33,10 @@
 		<Row Tag="LOC_LEADER_NINGGUANG_NAME" Language="zh_Hans_CN">
 			<Text>凝光</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_TRAIT_LEADER_QIXING_TIANQUAN_NAME" Language="zh_Hans_CN">
 			<Text>无所不知的天权星</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_TRAIT_LEADER_QIXING_TIANQUAN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>存在通往一个文明的国际 [ICON_TradeRoute] 贸易路线时，对该文明的 [ICON_VisLimited] 外交能见度上升1级。间谍初始便拥有“监视”升级。从国际 [ICON_TradeRoute] 贸易路线 +1 [ICON_Culture] 文化值和 +1 [ICON_Faith] 信仰值，且 [ICON_Gold] 金币产出 +50%。</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="zh_Hans_CN">

@@ -39,10 +39,10 @@
 		<Row Tag="LOC_LEADER_NINGGUANG_NAME" Language="en_US">
 			<Text>Ningguang</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_QIXING_TIANQUAN_NAME" Language="en_US">
 			<Text>Tianquan, the Star of All-Seeing</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_NINGGUANG_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_QIXING_TIANQUAN_DESCRIPTION" Language="en_US">
 			<Text>Receive an extra level of [ICON_VisLimited] Diplomatic Visibility for having an international [ICON_TradeRoute] Trade Route to a civilization. All spies start with a free Surveillance promotion. +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith and +50% [ICON_Gold] Gold from international [ICON_TradeRoute] Trade Routes. </Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="en_US">
