@@ -98,7 +98,7 @@
 		<Row>
 			<ModifierId>AGENDA_LIYUE_INVESTOR_TRADE</ModifierId>
 			<Name>BonusPerRoute</Name>
-			<Value>true</Value>
+			<Value>false</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_LIYUE_INVESTOR_TRADE</ModifierId>
