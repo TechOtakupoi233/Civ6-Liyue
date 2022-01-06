@@ -680,5 +680,14 @@
 		<Row Tag="LOC_CIVINFO_LIYUE_CL_LOCATION" Language="en_US">
 			<Text>Teyvat</Text>
 		</Row>
+		<Row Tag="LOC_CIVINFO_LIYUE_CL_SIZE" Language="en_US">
+			<Text>Hard to say, est. hundereds to tens of thousands square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIYUE_CL_POPULATION" Language="en_US">
+			<Text>Unknown, guessed to be 0.1-1 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIYUE_CL_CAPITAL" Language="en_US">
+			<Text>Liyue Harbor</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

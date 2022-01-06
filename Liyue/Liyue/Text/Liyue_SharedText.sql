@@ -14,7 +14,9 @@ VALUES	('en_US',	'LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME',			'Statue of the Seven
 		('en_US',	'LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_ADVENTURERS_GUILD_CHAPTER_HISTORY_PARA_1',					''	),
 
 		('en_US',	'LOC_UNIT_HILICHURL_FIGHTER_NAME',	'Hilichurl'	),
+		('en_US',	'LOC_PEDIA_UNITS_PAGE_UNIT_HILICHURL_FIGHTER_CHAPTER_HISTORY_PARA_1',					''	),
 		('en_US',	'LOC_UNIT_HILICHURL_GUARD_NAME',	'Mitachurl'	),
+		('en_US',	'LOC_PEDIA_UNITS_PAGE_UNIT_HILICHURL_GUARD_CHAPTER_HISTORY_PARA_1',					''	),
 
 		('en_US',	'LOC_NAMED_DESSERT_LIYUE_1',		'Sal Terrae'		),
 		('en_US',	'LOC_NAMED_DESSERT_LIYUE_2',		'Yaoguang Shoal'	),
@@ -35,7 +37,9 @@ VALUES	('en_US',	'LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME',			'Statue of the Seven
 		('zh_Hans_CN',	'LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_ADVENTURERS_GUILD_CHAPTER_HISTORY_PARA_1',					'冒险家协会是活跃于提瓦特七国的组织，为私人和组织提供私募冒险家服务。它是帮助新人冒险者适应冒险生活的平台，也为老手提供便利的帮助。冒险家协会收集来自各处口耳相传的情报，并将其编制为委托和冒险并安排给冒险者。有关冒险家协会的起源人们知之甚少，不过可以查知的是，这一协会的总部位于至冬国。冒险家协会的格言是“Ad Astra Abyssosque”（向着星辰与深渊），不过甚至是寻找失踪的猫咪这样的工作也在它们的职责范围内。'	),
 
 		('zh_Hans_CN',	'LOC_UNIT_HILICHURL_FIGHTER_NAME',	'丘丘人'		),
-		('zh_Hans_CN',	'LOC_UNIT_HILICHURL_GUARD_NAME',	'丘丘人首领'	),
+		('zh_Hans_CN',	'LOC_PEDIA_UNITS_PAGE_UNIT_HILICHURL_FIGHTER_CHAPTER_HISTORY_PARA_1',					'丘丘人是遍布提瓦特大陆，它们与人类轮廓相似，却失去了智能与灵性，仅有基础的文明形态。它们在大地上出没超过千年，却没有产生发达的文化，更不要说记录历史了。自五百年前的灾祸以来，丘丘人广泛地分布在大地各处。虽然力量弱小，缺乏组织，但有时也能给人们带来不小的麻烦。大部分“文明”人已经放弃了与丘丘人沟通的尝试，认为它们只是纯粹的、不通言语的魔物。尽管被大多数人视作是无法交流的未开化蛮族，不同地区不同部族的丘丘人仍然有各自不同的习惯。在蒙德的达达乌帕谷，喜好大吃大喝的好肉族会蓄养野猪，狡猾精明的好睡族会搭建简陋的房屋和床，而具有独特的图腾崇拜的黑日族则有更强大的萨满，并为它们之中地位最高的萨满准备了高大的御座。'	),
+		('zh_Hans_CN',	'LOC_UNIT_HILICHURL_GUARD_NAME',	'丘丘暴徒'	),
+		('zh_Hans_CN',	'LOC_PEDIA_UNITS_PAGE_UNIT_HILICHURL_GUARD_CHAPTER_HISTORY_PARA_1',					'一般来说，丘丘人部落中最具权威的是萨满——部落岁数最老的成员。然而，丘丘人衡量地位的标准并非只有年龄。在许多部落中，那些块头更大、战斗力更强的成员会取代萨满成为部落领袖，而这些部落似乎也会在它们的领导下变得更加好战。很容易地从巨大的体型和浮夸的面具头角装饰上就能分辨出这些好战的部落头目，也就是丘丘暴徒。它们通过磨炼成为大块头的战斗主力，假如在恶劣的环境中活得够久，这些专门的战士将会是部落中最受重视的领袖。有时，丘丘人群落中甚至会出现一些被称为“Lawa”（可能是“王”或“头领”之意）的庞然大物，不过它们并不作为头领实行统治或者指挥，而是避开其他丘丘人独自生活。'	),
 		
 		('zh_Hans_CN',	'LOC_NAMED_DESSERT_LIYUE_1',		'地中之盐'	),
 		('zh_Hans_CN',	'LOC_NAMED_DESSERT_LIYUE_2',		'瑶光滩'		),

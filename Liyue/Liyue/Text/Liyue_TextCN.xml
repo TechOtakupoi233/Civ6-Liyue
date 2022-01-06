@@ -669,5 +669,14 @@
 		<Row Tag="LOC_CIVINFO_LIYUE_CL_LOCATION" Language="zh_Hans_CN">
 			<Text>提瓦特</Text>
 		</Row>
+		<Row Tag="LOC_CIVINFO_LIYUE_CL_SIZE" Language="zh_Hans_CN">
+			<Text>难以判断，推测约数百至数万平方公里</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIYUE_CL_POPULATION" Language="zh_Hans_CN">
+			<Text>不明，猜测在数十万人</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LIYUE_CL_CAPITAL" Language="zh_Hans_CN">
+			<Text>璃月港</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

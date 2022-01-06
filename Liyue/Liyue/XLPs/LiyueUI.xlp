@@ -330,10 +330,6 @@
 			<m_ObjectName text="KEQING_1"/>
 		</Element>
 		<Element>
-			<m_EntryID text="NINGGUANG_1"/>
-			<m_ObjectName text="KEQING_1"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_DISTRICT_LIYUE_HARBOR_128"/>
 			<m_ObjectName text="ICON_DISTRICT_LIYUE_HARBOR_128"/>
 		</Element>
@@ -360,6 +356,10 @@
 		<Element>
 			<m_EntryID text="FontIcon_LiyueHarbor"/>
 			<m_ObjectName text="FontIcon_LiyueHarbor"/>
+		</Element>
+		<Element>
+			<m_EntryID text="NINGGUANG_1"/>
+			<m_ObjectName text="NINGGUANG_1"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
