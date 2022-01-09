@@ -97,7 +97,7 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="StatueOfTheSeven"/>
+				<m_Name text="AdventurersGuild"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -142,7 +142,7 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="StatueOfTheSeven_Pillaged"/>
+				<m_Name text="AdventurersGuild_Pillaged"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
@@ -205,7 +205,7 @@
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="StatueOfTheSeven"/>
+				<m_Name text="AdventurersGuild"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -264,7 +264,7 @@
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="StatueOfTheSeven_Pillaged"/>
+				<m_Name text="AdventurersGuild_Pillaged"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
@@ -571,4 +571,3 @@
 		</Element>
 	</m_RootCollections>
 </AssetObjects..ArtDefSet>
-
