@@ -193,6 +193,13 @@
 		</Row>
 
 		<!-- Ningguang -->
+
+		<Row Tag="LOC_VIZSOURCE_TRADER_NINGGUANG" Language="zh_Hans_CN">
+			<Text>（使用凝光时贸易路线额外提升外交能见度）</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_ACTION_TRADER_NINGGUANG" Language="zh_Hans_CN">
+			<Text>以凝光建立一条 [ICON_TradeRoute] 贸易路线。</Text>
+		</Row>
 		
 		<!-- Leader specific pedia text. -->
 		<!-- 领袖特性概要 -->

@@ -57,7 +57,7 @@
 		<Row>
 			<ModifierId>TIANQUAN_TRADER_VISIBILITY</ModifierId>
 			<Name>Source</Name>
-			<Value>SOURCE_TRADER</Value>
+			<Value>SOURCE_NINGGUANG_TRADER_TRAIT</Value>
 		</Row>
 		<Row>
 			<ModifierId>TIANQUAN_TRADER_VISIBILITY</ModifierId>
@@ -155,5 +155,9 @@
 	<ExclusiveAgendas>
 		<Row AgendaOne="AGENDA_LIYUE_INVESTOR" AgendaTwo="AGENDA_MONEY_GRUBBER"/>
 	</ExclusiveAgendas>
+
+	<DiplomaticVisibilitySources>
+		<Row VisibilitySourceType="SOURCE_NINGGUANG_TRADER_TRAIT" Description="LOC_VIZSOURCE_TRADER_NINGGUANG" ActionDescription="LOC_VIZSOURCE_ACTION_TRADER_NINGGUANG" GossipString="LOC_GOSSIP_SOURCE_TRADER" FromCitizen="true" Trader="true" TraitType="TRAIT_TIANQUAN"/>
+	</DiplomaticVisibilitySources>
 
 </GameData>

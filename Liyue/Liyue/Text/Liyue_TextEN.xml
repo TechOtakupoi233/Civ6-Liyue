@@ -192,6 +192,13 @@
 		</Row>
 
 		<!-- Ningguang -->
+
+		<Row Tag="LOC_VIZSOURCE_TRADER_NINGGUANG" Language="en_US">
+			<Text>(Trade Route provide extra Diplomatic Visibility when playing as Ningguang)</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_ACTION_TRADER_NINGGUANG" Language="en_US">
+			<Text>Establish a [ICON_TradeRoute] Trade Route as Ningguang.</Text>
+		</Row>
 		
 		<!-- Leader specific pedia text. -->
 		<!-- 领袖特性概要 -->
