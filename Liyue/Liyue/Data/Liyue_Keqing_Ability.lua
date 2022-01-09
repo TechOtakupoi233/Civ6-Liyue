@@ -16,14 +16,49 @@ end
 function OnCityMadePurchase_GrantMovement(playerID, cityID, iX, iY, purchaseType, objectType)
 	if (purchaseType ~= EventSubTypes.UNIT) then return; end	-- Grant Unit Movement Immediately After Purchase
 	if (not HasTrait("TRAIT_LEADER_QIXING_YUHENG", playerID)) then return; end
-
-	for i, pUnit in ipairs(Units.GetUnitsInPlot(Map.GetPlot(iX,iY))) do
-		if (pUnit:GetType() == objectType) then
-			UnitManager.RestoreMovementToFormation(pUnit);
-			UnitManager.RestoreUnitAttacks(pUnit);
-			break;
-		end
+	local pUnitWithMaxID;
+	for i, pUnit in ipairs(Units.GetUnitsInPlot(Map.GetPlot(iX,iY))) do 
+	    if not pUnitWithMaxID then
+            pUnitWithMaxID = pUnit;
+        end
+        if pUnitWithMaxID then 
+            if pUnit:GetID() > pUnitWithMaxID:GetID()  then -- choose the one that is produced (hopefully) later
+                pUnitWithMaxID = pUnit;
+            end
+        end
 	end
+    if pUnitWithMaxID then
+        if (pUnitWithMaxID:GetType() == objectType) then
+            UnitManager.RestoreMovementToFormation(pUnitWithMaxID);
+            UnitManager.RestoreUnitAttacks(pUnitWithMaxID);
+        else
+            for i, pUnit in Players[playerID]:GetUnits():Members() do -- "Unit in this plot" just ignores traders. This branch is for the case when an unit is just at the city.
+                if not pUnitWithMaxID then
+                    pUnitWithMaxID = pUnit;
+                end
+                if pUnitWithMaxID then 
+                    if pUnit:GetID() > pUnitWithMaxID:GetID()  then 
+                        pUnitWithMaxID = pUnit;
+                    end
+                 end
+            end
+            UnitManager.RestoreMovementToFormation(pUnitWithMaxID);
+            UnitManager.RestoreUnitAttacks(pUnitWithMaxID);
+        end
+    else
+        for i, pUnit in Players[playerID]:GetUnits():Members() do -- while this branch handle the case when no other unit is there.
+            if not pUnitWithMaxID then
+                pUnitWithMaxID = pUnit;
+            end
+            if pUnitWithMaxID then 
+                if pUnit:GetID() > pUnitWithMaxID:GetID()  then 
+                    pUnitWithMaxID = pUnit;
+                end
+             end
+        end
+        UnitManager.RestoreMovementToFormation(pUnitWithMaxID);
+        UnitManager.RestoreUnitAttacks(pUnitWithMaxID);
+    end
 end
 
 function OnUnitOperationStarted_ExtendShift(playerID:number, unitID:number, operationID:number)
