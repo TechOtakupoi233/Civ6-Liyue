@@ -194,7 +194,7 @@
 		<!-- Ningguang -->
 
 		<Row Tag="LOC_VIZSOURCE_TRADER_NINGGUANG" Language="en_US">
-			<Text>(Trade Route provide extra Diplomatic Visibility when playing as Ningguang)</Text>
+			<Text>(Ningguang can receive extra Visibility)</Text>
 		</Row>
 		<Row Tag="LOC_VIZSOURCE_ACTION_TRADER_NINGGUANG" Language="en_US">
 			<Text>Establish a [ICON_TradeRoute] Trade Route as Ningguang.</Text>
