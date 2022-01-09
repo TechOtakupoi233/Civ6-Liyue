@@ -7,149 +7,473 @@
 		<!--Governors-->
 		<Row Type="GOVERNOR_GANYU" Kind="KIND_GOVERNOR"/>
 		<!--Governor Promotions-->
-		<Row Type="GOVERNOR_PROMOTION_MIND_IN_CIVIL" Kind="KIND_GOVERNOR_PROMOTION"/>
-		<Row Type="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" Kind="KIND_GOVERNOR_PROMOTION"/>
-		<Row Type="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" Kind="KIND_GOVERNOR_PROMOTION"/>
-		<Row Type="GOVERNOR_PROMOTION_RESOURCE_STACKING" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_CELESTIAL_SHOWER" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_TRAIL_OF_QILIN" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" Kind="KIND_GOVERNOR_PROMOTION"/>
 		<Row Type="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" Kind="KIND_GOVERNOR_PROMOTION"/>
-		<Row Type="GOVERNOR_PROMOTION_FADE_IN_HUMAN" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_THE_CLEMENT" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="MODIFIER_PLAYER_CITIES_ADJUST_MODIFIED_FREE_POWER_MODIFIER_GANYU" Kind="KIND_MODIFIER"/>
 	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MODIFIED_FREE_POWER_MODIFIER_GANYU</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_MODIFIED_FREE_POWER_IN_CITY</EffectType>
+		</Row>
+	</DynamicModifiers>
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_GOVERNOR" MomentDataType="MOMENT_DATA_GOVERNOR" GameDataType="GOVERNOR_GANYU" Texture="Moment_PromoteGovernor_Ganyu"/>
 	</MomentIllustrations>
 	<Governors>
-		<Row GovernorType="GOVERNOR_GANYU" Image="GOVERNOR_GANYU" Name="LOC_GOVERNOR_GANYU_NAME" Title="LOC_GOVERNOR_GANYU_TITLE" ShortTitle="LOC_GOVERNOR_GANYU_SHORT_TITLE" Description="LOC_GOVERNOR_GANYU_DESCRIPTION" IdentityPressure="8" TransitionStrength="600" PortraitImage="GovernorNormal_Ganyu" PortraitImageSelected="GovernorSelected_Ganyu" TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS"/>
+		<Row GovernorType="GOVERNOR_GANYU" Image="GOVERNOR_GANYU" Name="LOC_GOVERNOR_GANYU_NAME" Title="LOC_GOVERNOR_GANYU_TITLE" ShortTitle="LOC_GOVERNOR_GANYU_SHORT_TITLE" Description="LOC_GOVERNOR_GANYU_DESCRIPTION" IdentityPressure="8" TransitionStrength="150" PortraitImage="GovernorNormal_Ganyu" PortraitImageSelected="GovernorSelected_Ganyu" TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS"/>
 	</Governors>
 	<GovernorPromotionSets>
-		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_MIND_IN_CIVIL"/>
-		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING"/>
-		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW"/>
-		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_FADE_IN_HUMAN"/>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX"/>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_CELESTIAL_SHOWER"/>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_TRAIL_OF_QILIN"/>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE"/>
 		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_PROSPEROUS_PEACE"/>
-		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_RESOURCE_STACKING"/>
+		<Row GovernorType="GOVERNOR_GANYU" GovernorPromotion="GOVERNOR_PROMOTION_THE_CLEMENT"/>
 	</GovernorPromotionSets>
 	<GovernorPromotions>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_MIND_IN_CIVIL" Name="LOC_GOVERNOR_PROMOTION_MIND_IN_CIVIL_NAME" Description="LOC_GOVERNOR_PROMOTION_MIND_IN_CIVIL_DESCRIPTION" Level="0" Column="1" BaseAbility="true"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" Name="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_NAME" Description="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_DESCRIPTION" Level="1" Column="0"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" Name="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_NAME" Description="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_DESCRIPTION" Level="1" Column="2"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FADE_IN_HUMAN" Name="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_NAME" Description="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_DESCRIPTION" Level="2" Column="1"/>		
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX" Name="LOC_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX_NAME" Description="LOC_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX_DESCRIPTION" Level="0" Column="1" BaseAbility="true"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_CELESTIAL_SHOWER" Name="LOC_GOVERNOR_PROMOTION_CELESTIAL_SHOWER_NAME" Description="LOC_GOVERNOR_PROMOTION_CELESTIAL_SHOWER_DESCRIPTION" Level="1" Column="0"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_TRAIL_OF_QILIN" Name="LOC_GOVERNOR_PROMOTION_TRAIL_OF_QILIN_NAME" Description="LOC_GOVERNOR_PROMOTION_TRAIL_OF_QILIN_DESCRIPTION" Level="1" Column="2"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" Name="LOC_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE_NAME" Description="LOC_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE_DESCRIPTION" Level="2" Column="1"/>
 		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" Name="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_NAME" Description="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_DESCRIPTION" Level="3" Column="0"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_STACKING" Name="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_NAME" Description="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_DESCRIPTION" Level="3" Column="2"/>
-		
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_THE_CLEMENT" Name="LOC_GOVERNOR_PROMOTION_THE_CLEMENT_NAME" Description="LOC_GOVERNOR_PROMOTION_THE_CLEMENT_DESCRIPTION" Level="3" Column="2"/>		
 	</GovernorPromotions>
 	<GovernorPromotionPrereqs>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" PrereqGovernorPromotion="GOVERNOR_PROMOTION_MIND_IN_CIVIL"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" PrereqGovernorPromotion="GOVERNOR_PROMOTION_MIND_IN_CIVIL"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FADE_IN_HUMAN" PrereqGovernorPromotion="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FADE_IN_HUMAN" PrereqGovernorPromotion="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" PrereqGovernorPromotion="GOVERNOR_PROMOTION_FADE_IN_HUMAN"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_STACKING" PrereqGovernorPromotion="GOVERNOR_PROMOTION_FADE_IN_HUMAN"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_CELESTIAL_SHOWER" PrereqGovernorPromotion="GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_TRAIL_OF_QILIN" PrereqGovernorPromotion="GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" PrereqGovernorPromotion="GOVERNOR_PROMOTION_TRAIL_OF_QILIN"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" PrereqGovernorPromotion="GOVERNOR_PROMOTION_CELESTIAL_SHOWER"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" PrereqGovernorPromotion="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_THE_CLEMENT" PrereqGovernorPromotion="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE"/>
 	</GovernorPromotionPrereqs>
 	<GovernorPromotionModifiers>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_MIND_IN_CIVIL" ModifierId="MOD_GANYU_AMENITY"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" ModifierId="MOD_GANYU_RANGED_EXP"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" ModifierId="MOD_GANYU_LOCAL_HEAL"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" ModifierId="MOD_GANYU_FROSTFLAKE_ARROW_STR"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" ModifierId="MOD_GANYU_FROSTFLAKE_ARROW_RANGE"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FROSTFLAKE_ARROW" ModifierId="CITY_DEFENDER_ADJUST_ATTACKS_PER_TURN"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" ModifierId="MOD_GANYU_ROUTE_LEVEL"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" ModifierId="MOD_GANYU_BUILDER_DISTRICT"/>
-		<!--<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" ModifierId="MOD_GANYU_COPY_BUILDER"/>-->
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" ModifierId="MOD_GANYU_DISTRICT_DISCOUNT"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" ModifierId="MOD_GANYU_BUILDING_DISCOUNT"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING" ModifierId="MOD_GANYU_UNIT_DISCOUNT"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FADE_IN_HUMAN" ModifierId="MOD_GANYU_HOUSING"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_FADE_IN_HUMAN" ModifierId="MOD_GANYU_FOOD"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" ModifierId="MOD_GANYU_EXTRA_DISTRICT"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" ModifierId="MOD_GANYU_DISTRICT_PURCHASE"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_STACKING" ModifierId="MOD_GANYU_REGIONAL_RANGE"/>
-		<Row GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_STACKING" ModifierId="MOD_GANYU_REGIONAL_STACK"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX" ModifierId="GANYU_EXTRA_DISTRICT"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_CELESTIAL_SHOWER" ModifierId="CITY_DEFENDER_ADJUST_ATTACKS_PER_TURN"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_CELESTIAL_SHOWER" ModifierId="GANYU_FRESH_WATER_FOOD"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_TRAIL_OF_QILIN" ModifierId="GANYU_UNIMPROVED_PLOT_CULTURE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_TRAIL_OF_QILIN" ModifierId="GANYU_RAINFOREST_APPEAL"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_TRAIL_OF_QILIN" ModifierId="GANYU_MARSH_APPEAL"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" ModifierId="GANYU_CHARMING_CAMPUS"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" ModifierId="GANYU_BREATHTAKING_CAMPUS"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" ModifierId="GANYU_CHARMING_THEATER"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" ModifierId="GANYU_BREATHTAKING_THEATER"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" ModifierId="GANYU_CHARMING_COMMERCIAL_HUB"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" ModifierId="GANYU_BREATHTAKING_COMMERCIAL_HUB"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" ModifierId="GANYU_CHARMING_HOLY_SITE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" ModifierId="GANYU_BREATHTAKING_HOLY_SITE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" ModifierId="GANYU_CHARMING_INDUSTRIAL_ZONE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HARMONY_WITH_NATURE" ModifierId="GANYU_BREATHTAKING_INDUSTRIAL_ZONE"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" ModifierId="GANYU_SCIENCE_CITIZEN"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" ModifierId="GANYU_CULTURE_CITIZEN"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PROSPEROUS_PEACE" ModifierId="GANYU_PRODUCTION_CITIZEN"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_THE_CLEMENT" ModifierId="GANYU_FREE_POWER_BONUS"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_THE_CLEMENT" ModifierId="GANYU_NATIONAL_PARK_AMENITIES"/>
 	</GovernorPromotionModifiers>
 	<Modifiers>
-		<Row ModifierId="MOD_GANYU_RANGED_EXP" ModifierType="MODIFIER_CITY_TRAINED_UNITS_ADJUST_GRANT_EXPERIENCE" SubjectRequirementSetId="UNIT_IS_RANGED"/>
-		<Row ModifierId="MOD_GANYU_LOCAL_HEAL" ModifierType="MODIFIER_GOVERNOR_ADJUST_HEAL" SubjectRequirementSetId="PLOT_10_TILES_AWAY_MAX_REQUIREMENTS"/>
-		<Row ModifierId="MOD_GANYU_FROSTFLAKE_ARROW_STR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_RANGED_STRIKE"/>
-		<Row ModifierId="MOD_GANYU_FROSTFLAKE_ARROW_RANGE" ModifierType="MODIFIER_DISTRICT_ADJUST_CITY_ATTACK_RANGE"/>
-		<Row ModifierId="MOD_GANYU_ROUTE_LEVEL" ModifierType="MODIFIER_PLAYER_ADJUST_IMPROVED_ROUTE_LEVEL" SubjectRequirementSetId="LDIS_KEQING"/>		
-		<Row ModifierId="MOD_GANYU_BUILDER_DISTRICT" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT" SubjectRequirementSetId="LDIS_KEQING"/>
-		<!--<Row ModifierId="MOD_GANYU_COPY_BUILDER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG" SubjectRequirementSetId="LDIS_KEQING"/>-->
-		<Row ModifierId="MOD_GANYU_DISTRICT_DISCOUNT" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_ALL_DISTRICT_PURCHASE_COST" SubjectRequirementSetId="LDIS_NINGGUANG"/>
-		<Row ModifierId="MOD_GANYU_BUILDING_DISCOUNT" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_ALL_BUILDINGS_PURCHASE_COST" SubjectRequirementSetId="LDIS_NINGGUANG"/>
-		<Row ModifierId="MOD_GANYU_UNIT_DISCOUNT" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_ALL_UNIT_PURCHASE_COST" SubjectRequirementSetId="LDIS_NINGGUANG"/>		
-		<Row ModifierId="MOD_GANYU_EXTRA_DISTRICT" ModifierType="MODIFIER_SINGLE_CITY_EXTRA_DISTRICT"/>
-		<Row ModifierId="MOD_GANYU_DISTRICT_PURCHASE" ModifierType="MODIFIER_CITY_ADJUST_CAN_PURCHASE_DISTRICTS"/>
-		<Row ModifierId="MOD_GANYU_REGIONAL_RANGE" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_REGIONAL_RANGE"/>
-		<Row ModifierId="MOD_GANYU_REGIONAL_STACK" ModifierType="MODIFIER_CITY_ADJUST_ALLOWED_INCOMING_REGIONAL_STACKING"/>
-		<Row ModifierId="MOD_GANYU_HOUSING" ModifierType="MODIFIER_PLAYER_GRANT_CITIES_FRESHWATER_HOUSING_BONUS" SubjectRequirementSetId="CITY_HAS_GANYU"/>
-		<Row ModifierId="MOD_GANYU_FOOD" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="TILE_HAS_FOOD_RESOURCE"/>
-		<Row ModifierId="MOD_GANYU_AMENITY" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_AMENITIES_FROM_GOVERNORS"/>
+		<Row>
+			<ModifierId>GANYU_EXTRA_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_FRESH_WATER_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_FRESH_GANYU</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_UNIMPROVED_PLOT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_UNIMPROVED_REQUIREMENTS_GANYU</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_RAINFOREST_APPEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_TRAIL_OF_QILIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_MARSH_APPEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_TRAIL_OF_QILIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_CHARMING_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_BREATHTAKING_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_CHARMING_THEATER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_BREATHTAKING_THEATER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_CHARMING_COMMERCIAL_HUB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_BREATHTAKING_COMMERCIAL_HUB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_CHARMING_HOLY_SITE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_BREATHTAKING_HOLY_SITE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_CHARMING_INDUSTRIAL_ZONE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_BREATHTAKING_INDUSTRIAL_ZONE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_SCIENCE_CITIZEN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_CULTURE_CITIZEN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_PRODUCTION_CITIZEN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_FREE_POWER_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MODIFIED_FREE_POWER_MODIFIER_GANYU</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_THE_CLEMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_NATIONAL_PARK_AMENITIES</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_AMENITIES_FROM_GOVERNORS</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_NATIONAL_PARK_REQUREMENTS</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
+	
 	<ModifierArguments>
-		<Row ModifierId="MOD_GANYU_RANGED_EXP" Name="Amount" Value="-1"/>
-		<Row ModifierId="MOD_GANYU_LOCAL_HEAL" Name="Amount" Value="10"/>
-		<Row ModifierId="MOD_GANYU_FROSTFLAKE_ARROW_STR" Name="Amount" Value="10"/>
-		<!--<Row ModifierId="MOD_GANYU_COPY_BUILDER" Name="Tag" Value="CLASS_LIYUE_WORKER"/>
-		<Row ModifierId="MOD_GANYU_COPY_BUILDER" Name="Amount" Value="1"/>-->
-		<Row ModifierId="MOD_GANYU_ROUTE_LEVEL" Name="ImprovedRouteLevel" Value="1"/>
-		<Row ModifierId="MOD_GANYU_DISTRICT_DISCOUNT" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_GANYU_BUILDING_DISCOUNT" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_GANYU_UNIT_DISCOUNT" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_GANYU_EXTRA_DISTRICT" Name="Amount" Value="1"/>
-		<Row ModifierId="MOD_GANYU_DISTRICT_PURCHASE" Name="CanPurchase" Value="true"/>
-		<Row ModifierId="MOD_GANYU_REGIONAL_RANGE" Name="Amount" Value="6"/>
-		<Row ModifierId="MOD_GANYU_REGIONAL_STACK" Name="YieldType" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="MOD_GANYU_BUILDER_DISTRICT" Name="Amount" Value="20"/>
-		<Row ModifierId="MOD_GANYU_HOUSING" Name="HasBonus" Value="true"/>
-		<Row ModifierId="MOD_GANYU_FOOD" Name="Amount" Value="3"/>
-		<Row ModifierId="MOD_GANYU_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
-		<Row ModifierId="MOD_GANYU_AMENITY" Name="Amount" Value="3"/>
+		<Row>
+			<ModifierId>GANYU_EXTRA_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_FRESH_WATER_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_FRESH_WATER_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_UNIMPROVED_PLOT_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_UNIMPROVED_PLOT_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_RAINFOREST_APPEAL</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_RAINFOREST_APPEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_MARSH_APPEAL</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_MARSH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_MARSH_APPEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row ModifierId="GANYU_CHARMING_CAMPUS" Name="YieldType" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="GANYU_CHARMING_CAMPUS" Name="RequiredAppeal" Value="2"/>
+		<Row ModifierId="GANYU_CHARMING_CAMPUS" Name="YieldChange" Value="1"/>
+		<Row ModifierId="GANYU_CHARMING_CAMPUS" Name="DistrictType" Value="DISTRICT_CAMPUS"/>
+		<Row ModifierId="GANYU_CHARMING_CAMPUS" Name="Description" Value="LOC_DISTRICT_APPEAL_SCIENCE"/>
+		<Row ModifierId="GANYU_BREATHTAKING_CAMPUS" Name="YieldType" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="GANYU_BREATHTAKING_CAMPUS" Name="RequiredAppeal" Value="4"/>
+		<Row ModifierId="GANYU_BREATHTAKING_CAMPUS" Name="YieldChange" Value="2"/>
+		<Row ModifierId="GANYU_BREATHTAKING_CAMPUS" Name="DistrictType" Value="DISTRICT_CAMPUS"/>
+		<Row ModifierId="GANYU_BREATHTAKING_CAMPUS" Name="Description" Value="LOC_DISTRICT_APPEAL_SCIENCE"/>
+		
+		<Row ModifierId="GANYU_CHARMING_THEATER" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="GANYU_CHARMING_THEATER" Name="RequiredAppeal" Value="2"/>
+		<Row ModifierId="GANYU_CHARMING_THEATER" Name="YieldChange" Value="1"/>
+		<Row ModifierId="GANYU_CHARMING_THEATER" Name="DistrictType" Value="DISTRICT_THEATER"/>
+		<Row ModifierId="GANYU_CHARMING_THEATER" Name="Description" Value="LOC_DISTRICT_APPEAL_CULTURE"/>
+		<Row ModifierId="GANYU_BREATHTAKING_THEATER" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="GANYU_BREATHTAKING_THEATER" Name="RequiredAppeal" Value="4"/>
+		<Row ModifierId="GANYU_BREATHTAKING_THEATER" Name="YieldChange" Value="2"/>
+		<Row ModifierId="GANYU_BREATHTAKING_THEATER" Name="DistrictType" Value="DISTRICT_THEATER"/>
+		<Row ModifierId="GANYU_BREATHTAKING_THEATER" Name="Description" Value="LOC_DISTRICT_APPEAL_CULTURE"/>
+		
+		<Row ModifierId="GANYU_CHARMING_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GANYU_CHARMING_COMMERCIAL_HUB" Name="RequiredAppeal" Value="2"/>
+		<Row ModifierId="GANYU_CHARMING_COMMERCIAL_HUB" Name="YieldChange" Value="1"/>
+		<Row ModifierId="GANYU_CHARMING_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ModifierId="GANYU_CHARMING_COMMERCIAL_HUB" Name="Description" Value="LOC_DISTRICT_APPEAL_GOLD"/>
+		<Row ModifierId="GANYU_BREATHTAKING_COMMERCIAL_HUB" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="GANYU_BREATHTAKING_COMMERCIAL_HUB" Name="RequiredAppeal" Value="4"/>
+		<Row ModifierId="GANYU_BREATHTAKING_COMMERCIAL_HUB" Name="YieldChange" Value="2"/>
+		<Row ModifierId="GANYU_BREATHTAKING_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ModifierId="GANYU_BREATHTAKING_COMMERCIAL_HUB" Name="Description" Value="LOC_DISTRICT_APPEAL_GOLD"/>
+		
+		<Row ModifierId="GANYU_CHARMING_HOLY_SITE" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="GANYU_CHARMING_HOLY_SITE" Name="RequiredAppeal" Value="2"/>
+		<Row ModifierId="GANYU_CHARMING_HOLY_SITE" Name="YieldChange" Value="1"/>
+		<Row ModifierId="GANYU_CHARMING_HOLY_SITE" Name="DistrictType" Value="DISTRICT_HOLY_SITE"/>
+		<Row ModifierId="GANYU_CHARMING_HOLY_SITE" Name="Description" Value="LOC_DISTRICT_APPEAL_FAITH"/>
+		<Row ModifierId="GANYU_BREATHTAKING_HOLY_SITE" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="GANYU_BREATHTAKING_HOLY_SITE" Name="RequiredAppeal" Value="4"/>
+		<Row ModifierId="GANYU_BREATHTAKING_HOLY_SITE" Name="YieldChange" Value="2"/>
+		<Row ModifierId="GANYU_BREATHTAKING_HOLY_SITE" Name="DistrictType" Value="DISTRICT_HOLY_SITE"/>
+		<Row ModifierId="GANYU_BREATHTAKING_HOLY_SITE" Name="Description" Value="LOC_DISTRICT_APPEAL_FAITH"/>
+		
+		<Row ModifierId="GANYU_CHARMING_INDUSTRIAL_ZONE" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="GANYU_CHARMING_INDUSTRIAL_ZONE" Name="RequiredAppeal" Value="2"/>
+		<Row ModifierId="GANYU_CHARMING_INDUSTRIAL_ZONE" Name="YieldChange" Value="1"/>
+		<Row ModifierId="GANYU_CHARMING_INDUSTRIAL_ZONE" Name="DistrictType" Value="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ModifierId="GANYU_CHARMING_INDUSTRIAL_ZONE" Name="Description" Value="LOC_DISTRICT_APPEAL_PRODUCTION"/>
+		<Row ModifierId="GANYU_BREATHTAKING_INDUSTRIAL_ZONE" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="GANYU_BREATHTAKING_INDUSTRIAL_ZONE" Name="RequiredAppeal" Value="4"/>
+		<Row ModifierId="GANYU_BREATHTAKING_INDUSTRIAL_ZONE" Name="YieldChange" Value="2"/>
+		<Row ModifierId="GANYU_BREATHTAKING_INDUSTRIAL_ZONE" Name="DistrictType" Value="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ModifierId="GANYU_BREATHTAKING_INDUSTRIAL_ZONE" Name="Description" Value="LOC_DISTRICT_APPEAL_PRODUCTION"/>
+		<Row>
+			<ModifierId>GANYU_SCIENCE_CITIZEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.5</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_SCIENCE_CITIZEN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_CULTURE_CITIZEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.5</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_CULTURE_CITIZEN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_PRODUCTION_CITIZEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_PRODUCTION_CITIZEN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_FREE_POWER_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GANYU_NATIONAL_PARK_AMENITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
-		<Row RequirementSetId="CITY_HAS_GANYU" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="OPIS_BARBARIAN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="UNIT_IS_RANGED" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="LDIS_KEQING" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="LDIS_NINGGUANG" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="TILE_HAS_FOOD_IMPROVEMENT" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="TILE_HAS_FOOD_RESOURCE" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_CELESTIAL_SHOWER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_TRAIL_OF_QILIN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_PROSPEROUS_PEACE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_THE_CLEMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_FRESH_GANYU</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_UNIMPROVED_REQUIREMENTS_GANYU</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
-		<Row RequirementSetId="CITY_HAS_GANYU" RequirementId="REQ_CITY_HAS_GANYU"/>
-		<Row RequirementSetId="OPIS_BARBARIAN" RequirementId="REQ_BARBARIAN"/>
-		<Row RequirementSetId="UNIT_IS_RANGED" RequirementId="REQ_ARANGED"/>
-		<Row RequirementSetId="LDIS_KEQING" RequirementId="REQ_KEQING"/>
-		<Row RequirementSetId="LDIS_NINGGUANG" RequirementId="REQ_NINGGUANG"/>
-		<Row RequirementSetId="TILE_HAS_FOOD_IMPROVEMENT" RequirementId="REQ_ANY_IMPROVEMENT"/>
-		<Row RequirementSetId="TILE_HAS_FOOD_IMPROVEMENT" RequirementId="REQ_FOOD_RESOURCE"/>
-		<Row RequirementSetId="TILE_HAS_FOOD_RESOURCE" RequirementId="REQ_BANANAS"/>
-		<Row RequirementSetId="TILE_HAS_FOOD_RESOURCE" RequirementId="REQ_RICE"/>
-		<Row RequirementSetId="TILE_HAS_FOOD_RESOURCE" RequirementId="REQ_WHEAT"/>
-		<Row RequirementSetId="TILE_HAS_FOOD_RESOURCE" RequirementId="REQ_MAIZE"/>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_CELESTIAL_SHOWER</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_CELESTIAL_SHOWER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_TRAIL_OF_QILIN</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_TRAIL_OF_QILIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_PROSPEROUS_PEACE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_PROSPEROUS_PEACE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_THE_CLEMENT</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_THE_CLEMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_FRESH_GANYU</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_FRESH_WATER_GANYU</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_UNIMPROVED_REQUIREMENTS_GANYU</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_IMPROVEMENT</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
-		<Row RequirementId="REQ_CITY_HAS_GANYU" RequirementType="REQUIREMENT_CITY_HAS_SPECIFIC_GOVERNOR_PROMOTION_TYPE"/>
-		<Row RequirementId="REQ_BARBARIAN" RequirementType="REQUIREMENT_OPPONENT_IS_BARBARIAN"/>
-		<Row RequirementId="REQ_ARANGED" RequirementType="REQUIREMENT_UNIT_TAG_MATCHES"/>
-		<Row RequirementId="REQ_KEQING" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
-		<Row RequirementId="REQ_NINGGUANG" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
-		<Row RequirementId="REQ_ANY_IMPROVEMENT" RequirementType="REQUIREMENT_PLOT_HAS_ANY_IMPROVEMENT"/>
-		<Row RequirementId="REQ_FOOD_RESOURCE" RequirementType="REQUIREMENT_REQUIREMENTSET_IS_MET"/>
-		<Row RequirementId="REQ_BANANAS" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES"/>
-		<Row RequirementId="REQ_RICE" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES"/>
-		<Row RequirementId="REQ_WHEAT" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES"/>
-		<Row RequirementId="REQ_MAIZE" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES"/>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_SPECIFIC_GOVERNOR_PROMOTION_TYPE</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_CELESTIAL_SHOWER</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_SPECIFIC_GOVERNOR_PROMOTION_TYPE</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_TRAIL_OF_QILIN</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_SPECIFIC_GOVERNOR_PROMOTION_TYPE</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_SPECIFIC_GOVERNOR_PROMOTION_TYPE</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_PROSPEROUS_PEACE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_SPECIFIC_GOVERNOR_PROMOTION_TYPE</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_THE_CLEMENT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_SPECIFIC_GOVERNOR_PROMOTION_TYPE</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_FRESH_WATER_GANYU</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_FRESH_WATER</RequirementType>
+		</Row>
 	</Requirements>
 	<RequirementArguments>
-		<Row RequirementId="REQ_CITY_HAS_GANYU" Name="GovernorPromotionType" Value="GOVERNOR_PROMOTION_FADE_IN_HUMAN"/>
-		<Row RequirementId="REQ_CITY_HAS_GANYU" Name="Established" Value="true"/>
-		<Row RequirementId="REQ_ARANGED" Name="Tag" Value="CLASS_RANGED"/>
-		<Row RequirementId="REQ_KEQING" Name="LeaderType" Value="LEADER_KEQING"/>
-		<Row RequirementId="REQ_NINGGUANG" Name="LeaderType" Value="LEADER_NINGGUANG"/>
-		<Row RequirementId="REQ_FOOD_RESOURCE" Name="OnlyOwnersCity" Value="true"/>
-		<Row RequirementId="REQ_FOOD_RESOURCE" Name="RequirementSetId" Value="TILE_HAS_FOOD_RESOURCE"/>
-		<Row RequirementId="REQ_BANANAS" Name="ResourceType" Value="RESOURCE_BANANAS"/>
-		<Row RequirementId="REQ_RICE" Name="ResourceType" Value="RESOURCE_RICE"/>
-		<Row RequirementId="REQ_WHEAT" Name="ResourceType" Value="RESOURCE_WHEAT"/>
-		<Row RequirementId="REQ_MAIZE" Name="ResourceType" Value="RESOURCE_MAIZE"/>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX</RequirementId>
+			<Name>Established</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX</RequirementId>
+			<Name>GovernorPromotionType</Name>
+			<Value>GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_CELESTIAL_SHOWER</RequirementId>
+			<Name>Established</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_CELESTIAL_SHOWER</RequirementId>
+			<Name>GovernorPromotionType</Name>
+			<Value>GOVERNOR_PROMOTION_CELESTIAL_SHOWER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_TRAIL_OF_QILIN</RequirementId>
+			<Name>Established</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_TRAIL_OF_QILIN</RequirementId>
+			<Name>GovernorPromotionType</Name>
+			<Value>GOVERNOR_PROMOTION_TRAIL_OF_QILIN</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</RequirementId>
+			<Name>Established</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</RequirementId>
+			<Name>GovernorPromotionType</Name>
+			<Value>GOVERNOR_PROMOTION_HARMONY_WITH_NATURE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_PROSPEROUS_PEACE</RequirementId>
+			<Name>Established</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_PROSPEROUS_PEACE</RequirementId>
+			<Name>GovernorPromotionType</Name>
+			<Value>GOVERNOR_PROMOTION_PROSPEROUS_PEACE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_THE_CLEMENT</RequirementId>
+			<Name>Established</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOVERNOR_PROMOTION_THE_CLEMENT</RequirementId>
+			<Name>GovernorPromotionType</Name>
+			<Value>GOVERNOR_PROMOTION_THE_CLEMENT</Value>
+		</Row>
 	</RequirementArguments>
 </GameData>

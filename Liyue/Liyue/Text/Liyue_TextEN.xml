@@ -405,89 +405,76 @@
 			<Text>Ganyu</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_GANYU_TITLE" Language="en_US">
-			<Text>The secretary of the Liyue Qixing</Text>
+			<Text>The Secretary</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_GANYU_SHORT_TITLE" Language="en_US">
-			<Text>The secretary of the Liyue Qixing</Text>
+			<Text>Secretary</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_GANYU_DESCRIPTION" Language="en_US">
-			<Text>Ganyu is the architect of administrative efficiency.[NEWLINE]She cares of the civilians' livelihood, provides bonus in multiple areas.</Text>
+			<Text>Ganyu is the secretary to the Liyue Qixing, the blood of both human and illuminated beast flows within her veins. She is able to bring prosperity to her city, and is quite skilled in nature conservation.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Drink only spring water, eat only whole grain. Proceed with elegance, avoid certain peril.</Text>
+			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>For the Liyue Qixing of the lofty Yujing Terrace, Ganyu is not merely a companion to serve them, but is instead coordinator of the web of information that moves across Liyue Harbor, and the architect of administrative efficiency.[NEWLINE]Complex meeting minutes, disorderly report data... Every day piles of documents flow by like water, each one personally compiled by her into clear and concise words in order to assist the Qixing's every decision and negotiation as they flow through various organizational departments.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text>In the eons that have gone by, the Qixing have changed with each succession of their posts, while only Ganyu has lived to see the flourishing of Liyue Harbor from beginning to the modern day.[NEWLINE]The human blood that runs through her veins makes her reluctant to leave the splendor of the city lights, while her adeptus side leads her to yearn for the gentle serenity of her adeptal homeland.[NEWLINE]For the half-human, half-adeptus Ganyu, between the bustling sea of people and the ethereal clustered peaks, which is more fitting to call home?</Text>
-		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_MIND_IN_CIVIL_NAME" Language="en_US">
-			<Text>Mind in civilians</Text>
-		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_MIND_IN_CIVIL_DESCRIPTION" Language="en_US">
-			<Text>Returns to her work in no time. +3[ICON_Amenities]Amenities。</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MIND_IN_CIVIL_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>As the secretary of Yuehai Pavilion, Ganyu undertakes many tasks that ordinary folk do not see. The calculations and data behind the Qixing's every decision in Liyue, as well as every ordinance and regulation that is announced, are all the meticulous work of Ganyu.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_MIND_IN_CIVIL_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>Each daybreak she stands by the dock, enjoying her breakfast in silence. Even still, by the time the sun has fully risen, she will have returned to Yuehai Pavilion overlooking Yujing Terrace, to continue to fulfill her contract — one that she signed three thousand years ago with Rex Lapis.</Text>
-		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_NAME" Language="en_US">
-			<Text>Decision helper</Text>
-		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_DESCRIPTION" Language="en_US">
-			<Text>Provide unique ability according to Leader.(Details in Civilopidia)</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>"Decision helper" provides one of the following bonuses according to Leader: [NEWLINE]For Keqing: +1 Road Level, enable using builders to help constuct districts.[NEWLINE]For Ningguang: 20% discount when purchasing districts, buildings, units in this city.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_SECRETARY_FOR_QIXING_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>They are aware that the Liyue Qixing are the cream of the crop who hold the fate of the city in their hands, but the calculations and data behind the Qixing's every decision are far harder to grasp.[NEWLINE]The people understand that the new policies announced each year will change the dynamics of the market, yet none can comprehend how policy is plucked from complex meeting minutes and compiled into something easier on the human eye.</Text>
-		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_NAME" Language="en_US">
-			<Text>Frost flake arrow</Text>
-		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_DESCRIPTION" Language="en_US">
-			<Text>City +10[ICON_Ranged]ranged attack strength，and one extra[ICON_Ranged]shot.[NEWLINE]Ranged units trained in this city gets free promotion.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FROSTFLAKE_ARROW_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_NAME" Language="en_US">
-			<Text>Fade in human</Text>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX_NAME" Language="en_US">
+			<Text>Contract with Morax</Text>
 		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_FADE_IN_HUMAN_DESCRIPTION" Language="en_US">
-			<Text>Provide fresh water for the city. +3[ICON_Food]food for improved crop resource in the city.</Text>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX_DESCRIPTION" Language="en_US">
+			<Text>Establishes in 3 turns. Lets this city build one more district than the [ICON_Citizen] Population limit allows.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FADE_IN_HUMAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>How long is a thousand years?[NEWLINE]Long enough for the Glaze Lilies that once teemed throughout Dihua Marsh to be wiped out by floodwaters, and long enough for the thriving settlement that sprung up upon Guili Plains to come to ruin in war.[NEWLINE]How short is a thousand years?[NEWLINE]To Ganyu, it has felt shorter than the blink of an eye.</Text>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CONTRACT_WITH_MORAX_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FADE_IN_HUMAN_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text>Throughout a passage of time unimaginable to mortals, Ganyu has been working on all manner of things at Yujing Terrace.[NEWLINE]She recorded the raising and demolishing of every building, and witnessed the rise to prosperity of every industry.[NEWLINE]Ganyu's sense of objectivity towards the passage of time comes from the endless reams of data she must trawl through, and from the ever-increasing number of colors she finds that she needs to categorize it all.</Text>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_CELESTIAL_SHOWER_NAME" Language="en_US">
+			<Text>Celestial Shower</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_FADE_IN_HUMAN_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text>All this time, her mindset has never changed — she constantly wavers between her human and adeptus halves.[NEWLINE]On one hand, Ganyu the qilin finds it difficult to comprehend mortal squabbles. But on the other hand, her human blood reminds her always to hold out hope that she might someday be able to fit in.</Text>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_CELESTIAL_SHOWER_DESCRIPTION" Language="en_US">
+			<Text>City gains an additional [ICON_Ranged] Ranged Strike per turn. Freshwater tiles receive +1 [ICON_FOOD] Food.</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_CELESTIAL_SHOWER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_TRAIL_OF_QILIN_NAME" Language="en_US">
+			<Text>Trail of Qilin</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_TRAIL_OF_QILIN_DESCRIPTION" Language="en_US">
+			<Text>This city receives +2 [ICON_Culture] Culture from each unimproved tile. Rainforest and Marsh tiles in this city grant +1 Appeal to adjacent tiles, instead of the usual -1.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_TRAIL_OF_QILIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE_NAME" Language="en_US">
+			<Text>Harmony with Nature</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE_DESCRIPTION" Language="en_US">
+			<Text>Yields from Campus, Commercial Hub, Holy Site, Theater Square and Industrial Zone in this city are +1 in tiles with Charming Appeal, +3 in Breathtaking.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
 		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_NAME" Language="en_US">
-			<Text>Prosperous peace</Text>
+			<Text>Prosperous Peace</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_DESCRIPTION" Language="en_US">
-			<Text>Extra available district in city，and the availability to purchase using[ICON_Gold]Gold.</Text>
+			<Text>+0.5 [ICON_SCIENCE] Science, +0.5 [ICON_Culture] Culture and +1 [ICON_Production] Production per turn for each [ICON_Citizen] Citizen in the city.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_PROSPEROUS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_PROSPEROUS_PEACE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_NAME" Language="en_US">
-			<Text>Resource allocating</Text>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_THE_CLEMENT_NAME" Language="en_US">
+			<Text>The Clement</Text>
 		</Row>
-		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_STACKING_DESCRIPTION" Language="en_US">
-			<Text>Regional effect from buildings can now spread 6 tiles further. Allow the city to receive[ICON_Production]production bonus from multiple industrial districts.</Text>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_THE_CLEMENT_DESCRIPTION" Language="en_US">
+			<Text>+100% [ICON_POWER] Power from local renewable sources in this city. +3 [ICON_Amenities] Amenities in the city if the city has a National Park.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_RESOURCE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_THE_CLEMENT_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_LIYUE_CL_MALE_1" Language="en_US">
 			<Text>Jiayi</Text>
