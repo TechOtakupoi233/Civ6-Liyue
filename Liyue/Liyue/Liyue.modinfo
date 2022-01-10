@@ -4,7 +4,7 @@
     <Name>LOC_LIYUE_MOD_TITLE_CL</Name>
     <Description>LOC_LIYUE_MOD_DESCRIPTION_CL</Description>
     <CustomProperties></CustomProperties>
-    <Created>1641823160</Created>
+    <Created>1641828399</Created>
     <Teaser>LOC_LIYUE_MOD_TEASER_CL</Teaser>
     <Authors>CLHotuski</Authors>
     <SpecialThanks>Dwughjsd, KevinLiu, hemmelfort</SpecialThanks>
@@ -153,6 +153,12 @@
       <File>Data/Genshin_Shared_UI.lua</File>
       <File>Data/Genshin_Shared_UI.xml</File>
     </AddUserInterfaces>
+    <UpdateAudio id="LiyueAudio_NoMondstadtXP1andBeyond">
+      <Criteria>leaderPlayable</Criteria>
+      <Criteria>Expansion1</Criteria>
+      <Criteria>Mondstadt</Criteria>
+      <File>Platforms/Windows/Audio/GENSHIN_MONDSTADT_MUSIC.ini</File>
+    </UpdateAudio>
   </InGameActions>
   <Files>
     <File>ArtDefs/Building.artdef</File>
@@ -217,6 +223,7 @@
     <File>Platforms/Windows/Audio/894940137.wem</File>
     <File>Platforms/Windows/Audio/901895987.wem</File>
     <File>Platforms/Windows/Audio/91062406.wem</File>
+    <File>Platforms/Windows/Audio/GENSHIN_MONDSTADT_MUSIC.ini</File>
     <File>Platforms/Windows/Audio/LiyueBGM.bnk</File>
     <File>Platforms/Windows/Audio/LiyueBGM.txt</File>
     <File>Platforms/Windows/Audio/LiyueBGM.xml</File>
@@ -224,6 +231,8 @@
     <File>Platforms/Windows/Audio/LiyueLeaderSpeechBank.txt</File>
     <File>Platforms/Windows/Audio/LiyueLeaderSpeechBank.xml</File>
     <File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File>
+    <File>Platforms/Windows/Audio/Mondstadt_Music_Bank.bnk</File>
+    <File>Platforms/Windows/Audio/Mondstadt_Music_Bank.xml</File>
     <File>Platforms/Windows/BLPs/DLC_Icons.blp</File>
     <File>Platforms/Windows/BLPs/DLC_Monastery.blp</File>
     <File>Platforms/Windows/BLPs/DLC_Strategicview.blp</File>
