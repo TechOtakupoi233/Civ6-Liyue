@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths/>
+	<DialogueEvents/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="2159547912" Language="SFX">
+			<ShortName>Mondstadt_Music_Bank</ShortName>
+			<Path>Mondstadt_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2538891721" Name="Play_Statue_of_The_Seven_Heal"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles/>
+			<IncludedMemoryFiles>
+				<File Id="231243047" Language="SFX">
+					<ShortName>STATUE_OF_THE_SEVEN_HEAL.wav</ShortName>
+					<Path>SFX\STATUE_OF_THE_SEVEN_HEAL_50328C8D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
