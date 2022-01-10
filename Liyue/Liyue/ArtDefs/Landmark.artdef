@@ -78,7 +78,7 @@
 										<m_ParamName text="Tag_Era"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DEFAULT"/>
+										<m_ElementName text="SoutheastAsian"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -94,7 +94,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_CTY_ANC_Monument"/>
+										<m_EntryName text="DIS_CTY_Monument_Asian"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -112,7 +112,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="StatueOfTheSeven"/>
+							<m_Name text="StatueOfTheSevenAsia"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -685,3 +685,4 @@
 		</Element>
 	</m_RootCollections>
 </AssetObjects..ArtDefSet>
+

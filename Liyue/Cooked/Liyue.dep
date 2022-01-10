@@ -6,15 +6,21 @@
 	</ID>
 	<RequiredGameArtIDs>
 		<Element>
-			<name text="Civ6"/>
-			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
+			<name text="Expansion2"/>
+			<id text="b1b63999-6b16-4dd2-a5b6-eb19794aa8ca"/>
 		</Element>
 	</RequiredGameArtIDs>
 	<SystemDependencies>
 		<Element>
 			<ConsumerName text="Units"/>
 			<ArtDefDependencyPaths>
+				<Element text="Civilization.artdef"/>
+				<Element text="District.artdef"/>
+				<Element text="Building.artdef"/>
 				<Element text="Units.artdef"/>
+				<Element text="Landmark.artdef"/>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="Unit"/>
@@ -33,7 +39,15 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Landmarks"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Civilization.artdef"/>
+				<Element text="District.artdef"/>
+				<Element text="Building.artdef"/>
+				<Element text="Improvement.artdef"/>
+				<Element text="Landmark.artdef"/>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Cultures.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="CityBuildings"/>
 				<Element text="TileBase"/>
@@ -61,13 +75,22 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_Properties"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_Sprite"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Civilization.artdef"/>
+				<Element text="District.artdef"/>
+				<Element text="Building.artdef"/>
+				<Element text="Landmark.artdef"/>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Cultures.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="StrategicView_Sprite"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -76,7 +99,14 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_Route"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Civilization.artdef"/>
+				<Element text="District.artdef"/>
+				<Element text="Building.artdef"/>
+				<Element text="Landmark.artdef"/>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Cultures.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="StrategicView_Route"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -85,7 +115,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_TerrainType"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
 				<Element text="StrategicView_TerrainBlendCorners"/>
@@ -96,7 +128,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_TerrainBlendCorners"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlendCorners"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -105,7 +139,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_TerrainBlend"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -161,7 +197,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="UILensAsset"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Overlay.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -170,7 +208,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Overlay"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Overlay.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -179,7 +219,14 @@
 		</Element>
 		<Element>
 			<ConsumerName text="VFX"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Civilization.artdef"/>
+				<Element text="District.artdef"/>
+				<Element text="Building.artdef"/>
+				<Element text="Landmark.artdef"/>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Cultures.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="VFX"/>
 				<Element text="Light"/>
@@ -203,18 +250,12 @@
 			<LoadsLibraries>true</LoadsLibraries>
 		</Element>
 		<Element>
-			<ConsumerName text="ScreenWashEffects"/>
-			<ArtDefDependencyPaths/>
-			<LibraryDependencies>
-				<Element text="ColorKey"/>
-			</LibraryDependencies>
-			<LoadsLibraries>true</LoadsLibraries>
-		</Element>
-		<Element>
 			<ConsumerName text="Camera"/>
 			<ArtDefDependencyPaths/>
-			<LibraryDependencies/>
-			<LoadsLibraries>false</LoadsLibraries>
+			<LibraryDependencies>
+				<Element text="CameraAnimation"/>
+			</LibraryDependencies>
+			<LoadsLibraries>true</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="Terrains"/>
@@ -230,13 +271,18 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Civilizations"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Civilization.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="Cultures"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Cultures.artdef"/>
+				<Element text="Civilization.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -248,26 +294,54 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Improvements"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Improvement.artdef"/>
+				<Element text="Landmark.artdef"/>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Building.artdef"/>
+				<Element text="Cultures.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="WorldView_Translate"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Civilization.artdef"/>
+				<Element text="District.artdef"/>
+				<Element text="Building.artdef"/>
+				<Element text="Improvement.artdef"/>
+				<Element text="Landmark.artdef"/>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Cultures.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_Translate"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Civilization.artdef"/>
+				<Element text="District.artdef"/>
+				<Element text="Building.artdef"/>
+				<Element text="Improvement.artdef"/>
+				<Element text="Landmark.artdef"/>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Cultures.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="Audio"/>
 			<ArtDefDependencyPaths>
+				<Element text="Civilization.artdef"/>
+				<Element text="District.artdef"/>
+				<Element text="Building.artdef"/>
+				<Element text="Landmark.artdef"/>
 				<Element text="Units.artdef"/>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
@@ -283,9 +357,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Leaders"/>
-			<ArtDefDependencyPaths>
-				<Element text="Leaders.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="Leader"/>
 				<Element text="LeaderLighting"/>
@@ -381,9 +453,40 @@
 	</SystemDependencies>
 	<ArtDefDependencies>
 		<Element>
+			<ArtDefPath text="Civilization.artdef"/>
+			<ArtDefDependencyPaths/>
+		</Element>
+		<Element>
+			<ArtDefPath text="District.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
+			<ArtDefPath text="Building.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Building.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
 			<ArtDefPath text="Units.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="Units.artdef"/>
+				<Element text="Cultures.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
+			<ArtDefPath text="Landmark.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="Building.artdef"/>
+				<Element text="Cultures.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
+			<ArtDefPath text="StrategicView.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
@@ -391,7 +494,22 @@
 			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
-			<ArtDefPath text="Leaders.artdef"/>
+			<ArtDefPath text="Improvement.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Landmark.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
+			<ArtDefPath text="Cultures.artdef"/>
+			<ArtDefDependencyPaths/>
+		</Element>
+		<Element>
+			<ArtDefPath text="Culture.artdef"/>
+			<ArtDefDependencyPaths/>
+		</Element>
+		<Element>
+			<ArtDefPath text="Overlay.artdef"/>
 			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
@@ -474,7 +592,10 @@
 		</Element>
 		<Element>
 			<LibraryName text="StrategicView_Sprite"/>
-			<PackageDependencies/>
+			<PackageDependencies>
+				<Element text="DLC_Strategicview.blp"/>
+				<Element text="strategicview/strategicview_uilenses.blp"/>
+			</PackageDependencies>
 		</Element>
 		<Element>
 			<LibraryName text="StrategicView_TerrainBlend"/>
@@ -502,17 +623,22 @@
 		</Element>
 		<Element>
 			<LibraryName text="TileBase"/>
-			<PackageDependencies/>
+			<PackageDependencies>
+				<Element text="DLC_Monastery.blp"/>
+			</PackageDependencies>
 		</Element>
 		<Element>
 			<LibraryName text="UILensAsset"/>
-			<PackageDependencies/>
+			<PackageDependencies>
+				<Element text="UILensAssets.blp"/>
+			</PackageDependencies>
 		</Element>
 		<Element>
 			<LibraryName text="UITexture"/>
 			<PackageDependencies>
 				<Element text="LiyueUI.blp"/>
 				<Element text="UI/PrideMoments.blp"/>
+				<Element text="DLC_Icons.blp"/>
 			</PackageDependencies>
 		</Element>
 		<Element>

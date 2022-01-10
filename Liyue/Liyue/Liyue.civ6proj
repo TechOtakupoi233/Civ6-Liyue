@@ -107,9 +107,6 @@
     <Content Include="Data\Liyue_UnitAbilities.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Liyue.Art.xml">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Platforms\MacOS\BLPs\DLC_Icons.blp">
       <SubType>Content</SubType>
     </Content>
@@ -295,6 +292,7 @@
     <Folder Include="XLPs\" />
     <ArtDef Include="ArtDefs\FallbackLeaders.artdef" />
     <XLP Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="Liyue.Art.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
