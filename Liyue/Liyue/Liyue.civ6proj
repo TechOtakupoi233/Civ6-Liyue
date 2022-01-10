@@ -263,18 +263,19 @@
     <Content Include="Text\Liyue_TextEN.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="XLPs\Leaders.xlp">
+    <Folder Include="XLPs\" />
+    <XLP Include="XLPs\Leaders.xlp">
       <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\StrategicView_UILenses.xlp">
+    </XLP>
+    <XLP Include="XLPs\StrategicView_UILenses.xlp">
       <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\UILensModels.xlp">
+    </XLP>
+    <XLP Include="XLPs\UILensModels.xlp">
       <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\UI_PrideMoments.xlp">
+    </XLP>
+    <XLP Include="XLPs\UI_PrideMoments.xlp">
       <SubType>Content</SubType>
-    </Content>
+    </XLP>
     <XLP Include="XLPs\LiyueUI.xlp">
       <SubType>Content</SubType>
     </XLP>
@@ -289,7 +290,6 @@
     <Folder Include="Platforms\Windows\BLPs\" />
     <Folder Include="Platforms\Windows\BLPs\SHARED_DATA\" />
     <Folder Include="Text" />
-    <Folder Include="XLPs\" />
     <ArtDef Include="ArtDefs\FallbackLeaders.artdef" />
     <XLP Include="XLPs\LeaderFallbacks.xlp" />
     <None Include="Liyue.Art.xml" />

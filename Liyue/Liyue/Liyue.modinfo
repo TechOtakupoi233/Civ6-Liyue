@@ -246,9 +246,5 @@
     <File>Text/Liyue_SharedText.sql</File>
     <File>Text/Liyue_TextCN.xml</File>
     <File>Text/Liyue_TextEN.xml</File>
-    <File>XLPs/Leaders.xlp</File>
-    <File>XLPs/StrategicView_UILenses.xlp</File>
-    <File>XLPs/UILensModels.xlp</File>
-    <File>XLPs/UI_PrideMoments.xlp</File>
   </Files>
 </Mod>
