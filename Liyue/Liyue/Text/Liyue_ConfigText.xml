@@ -13,6 +13,8 @@
 
 		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME"	Text="Harbor of Stone and Contracts"/>
 		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION"
+	Text="Mines and Quarries provide +1 [ICON_Production] Production, receive additional +1 [ICON_Culture] Culture if built on a resource and additional +2 [ICON_Gold] Gold in cities with a Liyue Harbor."/>
+		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION_XP2"
 			Text="Exclusive unique Governor with civil and nature conservative abilities. Mines and Quarries provide +1 [ICON_Production] Production, receive additional +1 [ICON_Culture] Culture if built on a resource and additional +2 [ICON_Gold] Gold in cities with a Liyue Harbor."/>
 
 		<Row Language="en_US" Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="Liyue Harbor"/>

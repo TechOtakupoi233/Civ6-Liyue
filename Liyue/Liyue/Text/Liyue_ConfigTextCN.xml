@@ -10,6 +10,8 @@
 
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME"	Text="岩与契约的海港"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION"
+	Text="矿山和采石场 +1 [ICON_Production] 生产力，若单元格有资源则额外 +1 [ICON_Culture] 文化值，若所在城市建有璃月港则额外 +2 [ICON_Gold] 金币。"/>
+		<Row Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION_XP2"
 			Text="拥有民事和自然保护能力的专属特色总督。矿山和采石场 +1 [ICON_Production] 生产力，若单元格有资源则额外 +1 [ICON_Culture] 文化值，若所在城市建有璃月港则额外 +2 [ICON_Gold] 金币。"/>
 		
 		<Row Language="zh_Hans_CN" Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="璃月港"/>
