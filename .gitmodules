@@ -1,3 +1,6 @@
 [submodule "Civ6-Liyue-Buffed"]
 	path = Civ6-Liyue-Buffed
 	url = https://github.com/TechOtakupoi233/Civ6-Liyue-Buffed.git
+[submodule "Civ6-Liyue-DLC1"]
+	path = Civ6-Liyue-DLC1
+	url = https://github.com/TechOtakupoi233/Civ6-Liyue-DLC1.git
