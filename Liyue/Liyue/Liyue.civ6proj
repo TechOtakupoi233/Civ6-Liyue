@@ -5,7 +5,7 @@
     <Name>LOC_LIYUE_MOD_TITLE_CL</Name>
     <Guid>4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4</Guid>
     <ProjectGuid>b63f779e-2035-440c-8ad0-2703e305f45e</ProjectGuid>
-    <ModVersion>1</ModVersion>
+    <ModVersion>2</ModVersion>
     <Teaser>LOC_LIYUE_MOD_TEASER_CL</Teaser>
     <Description>LOC_LIYUE_MOD_DESCRIPTION_CL</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -18,8 +18,8 @@
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="leaderPlayable"><LeaderPlayable>Players:StandardPlayers::LEADER_KEQING,Players:Expansion1_Players::LEADER_KEQING,Players:Expansion2_Players::LEADER_KEQING</LeaderPlayable></Criteria><Criteria id="Expansion1"><GameCoreInUse>Expansion1,Expansion2</GameCoreInUse></Criteria><Criteria id="Expansion2"><GameCoreInUse>Expansion2</GameCoreInUse></Criteria><Criteria id="Mondstadt"><ModInUse inverse="1">440d0a84-d27e-40db-90b6-797d0e820aaa</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>Liyue</AssemblyName>
     <RootNamespace>Liyue</RootNamespace>
-    <Authors>CLHotuski</Authors>
-    <SpecialThanks>Dwughjsd, KevinLiu, hemmelfort</SpecialThanks>
+    <Authors>CLHotuski, Dwughjsd, KevinLiu</Authors>
+    <SpecialThanks>hemmelfort</SpecialThanks>
     <AssociationData><![CDATA[<Associations />]]></AssociationData>
     <ModProperties>
       <CustomProperties xmlns="" />
