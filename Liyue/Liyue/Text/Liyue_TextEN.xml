@@ -56,12 +56,12 @@
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
 			<!--被宣战-->
-			<Text>War? Ugh, let us finish this quickly. With sword, comes shadow!</Text>
+			<Text>Alright, so you want to do this the hard way.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
 			<!--主动宣战-->
-			<Text>Come on. Enough procrastinating. Let us cut to the chase: war is upon us.</Text>
+			<Text>Drop your weapons and surrender immediatly!</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
