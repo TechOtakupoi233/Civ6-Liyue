@@ -8,6 +8,7 @@
 		<Row Tag="LOC_ABILITY_KEQING_EXTENDED_SHIFT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>下次完成建造时可回复完整 [ICON_Movement] 移动力。</Text>
 		</Row>
+		<Row Language="zh_Hans_CN" Tag="LOC_ABILITY_MILLELITH_TERRAIN_STRENGTH_DESCRIPTION" Text="在丘陵上防御时 +{1_Amount} [ICON_Strength] 战斗力"/>
 		<Row Tag="LOC_AGENDA_KEQING_NAME" Language="zh_Hans_CN">
 			<Text>土地与建设</Text>
 		</Row>

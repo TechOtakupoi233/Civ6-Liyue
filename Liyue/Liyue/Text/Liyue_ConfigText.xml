@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!--Special thanks to Boa of the Boaians who kindly provided the revision.-->
 	<LocalizedText>
 		<Row Tag="LOC_CIVILIZATION_LIYUE_CL_NAME" Language="en_US">
 			<Text>Liyue</Text>
@@ -13,26 +14,26 @@
 
 		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_NAME"	Text="Harbor of Stone and Contracts"/>
 		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION"
-	Text="Mines and Quarries provide +1 [ICON_Production] Production, receive additional +1 [ICON_Culture] Culture if built on a resource and additional +2 [ICON_Gold] Gold in cities with a Liyue Harbor."/>
+	Text="Mines and Quarries provide +1 [ICON_Production] extra Production and an additional +1 [ICON_Culture] Culture if built on a resource, as well as +2 [ICON_Gold] Gold in cities with a Liyue Harbor district."/>
 		<Row Language="en_US" Tag="LOC_TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS_DESCRIPTION_XP2"
-			Text="Exclusive unique Governor with civil and nature conservative abilities. Mines and Quarries provide +1 [ICON_Production] Production, receive additional +1 [ICON_Culture] Culture if built on a resource and additional +2 [ICON_Gold] Gold in cities with a Liyue Harbor."/>
+			Text="Has an exclusive unique Governor with civil and nature conservation bonuses. Mines and Quarries provide +1 [ICON_Production] extra Production and an additional +1 [ICON_Culture] Culture if built on a resource, as well as +2 [ICON_Gold] Gold in cities with a Liyue Harbor district."/>
 
 		<Row Language="en_US" Tag="LOC_DISTRICT_LIYUE_HARBOR_NAME"			Text="Liyue Harbor"/>
 		<Row Language="en_US" Tag="LOC_DISTRICT_LIYUE_HARBOR_DESCRIPTION"
-			Text="A district unique to Liyue for naval activity in your city. Replaces the Harbor district and cheaper to build. Creates a [ICON_TradingPost] Trading Post in this city when built.[NEWLINE][NEWLINE]Grants +5 Loyalty per turn in this city."/>
+			Text="A district unique to Liyue for naval activity in your city. Replaces the Harbor district and cheaper to build.[NEWLINE][NEWLINE]Creates a [ICON_TradingPost] Trading Post in this city when built. +5 Loyalty per turn to this city."/>
 
 		<Row Language="en_US" Tag="LOC_UNIT_MILLELITH_NAME"					Text="Millelith"/>
 		<Row Language="en_US" Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
-			Text="Liyue unique Ancient era anti-cavalry unit that replaces the Spearman. Ignores [ICON_Movement] Movement penalties for Hills. +5 [ICON_Strength] Combat Strength when defending on Hills."/>
-		
+			Text="Liyue unique Ancient era anti-cavalry unit that replaces the Spearman. Ignores [ICON_Movement] Movement penalty for Hills. +5 [ICON_Strength] Combat Strength when defending on Hills."/>
+
 		<Row Tag="LOC_LEADER_KEQING_NAME" Language="en_US">
 			<Text>Keqing</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_QIXING_YUHENG_NAME" Language="en_US">
-			<Text>Yuheng, the Star of Change</Text>
+			<Text>Yuheng, Star of Change</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_QIXING_YUHENG_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Movement] Movement for all civilian units. Civilian units ignore [ICON_Movement] Movement costs of terrain, features and crossing rivers. Builders receive 2 less build charges. Receive 2 additional Builders or Military Engineers each time you train one. One extra Wildcard policy slot in any government.</Text>
+			<Text>Civilian units ignore all [ICON_Movement] Movement penalties for terrain and features. Builders and Military Engineers can immediately move after being purchased, and their [ICON_Movement] Movement is fully restored after performing their first build action.</Text>
 		</Row>
 		
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="en_US">
@@ -42,10 +43,10 @@
 			<Text>Ningguang</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_QIXING_TIANQUAN_NAME" Language="en_US">
-			<Text>Tianquan, the Star of All-Seeing</Text>
+			<Text>Tianquan, All-Seeing Star</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_QIXING_TIANQUAN_DESCRIPTION" Language="en_US">
-			<Text>Receive an extra level of [ICON_VisLimited] Diplomatic Visibility for having an international [ICON_TradeRoute] Trade Route to a civilization. All spies start with a free Surveillance promotion. +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith and +50% [ICON_Gold] Gold from international [ICON_TradeRoute] Trade Routes. </Text>
+			<Text>Receive an extra level of [ICON_VisLimited] Diplomatic Visibility when sending an international [ICON_TradeRoute] Trade Route to another civilization. All spies start with the Surveillance promotion. +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, and +50% [ICON_Gold] Gold from international [ICON_TradeRoute] Trade Routes. </Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="en_US">
 			<Text>Ningguang, Tianquan of the Liyue Qixing, you knows all details about good and bad things in Liyue. You are kind toward your people, but a perfect hunter that none of your enemy could ever hope to see, and unsurpassed in all of Teyvat. Continue investing, expand trade routes, and develop the Jade Chamber so that it can casts its shadow over the whole of Liyue in the moonlight.</Text>
@@ -56,19 +57,19 @@
 		    <Text>Liyue Civilization Pack - More Traits</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_CL_DLC1_TEASER" Language="en_US">
-		    <Text>A DLC of Liyue Civilization.</Text>
+		    <Text>A DLC of the Liyue Civilization.</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_CL_DLC1_DESCRIPTION" Language="en_US">
-		    <Text>Adding more traits to the Civilization.</Text>
+		    <Text>Adds more traits to the civilization.</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_SOT7" Language="en_US">
 		    <Text>Liyue Civilization Pack - Statue Of The Seven Patch</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_MOD_TEASER_CL_SOT7" Language="en_US">
-		    <Text>Statue Of The Seven patch for Liyue Civilization.</Text>
+		    <Text>Statue Of The Seven patch for the Liyue Civilization.</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL_SOT7" Language="en_US">
-		    <Text>Introduces the statue from Kevin Liu's Genshin·Mondstant Mod. Requires The Original Mod.</Text>
+		    <Text>Introduces the statue from Kevin Liu's Genshin·Mondstadt Mod. Requires the original mod.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
