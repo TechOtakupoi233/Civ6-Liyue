@@ -64,7 +64,7 @@
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_STATUE_OF_THE_SEVEN"/>
 										<m_RootCollectionName text="Building"/>
-										<m_ArtDefPath text="Building.artdef"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Buildings"/>
 										<m_ParamName text="Tag_HeroBuilding"/>
@@ -129,7 +129,7 @@
 											<Element class="AssetObjects..ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_STATUE_OF_THE_SEVEN"/>
 												<m_RootCollectionName text="Building"/>
-												<m_ArtDefPath text="Building.artdef"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
 												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set001"/>
@@ -153,7 +153,7 @@
 											<Element class="AssetObjects..ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_STATUE_OF_THE_SEVEN"/>
 												<m_RootCollectionName text="Building"/>
-												<m_ArtDefPath text="Building.artdef"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
 												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set001"/>
@@ -193,7 +193,7 @@
 											<Element class="AssetObjects..ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_STATUE_OF_THE_SEVEN"/>
 												<m_RootCollectionName text="Building"/>
-												<m_ArtDefPath text="Building.artdef"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
 												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set002"/>
@@ -217,7 +217,7 @@
 											<Element class="AssetObjects..ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_STATUE_OF_THE_SEVEN"/>
 												<m_RootCollectionName text="Building"/>
-												<m_ArtDefPath text="Building.artdef"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
 												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set001"/>

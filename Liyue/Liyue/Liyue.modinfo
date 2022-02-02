@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4" version="1">
+<Mod id="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4" version="2">
   <Properties>
     <Name>LOC_LIYUE_MOD_TITLE_CL</Name>
     <Description>LOC_LIYUE_MOD_DESCRIPTION_CL</Description>
     <CustomProperties></CustomProperties>
-    <Created>1641828399</Created>
+    <Created>1643789828</Created>
     <Teaser>LOC_LIYUE_MOD_TEASER_CL</Teaser>
-    <Authors>CLHotuski</Authors>
-    <SpecialThanks>Dwughjsd, KevinLiu, hemmelfort</SpecialThanks>
+    <Authors>CLHotuski, Dwughjsd, KevinLiu</Authors>
+    <SpecialThanks>hemmelfort</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-  </Properties>
+  </Properties>  
   <LocalizedText>
     <Text id="LOC_LIYUE_MOD_TITLE_CL">
       <en_US>Liyue Civilization Pack</en_US>
@@ -161,13 +161,13 @@
     </UpdateAudio>
   </InGameActions>
   <Files>
-    <File>ArtDefs/Building.artdef</File>
+    <File>ArtDefs/Buildings.artdef</File>
     <File>ArtDefs/Civilization.artdef</File>
     <File>ArtDefs/Cultures.artdef</File>
-    <File>ArtDefs/District.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
     <File>ArtDefs/FallbackLeaders.artdef</File>
-    <File>ArtDefs/Improvement.artdef</File>
-    <File>ArtDefs/Landmark.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
     <File>ArtDefs/Overlay.artdef</File>
     <File>ArtDefs/StrategicView.artdef</File>
     <File>ArtDefs/Units.artdef</File>

@@ -21,7 +21,7 @@
 								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_LIYUE_CL"/>
 									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilization.artdef"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
 									<m_ParamName text="Civilizations001"/>
@@ -45,7 +45,7 @@
 								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_LIYUE_CL"/>
 									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilization.artdef"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
 									<m_ParamName text="Civilizations001"/>
@@ -69,7 +69,7 @@
 								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_LIYUE_CL"/>
 									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilization.artdef"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
 									<m_ParamName text="Civilizations001"/>
@@ -97,7 +97,7 @@
 								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_LIYUE_CL"/>
 									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilization.artdef"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
 									<m_ParamName text="Civilizations001"/>
@@ -114,3 +114,4 @@
 		</Element>
 	</m_RootCollections>
 </AssetObjects..ArtDefSet>
+

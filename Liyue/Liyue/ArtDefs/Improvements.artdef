@@ -100,7 +100,7 @@
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="LM_ADVENTURERS_GUILD"/>
 										<m_RootCollectionName text="Landmarks"/>
-										<m_ArtDefPath text="Landmark.artdef"/>
+										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Xref"/>

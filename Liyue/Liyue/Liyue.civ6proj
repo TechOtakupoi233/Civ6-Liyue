@@ -29,13 +29,13 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <ArtDef Include="ArtDefs\Building.artdef">
+    <ArtDef Include="ArtDefs\Buildings.artdef">
       <SubType>Content</SubType>
     </ArtDef>
-    <ArtDef Include="ArtDefs\Improvement.artdef">
+    <ArtDef Include="ArtDefs\Improvements.artdef">
       <SubType>Content</SubType>
     </ArtDef>
-    <ArtDef Include="ArtDefs\Landmark.artdef">
+    <ArtDef Include="ArtDefs\Landmarks.artdef">
       <SubType>Content</SubType>
     </ArtDef>
     <ArtDef Include="ArtDefs\StrategicView.artdef">
@@ -44,15 +44,18 @@
     <ArtDef Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </ArtDef>
-    <ArtDef Include="ArtDefs\Civilization.artdef">
+    <ArtDef Include="ArtDefs\Districts.artdef">
       <SubType>Content</SubType>
     </ArtDef>
-    <ArtDef Include="ArtDefs\District.artdef">
+    <ArtDef Include="ArtDefs\Civilizations.artdef">
       <SubType>Content</SubType>
     </ArtDef>
-    <Content Include="ArtDefs\Cultures.artdef">
+    <ArtDef Include="ArtDefs\Cultures.artdef">
       <SubType>Content</SubType>
-    </Content>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Overlay.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
     <Content Include="Data\Genshin_Shared_Data.lua">
       <SubType>Content</SubType>
     </Content>

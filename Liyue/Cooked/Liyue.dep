@@ -14,11 +14,10 @@
 		<Element>
 			<ConsumerName text="Units"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
-				<Element text="District.artdef"/>
-				<Element text="Building.artdef"/>
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
 				<Element text="Units.artdef"/>
-				<Element text="Landmark.artdef"/>
+				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
@@ -40,11 +39,11 @@
 		<Element>
 			<ConsumerName text="Landmarks"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
-				<Element text="District.artdef"/>
-				<Element text="Building.artdef"/>
-				<Element text="Improvement.artdef"/>
-				<Element text="Landmark.artdef"/>
+				<Element text="Civilizations.artdef"/>
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="Improvements.artdef"/>
+				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
@@ -84,10 +83,9 @@
 		<Element>
 			<ConsumerName text="StrategicView_Sprite"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
-				<Element text="District.artdef"/>
-				<Element text="Building.artdef"/>
-				<Element text="Landmark.artdef"/>
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
@@ -100,10 +98,9 @@
 		<Element>
 			<ConsumerName text="StrategicView_Route"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
-				<Element text="District.artdef"/>
-				<Element text="Building.artdef"/>
-				<Element text="Landmark.artdef"/>
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
@@ -220,10 +217,9 @@
 		<Element>
 			<ConsumerName text="VFX"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
-				<Element text="District.artdef"/>
-				<Element text="Building.artdef"/>
-				<Element text="Landmark.artdef"/>
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
@@ -272,7 +268,7 @@
 		<Element>
 			<ConsumerName text="Civilizations"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
+				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
@@ -281,7 +277,7 @@
 			<ConsumerName text="Cultures"/>
 			<ArtDefDependencyPaths>
 				<Element text="Cultures.artdef"/>
-				<Element text="Civilization.artdef"/>
+				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
@@ -295,10 +291,9 @@
 		<Element>
 			<ConsumerName text="Improvements"/>
 			<ArtDefDependencyPaths>
-				<Element text="Improvement.artdef"/>
-				<Element text="Landmark.artdef"/>
+				<Element text="Improvements.artdef"/>
+				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
-				<Element text="Building.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
@@ -307,11 +302,11 @@
 		<Element>
 			<ConsumerName text="WorldView_Translate"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
-				<Element text="District.artdef"/>
-				<Element text="Building.artdef"/>
-				<Element text="Improvement.artdef"/>
-				<Element text="Landmark.artdef"/>
+				<Element text="Civilizations.artdef"/>
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="Improvements.artdef"/>
+				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
@@ -321,11 +316,10 @@
 		<Element>
 			<ConsumerName text="StrategicView_Translate"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
-				<Element text="District.artdef"/>
-				<Element text="Building.artdef"/>
-				<Element text="Improvement.artdef"/>
-				<Element text="Landmark.artdef"/>
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="Improvements.artdef"/>
+				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
@@ -335,10 +329,10 @@
 		<Element>
 			<ConsumerName text="Audio"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
-				<Element text="District.artdef"/>
-				<Element text="Building.artdef"/>
-				<Element text="Landmark.artdef"/>
+				<Element text="Civilizations.artdef"/>
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="Landmarks.artdef"/>
 				<Element text="Units.artdef"/>
 				<Element text="StrategicView.artdef"/>
 				<Element text="Cultures.artdef"/>
@@ -453,20 +447,17 @@
 	</SystemDependencies>
 	<ArtDefDependencies>
 		<Element>
-			<ArtDefPath text="Civilization.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
-		<Element>
-			<ArtDefPath text="District.artdef"/>
+			<ArtDefPath text="Districts.artdef"/>
 			<ArtDefDependencyPaths>
+				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Districts.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
-			<ArtDefPath text="Building.artdef"/>
+			<ArtDefPath text="Buildings.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="StrategicView.artdef"/>
-				<Element text="Building.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
@@ -477,9 +468,8 @@
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
-			<ArtDefPath text="Landmark.artdef"/>
+			<ArtDefPath text="Landmarks.artdef"/>
 			<ArtDefDependencyPaths>
-				<Element text="Building.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
@@ -490,22 +480,18 @@
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
-			<ArtDefPath text="Clutter.artdef"/>
+			<ArtDefPath text="Civilizations.artdef"/>
 			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
-			<ArtDefPath text="Improvement.artdef"/>
+			<ArtDefPath text="Improvements.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="StrategicView.artdef"/>
-				<Element text="Landmark.artdef"/>
+				<Element text="Improvements.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
 			<ArtDefPath text="Cultures.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
-		<Element>
-			<ArtDefPath text="Culture.artdef"/>
 			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
