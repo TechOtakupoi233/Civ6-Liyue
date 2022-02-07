@@ -4,7 +4,12 @@
 		<name text="Liyue"/>
 		<id text="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4"/>
 	</ID>
-	<RequiredGameArtIDs/>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="Expansion2"/>
+			<id text="b1b63999-6b16-4dd2-a5b6-eb19794aa8ca"/>
+		</Element>
+	</RequiredGameArtIDs>
 	<SystemDependencies>
 		<Element>
 			<ConsumerName text="Units"/>
@@ -34,7 +39,7 @@
 		<Element>
 			<ConsumerName text="Landmarks"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
+				<Element text="Civilizations.artdef"/>
 				<Element text="Districts.artdef"/>
 				<Element text="Buildings.artdef"/>
 				<Element text="Improvements.artdef"/>
@@ -212,7 +217,6 @@
 		<Element>
 			<ConsumerName text="VFX"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
 				<Element text="Districts.artdef"/>
 				<Element text="Buildings.artdef"/>
 				<Element text="Landmarks.artdef"/>
@@ -264,7 +268,7 @@
 		<Element>
 			<ConsumerName text="Civilizations"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
+				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
@@ -273,7 +277,7 @@
 			<ConsumerName text="Cultures"/>
 			<ArtDefDependencyPaths>
 				<Element text="Cultures.artdef"/>
-				<Element text="Civilization.artdef"/>
+				<Element text="Civilizations.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
@@ -290,6 +294,7 @@
 				<Element text="Improvements.artdef"/>
 				<Element text="Landmarks.artdef"/>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Buildings.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
@@ -298,7 +303,7 @@
 		<Element>
 			<ConsumerName text="WorldView_Translate"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
+				<Element text="Civilizations.artdef"/>
 				<Element text="Districts.artdef"/>
 				<Element text="Buildings.artdef"/>
 				<Element text="Improvements.artdef"/>
@@ -325,7 +330,7 @@
 		<Element>
 			<ConsumerName text="Audio"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilization.artdef"/>
+				<Element text="Civilizations.artdef"/>
 				<Element text="Districts.artdef"/>
 				<Element text="Buildings.artdef"/>
 				<Element text="Landmarks.artdef"/>
@@ -454,6 +459,7 @@
 			<ArtDefPath text="Buildings.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="StrategicView.artdef"/>
+				<Element text="Buildings.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
@@ -466,6 +472,7 @@
 		<Element>
 			<ArtDefPath text="Landmarks.artdef"/>
 			<ArtDefDependencyPaths>
+				<Element text="Buildings.artdef"/>
 				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
@@ -476,7 +483,7 @@
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
-			<ArtDefPath text="Civilization.artdef"/>
+			<ArtDefPath text="Civilizations.artdef"/>
 			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
@@ -484,6 +491,7 @@
 			<ArtDefDependencyPaths>
 				<Element text="StrategicView.artdef"/>
 				<Element text="Improvements.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>

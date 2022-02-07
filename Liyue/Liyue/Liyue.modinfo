@@ -4,12 +4,12 @@
     <Name>LOC_LIYUE_MOD_TITLE_CL</Name>
     <Description>LOC_LIYUE_MOD_DESCRIPTION_CL</Description>
     <CustomProperties></CustomProperties>
-    <Created>1643789828</Created>
+    <Created>1644235800</Created>
     <Teaser>LOC_LIYUE_MOD_TEASER_CL</Teaser>
     <Authors>CLHotuski, Dwughjsd, KevinLiu</Authors>
     <SpecialThanks>hemmelfort</SpecialThanks>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-  </Properties>  
+  </Properties>
   <LocalizedText>
     <Text id="LOC_LIYUE_MOD_TITLE_CL">
       <en_US>Liyue Civilization Pack</en_US>
@@ -162,7 +162,7 @@
   </InGameActions>
   <Files>
     <File>ArtDefs/Buildings.artdef</File>
-    <File>ArtDefs/Civilization.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
     <File>ArtDefs/Cultures.artdef</File>
     <File>ArtDefs/Districts.artdef</File>
     <File>ArtDefs/FallbackLeaders.artdef</File>
@@ -202,17 +202,21 @@
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_N0</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_N1</File>
     <File>Platforms/Windows/Audio/1004924057.wem</File>
+    <File>Platforms/Windows/Audio/1057615763.wem</File>
     <File>Platforms/Windows/Audio/158279736.wem</File>
     <File>Platforms/Windows/Audio/167037324.wem</File>
     <File>Platforms/Windows/Audio/178322394.wem</File>
     <File>Platforms/Windows/Audio/18300585.wem</File>
     <File>Platforms/Windows/Audio/188830929.wem</File>
     <File>Platforms/Windows/Audio/19721606.wem</File>
+    <File>Platforms/Windows/Audio/237247352.wem</File>
     <File>Platforms/Windows/Audio/341379077.wem</File>
     <File>Platforms/Windows/Audio/422383566.wem</File>
     <File>Platforms/Windows/Audio/429053686.wem</File>
     <File>Platforms/Windows/Audio/430139044.wem</File>
     <File>Platforms/Windows/Audio/464496937.wem</File>
+    <File>Platforms/Windows/Audio/466680258.wem</File>
+    <File>Platforms/Windows/Audio/526713429.wem</File>
     <File>Platforms/Windows/Audio/55857402.wem</File>
     <File>Platforms/Windows/Audio/73328597.wem</File>
     <File>Platforms/Windows/Audio/831323415.wem</File>

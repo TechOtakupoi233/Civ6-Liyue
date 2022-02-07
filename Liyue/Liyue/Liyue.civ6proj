@@ -140,6 +140,9 @@
     <Content Include="Platforms\Windows\Audio\1004924057.wem">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Platforms\Windows\Audio\1057615763.wem">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Platforms\Windows\Audio\158279736.wem">
       <SubType>Content</SubType>
     </Content>
@@ -158,6 +161,9 @@
     <Content Include="Platforms\Windows\Audio\19721606.wem">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Platforms\Windows\Audio\237247352.wem">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Platforms\Windows\Audio\341379077.wem">
       <SubType>Content</SubType>
     </Content>
@@ -171,6 +177,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Platforms\Windows\Audio\464496937.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\466680258.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\526713429.wem">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Platforms\Windows\Audio\55857402.wem">
