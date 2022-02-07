@@ -1044,6 +1044,78 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
+								<MusicSegment Name="陈致逸,HOYO-MiX - Rays of Sunlight 天霁日出「映春华章」Ver_" ID="{C2DA75F6-8C69-4616-B9A3-3C86D4CA3EF4}" ShortID="352578913">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="88247.2708333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="陈致逸,HOYO-MiX - Rays of Sunlight 天霁日出「映春华章」Ver_" ID="{CB2E3670-5F62-40EF-8058-4D316471F0F4}" ShortID="38907637">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="陈致逸,HOYO-MiX - Rays of Sunlight 天霁日出「映春华章」Ver_" ID="{D2823DE6-0191-4F85-A283-615836F4E3DA}" ShortID="237247352">
+													<Language>SFX</Language>
+													<AudioFile>陈致逸,HOYO-MiX - Rays of Sunlight 天霁日出「映春华章」Ver. .wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F80F75FF-8BE8-4CBD-90B4-FA4114C4FA12}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7B8633D5-7012-4AB2-A0EB-E39800E37CE6}">
+													<ClipList>
+														<MusicClip Name="陈致逸,HOYO-MiX - Rays of Sunlight 天霁日出「映春华章」Ver_ " ID="{7A097479-22A0-436C-BDF5-D8BC66C6BBAF}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="88247.2708333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="陈致逸,HOYO-MiX - Rays of Sunlight 天霁日出「映春华章」Ver_" ID="{D2823DE6-0191-4F85-A283-615836F4E3DA}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{FA53E60F-98B6-412C-A3EB-54DFEF09EB99}"/>
+										<MusicCue Name="Exit Cue" ID="{9CB59E4E-63AA-4157-A9F0-B67D937B2988}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="88247.2708333333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{A71695DC-B67F-4697-BCEC-0BE62C3BDB9C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="86989.3601745248"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{3A3F7816-10A8-4589-A8E1-0F1A95A5E8F0}">
@@ -1702,156 +1774,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="陈致逸,HOYO-MiX - Liyue 璃月_01" ID="{D0A5F245-75A0-4667-8736-B5F1CF0976E2}" ShortID="69535743">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="86805.8125"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="陈致逸,HOYO-MiX - Liyue 璃月_01" ID="{690B5E6B-A568-4067-A21D-5F7981F8247D}" ShortID="126058427">
-											<PropertyList>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="陈致逸,HOYO-MiX - Liyue 璃月_01" ID="{E05B716B-A843-40AC-91B7-53B252EB2DEB}" ShortID="209029097">
-													<Language>SFX</Language>
-													<AudioFile>陈致逸,HOYO-MiX - Liyue 璃月_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="901895987"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{1C231D4B-789C-4BA2-B500-3DB50531E0C7}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{00A40925-08A0-499E-9010-3C156CF99161}">
-													<ClipList>
-														<MusicClip Name="陈致逸,HOYO-MiX - Liyue 璃月_01" ID="{EAC0D48F-CBCA-4E53-819F-54A1C64A53D7}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="86805.8125"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="陈致逸,HOYO-MiX - Liyue 璃月_01" ID="{E05B716B-A843-40AC-91B7-53B252EB2DEB}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
-									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{F35F47C7-B9F5-4BBC-B699-D9D4E1741969}"/>
-										<MusicCue Name="Exit Cue" ID="{FD7B31CB-3028-4C7E-9682-F9AA05A0B85E}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="86805.8125"/>
-											</PropertyList>
-										</MusicCue>
-										<MusicCue Name="ExitCustom" ID="{C657FEC8-6C41-4FDE-9014-E6FA7314D995}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="2"/>
-												<Property Name="TimeMs" Type="Real64" Value="86234.7216282895"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
-								</MusicSegment>
-								<MusicSegment Name="陈致逸,HOYO-MiX - Liyue 璃月_02" ID="{6BD27794-E18A-48F8-A372-C7EF34247F96}" ShortID="775360094">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="68099.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="陈致逸,HOYO-MiX - Liyue 璃月_02" ID="{1986BAA1-701C-473F-A025-4488C3198A38}" ShortID="885799526">
-											<PropertyList>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="陈致逸,HOYO-MiX - Liyue 璃月_02" ID="{5B60A207-7C8F-4FB8-BF96-62813D17D824}" ShortID="810759736">
-													<Language>SFX</Language>
-													<AudioFile>陈致逸,HOYO-MiX - Liyue 璃月_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="341379077"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{F87C5314-8E4C-4B6A-9D66-DF7F0D95C69F}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{F6FCF766-806F-459A-A3FA-1F444E6DFF32}">
-													<ClipList>
-														<MusicClip Name="陈致逸,HOYO-MiX - Liyue 璃月_02" ID="{ABB4F185-421B-4C9E-BC66-16848BF757D0}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="68099.5"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="陈致逸,HOYO-MiX - Liyue 璃月_02" ID="{5B60A207-7C8F-4FB8-BF96-62813D17D824}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
-									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{0A497FDF-CB55-458B-8648-846B412CEB03}"/>
-										<MusicCue Name="Exit Cue" ID="{35372CE8-CED4-4A83-9949-AC9638717967}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="68099.5"/>
-											</PropertyList>
-										</MusicCue>
-										<MusicCue Name="ExitCustom" ID="{08DAEFCE-DEA5-472D-86C5-B4676E605C3B}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="2"/>
-												<Property Name="TimeMs" Type="Real64" Value="67726.1474780702"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
-								</MusicSegment>
 								<MusicSegment Name="陈致逸,HOYO-MiX - Call It a Day in Liyue 璃月的一日将尽" ID="{C4F5653A-B9EA-4712-BE87-05E0FE8E9DBA}" ShortID="133328727">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="95428.3125"/>
@@ -1923,156 +1845,6 @@
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="2"/>
 												<Property Name="TimeMs" Type="Real64" Value="93754.1315789474"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
-								</MusicSegment>
-								<MusicSegment Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月" ID="{415A18A2-C2F0-4A25-832E-4353C6159E2F}" ShortID="828001896">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="117421.333333333"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月" ID="{D8035958-9552-459C-8985-E9CC017769E9}" ShortID="979637497">
-											<PropertyList>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月" ID="{3726B8A7-70D3-4596-BD82-CF65A0D219DD}" ShortID="303176132">
-													<Language>SFX</Language>
-													<AudioFile>陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="831323415"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{5FD51A39-EC6B-42BA-A88E-C558F5595C30}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{E0467564-199E-4CB0-99CA-68CE1480E2CA}">
-													<ClipList>
-														<MusicClip Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月" ID="{29E4D3F8-2ED7-4772-9E45-DF232A94C894}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="117421.333333333"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月" ID="{3726B8A7-70D3-4596-BD82-CF65A0D219DD}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
-									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{66788C2E-2CEB-4904-BB9F-030E4CED1DCE}"/>
-										<MusicCue Name="Exit Cue" ID="{35C9A067-8C9D-4AA1-B30A-B754750EE047}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="117421.333333333"/>
-											</PropertyList>
-										</MusicCue>
-										<MusicCue Name="ExitCustom" ID="{2451D55C-B097-490F-A098-4814411811C1}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="2"/>
-												<Property Name="TimeMs" Type="Real64" Value="116133.81871345"/>
-											</PropertyList>
-										</MusicCue>
-									</CueList>
-								</MusicSegment>
-								<MusicSegment Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇" ID="{D37FE04D-63A2-4D7E-B3E8-DE80960E0458}" ShortID="891265839">
-									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="67853.7291666667"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇" ID="{3E754B34-B60C-4F11-8947-4050E39FF7E1}" ShortID="562255960">
-											<PropertyList>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇" ID="{77838510-086C-4788-8C0D-A60127069D6B}" ShortID="735503389">
-													<Language>SFX</Language>
-													<AudioFile>陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="84251604"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{3AB9CDD3-8255-4E84-A982-5763BCE430D5}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{914694E3-733E-4E19-9CF5-C99F6E6E8039}">
-													<ClipList>
-														<MusicClip Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇" ID="{5B4FD577-1B6D-4C17-92D1-D1B77347B314}">
-															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="67853.7291666667"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-															</PropertyList>
-															<AudioSourceRef Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇" ID="{77838510-086C-4788-8C0D-A60127069D6B}"/>
-														</MusicClip>
-													</ClipList>
-												</MusicTrackSequence>
-											</SequenceList>
-										</MusicTrack>
-									</ChildrenList>
-									<CueList>
-										<MusicCue Name="Entry Cue" ID="{0CCEDA04-FCB7-4793-B3DA-5975B4F7C915}"/>
-										<MusicCue Name="Exit Cue" ID="{A002E2F8-D5A7-4C9B-8598-564EEB41D84C}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="67853.7291666667"/>
-											</PropertyList>
-										</MusicCue>
-										<MusicCue Name="ExitCustom" ID="{FA833EA1-1AF8-49BA-A8B9-1BCB24FA24A7}">
-											<PropertyList>
-												<Property Name="CueType" Type="int16" Value="2"/>
-												<Property Name="TimeMs" Type="Real64" Value="66886.5159219664"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -2227,6 +1999,228 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
+								<MusicSegment Name="陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver_" ID="{6FCD5BC0-54CB-4FB5-949D-F9D6555D0508}" ShortID="390571835">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="277315.229166667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver_" ID="{4B7481D1-BBCE-459C-AB9E-4350210FB32D}" ShortID="725954878">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver_" ID="{B1A195B8-0F75-446B-B676-3386B5D45B56}" ShortID="11665062">
+													<Language>SFX</Language>
+													<AudioFile>陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver. .wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="466680258"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BA55F593-39A1-4A27-A260-D50C478C12D5}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{F0463A94-73F0-46E5-8F88-80702D7117C9}">
+													<ClipList>
+														<MusicClip Name="陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver_ " ID="{FC23840B-4111-486E-9FE3-D7E8128DC237}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="277315.229166667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver_" ID="{B1A195B8-0F75-446B-B676-3386B5D45B56}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{5F03E2B5-BAB7-4440-82F2-9E422738C221}"/>
+										<MusicCue Name="Exit Cue" ID="{7692A4FF-3F28-408D-8524-A420D255749F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="277315.229166667"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{EFA46645-4DCA-40CC-B445-372942762787}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="273970.41828856"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月「映春华章」Ver_" ID="{94F41A1D-48E6-489C-9D36-2DD888FB0A4A}" ShortID="386434578">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="123847.895833333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月「映春华章」Ver_" ID="{6D0FA23D-F127-425B-AB3F-6B5FA9D64096}" ShortID="1016028780">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月「映春华章」Ver_" ID="{3E0F3FBE-0C9A-4BFD-94F5-846F2FB7DE9B}" ShortID="1057615763">
+													<Language>SFX</Language>
+													<AudioFile>陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月「映春华章」Ver. .wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7C06CF4A-382A-4A0C-B688-4502F3DEFBC5}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{39ED2606-06A2-4A90-A7A2-493BD5712ABB}">
+													<ClipList>
+														<MusicClip Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月「映春华章」Ver_ " ID="{43F046A0-CBFA-40E8-801A-71D51FB86071}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="123847.895833333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月「映春华章」Ver_" ID="{3E0F3FBE-0C9A-4BFD-94F5-846F2FB7DE9B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{421BCD24-47EF-4846-9C36-51F2DCA38E8D}"/>
+										<MusicCue Name="Exit Cue" ID="{FAFC45C2-931C-4B2D-BDD9-FF0513D41D6C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="123847.895833333"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{8C7DD1B2-3528-42B3-B2E5-E951C4F0DFC0}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="121946.721993787"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver_)wav" ID="{8B77801E-0063-4E62-B4DF-13D11B365071}" ShortID="712487532">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64840.1875"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver_)wav" ID="{479780C6-B3C6-4872-8841-D496E7B5D83A}" ShortID="497815102">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver_)wav" ID="{8841C599-9217-4FF4-A90B-16C7CD6BB5A8}" ShortID="915005479">
+													<Language>SFX</Language>
+													<AudioFile>陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver.)wav.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="837128982"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8200E830-D1EC-4D04-9ECE-DED2E45AA3DA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{47D804E6-376C-4F1F-AF90-CB0C5547D781}">
+													<ClipList>
+														<MusicClip Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver_)wav" ID="{C3B35760-752A-41A0-B69A-90CDC166C641}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="64840.1875"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver_)wav" ID="{8841C599-9217-4FF4-A90B-16C7CD6BB5A8}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{0A619070-7EB9-4178-9F63-DE5178929060}"/>
+										<MusicCue Name="Exit Cue" ID="{F1D95705-6954-46C0-B222-1C3FA6093287}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="64840.1875"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{7D43C167-E2BA-4C25-9DD7-F830EDA1A1E7}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="63560.4469572368"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{1A44532B-8F82-4297-A4BB-81C91F65231A}">
@@ -2260,35 +2254,11 @@
 											</PropertyList>
 											<SegmentRef Name="陈致逸,HOYO-MiX - Cozy Leisure Time (Wangshu Daytime) 品茗尝清心 (望舒昼间)" ID="{B5075B49-2859-4091-9F15-9F79D1142BAD}"/>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{6B4254E6-470E-4420-9E05-EE287D734922}" ShortID="811647673">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="陈致逸,HOYO-MiX - Liyue 璃月_01" ID="{D0A5F245-75A0-4667-8736-B5F1CF0976E2}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{5733D675-8EB9-4396-AA1F-9E475D914E08}" ShortID="300827753">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="陈致逸,HOYO-MiX - Liyue 璃月_02" ID="{6BD27794-E18A-48F8-A372-C7EF34247F96}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{06DCABDC-3B50-4E48-A232-35902F535193}" ShortID="822762871">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月" ID="{415A18A2-C2F0-4A25-832E-4353C6159E2F}"/>
-										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{7B788D4A-3587-4956-BDA2-BF10CF2AAE31}" ShortID="715771873">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="陈致逸,HOYO-MiX - Peaceful Hike (Qingce Daytime) 山风拂萝衣 (轻策昼间)" ID="{D04D249B-F19F-4C12-85DE-8CABA0A42BFA}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{D896A11A-7778-4575-8A26-04B31BCA5D64}" ShortID="939200386">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇" ID="{D37FE04D-63A2-4D7E-B3E8-DE80960E0458}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -2434,81 +2404,6 @@
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="2"/>
 										<Property Name="TimeMs" Type="Real64" Value="77312.1060626827"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
-						<MusicSegment Name="LiyueModern" ID="{3D817AE3-ADA9-4834-865D-6102EB6E54E9}" ShortID="301267332">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="276250"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Music Bus" ID="{A4651C9B-6B73-4D78-B017-72E8CDF5B03D}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="陈致逸,HOYO-MiX - Liyue 璃月" ID="{7A7BF309-F1C7-4BA3-9E72-93746F71D6A5}" ShortID="22186357">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="陈致逸,HOYO-MiX - Liyue 璃月" ID="{52C76DFC-9BCA-4DE4-BD8D-3C093C4B8201}" ShortID="870921747">
-											<Language>SFX</Language>
-											<AudioFile>陈致逸,HOYO-MiX - Liyue 璃月.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="73328597"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{C882718F-C560-419B-8323-8DAC3F9DCF3A}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{04A80336-D049-4677-8833-1D31FF07BCED}">
-											<ClipList>
-												<MusicClip Name="陈致逸,HOYO-MiX - Liyue 璃月" ID="{3812A041-A016-4AAD-98E7-DB4BCCB7A8C2}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="276250"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="陈致逸,HOYO-MiX - Liyue 璃月" ID="{52C76DFC-9BCA-4DE4-BD8D-3C093C4B8201}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{4F99CF21-A5D1-4C69-9124-6E0C4EB0AF35}"/>
-								<MusicCue Name="Exit Cue" ID="{7E1337F2-F1F9-4ABB-8568-F5A45A297190}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="276250"/>
-									</PropertyList>
-								</MusicCue>
-								<MusicCue Name="ExitCustom" ID="{D0BA3F6B-ED5B-4C98-943E-2BEC67A58A50}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="2"/>
-										<Property Name="TimeMs" Type="Real64" Value="274129.660087719"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -2673,6 +2568,78 @@
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
+						<MusicSegment Name="LiyueModern" ID="{2929A34E-2FC3-4380-BAA4-0DE23F87E93A}" ShortID="438378459">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="277315.229166667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver_" ID="{44DBCCFC-7001-40EF-A09C-8B1407326CB8}" ShortID="623907024">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver_" ID="{C4EF54D8-8B35-4D7B-9C07-BAED47BBF2DD}" ShortID="466680258">
+											<Language>SFX</Language>
+											<AudioFile>陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver. .wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D9954888-796A-449A-A87C-5BB23BC4BBC8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{89D8C104-E0B9-4668-AD14-3264969BF470}">
+											<ClipList>
+												<MusicClip Name="陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver_ " ID="{4F5F50A3-98CA-4BB7-B154-A2BAB857C398}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="277315.229166667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver_" ID="{C4EF54D8-8B35-4D7B-9C07-BAED47BBF2DD}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{C213F8F1-A785-46EA-94CE-F3F75736513A}"/>
+								<MusicCue Name="Exit Cue" ID="{CE1A0E50-CA36-4706-9EB4-65A2CEC0C8CC}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="277315.229166667"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{9A2F6579-2609-48BF-8A3B-AD27A8EF7E4B}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="275186.713153326"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{B14F4DF3-26F4-426F-8376-46803C449B5F}">
@@ -2704,7 +2671,7 @@
 								<PathElementRef Name="Modern_Era" ID="{76E770F2-508B-4575-96E4-F4C182AB2405}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="LiyueModern" ID="{3D817AE3-ADA9-4834-865D-6102EB6E54E9}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Platform="Linked"/>
+								<AudioNodeRef Name="LiyueModern" ID="{2929A34E-2FC3-4380-BAA4-0DE23F87E93A}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -2742,20 +2709,20 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="LiyueModern" ID="{F3BF1EAE-A55A-4887-94C6-DACC530E715A}" ShortID="752820398">
+						<MusicSegment Name="陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊" ID="{F399C9D1-89C9-4E20-BACB-95D2BC803CEA}" ShortID="463502087">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="276250"/>
+								<Property Name="EndPosition" Type="Real64" Value="99837.625"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Music Bus" ID="{A4651C9B-6B73-4D78-B017-72E8CDF5B03D}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="陈致逸,HOYO-MiX - Liyue 璃月" ID="{8DCF84F1-D66F-4E2C-844F-21F49D527921}" ShortID="330306216">
+								<MusicTrack Name="陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊" ID="{82330900-D2D0-46BA-B710-45F1A75FDCC9}" ShortID="215318425">
 									<PropertyList>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
@@ -2769,13 +2736,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="陈致逸,HOYO-MiX - Liyue 璃月" ID="{E5EF5B4F-94E7-4810-B4F0-DCF6332DA9F7}" ShortID="73328597">
+										<AudioFileSource Name="陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊" ID="{50C62036-891F-4934-B5E8-7EF44C2716CD}" ShortID="526713429">
 											<Language>SFX</Language>
-											<AudioFile>陈致逸,HOYO-MiX - Liyue 璃月.wav</AudioFile>
+											<AudioFile>陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{638918AE-7F8E-494A-9356-DD25C71B8293}">
+										<MusicTransition Name="Root" ID="{D58066DB-32AA-427F-8F32-8463115A7AA8}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -2783,15 +2750,15 @@
 										</MusicTransition>
 									</TransitionList>
 									<SequenceList>
-										<MusicTrackSequence Name="" ID="{9E4C3BCC-A4D1-493B-A049-5E1E040E04B9}">
+										<MusicTrackSequence Name="" ID="{014B7637-B30C-4E28-A0F3-7D2F6EB7BC92}">
 											<ClipList>
-												<MusicClip Name="陈致逸,HOYO-MiX - Liyue 璃月" ID="{041C7525-44CA-435D-98B7-8E9D8B3F4F0C}">
+												<MusicClip Name="陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊" ID="{6B9201A7-62AB-4D1A-8062-CDC237C39AA3}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="276250"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="99837.625"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
 														<Property Name="FadeOutMode" Type="int16" Value="0"/>
 													</PropertyList>
-													<AudioSourceRef Name="陈致逸,HOYO-MiX - Liyue 璃月" ID="{E5EF5B4F-94E7-4810-B4F0-DCF6332DA9F7}"/>
+													<AudioSourceRef Name="陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊" ID="{50C62036-891F-4934-B5E8-7EF44C2716CD}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
@@ -2799,244 +2766,17 @@
 								</MusicTrack>
 							</ChildrenList>
 							<CueList>
-								<MusicCue Name="Entry Cue" ID="{7D46D027-2263-4F5F-81C3-A56025B365A6}"/>
-								<MusicCue Name="Exit Cue" ID="{F1ED866A-1732-4E36-9BE0-B8C5D3B9998B}">
+								<MusicCue Name="Entry Cue" ID="{ADD65496-384A-4DC2-B094-057776353D25}"/>
+								<MusicCue Name="Exit Cue" ID="{9177DBEA-AD2D-49C9-9F22-B650CC57C395}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="276250"/>
+										<Property Name="TimeMs" Type="Real64" Value="99837.625"/>
 									</PropertyList>
 								</MusicCue>
-								<MusicCue Name="ExitCustom" ID="{95B0AC16-181A-4CC5-A6B4-CA46DDC9850E}">
+								<MusicCue Name="ExitCustom" ID="{032DAE23-4171-443F-BFB3-0D9F265DD26E}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="2"/>
-										<Property Name="TimeMs" Type="Real64" Value="274129.660087719"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
-						<MusicSegment Name="LiyueMedieval" ID="{648A4532-39D6-42FA-AC56-F0B5DB3030A8}" ShortID="561138567">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="78780.6041666667"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Music Bus" ID="{A4651C9B-6B73-4D78-B017-72E8CDF5B03D}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="陈致逸,HOYO-MiX - Maiden's Longing 环佩凭栏望千帆" ID="{0D3C60DD-4A31-4894-A4E2-6F10F0EDA752}" ShortID="846612915">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="陈致逸,HOYO-MiX - Maiden's Longing 环佩凭栏望千帆" ID="{60DD1F7F-4464-41A0-88A4-ECCD3F676EFA}" ShortID="341294319">
-											<Language>SFX</Language>
-											<AudioFile>陈致逸,HOYO-MiX - Maiden's Longing 环佩凭栏望千帆.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="91062406"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{F8AFD074-45C1-428D-8AF8-1CFB848A8CFC}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{B876525C-3716-4A01-BB9C-3076780F08D1}">
-											<ClipList>
-												<MusicClip Name="陈致逸,HOYO-MiX - Maiden's Longing 环佩凭栏望千帆" ID="{9F82480C-1149-4A10-B619-C7DDB1E9894C}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="78780.6041666667"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="陈致逸,HOYO-MiX - Maiden's Longing 环佩凭栏望千帆" ID="{60DD1F7F-4464-41A0-88A4-ECCD3F676EFA}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{ED8FE77C-A17B-4701-B0FD-9201438C4E1A}"/>
-								<MusicCue Name="Exit Cue" ID="{7B7BF598-36E6-4E1E-BAF4-6267E31FEAE6}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="78780.6041666667"/>
-									</PropertyList>
-								</MusicCue>
-								<MusicCue Name="ExitCustom" ID="{B7ADBC37-4FFE-4EC5-A3E2-E68D3538B23A}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="2"/>
-										<Property Name="TimeMs" Type="Real64" Value="77312.1060626827"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
-						<MusicSegment Name="LiyueAncient" ID="{FA408393-651C-4D63-AF3E-9EBBE0E0348F}" ShortID="180984799">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="63192.9166666667"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Music Bus" ID="{A4651C9B-6B73-4D78-B017-72E8CDF5B03D}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="陈致逸,HOYO-MiX - Winding River 逶迤绿水长" ID="{EBE89CA7-02CB-47D0-8D9B-5BFA28D5D2D0}" ShortID="129026904">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="陈致逸,HOYO-MiX - Winding River 逶迤绿水长" ID="{6769E2AD-4535-4B65-B1D9-914023D70A5F}" ShortID="939348793">
-											<Language>SFX</Language>
-											<AudioFile>陈致逸,HOYO-MiX - Winding River 逶迤绿水长.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="876651436"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{D9B3857A-81A7-4938-8730-8FFD436C7E95}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{6B31C8C0-0D9A-4A90-BEC4-D00E35B5F706}">
-											<ClipList>
-												<MusicClip Name="陈致逸,HOYO-MiX - Winding River 逶迤绿水长" ID="{CE549235-7466-4E2A-B8DA-61AF3500B1D1}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="63192.9166666667"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="陈致逸,HOYO-MiX - Winding River 逶迤绿水长" ID="{6769E2AD-4535-4B65-B1D9-914023D70A5F}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{2C0E70B2-7F2A-4DCB-A98A-C0FBFD535554}"/>
-								<MusicCue Name="Exit Cue" ID="{A394E2D5-9FDB-4282-A4DA-FC3356F1F39F}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="63192.9166666667"/>
-									</PropertyList>
-								</MusicCue>
-								<MusicCue Name="ExitCustom" ID="{5BC76373-4275-4162-A84B-14F772096E8A}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="2"/>
-										<Property Name="TimeMs" Type="Real64" Value="62500.011878655"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
-						<MusicSegment Name="LiyueIndustrial" ID="{8DDECB89-73F2-4EF0-9C24-728A508CE00C}" ShortID="238366536">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="64840.1875"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F0B2B82B-0D6D-436D-8F34-82CC88B59E76}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Music Bus" ID="{A4651C9B-6B73-4D78-B017-72E8CDF5B03D}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver_)wav" ID="{EC16AE6C-DF2F-43A1-BD08-6EFD9DA72B6C}" ShortID="677864140">
-									<PropertyList>
-										<Property Name="IsStreamingEnabled" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AEC1727B-3C12-4EDC-8166-9B00E0D747E4}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver_)wav" ID="{DDF4B48C-83E2-40F0-B07D-02DCC3F40810}" ShortID="837128982">
-											<Language>SFX</Language>
-											<AudioFile>陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver.)wav.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{AD561853-99C2-4720-AEEB-F62E966748ED}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{76919F71-4764-42B2-A859-9028FFEEB633}">
-											<ClipList>
-												<MusicClip Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver_)wav" ID="{E6E5DBA5-749A-430B-9DE6-F39924F2D3E9}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="64840.1875"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇 (Consert Ver_)wav" ID="{DDF4B48C-83E2-40F0-B07D-02DCC3F40810}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{A07F6915-C489-4B70-A07C-8B2A898BC129}"/>
-								<MusicCue Name="Exit Cue" ID="{E6E6AAC4-F3D1-4237-B919-5B5130EAF709}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="64840.1875"/>
-									</PropertyList>
-								</MusicCue>
-								<MusicCue Name="ExitCustom" ID="{58A2C19E-A402-41A5-8CEE-32259B257730}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="2"/>
-										<Property Name="TimeMs" Type="Real64" Value="63631.543654057"/>
+										<Property Name="TimeMs" Type="Real64" Value="98414.5009594298"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -3064,7 +2804,7 @@
 								<PathElementRef Name="Ancient_Era" ID="{FA30E7E1-4DF1-49BA-9269-F715D1BB8F8B}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="LiyueAncient" ID="{FA408393-651C-4D63-AF3E-9EBBE0E0348F}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Platform="Linked"/>
+								<AudioNodeRef Name="陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊" ID="{F399C9D1-89C9-4E20-BACB-95D2BC803CEA}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -3072,7 +2812,7 @@
 								<PathElementRef Name="Medieval_Era" ID="{2C6FC0A2-EE7B-402C-A45E-44E424459C05}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="LiyueMedieval" ID="{648A4532-39D6-42FA-AC56-F0B5DB3030A8}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Platform="Linked"/>
+								<AudioNodeRef Name="陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊" ID="{F399C9D1-89C9-4E20-BACB-95D2BC803CEA}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -3080,7 +2820,7 @@
 								<PathElementRef Name="Industrial_Era" ID="{82BC4713-BCBE-4FCB-8CD2-BCDBBA63FC81}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="LiyueIndustrial" ID="{8DDECB89-73F2-4EF0-9C24-728A508CE00C}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Platform="Linked"/>
+								<AudioNodeRef Name="陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊" ID="{F399C9D1-89C9-4E20-BACB-95D2BC803CEA}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 						<Entry>
@@ -3088,7 +2828,7 @@
 								<PathElementRef Name="Modern_Era" ID="{76E770F2-508B-4575-96E4-F4C182AB2405}"/>
 							</Path>
 							<AudioNodeInfo>
-								<AudioNodeRef Name="LiyueModern" ID="{F3BF1EAE-A55A-4887-94C6-DACC530E715A}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Platform="Linked"/>
+								<AudioNodeRef Name="陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊" ID="{F399C9D1-89C9-4E20-BACB-95D2BC803CEA}" WorkUnitID="{6C427F7D-337A-4490-8E3E-996D49378814}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

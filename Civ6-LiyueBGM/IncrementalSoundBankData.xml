@@ -2,8 +2,8 @@
 <IncrementalBankBuild Version="4" Flags="601859981">
 	<Platform GUID="{9750C725-ED55-44EE-B2EC-5162EE77C6F2}">
 		<Language ID="0">
-			<Bank Name="Init" Hash="3336477374" StreamHash="157587662" Timestamp="132811983718543010"/>
-			<Bank Name="LiyueBGM" Hash="1830056720" StreamHash="2453602189" Timestamp="132812758178031230"/>
+			<Bank Name="Init" Hash="3336477374" StreamHash="157587662" Timestamp="132811983720000000"/>
+			<Bank Name="LiyueBGM" Hash="1847740122" StreamHash="2199034357" Timestamp="132887052920000000"/>
 		</Language>
 	</Platform>
 </IncrementalBankBuild>

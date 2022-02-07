@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
 	<RootPaths>
-		<ProjectRoot>D:\Documents\WwiseProjects\Civ6-LiyueBGM\</ProjectRoot>
-		<SourceFilesRoot>D:\Documents\WwiseProjects\Civ6-LiyueBGM\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Documents\WwiseProjects\Civ6-LiyueBGM\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Documents\GitHub\Civ6-Liyue\Civ6-LiyueBGM\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\Civ6-Liyue\Civ6-LiyueBGM\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\Civ6-Liyue\Civ6-LiyueBGM\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Documents\WwiseProjects\Civ6-LiyueBGM\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Civ6-Liyue\Civ6-LiyueBGM\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -20,10 +20,6 @@
 		<File Id="55857402" Language="SFX">
 			<ShortName>陈致逸,HOYO-MiX - Peaceful Hike (Qingce Daytime) 山风拂萝衣 (轻策昼间).wav</ShortName>
 			<Path>SFX\陈致逸,HOYO-MiX - Peaceful Hike (Qingce Daytime) 山风拂萝衣 (轻策昼间)_5E5FEB08.wem</Path>
-		</File>
-		<File Id="73328597" Language="SFX">
-			<ShortName>陈致逸,HOYO-MiX - Liyue 璃月.wav</ShortName>
-			<Path>SFX\陈致逸,HOYO-MiX - Liyue 璃月_5E5FEB08.wem</Path>
 		</File>
 		<File Id="84251604" Language="SFX">
 			<ShortName>陈致逸,HOYO-MiX - Relaxation in Liyue 商港的闲暇.wav</ShortName>
@@ -49,6 +45,10 @@
 			<ShortName>陈致逸,HOYO-MiX - Good Night, Liyue 晚安，璃月.wav</ShortName>
 			<Path>SFX\陈致逸,HOYO-MiX - Good Night, Liyue 晚安，璃月_5E5FEB08.wem</Path>
 		</File>
+		<File Id="237247352" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Rays of Sunlight 天霁日出「映春华章」Ver. .wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Rays of Sunlight 天霁日出「映春华章」Ver. _5E5FEB08.wem</Path>
+		</File>
 		<File Id="341379077" Language="SFX">
 			<ShortName>陈致逸,HOYO-MiX - Liyue 璃月_02.wav</ShortName>
 			<Path>SFX\陈致逸,HOYO-MiX - Liyue 璃月_02_5E5FEB08.wem</Path>
@@ -68,6 +68,14 @@
 		<File Id="464496937" Language="SFX">
 			<ShortName>陈致逸,HOYO-MiX - Call It a Day in Liyue 璃月的一日将尽.wav</ShortName>
 			<Path>SFX\陈致逸,HOYO-MiX - Call It a Day in Liyue 璃月的一日将尽_5E5FEB08.wem</Path>
+		</File>
+		<File Id="466680258" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver. .wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Liyue 璃月 「映春华章」Ver. _5E5FEB08.wem</Path>
+		</File>
+		<File Id="526713429" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊.wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Palace of Jadeite 玉影徘徊_5E5FEB08.wem</Path>
 		</File>
 		<File Id="831323415" Language="SFX">
 			<ShortName>陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月.wav</ShortName>
@@ -97,6 +105,10 @@
 			<ShortName>陈致逸,HOYO-MiX - Sojourner's Sweet Dream (Wangshu Night) 美梦抚归人 (望舒夜间).wav</ShortName>
 			<Path>SFX\陈致逸,HOYO-MiX - Sojourner's Sweet Dream (Wangshu Night) 美梦抚归人 (望舒夜间)_5E5FEB08.wem</Path>
 		</File>
+		<File Id="1057615763" Language="SFX">
+			<ShortName>陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月「映春华章」Ver. .wav</ShortName>
+			<Path>SFX\陈致逸,HOYO-MiX - Moon in One's Cup 杯中明月「映春华章」Ver. _5E5FEB08.wem</Path>
+		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
@@ -116,18 +128,20 @@
 				<File Id="18300585"/>
 				<File Id="19721606"/>
 				<File Id="55857402"/>
-				<File Id="73328597"/>
 				<File Id="84251604"/>
 				<File Id="91062406"/>
 				<File Id="158279736"/>
 				<File Id="167037324"/>
 				<File Id="178322394"/>
 				<File Id="188830929"/>
+				<File Id="237247352"/>
 				<File Id="341379077"/>
 				<File Id="422383566"/>
 				<File Id="429053686"/>
 				<File Id="430139044"/>
 				<File Id="464496937"/>
+				<File Id="466680258"/>
+				<File Id="526713429"/>
 				<File Id="831323415"/>
 				<File Id="837128982"/>
 				<File Id="876651436"/>
@@ -135,6 +149,7 @@
 				<File Id="894940137"/>
 				<File Id="901895987"/>
 				<File Id="1004924057"/>
+				<File Id="1057615763"/>
 			</ReferencedStreamedFiles>
 		</SoundBank>
 	</SoundBanks>
