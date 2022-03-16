@@ -41,7 +41,7 @@
 		<Row Name="ICON_ATLAS_GANYU_GOVERNORS" IconSize="32" IconsPerRow="8" IconsPerColumn="1" Filename="Ganyu_Governors32"/>
 		<Row Name="ICON_ATLAS_GANYU_GOVERNORS" IconSize="64" IconsPerRow="8" IconsPerColumn="1" Filename="Ganyu_Governors64"/>
 		<Row Name="ICON_ATLAS_GANYU_GOVERNOR_PROMOTIONS" IconSize="24" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorPromotions24"/>
-		<Row Name="ICON_ATLAS_FONT_ICON_LIYUE_HARBOR" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="FontIcon_LiyueHarbor"/>
+		<Row Name="ICON_ATLAS_FONT_ICON_LIYUE_HARBOR" IconSize="22" Baseline="4" IconsPerRow="1" IconsPerColumn="1" Filename="FontIcon_LiyueHarbor"/>
 		<!-- Atlasses bellow are used in CityBanner governor meters -->
 		<Row Name="ICON_ATLAS_GANYU_GOVERNORS_FILL" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorsCityBannerFill32"/>
 		<Row Name="ICON_ATLAS_GANYU_GOVERNORS_FILL" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorsCityBannerFill22"/>
