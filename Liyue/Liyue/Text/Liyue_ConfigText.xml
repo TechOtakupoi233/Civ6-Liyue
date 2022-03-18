@@ -37,7 +37,7 @@
 		</Row>
 		
 		<Row Tag="LOC_LOADING_INFO_LEADER_KEQING" Language="en_US">
-			<Text>Keqing, Yuheng of the Liyue Qixing, the future of Liyue lies in your hands. You are representation of your people, and make your decisions lightning fast like a driving thunder. Under your leadership, your people will rewrite the old order existed for millennia, replace the gods as masters of your own universe, and stand the test of time. Stay at the cutting edge in eras, create a new path with your own hands, and make your thoughts into actions.</Text>
+			<Text>Keqing, Yuheng of the Liyue Qixing, the future of Liyue lies in your hands. You exemplify to your people, and make your decisions as fast as nimble lightning. Under your leadership, your people shall rewrite the order that has existed for millennia, replace the old gods as the masters of your own universe, and stand the test of time. Stand at the cutting edge of the times, create new paths with your own hands, and forge your ideas into actions.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_NINGGUANG_NAME" Language="en_US">
 			<Text>Ningguang</Text>
@@ -49,10 +49,8 @@
 			<Text>Receive an extra level of [ICON_VisLimited] Diplomatic Visibility when sending an international [ICON_TradeRoute] Trade Route to another civilization. All spies start with the Surveillance promotion. +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, and +50% [ICON_Gold] Gold from international [ICON_TradeRoute] Trade Routes. </Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="en_US">
-			<Text>Ningguang, Tianquan of the Liyue Qixing, you knows all details about good and bad things in Liyue. You are kind toward your people, but a perfect hunter that none of your enemy could ever hope to see, and unsurpassed in all of Teyvat. Continue investing, expand trade routes, and develop the Jade Chamber so that it can casts its shadow over the whole of Liyue in the moonlight.</Text>
+			<Text>Ningguang, Tianquan of the Liyue Qixing, none that happens in Liyue, whether good or bad, can ever escape your eyes and ears. You are kind towards your people, but are also a perfect hunter whom none of your enemies could ever hope to match, remaining unsurpassed in all of Teyvat. Continue investing, expand your trade routes, and develop the Jade Chamber so that it can cast its shadow over the whole of Liyue in the moonlight.</Text>
 		</Row>
-		
-
 		<Row Tag="LOC_LIYUE_CL_DLC1_TITLE" Language="en_US">
 		    <Text>Liyue Civilization Pack - More Traits</Text>
 		</Row>

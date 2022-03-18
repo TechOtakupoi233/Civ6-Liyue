@@ -13,7 +13,7 @@
 			<Text>Real Estate and Construction</Text>
 		</Row>
 		<Row Tag="LOC_AGENDA_KEQING_DESCRIPTION" Language="en_US">
-			<Text>Prefers to build each different kind of district, clear all features and improve all possible tiles. Likes civilizations with a high percentage of improved tiles. Dislikes civilizations with low percentage of improved tiles.</Text>
+			<Text>Prefers to build each different kind of district, clear all features and improve all possible tiles. Likes civilizations with a high percentage of improved tiles. Dislikes civilizations with a low percentage of improved tiles.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_KEQING" Language="en_US">
 			<Text>Keqing is watching your progress on improving your territory</Text>
@@ -67,7 +67,7 @@
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
 			<!--接受使节派遣-->
-			<Text>Not bad, as far as gifts are concerned. Let us on to the next.</Text>
+			<Text>Not bad, as far as gifts are concerned. Now let's move on to our next work if that's all.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
@@ -82,12 +82,12 @@
 
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KEQING_ANY" Language="en_US">
 			<!--被谴责-->
-			<Text>You just poke your nose into everything that's going on for some reason... You baffle me a lot - how exactly do any of your actions contribute to the longevity of your country?</Text>
+			<Text>You just poke your nose into everything that's going on for some reason... You baffle me a lot. How exactly do any of your actions contribute to the longevity of your country?</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
 			<!--谴责玩家-->
-			<Text>Don't you have any principle? Hmm, or maybe being untrustworthy is your principle? (Denounces You)</Text>
+			<Text>Don't you have any principles? Or... maybe being untrustworthy is your principle? (Denounces You)</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KEQING_ANY" Language="en_US">
@@ -122,9 +122,8 @@
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KEQING_ANY" Language="en_US">
 			<!--请求结盟-->
-			<Text>The more time we spend together, the more I think you're the person of my dreams — An alliance with you is a crucial part of my dreams for the new Liyue.</Text>
+			<Text>The more time we spend together, the more I think that you're the person of my dreams. An alliance with you is a crucial part of my dreams for the new Liyue.</Text>
 		</Row>
-
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KEQING_ANY" Language="en_US">
 			<!--要求移开边境军队--> 
 			<Text>Your army is at my borders... They must be moved away at once. Let this be a lesson to those who say "I'll do it later."</Text>
@@ -154,19 +153,19 @@
 		</Row>
 		<!-- 领袖玩法介绍 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Liyue under Keqing's leadership can occupy beneficial terrain with their agile Settlers and purchase Builders that can move instantly after purchase to improve tiles around their cities, accelerating development of Liyue - which can be essential to any victory type. By constructing Mines and Liyue Harbor, Liyue can earn a considerable amount of [ICON_Production] Production and [ICON_Gold] Gold.</Text>
+			<Text>Liyue under Keqing's leadership can occupy beneficial terrain with their agile Settlers and purchase Builders that can move instantly after being purchased to improve tiles around their cities, accelerating development of Liyue, which can be essential to any victory type. By constructing mines and Liyue Harbor districts, Liyue can earn a considerable amount of [ICON_Production] Production and [ICON_Gold] Gold.</Text>
 		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- 领袖历史背景 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text></Text>
+			<Text>Keqing is the Yuheng of the Liyue Qixing, responsible for the management of land and construction. She firmly believes that the things related to human destiny should be done by humans, and that they can definitely do better. To prove this, she works harder than everyone else.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text></Text>
+			<Text>Keqing was born into a prestigious family. She had a deeper understanding than most people of the influence of Morax (locally known as Rex Lapis) on the people of Liyue. Every few years, there would be a huge disturbance in Liyue right after the Rite of Descension. His newly announced decisions always made several families happy and the others sad. Whether poor or rich, the people were more eager to invest in decisions that followed his lead. Although this was seen as understandable at the time, Keqing always had misgivings about them.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text></Text>
+			<Text>[WORK-IN-PROGRESS, ENGLISH CIVILOPEDIA ARTICLE FOR KEQING COMING SOON]</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KEQING_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text></Text>
@@ -208,7 +207,7 @@
 		</Row>
 		<!-- 领袖玩法介绍 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Ningguang is strong in espionage. By establishing spies in her cities, it's easy for her to prevent Liyue from enemy sabotage. When playing as Ningguang, be sure to keep a lot of international [ICON_TradeRoute] Trade Routes for maximum income. By constructing Mines and Liyue Harbor, Liyue can earn a considerable amount of [ICON_Production] Production and [ICON_Gold] Gold.</Text>
+			<Text>Ningguang is strong in espionage. By establishing spies in her cities, it's easy for her to prevent Liyue from enemy sabotage. When playing as Ningguang, be sure to keep a lot of international [ICON_TradeRoute] Trade Routes for maximum income. By constructing Mines and Liyue Harbor districts, Liyue can earn a considerable amount of [ICON_Production] Production and [ICON_Gold] Gold.</Text>
 		</Row>
 
         <Row Tag="LOC_LEADER_NINGGUANG_QUOTE" Language="en_US">
@@ -273,7 +272,7 @@
 
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
 			<!--谴责玩家-->
-			<Text>All that can be said has been said — both the good and the bad — but you still do as you please. Get out of my sight. (Denounces You)</Text>
+			<Text>I have warned you in all ways I can, but you still do as you please. Get out of my sight. (Denounces You)</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NINGGUANG_ANY" Language="en_US">
@@ -313,7 +312,7 @@
 
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NINGGUANG_ANY" Language="en_US">
 			<!--要求移开边境军队-->
-			<Text>Borders? If I told you we were aware of your army's movements for quite some time, do you still think you are a perfect hunter? And if you ever make the mistake of sparking a war...</Text>
+			<Text>Borders? If I told you we were aware of your army's movements for quite some time now, do you still think you are a perfect hunter? And if you ever make the mistake of sparking a war...</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NINGGUANG_ANY" Language="en_US">
@@ -335,7 +334,7 @@
 		<!-- Leader specific historical text. -->
 		<!-- 领袖历史背景 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text></Text>
+			<Text>[ENGLISH CIVILOPEDIA ARTICLE FOR NINGGUANG COMING SOON]</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NINGGUANG_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text></Text>
@@ -419,10 +418,10 @@
 			<Text>Secretary</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_GANYU_DESCRIPTION" Language="en_US">
-			<Text>Ganyu is the secretary to the Liyue Qixing, with the blood of both human and illuminated beast flowing within her veins. She is able to bring prosperity to her city, and is quite skilled in nature conservation.</Text>
+			<Text>Ganyu is the secretary to the Liyue Qixing, with the blood of both human and illuminated beast flowing within her veins. She is able to bring prosperity to her city, and is also quite skilled in nature conservation.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text></Text>
+			<Text>[CIVILOPEDIA ARTICLES ON GANYU AND HER GOVERNOR PROMOTIONS COMING SOON]</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_GANYU_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text></Text>
@@ -458,7 +457,7 @@
 			<Text>Harmony with Nature</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE_DESCRIPTION" Language="en_US">
-			<Text>Yields from Campus, Commercial Hub, Holy Site, Theater Square and Industrial Zone in this city are +1 in tiles with Charming Appeal, +3 in Breathtaking.</Text>
+			<Text>Yields from Campuses, Commercial Hubs, Holy Sites, Theater Squares and Industrial Zones in this city are +1 in tiles with Charming Appeal, +3 in Breathtaking.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_PAGE_GOVERNOR_PROMOTION_HARMONY_WITH_NATURE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
