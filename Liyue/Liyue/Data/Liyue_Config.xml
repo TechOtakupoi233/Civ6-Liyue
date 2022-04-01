@@ -102,18 +102,6 @@
 			<Icon>ICON_BUILDING_STATUE_OF_THE_SEVEN</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
-		<!--TEMPORARILY DROPPED
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>IMPROVEMENT_ADVENTURERS_GUILD</Type>
-			<Name>LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME</Name>
-			<Description>LOC_IMPROVEMENT_ADVENTURERS_GUILD_DESCRIPTION</Description>
-			<Icon>ICON_IMPROVEMENT_ADVENTURERS_GUILD</Icon>
-			<SortIndex>40</SortIndex>
-		</Row>
-		-->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
@@ -144,18 +132,6 @@
 			<Icon>ICON_BUILDING_STATUE_OF_THE_SEVEN</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
-		<!--TEMPORARILY DROPPED
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<LeaderType>LEADER_KEQING</LeaderType>
-			<Type>IMPROVEMENT_ADVENTURERS_GUILD</Type>
-			<Name>LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME</Name>
-			<Description>LOC_IMPROVEMENT_ADVENTURERS_GUILD_DESCRIPTION</Description>
-			<Icon>ICON_IMPROVEMENT_ADVENTURERS_GUILD</Icon>
-			<SortIndex>40</SortIndex>
-		</Row>
-		-->
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
@@ -186,18 +162,6 @@
 			<Icon>ICON_BUILDING_STATUE_OF_THE_SEVEN</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
-		<!--TEMPORARILY DROPPED
-		<InsertOrIgnore>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<LeaderType>LEADER_NINGGUANG</LeaderType>
-			<Type>IMPROVEMENT_ADVENTURERS_GUILD</Type>
-			<Name>LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME</Name>
-			<Description>LOC_IMPROVEMENT_ADVENTURERS_GUILD_DESCRIPTION</Description>
-			<Icon>ICON_IMPROVEMENT_ADVENTURERS_GUILD</Icon>
-			<SortIndex>40</SortIndex>
-		</InsertOrIgnore>
-		-->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
@@ -228,18 +192,6 @@
 			<Icon>ICON_BUILDING_STATUE_OF_THE_SEVEN</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
-		<!--TEMPORARILY DROPPED
-		<InsertOrIgnore>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_LIYUE_CL</CivilizationType>
-			<LeaderType>LEADER_NINGGUANG</LeaderType>
-			<Type>IMPROVEMENT_ADVENTURERS_GUILD</Type>
-			<Name>LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME</Name>
-			<Description>LOC_IMPROVEMENT_ADVENTURERS_GUILD_DESCRIPTION</Description>
-			<Icon>ICON_IMPROVEMENT_ADVENTURERS_GUILD</Icon>
-			<SortIndex>40</SortIndex>
-		</InsertOrIgnore>
-		-->
 	</PlayerItems>
 	<Parameters>
 		<Row ParameterId="HilichurlBarbarians" Name="LOC_GAME_HILICHURL_BARBARIANS" Description="LOC_GAME_HILICHURL_BARBARIANS_DESCRIPTION" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="GAME_HILICHURL_BARBARIANS" GroupId="AdvancedOptions" SortIndex="2010"/>
