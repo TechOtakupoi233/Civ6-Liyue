@@ -1,7 +1,3 @@
--- Liyue_Mondstadt
--- Author: Admin
--- DateCreated: 4/1/2022 8:30:35 PM
---------------------------------------------------------------
 INSERT INTO PlayerItems (Domain, CivilizationType, LeaderType, Type, Icon, Name, Description, SortIndex)
 SELECT 'Players:Expansion1_Players', 'CIVILIZATION_LIYUE_CL', 'LEADER_KEQING', 'IMPROVEMENT_ADVENTURERS_GUILD', 'ICON_IMPROVEMENT_ADVENTURERS_GUILD', 'LOC_IMPROVEMENT_ADVENTURERS_GUILD_NAME', 'LOC_IMPROVEMENT_ADVENTURERS_GUILD_DESCRIPTION', 40 WHERE EXISTS (SELECT * FROM PlayerItems WHERE CivilizationType = 'CIVILIZATION_GENSHIN_MONDSTADT');
 
