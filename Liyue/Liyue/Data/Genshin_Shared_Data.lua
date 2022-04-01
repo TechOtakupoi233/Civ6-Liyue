@@ -26,7 +26,7 @@ function SotSAction(iPlayerID, iUnitID, PlotX, PlotY)		-- Core action code of th
 					local healPoint = math.min(SotSRemainingHP, pUnit:GetDamage());
 					pUnit:SetDamage(pUnit:GetDamage() - healPoint);
 					SotSRemainingHP = SotSRemainingHP - healPoint;
-					Game.AddWorldViewText(0, "{LOC_TOOLTIP_STATUE_OF_THE_SEVEN}"..(25-SotSRemainingHP).."/25", PlotX, PlotY);
+					Game.AddWorldViewText(0, "{LOC_TOOLTIP_STATUE_OF_THE_SEVEN}"..SotSRemainingHP.."/25", PlotX, PlotY);
 					pPlayer:SetProperty("SotSHealCapability", SotSRemainingHP);
 				end
 			end

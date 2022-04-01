@@ -5,7 +5,7 @@ VALUES	('LOC_UNIT_HILICHURL_FIGHTER_DESCRIPTION',	'{LOC_UNIT_WARRIOR_DESCRIPTION
 INSERT OR IGNORE INTO LocalizedText (Language, Tag, Text)		-- Names Included in the Genshin Mondstadt Mod
 VALUES	('en_US',	'LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME',			'Statue of the Seven'),
 		('en_US',	'LOC_BUILDING_STATUE_OF_THE_SEVEN_DESCRIPTION',		'Genshin Impact unique building that replaces the Monument. Provides an additional +2 [ICON_Faith] Faith. Provides +1 Loyalty per turn in this city. If the city already has maximum Loyalty, also provides an additional +1 [ICON_Culture] Culture.[NEWLINE][NEWLINE]Units instantly heals when moved to a Statue of the Seven. The healing power of the statue is 25 per turn.'),
-		('en_US',	'LOC_TOOLTIP_STATUE_OF_THE_SEVEN',					"Statue's Blessing used: "),
+		('en_US',	'LOC_TOOLTIP_STATUE_OF_THE_SEVEN',					"Statue's Blessing: "),
 		('en_US',	'LOC_PEDIA_BUILDINGS_PAGE_BUILDING_STATUE_OF_THE_SEVEN_CHAPTER_HISTORY_PARA_1',					''	),
 
 		('en_US',	'LOC_UNIT_HILICHURL_FIGHTER_NAME',	'Hilichurl'	),
@@ -23,7 +23,7 @@ VALUES	('en_US',	'LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME',			'Statue of the Seven
 --------------------------------------------------------------
 		('zh_Hans_CN',	'LOC_BUILDING_STATUE_OF_THE_SEVEN_NAME',			'七天神像'		),
 		('zh_Hans_CN',	'LOC_BUILDING_STATUE_OF_THE_SEVEN_DESCRIPTION',		'替代纪念碑的原神特色建筑。额外提供 +2 [ICON_Faith] 信仰值。使此城市每回合 +1 忠诚度。如城市已拥有最高忠诚度，则额外 +1 [ICON_Culture] 文化值。[NEWLINE][NEWLINE]移动至七天神像的单位立即回复生命值（每回合最多25点）。'),
-		('zh_Hans_CN',	'LOC_TOOLTIP_STATUE_OF_THE_SEVEN',					'已用神像恩泽：'	),
+		('zh_Hans_CN',	'LOC_TOOLTIP_STATUE_OF_THE_SEVEN',					'神像的恩泽：'	),
 		('zh_Hans_CN',	'LOC_PEDIA_BUILDINGS_PAGE_BUILDING_STATUE_OF_THE_SEVEN_CHAPTER_HISTORY_PARA_1',					'七天神像是镇驻在提瓦特各处的巨大石像，据说它们的形象来自于七位神明。它们可以在提瓦特大陆的各处找到，七国中每个国家的神像都与它们的神所对应，分别诉说着各自的长久历史——在蒙德有5座，璃月有5座，稻妻则有6座。一开始，旅行者只能点亮位于坠星山谷和风啸山坡的七天神像，而在可探索的区域扩展之后则可以前往其他神像处。当旅行者首次点亮一处七天神像时，可以获得额外的视野和新的探索派遣。它还可以切换旅行者的共鸣状态，并为旅行者提供治疗的恩泽。在雪山的七天神像附近时，还可以降低角色的寒冷值。'	),
 
 		('zh_Hans_CN',	'LOC_UNIT_HILICHURL_FIGHTER_NAME',	'丘丘人'		),
