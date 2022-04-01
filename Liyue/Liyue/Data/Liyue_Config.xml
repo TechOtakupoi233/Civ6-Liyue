@@ -233,4 +233,18 @@
 			<SortIndex>40</SortIndex>
 		</Row>
 	</PlayerItems>
+	<Parameters>
+		<Row ParameterId="HilichurlBarbarians" Name="LOC_GAME_HILICHURL_BARBARIANS" Description="LOC_GAME_HILICHURL_BARBARIANS_DESCRIPTION" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="GAME_HILICHURL_BARBARIANS" GroupId="AdvancedOptions" SortIndex="2010"/>
+	</Parameters>
+	<ParameterCriteria>
+		<Row ParameterId="HilichurlBarbarians" ConfigurationGroup="Game" ConfigurationId="GAME_NO_BARBARIANS" Operator="NotEquals" ConfigurationValue="1"/>
+		<Row ParameterId="NoBarbarians" ConfigurationGroup="Game" ConfigurationId="GAME_HILICHURL_BARBARIANS" Operator="NotEquals" ConfigurationValue="1"/>
+	</ParameterCriteria>
+	<ParameterDependencies>
+		<Row ParameterId="HilichurlBarbarians" ConfigurationGroup="Game" ConfigurationId="RULESET" Operator="Exists" ConfigurationValue="RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2"/>
+		<Row ParameterId="HilichurlBarbarians" ConfigurationGroup="Game" ConfigurationId="WORLD_BUILDER" Operator="NotEquals" ConfigurationValue="1"/>
+	</ParameterDependencies>
+	<ConfigurationUpdates>
+		<Row SourceGroup="Game" SourceId="GAME_HILICHURL_BARBARIANS" SourceValue="1" TargetGroup="Game" TargetId="GAME_NO_BARBARIANS" TargetValue="0" Hash="0" Static="1"/>
+	</ConfigurationUpdates>
 </GameData>

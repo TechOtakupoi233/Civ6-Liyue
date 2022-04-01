@@ -63,5 +63,11 @@
 		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL_SOT7" Language="zh_Hans_CN">
 		    <Text>为璃月文明引入Kevin Liu佬的七天神像。依赖于Kevin Liu佬的“原神·蒙德Mod”。</Text>
 		</Row>
+		<Row Tag="LOC_GAME_HILICHURL_BARBARIANS" Language="zh_Hans_CN">
+			<Text>丘丘人蛮族</Text>
+		</Row>
+		<Row Tag="LOC_GAME_HILICHURL_BARBARIANS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>蛮族产生丘丘人和丘丘暴徒单位，代替常规的勇士和枪兵。（仅外观效果）</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

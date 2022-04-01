@@ -5,8 +5,8 @@
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="2159547912" Language="SFX">
-			<ShortName>Mondstadt_Music_Bank</ShortName>
-			<Path>Mondstadt_Music_Bank.bnk</Path>
+			<ShortName>Mondstadt_SFX</ShortName>
+			<Path>Mondstadt_SFX.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2538891721" Name="Play_Statue_of_The_Seven_Heal"/>
 			</IncludedEvents>

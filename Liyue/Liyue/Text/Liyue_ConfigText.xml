@@ -69,5 +69,11 @@
 		<Row Tag="LOC_LIYUE_MOD_DESCRIPTION_CL_SOT7" Language="en_US">
 		    <Text>Introduces the statue from Kevin Liu's Genshin·Mondstadt Mod. Requires the original mod.</Text>
 		</Row>
+		<Row Tag="LOC_GAME_HILICHURL_BARBARIANS" Language="en_US">
+			<Text>Hilichurl Barbarians</Text>
+		</Row>
+		<Row Tag="LOC_GAME_HILICHURL_BARBARIANS_DESCRIPTION" Language="en_US">
+			<Text>Barbarians produce Hilichurls and Mitachurls instead of normal Warriors and Spearmen. (Cosmetic effects only)</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
