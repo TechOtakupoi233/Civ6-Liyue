@@ -20,7 +20,7 @@
 
 		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_MILLELITH_NAME"				Text="千岩军"/>
 		<Row Language="zh_Hans_CN" Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
-			Text="璃月远古时代特色抗骑兵单位，取代枪兵。免疫丘陵地形的 [ICON_Movement] 移动力损耗。在丘陵上防御时 +5 [ICON_Strength] 战斗力。"/>
+			Text="璃月远古时代特色抗骑兵单位，取代长矛兵。免疫丘陵地形的 [ICON_Movement] 移动力损耗。在丘陵上防御时 +5 [ICON_Strength] 战斗力。"/>
 
 
 		<Row Language="zh_Hans_CN" Tag="LOC_LEADER_KEQING_NAME"					Text="刻晴"/>
