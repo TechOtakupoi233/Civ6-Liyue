@@ -617,8 +617,7 @@
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_9"  Text="Wanmin"/>
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_10" Text="Mingyun"/>
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_11" Text="Guyun"/>
-		<!--Not found. Lit. Stone Forest, while all stone forests has been here (as Huaguang and Guyun)-->
-		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_12" Text="Stone Forest"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_12" Text="Fuao"/>
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_13" Text="Lingju"/>
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_14" Text="Nantianmen"/>
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_15" Text="Huaguang"/>
@@ -630,8 +629,7 @@
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_21" Text="Minlin"/>
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_22" Text="Qiongji"/>
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_23" Text="Taishan"/>
-		<!--Not found. Romanized.-->
-		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_24" Text="Lingxiao"/>
+		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_24" Text="Tiangong"/>
 		<!--Not found. Romanized.-->
 		<Row Language="en_US" Tag="LOC_CITY_NAME_LIYUE_CL_25" Text="Huaqing"/>
 		<!--Not found. Romanized.-->
