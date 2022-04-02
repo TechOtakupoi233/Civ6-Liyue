@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Delete Type="UNIT_HILICHURL_FIGHTER"/>
+		<Delete Type="UNIT_HILICHURL_GUARD"/>
+	</Types>
+	<UnitAiInfos>
+		<Delete UnitType="UNIT_HILICHURL_FIGHTER" AiType="UNITAI_COMBAT"/>
+		<Delete UnitType="UNIT_HILICHURL_FIGHTER" AiType="UNITAI_EXPLORE"/>
+		<Delete UnitType="UNIT_HILICHURL_FIGHTER" AiType="UNITTYPE_MELEE"/>
+		<Delete UnitType="UNIT_HILICHURL_FIGHTER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Delete UnitType="UNIT_HILICHURL_GUARD" AiType="UNITAI_COMBAT"/>
+		<Delete UnitType="UNIT_HILICHURL_GUARD" AiType="UNITAI_EXPLORE"/>
+		<Delete UnitType="UNIT_HILICHURL_GUARD" AiType="UNITTYPE_MELEE"/>
+		<Delete UnitType="UNIT_HILICHURL_GUARD" AiType="UNITTYPE_ANTI_CAVALRY"/>
+		<Delete UnitType="UNIT_HILICHURL_GUARD" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Delete CivUniqueUnitType="UNIT_HILICHURL_FIGHTER" ReplacesUnitType="UNIT_WARRIOR"/>
+		<Delete CivUniqueUnitType="UNIT_HILICHURL_GUARD" ReplacesUnitType="UNIT_SPEARMAN"/>
+	</UnitReplaces>
+	<TypeTags>
+		<Delete Type="UNIT_HILICHURL_FIGHTER" Tag="CLASS_MELEE"/>
+		<Delete Type="UNIT_HILICHURL_GUARD" Tag="CLASS_ANTI_CAVALRY"/>
+	</TypeTags>
+	<Units>
+		<Delete UnitType="UNIT_HILICHURL_FIGHTER"/>
+		<Delete UnitType="UNIT_HILICHURL_GUARD"/>
+	</Units>
+	<UnitUpgrades>
+		<Delete UnitType="UNIT_HILICHURL_FIGHTER"/>
+		<Delete UnitType="UNIT_HILICHURL_GUARD"/>
+	</UnitUpgrades>
+</GameInfo>
