@@ -506,7 +506,6 @@
 		<Element>
 			<libraryName text="StrategicView_Sprite"/>
 			<relativePackagePaths>
-				<Element text="DLC_Strategicview"/>
 				<Element text="strategicview/strategicview_uilenses"/>
 			</relativePackagePaths>
 		</Element>
@@ -536,9 +535,7 @@
 		</Element>
 		<Element>
 			<libraryName text="TileBase"/>
-			<relativePackagePaths>
-				<Element text="DLC_Monastery"/>
-			</relativePackagePaths>
+			<relativePackagePaths/>
 		</Element>
 		<Element>
 			<libraryName text="UILensAsset"/>
@@ -551,7 +548,6 @@
 			<relativePackagePaths>
 				<Element text="LiyueUI"/>
 				<Element text="UI/PrideMoments"/>
-				<Element text="DLC_Icons"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
