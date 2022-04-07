@@ -1,13 +1,31 @@
--- If it works, it's written by UzukiShimamura. If it doesn't work, I don't know who the fxxk wrote it!
 -- define SotS StatueOfTheSeven
 
 include("GameCapabilities");
+
+function GetSotSCount(iPlayerID)
+	local numSotS = 0;
+	local pPlayer = Players[iPlayerID];
+		local pPlayerCities = pPlayer:GetCities();
+		local buildingSotS = GameInfo.Buildings["BUILDING_STATUE_OF_THE_SEVEN"];
+		if (pPlayerCities ~= nil) then
+			numSotS = 0
+			for i, pCity in pPlayerCities:Members() do
+				local pCityBuildings= pCity:GetBuildings();
+				if (pCityBuildings:HasBuilding(buildingSotS.Index)) then
+					numSotS = numSotS + 1
+				end
+			end
+		else
+			numSotS = 0
+		end
+	return numSotS;
+end
 
 function OnTurnBegin_SotSReset()
 	for i = 0, GameDefines.MAX_PLAYERS-1, 1 do
 		local pPlayer = Players[i];
 		if HasTrait("TRAIT_GENSHIN_BUILDING_STATUE_OF_THE_SEVEN", pPlayer:GetID()) then
-			pPlayer:SetProperty("SotSHealCapability", 25);
+			pPlayer:SetProperty("SotSHealCapUsed", 0);
 		end
 	end
 end
@@ -15,19 +33,22 @@ end
 function SotSAction(iPlayerID, iUnitID, PlotX, PlotY)		-- Core action code of the Statue of the Seven
 	local pPlayer = Players[iPlayerID];
 	local pCity = Cities.GetCityInPlot(PlotX, PlotY);
-	local SotSRemainingHP = pPlayer:GetProperty("SotSHealCapability");
-	if SotSRemainingHP then
-		if (SotSRemainingHP >0 and pCity ~= nil) then
-			local pCityBuildings= pCity:GetBuildings();
-			local buildingSotS = GameInfo.Buildings["BUILDING_STATUE_OF_THE_SEVEN"];
-			if (pCityBuildings:HasBuilding(buildingSotS.Index)) then
-				local pUnit = UnitManager.GetUnit(iPlayerID, iUnitID);
-				if (pUnit ~= nil and pUnit:GetDamage() ~= 0) then
-					local healPoint = math.min(SotSRemainingHP, pUnit:GetDamage());
-					pUnit:SetDamage(pUnit:GetDamage() - healPoint);
-					SotSRemainingHP = SotSRemainingHP - healPoint;
-					Game.AddWorldViewText(0, "{LOC_TOOLTIP_STATUE_OF_THE_SEVEN}"..SotSRemainingHP.."/25", PlotX, PlotY);
-					pPlayer:SetProperty("SotSHealCapability", SotSRemainingHP);
+	local SotSHealCapUsed = pPlayer:GetProperty("SotSHealCapUsed");
+	local SotSHealCapability = GetSotSCount(iPlayerID) * 25;
+	if SotSHealCapUsed then
+		if SotSHealCapUsed < SotSHealCapability then
+			if (pCity ~= nil) then
+				local pCityBuildings= pCity:GetBuildings();
+				local buildingSotS = GameInfo.Buildings["BUILDING_STATUE_OF_THE_SEVEN"];
+				if (pCityBuildings:HasBuilding(buildingSotS.Index)) then
+					local pUnit = UnitManager.GetUnit(iPlayerID, iUnitID);
+					if (pUnit ~= nil and pUnit:GetDamage() ~= 0) then
+						local healPoint = math.min( (SotSHealCapability-SotSHealCapUsed), pUnit:GetDamage());
+						pUnit:SetDamage(pUnit:GetDamage() - healPoint);
+						SotSHealCapUsed = SotSHealCapUsed + healPoint;
+						Game.AddWorldViewText(0, "{LOC_TOOLTIP_STATUE_OF_THE_SEVEN}"..(SotSHealCapability-SotSHealCapUsed).."/"..SotSHealCapability, PlotX, PlotY);
+						pPlayer:SetProperty("SotSHealCapUsed", SotSHealCapUsed);
+					end
 				end
 			end
 		end
