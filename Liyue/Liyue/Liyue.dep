@@ -4,12 +4,7 @@
 		<name text="Liyue"/>
 		<id text="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4"/>
 	</ID>
-	<RequiredGameArtIDs>
-		<Element>
-			<name text="Expansion2"/>
-			<id text="b1b63999-6b16-4dd2-a5b6-eb19794aa8ca"/>
-		</Element>
-	</RequiredGameArtIDs>
+	<RequiredGameArtIDs/>
 	<SystemDependencies>
 		<Element>
 			<ConsumerName text="Units"/>
@@ -293,9 +288,9 @@
 			<ArtDefDependencyPaths>
 				<Element text="Improvements.artdef"/>
 				<Element text="Landmarks.artdef"/>
-				<Element text="StrategicView.artdef"/>
 				<Element text="Buildings.artdef"/>
 				<Element text="Cultures.artdef"/>
+				<Element text="StrategicView.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
@@ -489,8 +484,6 @@
 		<Element>
 			<ArtDefPath text="Improvements.artdef"/>
 			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Improvements.artdef"/>
 				<Element text="Landmarks.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
@@ -583,7 +576,6 @@
 		<Element>
 			<LibraryName text="StrategicView_Sprite"/>
 			<PackageDependencies>
-				<Element text="DLC_Strategicview.blp"/>
 				<Element text="strategicview/strategicview_uilenses.blp"/>
 			</PackageDependencies>
 		</Element>
@@ -613,9 +605,7 @@
 		</Element>
 		<Element>
 			<LibraryName text="TileBase"/>
-			<PackageDependencies>
-				<Element text="DLC_Monastery.blp"/>
-			</PackageDependencies>
+			<PackageDependencies/>
 		</Element>
 		<Element>
 			<LibraryName text="UILensAsset"/>
@@ -628,7 +618,6 @@
 			<PackageDependencies>
 				<Element text="LiyueUI.blp"/>
 				<Element text="UI/PrideMoments.blp"/>
-				<Element text="DLC_Icons.blp"/>
 			</PackageDependencies>
 		</Element>
 		<Element>

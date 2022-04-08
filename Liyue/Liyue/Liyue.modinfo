@@ -4,7 +4,7 @@
     <Name>LOC_LIYUE_MOD_TITLE_CL</Name>
     <Description>LOC_LIYUE_MOD_DESCRIPTION_CL</Description>
     <CustomProperties></CustomProperties>
-    <Created>1644235800</Created>
+    <Created>1649337708</Created>
     <Teaser>LOC_LIYUE_MOD_TEASER_CL</Teaser>
     <Authors>CLHotuski, Dwughjsd, KevinLiu</Authors>
     <SpecialThanks>hemmelfort</SpecialThanks>
@@ -24,6 +24,9 @@
 			<zh_Hans_CN>包含1个新文明和领袖。</zh_Hans_CN>
 		</Text>
   </LocalizedText>
+  <References>
+    <Mod id="440d0a84-d27e-40db-90b6-797d0e820aaa" title="Mondstadt" />
+  </References>
   <ActionCriteria>
     <Criteria id="leaderPlayable">
       <LeaderPlayable>Players:StandardPlayers::LEADER_KEQING,Players:Expansion1_Players::LEADER_KEQING,Players:Expansion2_Players::LEADER_KEQING</LeaderPlayable>
@@ -34,26 +37,38 @@
     <Criteria id="Expansion2">
       <GameCoreInUse>Expansion2</GameCoreInUse>
     </Criteria>
-    <Criteria id="Mondstadt">
+    <Criteria id="NoMondstadt">
       <ModInUse inverse="1">440d0a84-d27e-40db-90b6-797d0e820aaa</ModInUse>
+    </Criteria>
+    <Criteria id="Mondstadt">
+      <ModInUse>440d0a84-d27e-40db-90b6-797d0e820aaa</ModInUse>
+    </Criteria>
+    <Criteria id="Hilichurl">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAME_HILICHURL_BARBARIANS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="NoHilichurl">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAME_HILICHURL_BARBARIANS</ConfigurationId>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
     <UpdateDatabase id="LiyueConfigData">
-      <File>Data/Liyue_Config.sql</File>
+      <File>Data/Liyue_Config.xml</File>
+      <File>Data/Liyue_Mondstadt.sql</File>
     </UpdateDatabase>
     <UpdateText id="LiyueConfigText">
-      <Properties>
-        <LoadOrder>10</LoadOrder>
-      </Properties>
       <File>Text/Liyue_ConfigTextCN.xml</File>
       <File>Text/Liyue_ConfigText.xml</File>
       <File>Text/Liyue_SharedText.sql</File>
     </UpdateText>
     <UpdateIcons id="LiyueConfigIcons">
-      <Properties>
-        <LoadOrder>10</LoadOrder>
-      </Properties>
       <File>Data/Liyue_Icons.xml</File>
       <File>Data/Genshin_Shared_Icon.sql</File>
     </UpdateIcons>
@@ -66,9 +81,6 @@
   </FrontEndActions>
   <InGameActions>
     <UpdateDatabase id="LiyueDatebase">
-      <Properties>
-        <LoadOrder>10</LoadOrder>
-      </Properties>
       <Criteria>leaderPlayable</Criteria>
       <File>Data/Liyue_Ningguang.xml</File>
       <File>Data/Liyue_Civilization.sql</File>
@@ -82,26 +94,17 @@
       <File>Data/Liyue_Expansion1.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="LiyueDatebase_XP2">
-      <Properties>
-        <LoadOrder>10</LoadOrder>
-      </Properties>
       <Criteria>leaderPlayable</Criteria>
       <Criteria>Expansion2</Criteria>
       <File>Data/Liyue_Expansion2.sql</File>
       <File>Data/Liyue_Ganyu.xml</File>
     </UpdateDatabase>
     <UpdateIcons id="LiyueIcons">
-      <Properties>
-        <LoadOrder>10</LoadOrder>
-      </Properties>
       <Criteria>leaderPlayable</Criteria>
       <File>Data/Liyue_Icons.xml</File>
       <File>Data/Genshin_Shared_Icon.sql</File>
     </UpdateIcons>
     <UpdateText id="LiyueText">
-      <Properties>
-        <LoadOrder>10</LoadOrder>
-      </Properties>
       <Criteria>leaderPlayable</Criteria>
       <File>Text/Liyue_ConfigTextCN.xml</File>
       <File>Text/Liyue_TextCN.xml</File>
@@ -128,19 +131,19 @@
     <UpdateDatabase id="LiyueDatabase_NoMondstadtXP1andBeyond">
       <Criteria>leaderPlayable</Criteria>
       <Criteria>Expansion1</Criteria>
-      <Criteria>Mondstadt</Criteria>
+      <Criteria>NoMondstadt</Criteria>
       <File>Data/Genshin_Shared_Data.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="LiyueDatabase_NoMondstadtXP2">
       <Criteria>leaderPlayable</Criteria>
       <Criteria>Expansion2</Criteria>
-      <Criteria>Mondstadt</Criteria>
+      <Criteria>NoMondstadt</Criteria>
       <File>Data/Genshin_Shared_XP2.sql</File>
     </UpdateDatabase>
     <AddGameplayScripts id="LiyueGameplayScripts_NoMondstadtXP1andBeyond">
       <Criteria>leaderPlayable</Criteria>
       <Criteria>Expansion1</Criteria>
-      <Criteria>Mondstadt</Criteria>
+      <Criteria>NoMondstadt</Criteria>
       <File>Data/Genshin_Shared_Data.lua</File>
     </AddGameplayScripts>
     <AddUserInterfaces id="LiyueUserInterfaces_NoMondstadtXP1andBeyond">
@@ -149,16 +152,32 @@
       </Properties>
       <Criteria>leaderPlayable</Criteria>
       <Criteria>Expansion1</Criteria>
-      <Criteria>Mondstadt</Criteria>
+      <Criteria>NoMondstadt</Criteria>
       <File>Data/Genshin_Shared_UI.lua</File>
       <File>Data/Genshin_Shared_UI.xml</File>
     </AddUserInterfaces>
     <UpdateAudio id="LiyueAudio_NoMondstadtXP1andBeyond">
       <Criteria>leaderPlayable</Criteria>
       <Criteria>Expansion1</Criteria>
-      <Criteria>Mondstadt</Criteria>
-      <File>Platforms/Windows/Audio/GENSHIN_MONDSTADT_MUSIC.ini</File>
+      <Criteria>NoMondstadt</Criteria>
+      <File>Platforms/Windows/Audio/Liyue_UI_Bank.ini</File>
     </UpdateAudio>
+    <UpdateDatabase id="HilichurlGameplay">
+      <Properties>
+        <LoadOrder>200</LoadOrder>
+      </Properties>
+      <Criteria>Hilichurl</Criteria>
+      <Criteria>NoMondstadt</Criteria>
+      <File>Data/Hilichurl.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="NoHilichurl_Mondstadt">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>Mondstadt</Criteria>
+      <Criteria>NoHilichurl</Criteria>
+      <File>Data/Liyue_MondstadtNoHilichurl.xml</File>
+    </UpdateDatabase>
   </InGameActions>
   <Files>
     <File>ArtDefs/Buildings.artdef</File>
@@ -177,30 +196,34 @@
     <File>Data/Genshin_Shared_UI.lua</File>
     <File>Data/Genshin_Shared_UI.xml</File>
     <File>Data/Genshin_Shared_XP2.sql</File>
+    <File>Data/Hilichurl.sql</File>
     <File>Data/Liyue_Agendas.xml</File>
     <File>Data/Liyue_Civilization.sql</File>
     <File>Data/Liyue_Colors.xml</File>
-    <File>Data/Liyue_Config.sql</File>
+    <File>Data/Liyue_Config.xml</File>
     <File>Data/Liyue_Expansion1.sql</File>
     <File>Data/Liyue_Expansion2.sql</File>
     <File>Data/Liyue_Ganyu.xml</File>
     <File>Data/Liyue_Icons.xml</File>
     <File>Data/Liyue_Keqing_Ability.lua</File>
     <File>Data/Liyue_Leaders.sql</File>
+    <File>Data/Liyue_Mondstadt.sql</File>
+    <File>Data/Liyue_MondstadtNoHilichurl.xml</File>
     <File>Data/Liyue_Ningguang.xml</File>
     <File>Data/Liyue_UnitAbilities.xml</File>
     <File>Liyue.dep</File>
-    <File>Platforms/MacOS/BLPs/DLC_Icons.blp</File>
-    <File>Platforms/MacOS/BLPs/DLC_Monastery.blp</File>
-    <File>Platforms/MacOS/BLPs/DLC_Strategicview.blp</File>
+    <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
     <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
     <File>Platforms/MacOS/BLPs/LiyueUI.blp</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Monastery_B_null</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_A</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_E</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_N0</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_000001C192C5C4780</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_000001C192C5C4781</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_000001C192C5FB78</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_000001C192C605F8</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_000001C192C60B38_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_000001C192C615B8_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
     <File>Platforms/Windows/Audio/1004924057.wem</File>
     <File>Platforms/Windows/Audio/1057615763.wem</File>
     <File>Platforms/Windows/Audio/158279736.wem</File>
@@ -227,7 +250,6 @@
     <File>Platforms/Windows/Audio/894940137.wem</File>
     <File>Platforms/Windows/Audio/901895987.wem</File>
     <File>Platforms/Windows/Audio/91062406.wem</File>
-    <File>Platforms/Windows/Audio/GENSHIN_MONDSTADT_MUSIC.ini</File>
     <File>Platforms/Windows/Audio/LiyueBGM.bnk</File>
     <File>Platforms/Windows/Audio/LiyueBGM.txt</File>
     <File>Platforms/Windows/Audio/LiyueBGM.xml</File>
@@ -235,22 +257,25 @@
     <File>Platforms/Windows/Audio/LiyueLeaderSpeechBank.txt</File>
     <File>Platforms/Windows/Audio/LiyueLeaderSpeechBank.xml</File>
     <File>Platforms/Windows/Audio/LiyueSoundBanks.ini</File>
-    <File>Platforms/Windows/Audio/Mondstadt_Music_Bank.bnk</File>
-    <File>Platforms/Windows/Audio/Mondstadt_Music_Bank.xml</File>
-    <File>Platforms/Windows/BLPs/DLC_Icons.blp</File>
-    <File>Platforms/Windows/BLPs/DLC_Monastery.blp</File>
-    <File>Platforms/Windows/BLPs/DLC_Strategicview.blp</File>
+    <File>Platforms/Windows/Audio/Liyue_UI_Bank.bnk</File>
+    <File>Platforms/Windows/Audio/Liyue_UI_Bank.ini</File>
+    <File>Platforms/Windows/Audio/Liyue_UI_Bank.txt</File>
+    <File>Platforms/Windows/Audio/Liyue_UI_Bank.xml</File>
+    <File>Platforms/Windows/BLPs/landmarks/tilebases.blp</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
     <File>Platforms/Windows/BLPs/Leaders.blp</File>
     <File>Platforms/Windows/BLPs/LiyueUI.blp</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_IMP_Monastery_B_null</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_A</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_E</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_G</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_N0</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_IMP_Monastery_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_000001C192C5C4780</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_000001C192C5C4781</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_000001C192C5FB78</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_000001C192C605F8</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_000001C192C60B38_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_000001C192C615B8_null</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Liyue</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Liyue</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
     <File>Platforms/Windows/BLPs/strategicview/strategicview_uilenses.blp</File>
     <File>Platforms/Windows/BLPs/UILensAssets.blp</File>
     <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
