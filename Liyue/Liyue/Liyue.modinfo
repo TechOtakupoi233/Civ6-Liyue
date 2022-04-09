@@ -4,7 +4,7 @@
     <Name>LOC_LIYUE_MOD_TITLE_CL</Name>
     <Description>LOC_LIYUE_MOD_DESCRIPTION_CL</Description>
     <CustomProperties></CustomProperties>
-    <Created>1649337708</Created>
+    <Created>1649500338</Created>
     <Teaser>LOC_LIYUE_MOD_TEASER_CL</Teaser>
     <Authors>CLHotuski, Dwughjsd, KevinLiu</Authors>
     <SpecialThanks>hemmelfort</SpecialThanks>
@@ -146,15 +146,13 @@
       <Criteria>NoMondstadt</Criteria>
       <File>Data/Genshin_Shared_Data.lua</File>
     </AddGameplayScripts>
-    <AddUserInterfaces id="LiyueUserInterfaces_NoMondstadtXP1andBeyond">
+    <AddUserInterfaces id="LiyueUserInterfaces">
       <Properties>
         <Context>InGame</Context>
       </Properties>
       <Criteria>leaderPlayable</Criteria>
-      <Criteria>Expansion1</Criteria>
-      <Criteria>NoMondstadt</Criteria>
-      <File>Data/Genshin_Shared_UI.lua</File>
-      <File>Data/Genshin_Shared_UI.xml</File>
+      <File>Data/Liyue_UI.lua</File>
+      <File>Data/Liyue_UI.xml</File>
     </AddUserInterfaces>
     <UpdateAudio id="LiyueAudio_NoMondstadtXP1andBeyond">
       <Criteria>leaderPlayable</Criteria>
@@ -193,8 +191,6 @@
     <File>Data/Genshin_Shared_Data.lua</File>
     <File>Data/Genshin_Shared_Data.sql</File>
     <File>Data/Genshin_Shared_Icon.sql</File>
-    <File>Data/Genshin_Shared_UI.lua</File>
-    <File>Data/Genshin_Shared_UI.xml</File>
     <File>Data/Genshin_Shared_XP2.sql</File>
     <File>Data/Hilichurl.sql</File>
     <File>Data/Liyue_Agendas.xml</File>
@@ -210,6 +206,8 @@
     <File>Data/Liyue_Mondstadt.sql</File>
     <File>Data/Liyue_MondstadtNoHilichurl.xml</File>
     <File>Data/Liyue_Ningguang.xml</File>
+    <File>Data/Liyue_UI.lua</File>
+    <File>Data/Liyue_UI.xml</File>
     <File>Data/Liyue_UnitAbilities.xml</File>
     <File>Liyue.dep</File>
     <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>
