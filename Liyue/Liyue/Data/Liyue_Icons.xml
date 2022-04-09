@@ -47,12 +47,19 @@
 		<Row Name="ICON_ATLAS_GANYU_GOVERNORS_FILL" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorsCityBannerFill22"/>
 		<Row Name="ICON_ATLAS_GANYU_GOVERNORS_SLOT" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorsCityBannerSlot32"/>
 		<Row Name="ICON_ATLAS_GANYU_GOVERNORS_SLOT" Baseline="6" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Ganyu_GovernorsCityBannerSlot22"/>
+		<Row Name="ICON_ATLAS_MILLELITH_PORTRAITS"   IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits256_1"/>
+	    <Row Name="ICON_ATLAS_MILLELITH_PORTRAITS"   IconSize="200" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits200_1"/>
+	    <Row Name="ICON_ATLAS_MILLELITH_PORTRAITS"   IconSize="95" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits95_1"/>
+	    <Row Name="ICON_ATLAS_MILLELITH_PORTRAITS"   IconSize="70" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits70_1"/>
+	    <Row Name="ICON_ATLAS_MILLELITH_PORTRAITS"   IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits50_1"/>
+	    <Row Name="ICON_ATLAS_MILLELITH_PORTRAITS"   IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits38_1"/>
 	</IconTextureAtlases>
 	<IconDefinitions>		
 		<Row Name="ICON_CIVILIZATION_LIYUE_CL" Atlas="ATLAS_LIYUE" Index="0"/>
 		<Row Name="ICON_LEADER_KEQING" Atlas="ATLAS_KEQING" Index="0"/>
 		<Row Name="ICON_LEADER_NINGGUANG" Atlas="ATLAS_NINGGUANG" Index="0"/>
 		<Row Name="ICON_UNIT_MILLELITH" Atlas="ATLAS_MILLELITH_ICON" Index="0"/>
+		<Row Name="ICON_UNIT_MILLELITH_PORTRAIT"  Atlas="ICON_ATLAS_MILLELITH_PORTRAITS"   Index="50"/>
 		<Row Name="ICON_DISTRICT_LIYUE_HARBOR" Atlas="ATLAS_DISTRICT_LIYUE_HARBOR" Index="0"/>
 		<Row Name="DISTRICT_LIYUE_HARBOR" Atlas="ICON_ATLAS_FONT_ICON_LIYUE_HARBOR" Index="0"/>
 		<Row Name="ICON_GOVERNOR_GANYU" Atlas="ICON_ATLAS_GANYU_GOVERNORS" Index="0"/>
