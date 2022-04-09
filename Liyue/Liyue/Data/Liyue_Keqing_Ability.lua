@@ -84,6 +84,7 @@ function ExtendedShiftAction(playerID:number, unitID:number)
 		if (pUnit:GetAbility():GetAbilityCount("ABILITY_KEQING_EXTENDED_SHIFT") > 0) then
 			UnitManager.RestoreMovementToFormation(pUnit);
 			pUnit:GetAbility():ChangeAbilityCount("ABILITY_KEQING_EXTENDED_SHIFT", -1);	
+			--ExposedMembers.TEYVAT.SelectUnitTeyvat(playerID, unitID); For some reason the movement of unit is always finished by game engine and there is no way AFAIK to overwrite it.
 		end
 	end
 end

@@ -2,7 +2,7 @@
 
 include("GameCapabilities");
 
-function GetSotSCount(iPlayerID)
+function GetSotSCount(iPlayerID, maxNum)
 	local numSotS = 0;
 	local pPlayer = Players[iPlayerID];
 		local pPlayerCities = pPlayer:GetCities();
@@ -12,7 +12,11 @@ function GetSotSCount(iPlayerID)
 			for i, pCity in pPlayerCities:Members() do
 				local pCityBuildings= pCity:GetBuildings();
 				if (pCityBuildings:HasBuilding(buildingSotS.Index)) then
-					numSotS = numSotS + 1
+					if numSotS < maxNum then
+						numSotS = numSotS + 1
+					else
+						return numSotS;
+					end
 				end
 			end
 		else
@@ -34,7 +38,7 @@ function SotSAction(iPlayerID, iUnitID, PlotX, PlotY)		-- Core action code of th
 	local pPlayer = Players[iPlayerID];
 	local pCity = Cities.GetCityInPlot(PlotX, PlotY);
 	local SotSHealCapUsed = pPlayer:GetProperty("SotSHealCapUsed");
-	local SotSHealCapability = GetSotSCount(iPlayerID) * 25;
+	local SotSHealCapability = GetSotSCount(iPlayerID,6) * 25;
 	if SotSHealCapUsed then
 		if SotSHealCapUsed < SotSHealCapability then
 			if (pCity ~= nil) then
@@ -48,6 +52,7 @@ function SotSAction(iPlayerID, iUnitID, PlotX, PlotY)		-- Core action code of th
 						SotSHealCapUsed = SotSHealCapUsed + healPoint;
 						Game.AddWorldViewText(0, "{LOC_TOOLTIP_STATUE_OF_THE_SEVEN}"..(SotSHealCapability-SotSHealCapUsed).."/"..SotSHealCapability, PlotX, PlotY);
 						pPlayer:SetProperty("SotSHealCapUsed", SotSHealCapUsed);
+						ExposedMembers.TEYVAT.PlaySoundTeyvat("Play_Statue_of_The_Seven_Heal");
 					end
 				end
 			end
