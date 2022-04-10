@@ -22,6 +22,8 @@
     <SpecialThanks>hemmelfort</SpecialThanks>
     <AssociationData><![CDATA[<Associations>
   <Reference type="Mod" title="Mondstadt" id="440d0a84-d27e-40db-90b6-797d0e820aaa" />
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Reference type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
 </Associations>]]></AssociationData>
     <ModProperties>
       <CustomProperties xmlns="" />
