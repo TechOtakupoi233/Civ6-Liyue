@@ -17,6 +17,10 @@
 			<m_EntryID text="MOMENT_UNIT_MILLELITH"/>
 			<m_ObjectName text="MOMENT_UNIT_MILLELITH"/>
 		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_STATUE_OF_THE_SEVEN"/>
+			<m_ObjectName text="Moment_Building_Statue_Of_The_Seven"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
