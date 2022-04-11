@@ -24,7 +24,7 @@
 
 		<Row Language="en_US" Tag="LOC_UNIT_MILLELITH_NAME"					Text="Millelith"/>
 		<Row Language="en_US" Tag="LOC_UNIT_MILLELITH_DESCRIPTION"
-			Text="Liyue unique Ancient era anti-cavalry unit that replaces the Pikeman. Ignores [ICON_Movement] Movement penalty for Hills. +5 [ICON_Strength] Combat Strength when defending on Hills."/>
+			Text="Liyue unique Ancient era anti-cavalry unit that replaces the Spearman. Ignores [ICON_Movement] Movement penalty for Hills. +5 [ICON_Strength] Combat Strength when defending on Hills."/>
 
 		<Row Tag="LOC_LEADER_KEQING_NAME" Language="en_US">
 			<Text>Keqing</Text>
