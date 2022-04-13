@@ -46,13 +46,13 @@
 		</Row>
 		
 		<Row Tag="LOC_LIYUE_CL_DLC1_MOD_TITLE" Language="zh_Hans_CN">
-		    <Text>璃月文明包-更多特性包</Text>
+		    <Text>璃月文明包DLC：飞彩镌流年</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_CL_DLC1_MOD_TEASER" Language="zh_Hans_CN">
 		    <Text>璃月文明包的可下载内容。</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_CL_DLC1_MOD_DESCRIPTION" Language="zh_Hans_CN">
-		    <Text>为璃月文明添加更多特性，并增强现有领袖本身的特性。</Text>
+		    <Text>包含多种全新独特建筑、独特单位及群玉阁系列特色项目。</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_SOT7" Language="zh_Hans_CN">
 		    <Text>璃月文明包-七天神像补丁</Text>
