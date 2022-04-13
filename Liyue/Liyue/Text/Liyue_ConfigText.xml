@@ -51,14 +51,14 @@
 		<Row Tag="LOC_LOADING_INFO_LEADER_NINGGUANG" Language="en_US">
 			<Text>Ningguang, Tianquan of the Liyue Qixing, none that happens in Liyue, whether good or bad, can ever escape your eyes and ears. You are kind towards your people, but are also a perfect hunter whom none of your enemies could ever hope to match, remaining unsurpassed in all of Teyvat. Continue investing, expand your trade routes, and develop the Jade Chamber so that it can cast its shadow over the whole of Liyue in the moonlight.</Text>
 		</Row>
-		<Row Tag="LOC_LIYUE_CL_DLC1_TITLE" Language="en_US">
-		    <Text>Liyue Civilization Pack - More Traits</Text>
+		<Row Tag="LOC_LIYUE_CL_DLC1_MOD_TITLE" Language="en_US">
+		    <Text>Liyue DLC : Fleeting Colors in Flight</Text>
 		</Row>
-		<Row Tag="LOC_LIYUE_CL_DLC1_TEASER" Language="en_US">
-		    <Text>A DLC of the Liyue Civilization.</Text>
+		<Row Tag="LOC_LIYUE_CL_DLC1_MOD_TEASER" Language="en_US">
+		    <Text>DownLoadable Content for Liyue Civilization Pack.</Text>
 		</Row>
-		<Row Tag="LOC_LIYUE_CL_DLC1_DESCRIPTION" Language="en_US">
-		    <Text>Adds more traits to the civilization.</Text>
+		<Row Tag="LOC_LIYUE_CL_DLC1_MOD_DESCRIPTION" Language="en_US">
+		    <Text>Contains mulitple new unique buildings, units, and  the Jade Chamber series of special projects.</Text>
 		</Row>
 		<Row Tag="LOC_LIYUE_MOD_TITLE_CL_SOT7" Language="en_US">
 		    <Text>Liyue Civilization Pack - Statue Of The Seven Patch</Text>
